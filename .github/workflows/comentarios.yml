@@ -1,0 +1,71 @@
+# BOT DE COMENTARIOS (1 vez al día):
+#  11:30 UTC  -> Actions lee los comentarios nuevos y los deja en comentarios/pendientes.json
+#  12:00 UTC  -> la tarea de Claude en la nube escribe comentarios/respuestas.json y hace push
+#  al llegar ese push -> Actions publica las respuestas (máx. 7/día) y avisa a Haniel con un Issue
+name: Comentarios
+
+on:
+  schedule:
+    - cron: "30 11 * * *"
+  push:
+    paths:
+      - "comentarios/respuestas.json"
+  workflow_dispatch:
+    inputs:
+      accion:
+        description: "leer o responder"
+        default: leer
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: comentarios
+  cancel-in-progress: false
+
+jobs:
+  comentarios:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      ACCION: ${{ github.event_name == 'push' && 'responder' || github.event.inputs.accion || 'leer' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q google-api-python-client google-auth
+
+      - name: Leer o responder comentarios
+        id: bot
+        run: python fabrica/responder_comentarios.py "$ACCION"
+
+      - name: Guardar (memoria de comentarios)
+        run: |
+          git config user.name "fabrica-bot"
+          git config user.email "fabrica-bot@users.noreply.github.com"
+          git add comentarios/pendientes.json comentarios/hechos.json comentarios/resumen.md 2>/dev/null || true
+          if git diff --cached --quiet; then echo "Sin cambios."; exit 0; fi
+          git commit -m "Comentarios: $ACCION"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
+          echo "::warning::No se pudo guardar"
+
+      - name: Avisar a Haniel
+        if: env.ACCION == 'responder' && steps.bot.outputs.hay == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          T="💬 Comentarios $(date -u +%d/%m)"
+          [ "${{ steps.bot.outputs.avisos }}" != "0" ] && T="⚠️ $T: ${{ steps.bot.outputs.avisos }} para ti"
+          gh issue create --title "$T" --body-file comentarios/resumen.md
+
+      - name: Avisar si falla
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --title "❌ Falló el bot de comentarios ($ACCION)" --body "Mira qué pasó: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}. Si dice 'insufficient scopes', hay que renovar el permiso de YouTube con youtube.force-ssl."
