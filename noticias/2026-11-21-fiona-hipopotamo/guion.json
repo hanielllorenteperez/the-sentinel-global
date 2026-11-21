@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-21-fiona-hipopotamo",
+  "cinta": "Última hora · Muere Fiona, la hipopótamo del zoo de Cincinnati · Tenía 9 años · Se tragó un gorro de lana",
+  "titulo": "MUERE FIONA 💔 La hipopótamo más famosa de internet se tragó un gorro",
+  "descripcion": "Fiona, la hipopótamo que conquistó internet tras nacer prematura en 2017 en el zoológico de Cincinnati (EE. UU.), murió el jueves 19 de noviembre de 2026 con 9 años. Más de una semana antes se había tragado un gorro de lana que cayó por accidente en su recinto. Los veterinarios la atendieron las 24 horas, pero operar a una hipopótamo adulta no era posible.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#Fiona #hipopotamo #noticias #ultimahora #viral",
+  "etiquetas": [
+    "Fiona",
+    "hipopótamo Fiona",
+    "Fiona muere",
+    "zoo de Cincinnati",
+    "hipopótamo gorro",
+    "noticias de hoy",
+    "última hora",
+    "noticias virales"
+  ],
+  "fuentes": [
+    "https://www.telemundo.com/noticias/noticias-telemundo/estados-unidos/fiona-hippo-cincinnati-zoo-hat-rcna610299",
+    "https://www.axios.com/local/cincinnati/2026/11/19/fiona-hippo-dies-cincinnati-zoo-hat",
+    "https://www.fox19.com/2026/11/19/fiona-cincinnatis-miracle-hippo-dies-9/"
+  ],
+  "escenas": [
+    {
+      "tipo": "titular",
+      "voz": "Última hora. Muere Fiona, la hipopótamo más famosa de internet.",
+      "clips": [
+        "https://videos.pexels.com/video-files/32379670/13811113_1280_720_60fps.mp4"
+      ],
+      "etiqueta": "ÚLTIMA HORA",
+      "texto": "MUERE FIONA, LA HIPOPÓTAMO DE INTERNET"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Fiona nació prematura en enero de 2017, en el zoológico de Cincinnati, en Estados Unidos. Millones de personas siguieron cómo luchaba por sobrevivir.",
+      "clips": [
+        "https://videos.pexels.com/video-files/26664277/11985623_1280_720_30fps.mp4",
+        "https://videos.pexels.com/video-files/34253636/14514323_1280_720_30fps.mp4"
+      ],
+      "numero": "2017",
+      "arriba": "NACIÓ PREMATURA",
+      "texto": "Y CONQUISTÓ INTERNET",
+      "chapa": "ZOO DE CINCINNATI · EE. UU."
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero hace más de una semana, se tragó un gorro de lana que cayó por accidente dentro de su recinto.",
+      "clips": [
+        "https://videos.pexels.com/video-files/10366806/10366806-hd_1366_720_25fps.mp4",
+        "https://videos.pexels.com/video-files/27375853/12127902_1280_720_30fps.mp4"
+      ],
+      "texto": "SE TRAGÓ UN GORRO DE LANA",
+      "resalta": "GORRO DE LANA",
+      "chapa": "CAYÓ POR ACCIDENTE EN SU RECINTO"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Los veterinarios la cuidaron día y noche. Pero operar a una hipopótamo adulta era imposible.",
+      "clips": [
+        "https://videos.pexels.com/video-files/6235181/6235181-hd_1280_720_25fps.mp4",
+        "https://videos.pexels.com/video-files/27591014/12177791_1280_720_30fps.mp4"
+      ],
+      "titulo": "LO QUE PASÓ",
+      "items": [
+        "CUIDADOS LAS 24 HORAS",
+        "OPERAR ERA IMPOSIBLE"
+      ]
+    },
+    {
+      "tipo": "numero",
+      "voz": "Fiona murió este jueves, diecinueve de noviembre. Tenía solo nueve años.",
+      "clips": [
+        "https://videos.pexels.com/video-files/27385907/12131874_1280_720_30fps.mp4"
+      ],
+      "numero": "9",
+      "arriba": "MURIÓ CON SOLO",
+      "texto": "AÑOS",
+      "chapa": "JUEVES 19 DE NOVIEMBRE",
+      "musica": "triste"
+    },
+    {
+      "tipo": "frase",
+      "voz": "El zoológico pide a los visitantes que cuiden sus cosas cerca de los animales. Descansa, Fiona. Suscríbete para enterarte antes que nadie.",
+      "clips": [
+        "https://videos.pexels.com/video-files/8865297/8865297-hd_1280_720_30fps.mp4",
+        "https://videos.pexels.com/video-files/10753302/10753302-hd_1280_720_30fps.mp4"
+      ],
+      "texto": "DESCANSA, FIONA",
+      "resalta": "FIONA",
+      "chapa": "SUSCRÍBETE PARA NO PERDERTE NADA"
+    }
+  ],
+  "musica": "misterio"
+}

@@ -1,0 +1,9 @@
+node_modules/
+remotion/public/fabrica/
+remotion/out/
+salida/
+*.part
+__pycache__/
+.env
+token*.json
+client_secret*.json

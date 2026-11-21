@@ -1,0 +1,114 @@
+# La fábrica en la nube: cuando el bot sube un guion nuevo a noticias/<id>/,
+# GitHub monta el vídeo largo y el Short, los sube a YouTube (en privado) y avisa abriendo un "issue".
+name: Fabrica de noticias
+
+on:
+  push:
+    paths:
+      - "noticias/**/guion*.json"
+  workflow_dispatch:
+    inputs:
+      noticia:
+        description: "Carpeta de la noticia (p. ej. 2026-11-21-fiona)"
+        required: true
+      subir:
+        description: "Subir a YouTube"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: fabrica
+  cancel-in-progress: false
+
+jobs:
+  fabricar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      YT_PRIVACIDAD: private
+      CONCURRENCIA: "100%"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Qué noticias hay que fabricar
+        id: cuales
+        run: |
+          if [ -n "${{ github.event.inputs.noticia }}" ]; then
+            echo "lista=${{ github.event.inputs.noticia }}" >> "$GITHUB_OUTPUT"
+          else
+            L=$(git diff --name-only HEAD~1 HEAD -- 'noticias/*/guion*.json' | cut -d/ -f2 | sort -u | tr '\n' ' ')
+            echo "lista=$L" >> "$GITHUB_OUTPUT"
+          fi
+          echo "Noticias: $L ${{ github.event.inputs.noticia }}"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: remotion/package-lock.json
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar letras (Arial Black) y programas
+        run: |
+          echo ttf-mscorefonts-installer msttcorefonts/accept-mscorefonts-eula select true | sudo debconf-set-selections
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ttf-mscorefonts-installer fonts-noto-color-emoji > /dev/null
+          fc-cache -f > /dev/null
+          pip install -q edge-tts google-api-python-client google-auth
+          cd remotion && npm ci --no-audit --no-fund
+
+      - name: Fabricar vídeos
+        run: |
+          for N in ${{ steps.cuales.outputs.lista }}; do
+            echo "::group::Noticia $N"
+            [ -f "noticias/$N/guion.json" ] && python fabrica/fabrica.py "noticias/$N/guion.json"
+            [ -f "noticias/$N/guion-short.json" ] && python fabrica/fabrica.py "noticias/$N/guion-short.json"
+            echo "::endgroup::"
+          done
+
+      - name: Guardar vídeos para descargar (3 días)
+        uses: actions/upload-artifact@v4
+        with:
+          name: videos
+          path: |
+            salida/**/*.mp4
+            salida/**/*.txt
+          retention-days: 3
+
+      - name: Subir a YouTube
+        if: github.event_name == 'push' || github.event.inputs.subir == 'true'
+        run: |
+          if [ -z "$YT_REFRESH_TOKEN" ]; then echo "Aún no hay permiso de YouTube: no se sube."; exit 0; fi
+          for N in ${{ steps.cuales.outputs.lista }}; do
+            python fabrica/subir_youtube.py "salida/$N"
+          done
+
+      - name: Avisar a Haniel
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          RUN="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          for N in ${{ steps.cuales.outputs.lista }}; do
+            if [ -f "salida/$N/subidos.json" ]; then
+              CUERPO=$(python -c "import json;d=json.load(open('salida/$N/subidos.json'));print('\n'.join(f\"- {v['titulo']}: {v['url']}\" for v in d.values()))")
+              gh issue create --title "✅ Vídeo listo: $N" --body "$(printf 'Ya están en tu canal (en PRIVADO). Míralos y ponlos públicos en YouTube Studio:\n\n%s\n\nRecuerda: en el Short, «Vídeo relacionado» → el vídeo largo.\n\nDescargar: %s' "$CUERPO" "$RUN")"
+            elif [ -f "salida/$N/$N.mp4" ]; then
+              gh issue create --title "🎬 Vídeo montado (sin subir): $N" --body "Descárgalo aquí (sección Artifacts): $RUN"
+            else
+              gh issue create --title "❌ Falló la noticia: $N" --body "Mira qué pasó: $RUN"
+            fi
+          done

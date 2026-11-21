@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-21-fiona-hipopotamo",
+  "formato": "short",
+  "cinta": "Última hora · Fiona · Zoo de Cincinnati",
+  "titulo": "Se tragó ALGO que nadie vio… y no pudieron salvarla 💔",
+  "descripcion": "Fiona, la hipopótamo más famosa de internet, murió tras tragarse algo que cayó en su recinto. La historia completa, en el vídeo largo del canal.\n\n#Fiona #hipopotamo #noticias #viral",
+  "etiquetas": [
+    "Fiona",
+    "hipopótamo",
+    "zoo de Cincinnati",
+    "noticias",
+    "viral",
+    "shorts"
+  ],
+  "escenas": [
+    {
+      "tipo": "frase",
+      "voz": "Nadie se dio cuenta. Y eso le costó la vida.",
+      "clips": [
+        "https://videos.pexels.com/video-files/32379670/13811113_1280_720_60fps.mp4"
+      ],
+      "texto": "NADIE SE DIO CUENTA",
+      "resalta": "NADIE"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Fiona, la hipopótamo más famosa de internet, ha muerto con solo nueve años.",
+      "clips": [
+        "https://videos.pexels.com/video-files/34253636/14514323_1280_720_30fps.mp4"
+      ],
+      "etiqueta": "ÚLTIMA HORA",
+      "texto": "MUERE FIONA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Algo cayó dentro de su recinto. Ella se lo tragó. Y operar a una hipopótamo adulta era imposible.",
+      "clips": [
+        "https://videos.pexels.com/video-files/27375853/12127902_1280_720_30fps.mp4"
+      ],
+      "texto": "¿QUÉ SE TRAGÓ?",
+      "resalta": "¿QUÉ"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Lo que se tragó, y por qué nadie pudo evitarlo, te lo cuento en el vídeo completo. Está en el canal.",
+      "clips": [
+        "https://videos.pexels.com/video-files/8865297/8865297-hd_1280_720_30fps.mp4"
+      ],
+      "texto": "MIRA EL VÍDEO COMPLETO",
+      "resalta": "COMPLETO",
+      "chapa": "👇 EN EL CANAL",
+      "musica": "triste"
+    }
+  ],
+  "musica": "misterio"
+}
