@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.name "fabrica-bot"
           git config user.email "fabrica-bot@users.noreply.github.com"
-          git add comentarios/pendientes.json comentarios/hechos.json comentarios/resumen.md 2>/dev/null || true
+          git add comentarios/
           if git diff --cached --quiet; then echo "Sin cambios."; exit 0; fi
           git commit -m "Comentarios: $ACCION"
           for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
