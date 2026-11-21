@@ -41,6 +41,7 @@ Si una frase no añade nada (ni dato, ni emoción, ni intriga), se borra.
 `frase` (texto enorme, `resalta` en rojo una palabra, `chapa` opcional), **`pregunta`** (gran "?" rojo que late + la pregunta).
 - **Varía el tipo**: nunca 3 escenas seguidas del mismo tipo. Una `numero` o `pregunta` cada 4–6 escenas.
 - **Texto en pantalla corto** (2–6 palabras, MAYÚSCULAS). La voz cuenta; la pantalla remata la idea clave.
+- **SINCRONÍA (regla de Haniel): el texto grande, la `chapa` y cada punto de la `lista` deben usar PALABRAS QUE LA VOZ DICE TAL CUAL** (al menos 2 seguidas, p. ej. voz «…Era un camello» → texto «ERA UN CAMELLO»). La fábrica los hace aparecer justo en el segundo en que Álvaro los dice. Si el texto no sale en la voz, aparece al empezar la escena y queda adelantado: evítalo.
 - **Subtítulos palabra a palabra**: los pone la fábrica sola (amarillo la palabra que suena). No hay que hacer nada.
 - **`"efecto"`** (opcional, cómo entra la escena):
   - `"golpe"` (por defecto): zoom rápido de entrada → cada cambio de escena se siente.

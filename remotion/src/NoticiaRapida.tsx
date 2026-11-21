@@ -46,6 +46,9 @@ export type Escena = {
   lugar?: string; // rótulo profesional abajo a la izquierda: "CIUDAD DE MÉXICO · 19 NOV 2026"
   fuente?: string; // etiqueta arriba a la derecha: "FUENTE: BBC"
   sonido?: "whoosh" | "impacto" | "latido" | "ninguno"; // efecto de sonido al entrar
+  // (calculados al montar, no van en el guion) frames en que aparece cada punto de la lista / la chapa
+  tiempos?: number[];
+  chapaEn?: number;
 };
 export type Palabra = { t: number; d: number; w: string };
 export type NoticiaProps = {
@@ -180,7 +183,7 @@ const Lista: React.FC<{ e: Escena }> = ({ e }) => {
     <AbsoluteFill style={{ justifyContent: "center", padding: "0 160px 86px" }}>
       {e.titulo && <div style={{ fontFamily: FUENTE, fontSize: 52, color: CREMA, marginBottom: 40, letterSpacing: 6 }}>{e.titulo}</div>}
       {items.map((c, i) => {
-        const s = spring({ frame: f - 15 - i * paso, fps, config: { damping: 13 } });
+        const s = spring({ frame: f - (e.tiempos?.[i] ?? 15 + i * paso), fps, config: { damping: 13 } });
         return (
           <div key={c} style={{ display: "flex", alignItems: "center", gap: 30, marginBottom: 34, opacity: s, transform: `translateX(${(1 - s) * -400}px)` }}>
             <div style={{ width: 70, height: 70, flexShrink: 0, background: ROJO, color: "white", fontFamily: FUENTE, fontSize: 44, display: "flex", justifyContent: "center", alignItems: "center" }}>
@@ -214,7 +217,7 @@ const Frase: React.FC<{ e: Escena }> = ({ e }) => {
           t
         )}
       </div>
-      <Chapa t={e.chapa} desde={Math.round(e.dur * fps * 0.5)} />
+      <Chapa t={e.chapa} desde={e.chapaEn ?? Math.round(e.dur * fps * 0.5)} />
     </AbsoluteFill>
   );
 };
@@ -234,6 +237,31 @@ const Pregunta: React.FC<{ e: Escena }> = ({ e }) => {
       </div>
     </AbsoluteFill>
   );
+};
+
+// SINCRONÍA con la voz: ¿en qué segundo dice Álvaro este texto? (busca el trozo más largo
+// de palabras seguidas que coincide; si no lo dice, devuelve null y el texto sale al empezar)
+const norm = (w: string) => w.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9ñ]/g, "");
+const tokens = (t: string) => t.split(/\s+/).map(norm).filter(Boolean);
+export const momento = (ps: Palabra[] | undefined, texto: string | undefined, desde = 0): number | null => {
+  if (!ps || !ps.length || !texto) return null;
+  const tk = tokens(texto);
+  const pw = ps.map((p) => norm(p.w));
+  let mejor = 0;
+  let cuando: number | null = null;
+  for (let i = 0; i < pw.length; i++) {
+    if (ps[i].t < desde) continue;
+    for (let j = 0; j < tk.length; j++) {
+      let n = 0;
+      while (i + n < pw.length && j + n < tk.length && pw[i + n] === tk[j + n]) n++;
+      const vale = n >= 2 || (n === 1 && tk[j].length >= 5) || (n === 1 && tk.length === 1);
+      if (vale && n > mejor) {
+        mejor = n;
+        cuando = ps[i].t;
+      }
+    }
+  }
+  return cuando;
 };
 
 // SUBTÍTULOS palabra a palabra: grupos de hasta 3 palabras, la que suena en amarillo y más grande.
@@ -442,12 +470,34 @@ export const NoticiaRapida: React.FC<NoticiaProps> = (p) => {
         const dur = tramo(e) + (i === p.escenas.length - 1 ? COLA : 0);
         const desde = inicio;
         inicio += tramo(e);
+        const fps = NR_FPS;
+        // El texto grande sale JUSTO cuando la voz lo dice (titular y lista: desde el principio)
+        const dicho = e.tipo === "titular" || e.tipo === "lista" ? null : momento(e.palabras, e.tipo === "numero" ? `${e.numero ?? ""} ${e.texto ?? ""}` : e.texto);
+        const aparece = dicho !== null && dicho > 0.4 ? Math.round((dicho - 0.1) * fps) : 0;
+        const sync: Escena = { ...e };
+        if (e.tipo === "lista" && e.items) {
+          let ult = 0;
+          sync.tiempos = e.items.map((it, k) => {
+            const m = momento(e.palabras, it, ult);
+            const fr = m !== null ? Math.max(0, Math.round((m - 0.1) * fps)) : k === 0 ? 15 : -1;
+            ult = m ?? ult;
+            return fr;
+          });
+          // los puntos que no se dicen salen poco después del anterior
+          sync.tiempos = sync.tiempos.map((fr, k, a) => (fr >= 0 ? fr : (a[k - 1] ?? 0) + 20));
+        }
+        if (e.chapa) {
+          const m = momento(e.palabras, e.chapa, dicho ?? 0);
+          if (m !== null) sync.chapaEn = Math.max(0, Math.round((m - 0.1) * fps) - aparece);
+        }
         return (
           <Sequence key={i} from={desde} durationInFrames={dur}>
             <Entrada efecto={e.efecto ?? (i === 0 ? "flash" : "golpe")}>
               <Fondos clips={e.clips} total={dur} />
               <AbsoluteFill style={capa}>
-                <T e={e} />
+                <Sequence from={aparece}>
+                  <T e={sync} />
+                </Sequence>
               </AbsoluteFill>
             </Entrada>
             {p.subtitulos !== false && e.palabras && e.palabras.length > 0 && <Subtitulos ps={e.palabras} />}
