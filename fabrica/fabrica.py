@@ -276,6 +276,7 @@ def main():
     usadas, usados = [], set()
     # REGLA de Haniel: siempre muchos más vídeos que fotos → máximo 1 foto (wiki:) por cada 6 clips.
     todos = [c for e in g["escenas"] for c in e.get("clips", [])]
+    # (el "@frase" de un clip no cuenta para nada aquí; solo dice cuándo entra)
     max_fotos = max(1, len(todos) // 6)
     vistas = 0
     for e in g["escenas"]:
@@ -296,9 +297,14 @@ def main():
         hacer_voz(e["voz"], mp3)
         clips = []
         for c in e.get("clips", []):
-            ruta = traer_clip(c, pub, usados)
+            # "buscar:tarjeta grafica @tarjetas para videojuegos" → el clip entra cuando la voz dice esas palabras
+            c, _, en = c.partition("@")
+            ruta = traer_clip(c.strip(), pub, usados)
             foto = ruta.lower().endswith((".jpg", ".jpeg", ".png", ".webp"))
-            clips.append({"src": f"{pub_rel}/{os.path.basename(ruta)}", "dur": 999 if foto else round(duracion(ruta), 2)})
+            info = {"src": f"{pub_rel}/{os.path.basename(ruta)}", "dur": 999 if foto else round(duracion(ruta), 2)}
+            if en.strip():
+                info["en"] = en.strip()
+            clips.append(info)
         sal = {k: v for k, v in e.items() if k not in ("voz", "clips", "musica")}
         if e.get("musica"):
             sal["musica"] = preparar_musica(e["musica"], usadas)

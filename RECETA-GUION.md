@@ -63,6 +63,13 @@ Si una frase no añade nada (ni dato, ni emoción, ni intriga), se borra.
   Bien: `"buscar:aerial night city lights"`, `"buscar:close up hands typing dark room"`, `"buscar:police lights rain slow motion"`.
   Mal: `"buscar:news"`, `"buscar:problem"` (demasiado genérico).
   Alterna planos generales (dónde) → medios (quién) → detalle (qué). No repitas la misma búsqueda en el vídeo.
+- **LO QUE SE VE = LO QUE SE OYE (REGLA de Haniel, referencia: vídeos de Arnau Ramió).** Cada clip debe mostrar
+  EXACTAMENTE la cosa que la voz nombra en ese momento (si dice "tarjeta gráfica", se ve una tarjeta gráfica; si dice
+  "bombilla", una bombilla; nunca un plano genérico de "misterio" mientras habla de otra cosa).
+  Para que entre en el segundo justo, añade **`@` + las palabras de la voz** con las que debe aparecer:
+  `"buscar:graphics card close up @tarjetas para videojuegos"`, `"buscar:light bulb flickering @una bombilla"`.
+  El 1.er clip de la escena no necesita `@` (entra al empezar). Usa 2–4 clips por escena, uno por cada cosa nombrada,
+  para que la imagen cambie cada 2–4 s siguiendo la voz. Las palabras tras `@` deben estar TAL CUAL en la voz.
 - **Fotos reales** `"wiki:<nombre exacto en Wikimedia Commons>"` solo para enseñar algo concreto (cara, lugar).
   **Máximo 1 foto por cada 6 clips** (REGLA de Haniel: SIEMPRE MÁS VÍDEOS QUE FOTOS).
 - **Música por actos** (`"musica"` general y en la escena donde cambia el tono): misterio → tension → drama/epica en la revelación →
@@ -89,6 +96,6 @@ Si una frase no añade nada (ni dato, ni emoción, ni intriga), se borra.
 - [ ] Gancho en los primeros 8 s, sin saludos. Promesa antes de los 30 s.
 - [ ] Re-ganchos hacia 1/3 y 2/3. Bucle abierto cada 30–60 s.
 - [ ] Ninguna escena con más de ~25 palabras. Nunca 3 tipos iguales seguidos.
-- [ ] 2 clips por escena, búsquedas concretas y variadas; máx. 1 `wiki:` por cada 6 clips.
+- [ ] 2–4 clips por escena, cada uno = lo que nombra la voz, con `@palabras` de la voz; máx. 1 `wiki:` por cada 6 clips.
 - [ ] Más de 800 palabras de voz en el largo; Short < 60 s.
 - [ ] Añadí mi línea al "Diario del guionista" de `ESTADO-BOT.md`.

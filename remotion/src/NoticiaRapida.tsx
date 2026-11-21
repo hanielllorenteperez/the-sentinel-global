@@ -25,7 +25,7 @@ export const NR_FPS = 30;
 const PAUSA = 0.3; // segundos de aire después de cada frase
 const COLA = 15; // frames de fundido al final
 
-export type ClipInfo = { src: string; dur: number };
+export type ClipInfo = { src: string; dur: number; en?: string }; // en = palabras de la voz con las que entra
 export type Escena = {
   tipo: "titular" | "numero" | "lista" | "frase" | "pregunta";
   voz: string; // ruta dentro de public/
@@ -401,16 +401,51 @@ const Clip: React.FC<{ c: ClipInfo }> = ({ c }) => {
   );
 };
 
-const Fondos: React.FC<{ clips: ClipInfo[]; total: number }> = ({ clips, total }) => {
+// Cada clip entra cuando la voz dice su "en" (lo que se ve = lo que se oye). Los que no lo
+// llevan (o no se encuentran) se reparten a partes iguales en el hueco que les toca.
+export const iniciosClips = (clips: ClipInfo[], total: number, ps?: Palabra[]) => {
+  const fps = NR_FPS;
+  const fijo: (number | null)[] = [];
+  let ult = 0;
+  clips.forEach((c, i) => {
+    const m = i === 0 ? null : momento(ps, c.en, ult);
+    const fr = m !== null ? Math.round((m - 0.15) * fps) : null;
+    if (fr !== null && fr > (fijo.filter((x) => x !== null).pop() ?? 0) + 15 && fr < total - 15) {
+      fijo.push(fr);
+      ult = m as number;
+    } else fijo.push(i === 0 ? 0 : null);
+  });
+  // rellenar huecos repartiendo
+  const out = [...fijo] as number[];
+  let i = 0;
+  while (i < out.length) {
+    if (fijo[i] !== null) {
+      i++;
+      continue;
+    }
+    let j = i;
+    while (j < out.length && fijo[j] === null) j++;
+    const a = out[i - 1];
+    const b = j < out.length ? (fijo[j] as number) : total;
+    for (let k = i; k < j; k++) out[k] = Math.round(a + ((b - a) * (k - i + 1)) / (j - i + 1));
+    i = j;
+  }
+  return out;
+};
+
+const Fondos: React.FC<{ clips: ClipInfo[]; total: number; ps?: Palabra[] }> = ({ clips, total, ps }) => {
   if (clips.length === 0) return <AbsoluteFill style={{ background: AZUL }} />;
-  const cada = Math.floor(total / clips.length);
+  const ini = iniciosClips(clips, total, ps);
   return (
     <>
-      {clips.map((c, i) => (
-        <Sequence key={i} from={i * cada} durationInFrames={i === clips.length - 1 ? total - i * cada : cada}>
-          <Clip c={c} />
-        </Sequence>
-      ))}
+      {clips.map((c, i) => {
+        const fin = i === clips.length - 1 ? total : ini[i + 1];
+        return fin - ini[i] > 0 ? (
+          <Sequence key={i} from={ini[i]} durationInFrames={fin - ini[i]}>
+            <Clip c={c} />
+          </Sequence>
+        ) : null;
+      })}
     </>
   );
 };
@@ -493,7 +528,7 @@ export const NoticiaRapida: React.FC<NoticiaProps> = (p) => {
         return (
           <Sequence key={i} from={desde} durationInFrames={dur}>
             <Entrada efecto={e.efecto ?? (i === 0 ? "flash" : "golpe")}>
-              <Fondos clips={e.clips} total={dur} />
+              <Fondos clips={e.clips} total={dur} ps={e.palabras} />
               <AbsoluteFill style={capa}>
                 <Sequence from={aparece}>
                   <T e={sync} />
