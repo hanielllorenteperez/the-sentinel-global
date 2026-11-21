@@ -43,10 +43,14 @@ export type Escena = {
   // GANCHOS VISUALES (manual del director): cómo entra la escena
   efecto?: "golpe" | "flash" | "temblor" | "suave";
   palabras?: Palabra[]; // cuándo suena cada palabra (lo pone la fábrica) → subtítulos
+  lugar?: string; // rótulo profesional abajo a la izquierda: "CIUDAD DE MÉXICO · 19 NOV 2026"
+  fuente?: string; // etiqueta arriba a la derecha: "FUENTE: BBC"
+  sonido?: "whoosh" | "impacto" | "latido" | "ninguno"; // efecto de sonido al entrar
 };
 export type Palabra = { t: number; d: number; w: string };
 export type NoticiaProps = {
   cinta: string;
+  rotulos?: string[]; // textos de la caja roja de la cinta (van cambiando)
   musica: string;
   volumenMusica?: number;
   marca?: string; // nombre del canal arriba a la izquierda
@@ -76,14 +80,23 @@ const useVertical = () => {
 const tam = (t: string, grande: number, minimo: number, cabe: number) =>
   Math.max(minimo, Math.min(grande, Math.round((grande * cabe) / Math.max(cabe, t.length))));
 
-const Cinta: React.FC<{ texto: string }> = ({ texto }) => {
+// Rótulos de la caja roja de la cinta: van cambiando cada ~9 s (idea de Haniel)
+export const ROTULOS = ["EN DIRECTO", "NOTICIA EN DESARROLLO", "DETRÁS DE LA VERDAD", "ÚLTIMA HORA", "LO QUE NO TE CUENTAN", "INVESTIGACIÓN"];
+const CADA_ROTULO = 9 * NR_FPS;
+
+const Cinta: React.FC<{ texto: string; rotulos?: string[] }> = ({ texto, rotulos }) => {
   const f = useCurrentFrame();
+  const lista = rotulos && rotulos.length ? rotulos : ROTULOS;
+  const n = Math.floor(f / CADA_ROTULO);
+  const rotulo = lista[n % lista.length];
+  const dentro = f - n * CADA_ROTULO;
+  const giro = n === 0 ? 1 : interpolate(dentro, [0, 8], [0, 1], { extrapolateRight: "clamp" });
   const x = -((f * 4) % 1400);
   const v = useVertical();
   return (
     <div style={{ position: "absolute", bottom: v ? 330 : 0, left: 0, right: 0, height: 86, display: "flex" }}>
-      <div style={{ background: ROJO, color: "white", fontFamily: FUENTE, fontSize: 34, padding: "0 34px", display: "flex", alignItems: "center", zIndex: 2 }}>
-        EN DIRECTO
+      <div style={{ background: ROJO, color: "white", fontFamily: FUENTE, fontSize: 34, padding: "0 34px", display: "flex", alignItems: "center", zIndex: 2, whiteSpace: "nowrap" }}>
+        <span style={{ display: "inline-block", transform: `scaleY(${giro})`, opacity: giro }}>{rotulo}</span>
       </div>
       <div style={{ flex: 1, background: CREMA, overflow: "hidden", display: "flex", alignItems: "center" }}>
         <div style={{ whiteSpace: "nowrap", transform: `translateX(${x}px)`, fontFamily: FUENTE, fontSize: 32, color: AZUL }}>
@@ -284,6 +297,52 @@ const Entrada: React.FC<{ efecto?: Escena["efecto"]; children: React.ReactNode }
   );
 };
 
+// RÓTULO DE LUGAR (lower third) tipo telediario: barra roja + caja blanca que entran deslizando
+const Lugar: React.FC<{ t: string }> = ({ t }) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const v = useVertical();
+  const s = spring({ frame: f - 6, fps, config: { damping: 16 } });
+  const sale = interpolate(f, [4.5 * fps, 5 * fps], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  if (sale <= 0) return null;
+  const partes = t.split("·").map((x) => x.trim());
+  return (
+    <div style={{ position: "absolute", left: v ? 50 : 60, ...(v ? { top: 210 } : { bottom: 210 }), display: "flex", opacity: sale, transform: `translateX(${(1 - s) * -700}px)` }}>
+      <div style={{ width: 12, background: ROJO }} />
+      <div style={{ background: "rgba(244,239,230,.96)", padding: "12px 26px" }}>
+        <div style={{ fontFamily: FUENTE, fontSize: v ? 40 : 36, color: AZUL, letterSpacing: 1 }}>📍 {partes[0]}</div>
+        {partes[1] && <div style={{ fontFamily: FUENTE, fontSize: v ? 28 : 24, color: ROJO, marginTop: 4, letterSpacing: 2 }}>{partes.slice(1).join(" · ")}</div>}
+      </div>
+    </div>
+  );
+};
+
+// ETIQUETA DE FUENTE arriba a la derecha (da credibilidad)
+const Fuente: React.FC<{ t: string }> = ({ t }) => {
+  const f = useCurrentFrame();
+  const v = useVertical();
+  const o = interpolate(f, [8, 20], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return (
+    <div style={{ position: "absolute", top: v ? 120 : 44, right: v ? 50 : 60, opacity: o, background: "rgba(5,13,34,.75)", border: "2px solid rgba(255,255,255,.35)", padding: "6px 16px", fontFamily: FUENTE, fontSize: v ? 26 : 22, color: "white", letterSpacing: 2 }}>
+      {t.toUpperCase().startsWith("FUENTE") ? t.toUpperCase() : `FUENTE: ${t.toUpperCase()}`}
+    </div>
+  );
+};
+
+// Viñeta de cine: bordes oscurecidos para que la vista vaya al centro
+const Vineta: React.FC = () => <AbsoluteFill style={{ pointerEvents: "none", background: "radial-gradient(ellipse at center, rgba(0,0,0,0) 55%, rgba(0,0,0,.55) 100%)" }} />;
+
+// Efecto de sonido de cada escena (sonidos propios en public/sfx, sin derechos)
+const sonidoDe = (e: Escena, i: number) => {
+  if (e.sonido) return e.sonido === "ninguno" ? null : e.sonido;
+  const ef = e.efecto ?? (i === 0 ? "flash" : "golpe");
+  if (ef === "flash" || ef === "temblor") return "impacto";
+  if (e.tipo === "pregunta") return "latido";
+  if (ef === "golpe" && i % 2 === 0) return "whoosh";
+  return null;
+};
+const VOL_SFX: Record<string, number> = { whoosh: 0.12, impacto: 0.3, latido: 0.35 };
+
 // Barra de progreso arriba (solo vídeo largo): el espectador ve que avanza y se queda.
 const Barra: React.FC<{ total: number }> = ({ total }) => {
   const f = useCurrentFrame();
@@ -392,13 +451,17 @@ export const NoticiaRapida: React.FC<NoticiaProps> = (p) => {
               </AbsoluteFill>
             </Entrada>
             {p.subtitulos !== false && e.palabras && e.palabras.length > 0 && <Subtitulos ps={e.palabras} />}
+            {e.lugar && <Lugar t={e.lugar} />}
+            {e.fuente && <Fuente t={e.fuente} />}
+            {sonidoDe(e, i) && <Audio src={staticFile(`sfx/${sonidoDe(e, i)}.wav`)} volume={VOL_SFX[sonidoDe(e, i) as string]} />}
             <Audio src={staticFile(e.voz)} />
           </Sequence>
         );
       })}
+      <Vineta />
       {!v && <Barra total={total} />}
       <Marca texto={p.marca ?? "THE SENTINEL GLOBAL"} />
-      <Cinta texto={p.cinta} />
+      <Cinta texto={p.cinta} rotulos={p.rotulos} />
     </AbsoluteFill>
   );
 };

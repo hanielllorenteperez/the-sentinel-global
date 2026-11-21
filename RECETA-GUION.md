@@ -47,6 +47,16 @@ Si una frase no añade nada (ni dato, ni emoción, ni intriga), se borra.
   - `"flash"`: destello blanco. Para el gancho, revelaciones y giros (máx. 1 cada ~10 escenas).
   - `"temblor"`: sacudida. Para datos impactantes o peligro (con moderación).
   - `"suave"`: sin golpe. Para momentos tristes o de reflexión.
+- **Toques de telediario profesional** (campos opcionales de la escena):
+  - `"lugar": "CIUDAD DE MÉXICO · 19 NOV 2026"` → rótulo con 📍 abajo a la izquierda (5 s). Ponlo cuando
+    la historia cambia de sitio o fecha (2–5 veces por vídeo, y en la escena 2 o 3 del largo).
+  - `"fuente": "BBC Mundo"` → etiqueta "FUENTE: …" arriba a la derecha cuando des un dato importante (da credibilidad).
+  - `"sonido"`: `"whoosh"`, `"impacto"`, `"latido"` o `"ninguno"`. Por defecto la fábrica pone sola impacto en flash/temblor,
+    latido en las preguntas y whoosh en algunos cambios. Solo cámbialo si hace falta (p. ej. `"ninguno"` en escenas tristes).
+  - En el guion (nivel general) `"rotulos": [...]` → textos de la caja roja de la cinta, que van cambiando cada 9 s.
+    Por defecto: EN DIRECTO, NOTICIA EN DESARROLLO, DETRÁS DE LA VERDAD, ÚLTIMA HORA, LO QUE NO TE CUENTAN, INVESTIGACIÓN.
+    Puedes poner otros que encajen con la noticia (cortos, MAYÚSCULAS, máx. 4 palabras).
+  - Lo demás ya sale solo: subtítulos, barra de progreso, viñeta de cine, marca del canal y cinta.
 - **Clips (cada escena = un plano):** 2 clips por escena (3 si la voz pasa de 7 s) → la imagen cambia cada 3–4 s.
   `"buscar:<plano concreto en inglés>"` pensando como director de fotografía: tipo de plano + acción + ambiente.
   Bien: `"buscar:aerial night city lights"`, `"buscar:close up hands typing dark room"`, `"buscar:police lights rain slow motion"`.
