@@ -3,6 +3,7 @@ import {
   AbsoluteFill,
   Audio,
   CalculateMetadataFunction,
+  Img,
   Loop,
   OffthreadVideo,
   Sequence,
@@ -203,14 +204,21 @@ const Frase: React.FC<{ e: Escena }> = ({ e }) => {
 // Clip real de fondo con zoom lento, oscurecido; se repite si es corto.
 const Clip: React.FC<{ c: ClipInfo }> = ({ c }) => {
   const f = useCurrentFrame();
-  const zoom = 1.05 + f * 0.0008;
+  const esFoto = /\.(jpe?g|png|webp)$/i.test(c.src);
+  // Fotos (Wikimedia Commons): zoom y desplazamiento lentos tipo documental
+  const zoom = esFoto ? 1.08 + f * 0.0012 : 1.05 + f * 0.0008;
+  const mover = esFoto ? `translateX(${-f * 0.15}px)` : "";
   const dur = Math.max(15, Math.floor(c.dur * NR_FPS) - 2);
   return (
     <AbsoluteFill style={{ overflow: "hidden" }}>
-      <AbsoluteFill style={{ transform: `scale(${zoom})` }}>
-        <Loop durationInFrames={dur}>
-          <OffthreadVideo src={staticFile(c.src)} muted style={{ width: "100%", height: "100%", objectFit: "cover" }} />
-        </Loop>
+      <AbsoluteFill style={{ transform: `scale(${zoom}) ${mover}` }}>
+        {esFoto ? (
+          <Img src={staticFile(c.src)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+        ) : (
+          <Loop durationInFrames={dur}>
+            <OffthreadVideo src={staticFile(c.src)} muted style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          </Loop>
+        )}
       </AbsoluteFill>
       <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(5,13,34,.82) 0%, rgba(5,13,34,.55) 55%, rgba(5,13,34,.35) 100%)" }} />
     </AbsoluteFill>

@@ -17,6 +17,7 @@ import hashlib
 import json
 import os
 import random
+import re
 import shutil
 import subprocess
 import sys
@@ -84,8 +85,8 @@ def hacer_voz(texto, destino, intentos=8):
     raise SystemExit(f"No se pudo generar la voz: {destino}")
 
 
-def bajar(url, destino):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+def bajar(url, destino, ua="Mozilla/5.0"):
+    req = urllib.request.Request(url, headers={"User-Agent": ua})
     for i in range(4):
         try:
             with urllib.request.urlopen(req, timeout=180) as r, open(destino + ".part", "wb") as f:
@@ -158,7 +159,47 @@ def buscar_clip(consulta, usados):
     raise SystemExit("Sin clips para '" + consulta + "': " + " | ".join(errores or ["no hay claves de Pexels ni Pixabay"]))
 
 
+UA_WIKI = "fabrica-noticias/1.0 (bot de noticias para YouTube; uso no comercial de la API)"
+CREDITOS_FOTOS = []  # se escriben en la descripción (licencias CC BY / CC BY-SA lo exigen)
+LICENCIAS_OK = ("cc0", "public domain", "dominio público", "pd", "cc by")  # sin NC ni ND
+
+
+def buscar_wikimedia(consulta, usados):
+    """Foto real de Wikimedia Commons (la galería de Wikipedia). Gratis y sin clave."""
+    q = urllib.parse.urlencode({
+        "action": "query", "format": "json", "generator": "search", "gsrnamespace": 6, "gsrlimit": 15,
+        "gsrsearch": f"{consulta} filetype:bitmap", "prop": "imageinfo",
+        "iiprop": "url|size|extmetadata", "iiurlwidth": 1920,
+    })
+    req = urllib.request.Request("https://commons.wikimedia.org/w/api.php?" + q, headers={"User-Agent": UA_WIKI})
+    datos = json.load(urllib.request.urlopen(req, timeout=60))
+    paginas = sorted(datos.get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 99))
+    for p in paginas:
+        info = (p.get("imageinfo") or [{}])[0]
+        meta = info.get("extmetadata", {})
+        lic = meta.get("LicenseShortName", {}).get("value", "")
+        l = lic.lower()
+        if p["pageid"] in usados or not any(x in l for x in LICENCIAS_OK) or "nc" in l.split("-") or "nd" in l.split("-"):
+            continue
+        if info.get("width", 0) < 1000 or info.get("width", 0) < info.get("height", 1):  # horizontal y grande
+            continue
+        autor = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "Desconocido")).strip()[:80]
+        usados.add(p["pageid"])
+        CREDITOS_FOTOS.append(f"{p['title'].replace('File:', '')} — {autor} — {lic} — {info.get('descriptionurl', '')}")
+        log("   foto Wikimedia:", p["title"], "|", lic)
+        return info.get("thumburl") or info["url"]
+    raise SystemExit("Wikimedia no devolvió fotos libres para: " + consulta)
+
+
 def traer_clip(origen, carpeta, usados):
+    if origen.startswith("wiki:"):
+        url = buscar_wikimedia(origen[5:].strip(), usados)
+        ext = os.path.splitext(urllib.parse.urlparse(url).path)[1].lower()
+        ext = ext if ext in (".jpg", ".jpeg", ".png", ".webp") else ".jpg"
+        destino = os.path.join(carpeta, hashlib.md5(url.encode()).hexdigest()[:10] + ext)
+        if not os.path.exists(destino):
+            bajar(url, destino, UA_WIKI)
+        return destino
     for pref in ("pexels:", "pixabay:", "buscar:"):
         if origen.startswith(pref):
             origen = buscar_clip(origen[len(pref):].strip(), usados)
@@ -204,6 +245,20 @@ def main():
     t0 = time.time()
 
     usadas, usados = [], set()
+    # REGLA de Haniel: siempre muchos más vídeos que fotos → máximo 1 foto (wiki:) por cada 6 clips.
+    todos = [c for e in g["escenas"] for c in e.get("clips", [])]
+    max_fotos = max(1, len(todos) // 6)
+    vistas = 0
+    for e in g["escenas"]:
+        nuevos = []
+        for c in e.get("clips", []):
+            if c.startswith("wiki:"):
+                vistas += 1
+                if vistas > max_fotos:
+                    log(f"   demasiadas fotos: '{c}' se cambia por vídeo")
+                    c = "buscar:" + c[5:]
+            nuevos.append(c)
+        e["clips"] = nuevos
     musica = preparar_musica(g.get("musica", "tension"), usadas)
     escenas = []
     for i, e in enumerate(g["escenas"], 1):
@@ -213,7 +268,8 @@ def main():
         clips = []
         for c in e.get("clips", []):
             ruta = traer_clip(c, pub, usados)
-            clips.append({"src": f"{pub_rel}/{os.path.basename(ruta)}", "dur": round(duracion(ruta), 2)})
+            foto = ruta.lower().endswith((".jpg", ".jpeg", ".png", ".webp"))
+            clips.append({"src": f"{pub_rel}/{os.path.basename(ruta)}", "dur": 999 if foto else round(duracion(ruta), 2)})
         sal = {k: v for k, v in e.items() if k not in ("voz", "clips", "musica")}
         if e.get("musica"):
             sal["musica"] = preparar_musica(e["musica"], usadas)
@@ -239,7 +295,10 @@ def main():
     descripcion = g.get("descripcion", "").strip()
     if g.get("fuentes"):
         descripcion += "\n\nFuentes:\n" + "\n".join(g["fuentes"])
-    descripcion += "\n\nImágenes: clips de Pexels (licencia Pexels).\n" + credito_musica(usadas)
+    descripcion += "\n\nImágenes: clips de Pexels/Pixabay (licencia libre)."
+    if CREDITOS_FOTOS:
+        descripcion += "\nFotos de Wikimedia Commons:\n" + "\n".join(CREDITOS_FOTOS)
+    descripcion += "\n" + credito_musica(usadas)
     meta = {
         "archivo": salida,
         "titulo": (g.get("titulo", nid) + (" #shorts" if short else ""))[:100],

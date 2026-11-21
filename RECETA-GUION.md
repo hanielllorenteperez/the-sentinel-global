@@ -28,6 +28,12 @@ con **TRAMA, INTRIGA y SUSPENSO** (que nadie se vaya antes del final).
 - Última escena: "Mira el vídeo completo en el canal" (chapa "VÍDEO COMPLETO 👇 EN EL CANAL").
 - Al subirlo: en YouTube Studio → «Vídeo relacionado» → elegir el vídeo largo (la fábrica lo recuerda en el .txt).
 
+## Clips y fotos (REGLA de Haniel: SIEMPRE MÁS VÍDEOS QUE FOTOS)
+- Por defecto, vídeo: `"buscar:<tema en inglés>"` (Pexels/Pixabay, gratis). 1–2 clips por escena.
+- Foto real solo cuando haga falta enseñar algo concreto (cara de un famoso, lugar exacto): `"wiki:<nombre>"`
+  (Wikimedia Commons, la galería de Wikipedia; el crédito se pone solo en la descripción).
+- **Máximo 1 foto por cada 6 clips** (la fábrica cambia las que sobren por vídeos).
+
 ## Derechos
 - Nada de tráilers, logos de juegos ni de marcas. Clips libres de Pexels + texto propio.
 - Música: Interloper (Kevin MacLeod, CC BY) al 7 % → crédito en la descripción (lo pone solo la fábrica).
