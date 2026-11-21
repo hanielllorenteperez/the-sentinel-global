@@ -30,6 +30,7 @@ jobs:
     timeout-minutes: 180
     env:
       PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
       YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
       YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
       YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
@@ -46,7 +47,7 @@ jobs:
           if [ -n "${{ github.event.inputs.noticia }}" ]; then
             echo "lista=${{ github.event.inputs.noticia }}" >> "$GITHUB_OUTPUT"
           else
-            L=$(git diff --name-only HEAD~1 HEAD -- 'noticias/*/guion*.json' | cut -d/ -f2 | sort -u | tr '\n' ' ')
+            L=$(git diff-tree --no-commit-id --name-only -r --root HEAD -- 'noticias/*/guion*.json' | cut -d/ -f2 | sort -u | tr '\n' ' ')
             echo "lista=$L" >> "$GITHUB_OUTPUT"
           fi
           echo "Noticias: $L ${{ github.event.inputs.noticia }}"

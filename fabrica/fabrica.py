@@ -121,10 +121,48 @@ def buscar_pexels(consulta, usados, vertical=False):
     return link
 
 
+def buscar_pixabay(consulta, usados):
+    clave = os.environ.get("PIXABAY_API_KEY")
+    if not clave:
+        raise SystemExit("Falta PIXABAY_API_KEY para buscar clips: " + consulta)
+    q = urllib.parse.urlencode({"key": clave, "q": consulta, "per_page": 20, "safesearch": "true"})
+    req = urllib.request.Request("https://pixabay.com/api/videos/?" + q, headers={"User-Agent": "fabrica-noticias"})
+    datos = json.load(urllib.request.urlopen(req, timeout=60))
+    candidatos = []
+    for v in datos.get("hits", []):
+        if ("pb", v["id"]) in usados or v.get("duration", 0) < 5:
+            continue
+        tam = [t for t in ("medium", "large", "small") if v["videos"].get(t, {}).get("url")]
+        tam = [t for t in tam if v["videos"][t]["width"] >= v["videos"][t]["height"]]
+        if tam:
+            candidatos.append((v["id"], v["videos"][tam[0]]["url"]))
+    if not candidatos:
+        raise SystemExit("Pixabay no devolvió clips para: " + consulta)
+    vid, link = random.choice(candidatos[:4])
+    usados.add(("pb", vid))
+    return link
+
+
+def buscar_clip(consulta, usados):
+    """Busca en Pexels y, si no hay clave o resultados, en Pixabay (los dos gratis)."""
+    errores = []
+    for nombre, fn, var in (("Pexels", buscar_pexels, "PEXELS_API_KEY"), ("Pixabay", buscar_pixabay, "PIXABAY_API_KEY")):
+        if not os.environ.get(var):
+            continue
+        try:
+            link = fn(consulta, usados)
+            log(f"   clip {nombre}:", link[:90])
+            return link
+        except SystemExit as e:
+            errores.append(str(e))
+    raise SystemExit("Sin clips para '" + consulta + "': " + " | ".join(errores or ["no hay claves de Pexels ni Pixabay"]))
+
+
 def traer_clip(origen, carpeta, usados):
-    if origen.startswith("pexels:"):
-        origen = buscar_pexels(origen[7:].strip(), usados)
-        log("   clip Pexels:", origen[:90])
+    for pref in ("pexels:", "pixabay:", "buscar:"):
+        if origen.startswith(pref):
+            origen = buscar_clip(origen[len(pref):].strip(), usados)
+            break
     if origen.startswith("http"):
         destino = os.path.join(carpeta, hashlib.md5(origen.encode()).hexdigest()[:10] + ".mp4")
         if not os.path.exists(destino):
