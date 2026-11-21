@@ -6,6 +6,8 @@ Sube a YouTube el vídeo largo y el Short de una noticia (API oficial, gratis).
 
 Necesita (secretos de GitHub): YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN
 Opcional: YT_PRIVACIDAD = private (por defecto) | unlisted | public
+Opcional: YT_PUBLICAR = "02:00,10:00,18:00" (horas UTC) -> se programa para hacerse público solo a esa hora
+          (ver cuando_publicar). Si YouTube no lo deja, se sube en privado como antes.
 Deja salida/<id>/subidos.json con los enlaces. El Short lleva en su descripción el enlace al vídeo largo.
 
 MEMORIA: lo que ya se subió se apunta en noticias/<id>/estado.json (ver memoria.py) y NO se vuelve a subir.
@@ -14,6 +16,7 @@ Si YouTube dice que se acabó el cupo del día, para sin error y lo deja pendien
 import json
 import os
 import sys
+from datetime import datetime, timedelta, timezone
 
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
@@ -36,7 +39,47 @@ def youtube():
     return build("youtube", "v3", credentials=cred, cache_discovery=False)
 
 
+def cuando_publicar(ahora=None):
+    """Con YT_PUBLICAR="02:00,10:00,18:00" (horas UTC) decide cuándo se hace público el vídeo:
+    - si la hora que le tocaba pasó hace menos de 3 h (llegó tarde) -> ("public", None): público ya.
+    - si no -> ("private", "<fecha ISO>"): YouTube lo hace público solo a la próxima hora de la lista.
+    Sin YT_PUBLICAR -> (YT_PRIVACIDAD, None), como antes."""
+    horas = [h.strip() for h in os.environ.get("YT_PUBLICAR", "").split(",") if h.strip()]
+    if not horas:
+        return os.environ.get("YT_PRIVACIDAD", "private"), None
+    ahora = ahora or datetime.now(timezone.utc)
+    huecos = []
+    for dia in (-1, 0, 1):
+        base = (ahora + timedelta(days=dia)).replace(second=0, microsecond=0)
+        for h in horas:
+            hh, mm = (int(x) for x in h.split(":"))
+            huecos.append(base.replace(hour=hh, minute=mm))
+    pasados = [t for t in huecos if t <= ahora]
+    if pasados and ahora - max(pasados) < timedelta(hours=3):
+        return "public", None
+    siguiente = min(t for t in huecos if t > ahora)
+    if siguiente - ahora < timedelta(minutes=10):  # casi a su hora: público ya
+        return "public", None
+    return "private", siguiente.strftime("%Y-%m-%dT%H:%M:%S.000Z")
+
+
 def subir(yt, meta, extra_desc=""):
+    privacidad, publicar_en = cuando_publicar()
+    try:
+        return _subir(yt, meta, extra_desc, privacidad, publicar_en)
+    except HttpError as e:
+        if cupo_agotado(e) or (privacidad == "private" and not publicar_en):
+            raise
+        # Si YouTube no deja programar/publicar con esta app, se sube en privado como antes.
+        print(f"   YouTube no dejó publicarlo solo ({e.resp.status}): se sube en privado.", flush=True)
+        return _subir(yt, meta, extra_desc, "private", None)
+
+
+def _subir(yt, meta, extra_desc, privacidad, publicar_en):
+    if publicar_en:
+        print(f"   Se hará público solo el {publicar_en} (UTC)", flush=True)
+    elif privacidad == "public":
+        print("   Se publica ya (llegó tarde a su hora)", flush=True)
     cuerpo = {
         "snippet": {
             "title": meta["titulo"],
@@ -47,10 +90,12 @@ def subir(yt, meta, extra_desc=""):
             "defaultAudioLanguage": "es",
         },
         "status": {
-            "privacyStatus": os.environ.get("YT_PRIVACIDAD", "private"),
+            "privacyStatus": privacidad,
             "selfDeclaredMadeForKids": False,
         },
     }
+    if publicar_en:
+        cuerpo["status"]["publishAt"] = publicar_en
     media = MediaFileUpload(meta["archivo"], mimetype="video/mp4", chunksize=8 * 1024 * 1024, resumable=True)
     pet = yt.videos().insert(part="snippet,status", body=cuerpo, media_body=media)
     resp = None
