@@ -1,0 +1,466 @@
+{
+  "id": "2026-11-21-camello-vampiro",
+  "cinta": "The Sentinel Global · Ciencia · Camello vampiro · Colmillos de Drácula, dieta de hojas",
+  "titulo": "El CAMELLO VAMPIRO 🧛 tenía 4 colmillos… y la verdad sobre ellos sorprende",
+  "descripcion": "Científicos del Museo de Historia Natural y Ciencia de Nuevo México (EE. UU.) han descrito Vampyrocamelus welshi, un camello extinto que vivió en Norteamérica hace entre 11 y 13 millones de años. Tenía cuatro colmillos afilados, pero era herbívoro. ¿Para qué los usaba? Las hipótesis apuntan a peleas entre machos, competir por pareja y, quizá, defensa. Todavía no hay una respuesta definitiva.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#camellovampiro #paleontologia #ciencia #noticias #viral",
+  "etiquetas": [
+    "camello vampiro",
+    "Vampyrocamelus welshi",
+    "camello con colmillos",
+    "paleontología",
+    "fósiles",
+    "Mioceno",
+    "noticias de ciencia",
+    "noticias virales"
+  ],
+  "fuentes": [
+    "https://www.infobae.com/america/ciencia-america/2026/11/19/un-vampiro-herbivoro-identificaron-a-un-extrano-camello-prehistorico-con-colmillos/",
+    "https://www.science.org/content/article/extinct-vampire-camel-once-stalked-north-american-plains",
+    "https://www.diariocronica.com.ar/noticias/2026/11/20/178983-descubren-una-nueva-especie-de-camello-con-colmillos-en-norteamerica",
+    "https://www.atv.pe/noticia/paleontologos-camello-vampiro-cuatro-colmillos/"
+  ],
+  "musica": "misterio",
+  "escenas": [
+    {
+      "tipo": "titular",
+      "voz": "Tiene colmillos de vampiro. Y acaba de salir de la tierra después de millones de años.",
+      "clips": [
+        "buscar:dark cave fangs",
+        "buscar:night fog forest"
+      ],
+      "etiqueta": "DESCUBRIMIENTO",
+      "texto": "EL CAMELLO VAMPIRO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero hay un detalle que lo cambia todo. Al final te cuento por qué sus colmillos engañaron a todo el mundo.",
+      "clips": [
+        "buscar:mystery dark forest",
+        "buscar:skull close up"
+      ],
+      "texto": "¿QUÉ HACÍA CON ESOS COLMILLOS?",
+      "resalta": "COLMILLOS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Imagina una llanura enorme, hace más de diez millones de años. Hierba alta, viento, y un animal que se mueve entre ella.",
+      "clips": [
+        "buscar:grassland wind sunset",
+        "buscar:savanna plains aerial"
+      ],
+      "texto": "NORTEAMÉRICA, HACE MILLONES DE AÑOS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "No era un león. No era un lobo. Era un camello. Pero no cualquier camello.",
+      "clips": [
+        "buscar:camel walking desert",
+        "buscar:camel face close up"
+      ],
+      "texto": "ERA UN CAMELLO",
+      "resalta": "CAMELLO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Sí, camellos en Norteamérica. Suena raro, ¿verdad? Pues allí vivieron durante millones de años, mucho antes de que existieran los de los desiertos de hoy.",
+      "clips": [
+        "buscar:north america prairie",
+        "buscar:camel herd desert"
+      ],
+      "texto": "CAMELLOS EN NORTEAMÉRICA"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Los científicos acaban de ponerle nombre: Vampyrocamelus welshi. En español, el camello vampiro.",
+      "clips": [
+        "buscar:scientist museum fossil",
+        "buscar:laboratory microscope"
+      ],
+      "numero": "2026",
+      "arriba": "NOVIEMBRE DE",
+      "texto": "NACE UN NOMBRE: CAMELLO VAMPIRO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero espera. Antes de imaginarlo con sangre en la boca, hay algo que debes saber.",
+      "clips": [
+        "buscar:dark night mist",
+        "buscar:vampire fangs dark"
+      ],
+      "texto": "¿DE VERDAD ERA UN VAMPIRO?",
+      "resalta": "VAMPIRO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Esta historia no empieza con un monstruo. Empieza con una caja llena de huesos antiguos.",
+      "clips": [
+        "buscar:museum storage fossils",
+        "buscar:old bones closeup"
+      ],
+      "texto": "TODO EMPEZÓ CON HUESOS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los restos aparecieron en tres estados de Estados Unidos: Texas, Oklahoma y Nebraska.",
+      "clips": [
+        "buscar:texas landscape aerial",
+        "buscar:oklahoma plains",
+        "buscar:nebraska fields"
+      ],
+      "texto": "TEXAS · OKLAHOMA · NEBRASKA"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Durante años, esos fósiles estuvieron repartidos. Más de cien restos que nadie había juntado de verdad.",
+      "clips": [
+        "buscar:fossil excavation dig",
+        "buscar:paleontologist brushing fossil"
+      ],
+      "numero": "100+",
+      "arriba": "MÁS DE",
+      "texto": "RESTOS FÓSILES REVISADOS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Hasta que un equipo del Museo de Historia Natural y Ciencia de Nuevo México decidió revisarlos todos, uno por uno.",
+      "clips": [
+        "buscar:museum exhibit hall",
+        "buscar:scientist examining bones"
+      ],
+      "texto": "NUEVO MÉXICO",
+      "chapa": "MUSEO DE HISTORIA NATURAL Y CIENCIA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Al frente estaban los paleontólogos Katherine Marriott y Donald Prothero. Y lo que vieron les hizo parar.",
+      "clips": [
+        "buscar:researchers laboratory",
+        "buscar:fossil skull lab"
+      ],
+      "texto": "LO QUE VIERON LES HIZO PARAR",
+      "resalta": "PARAR"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Porque algunos cráneos tenían algo que no encajaba en un camello. Algo afilado. Algo que asomaba de la mandíbula.",
+      "clips": [
+        "buscar:skull teeth close up",
+        "buscar:dark museum fossil"
+      ],
+      "texto": "ALGO NO ENCAJABA",
+      "resalta": "NO ENCAJABA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "¿Eran colmillos? ¿En un animal que comía plantas? Pero eso no fue lo más raro.",
+      "clips": [
+        "buscar:animal teeth closeup",
+        "buscar:ancient skull dark"
+      ],
+      "texto": "¿COLMILLOS EN UN HERBÍVORO?"
+    },
+    {
+      "tipo": "numero",
+      "voz": "No tenía un par de colmillos. Tenía cuatro. Dos pares de dientes superiores afilados, como puñales.",
+      "clips": [
+        "buscar:sharp teeth closeup",
+        "buscar:skull fangs dark"
+      ],
+      "numero": "4",
+      "arriba": "TENÍA",
+      "texto": "COLMILLOS EN LA MANDÍBULA SUPERIOR"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y en los machos, esos colmillos crecían curvados hacia atrás. Como los de un personaje de película de terror.",
+      "clips": [
+        "buscar:horror dark castle",
+        "buscar:bat flying night"
+      ],
+      "texto": "CURVADOS HACIA ATRÁS",
+      "resalta": "HACIA ATRÁS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "De ahí el apodo. Los científicos lo llaman camello vampiro, por esa dentadura que da escalofríos.",
+      "clips": [
+        "buscar:vampire castle night",
+        "buscar:creepy fog night"
+      ],
+      "texto": "EL APODO: CAMELLO VAMPIRO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero no te quedes con el apodo. Porque la ciencia estaba a punto de contradecirlo.",
+      "clips": [
+        "buscar:scientist thinking lab",
+        "buscar:microscope teeth"
+      ],
+      "texto": "LA CIENCIA LO CONTRADICE"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los investigadores miraron el resto de la boca. Las muelas. Las que mastican.",
+      "clips": [
+        "buscar:molar teeth closeup",
+        "buscar:teeth model lab"
+      ],
+      "texto": "LAS MUELAS LO DELATAN",
+      "resalta": "MUELAS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y ahí estaba la respuesta. Muelas hechas para triturar hojas y plantas. Era herbívoro.",
+      "clips": [
+        "buscar:leaves forest green",
+        "buscar:animal eating grass"
+      ],
+      "texto": "ERA HERBÍVORO",
+      "resalta": "HERBÍVORO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Un vampiro que no bebía sangre. Un monstruo que se alimentaba de vegetación. ¿Entonces para qué demonios servían esos colmillos?",
+      "clips": [
+        "buscar:question mark dark",
+        "buscar:fangs animal dark"
+      ],
+      "texto": "¿PARA QUÉ SERVÍAN?",
+      "resalta": "¿PARA QUÉ"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Esa es la gran pregunta. Y todavía no hay una respuesta definitiva. Pero hay una teoría principal.",
+      "clips": [
+        "buscar:scientists discussion",
+        "buscar:mystery smoke dark"
+      ],
+      "texto": "HAY UNA TEORÍA",
+      "resalta": "TEORÍA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los científicos creen que esos colmillos eran armas. Pero no contra otros animales, sino contra otros camellos.",
+      "clips": [
+        "buscar:animals fighting wild",
+        "buscar:stag fight"
+      ],
+      "texto": "¿ARMAS CONTRA SUS RIVALES?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Imagina la escena. Dos machos, cara a cara, en plena temporada de apareamiento. Cuellos enfrentados. Colmillos listos.",
+      "clips": [
+        "buscar:two deer fighting",
+        "buscar:wild animals rivalry"
+      ],
+      "texto": "DUELO ENTRE MACHOS",
+      "resalta": "DUELO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los colmillos servían para competir por pareja. Para impresionar. Y también para pelear, y no precisamente con elegancia.",
+      "clips": [
+        "buscar:animal combat nature",
+        "buscar:wildlife males clash"
+      ],
+      "texto": "COMPETIR POR PAREJA"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Pero también se maneja otra idea: que sirvieran de defensa en un mundo lleno de depredadores.",
+      "clips": [
+        "buscar:saber tooth predator",
+        "buscar:predator hunting grass"
+      ],
+      "titulo": "TEORÍAS SOBRE LOS COLMILLOS",
+      "items": [
+        "PELEAS ENTRE MACHOS",
+        "COMPETIR POR PAREJA",
+        "DEFENSA ANTE DEPREDADORES",
+        "NADA ESTÁ CONFIRMADO"
+      ]
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y ojo, que ese mundo era peligroso. Hablamos de un tiempo en que por esas llanuras caminaban animales que hoy nos parecerían de fantasía.",
+      "clips": [
+        "buscar:prehistoric landscape",
+        "buscar:ancient animals herd"
+      ],
+      "texto": "UN MUNDO PELIGROSO"
+    },
+    {
+      "tipo": "numero",
+      "voz": "¿Cuándo vivió exactamente? Los informes dan una horquilla: entre once y trece millones de años atrás, en el Mioceno.",
+      "clips": [
+        "buscar:ancient earth time",
+        "buscar:geological layers rock"
+      ],
+      "numero": "11-13",
+      "arriba": "HACE ENTRE",
+      "texto": "MILLONES DE AÑOS · MIOCENO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Es decir, una época en la que Norteamérica era un lugar muy distinto: praderas inmensas y fauna que ya no existe.",
+      "clips": [
+        "buscar:wild prairie sunrise",
+        "buscar:grassland animals"
+      ],
+      "texto": "OTRA ERA, OTRO MUNDO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y aquí viene lo que más me inquieta. Si hasta ahora no sabíamos que existió, ¿cuántos animales raros siguen enterrados esperando que alguien los encuentre?",
+      "clips": [
+        "buscar:dig site excavation",
+        "buscar:underground soil layers"
+      ],
+      "texto": "¿CUÁNTOS MÁS HAY ENTERRADOS?",
+      "resalta": "ENTERRADOS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Porque el camello vampiro no apareció en una excavación espectacular. Estaba ahí, esperando, entre fósiles ya guardados.",
+      "clips": [
+        "buscar:museum drawers specimens",
+        "buscar:archive boxes storage"
+      ],
+      "texto": "ESTABA ESCONDIDO A LA VISTA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "La noticia dio la vuelta al mundo en cuestión de horas. El apodo era perfecto para internet.",
+      "clips": [
+        "buscar:social media scrolling phone",
+        "buscar:news on smartphone"
+      ],
+      "texto": "VIRAL EN HORAS",
+      "resalta": "VIRAL"
+    },
+    {
+      "tipo": "frase",
+      "voz": "En redes, mucha gente se quedó con la parte del vampiro. Pero los propios científicos insisten en aclararlo: no chupaba sangre.",
+      "clips": [
+        "buscar:people phone reading",
+        "buscar:crowd phone night"
+      ],
+      "texto": "NO CHUPABA SANGRE",
+      "resalta": "NO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y sin embargo, ese contraste es lo que lo hace fascinante. Un animal pacífico con cara de pesadilla.",
+      "clips": [
+        "buscar:gentle animal portrait",
+        "buscar:camel eyes close up"
+      ],
+      "texto": "PACÍFICO, CON CARA DE PESADILLA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "¿Qué falta por saber? Bastante. Su tamaño real, cómo era su vida en manada y si esos colmillos se usaban de verdad como creen los expertos.",
+      "clips": [
+        "buscar:scientist notes writing",
+        "buscar:research lab computer"
+      ],
+      "texto": "LO QUE AÚN SE IGNORA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los estudios seguirán. Cada hueso nuevo puede reescribir lo que creemos saber sobre estos animales.",
+      "clips": [
+        "buscar:fossil dig sunrise",
+        "buscar:paleontology field work"
+      ],
+      "texto": "LA INVESTIGACIÓN CONTINÚA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Piénsalo un momento. Un animal con cuatro colmillos que pasó millones de años enterrado, y que hoy ocupa titulares en medio planeta. ¿No te parece una locura?",
+      "clips": [
+        "buscar:world map globe",
+        "buscar:news broadcast studio"
+      ],
+      "texto": "DE LA TIERRA A LOS TITULARES"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y los expertos recuerdan algo importante: reconstruir un animal a partir de huesos es como armar un puzle al que le faltan piezas.",
+      "clips": [
+        "buscar:puzzle pieces table",
+        "buscar:fossil bones brush"
+      ],
+      "texto": "UN PUZLE CON PIEZAS QUE FALTAN"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Por eso hablan de hipótesis, no de certezas. Lo de los colmillos como armas de pelea es lo más probable, pero nadie estaba allí para verlo.",
+      "clips": [
+        "buscar:scientist writing notes",
+        "buscar:old photographs archive"
+      ],
+      "texto": "HIPÓTESIS, NO CERTEZAS",
+      "resalta": "NO CERTEZAS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "¿Y si hubiera más camellos así escondidos en otros museos? Quizá sea la próxima sorpresa. Los cajones de los museos guardan más secretos de los que imaginamos.",
+      "clips": [
+        "buscar:museum drawers specimens",
+        "buscar:dark museum corridor"
+      ],
+      "texto": "LOS CAJONES GUARDAN SECRETOS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y mientras tanto, una cosa está clara: el camello vampiro ya es una de las historias más comentadas de la semana.",
+      "clips": [
+        "buscar:social media scrolling phone",
+        "buscar:people sharing phone"
+      ],
+      "texto": "LO MÁS COMENTADO DE LA SEMANA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y ahora, la promesa. Te dije que sus colmillos engañaron a todo el mundo. Y así fue.",
+      "clips": [
+        "buscar:dark mystery reveal",
+        "buscar:spotlight dark stage"
+      ],
+      "texto": "LA REVELACIÓN",
+      "resalta": "REVELACIÓN"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Parecían los de un depredador. Un monstruo de leyenda. Pero eran las armas de un herbívoro presumido, hechas para exhibirse y pelear con sus rivales.",
+      "clips": [
+        "buscar:peaceful animal grazing",
+        "buscar:camel desert sunset"
+      ],
+      "texto": "UN MONSTRUO QUE NO LO ERA",
+      "musica": "reflexion"
+    },
+    {
+      "tipo": "frase",
+      "voz": "A veces la naturaleza nos engaña con una apariencia, y la verdad es mucho más sorprendente que cualquier leyenda.",
+      "clips": [
+        "buscar:sunset horizon wild",
+        "buscar:starry sky night"
+      ],
+      "texto": "LA VERDAD SUPERA LA LEYENDA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Si te ha gustado esta historia, suscríbete para enterarte antes que nadie. Y dime en los comentarios: ¿qué otro animal prehistórico te gustaría que explicáramos?",
+      "clips": [
+        "buscar:subscribe button",
+        "buscar:night sky stars"
+      ],
+      "texto": "SUSCRÍBETE",
+      "resalta": "SUSCRÍBETE",
+      "chapa": "ANTES QUE NADIE"
+    }
+  ]
+}

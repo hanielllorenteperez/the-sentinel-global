@@ -1,0 +1,70 @@
+{
+  "id": "2026-11-21-camello-vampiro",
+  "formato": "short",
+  "cinta": "The Sentinel Global · Ciencia · Camello vampiro",
+  "titulo": "Tenía colmillos de VAMPIRO… pero había un truco 🧛",
+  "descripcion": "El camello vampiro y sus cuatro colmillos. La historia completa, en el vídeo largo del canal.\n\n#camellovampiro #paleontologia #ciencia #viral",
+  "etiquetas": [
+    "camello vampiro",
+    "paleontología",
+    "ciencia",
+    "viral",
+    "shorts"
+  ],
+  "escenas": [
+    {
+      "tipo": "frase",
+      "voz": "Tiene colmillos de vampiro. Pero hay un truco.",
+      "clips": [
+        "buscar:vampire fangs dark",
+        "buscar:dark fog night"
+      ],
+      "texto": "COLMILLOS DE VAMPIRO",
+      "resalta": "VAMPIRO"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Científicos de Nuevo México han identificado al camello vampiro, un animal que vivió hace más de diez millones de años.",
+      "clips": [
+        "buscar:museum fossil skull",
+        "buscar:camel desert"
+      ],
+      "etiqueta": "DESCUBRIMIENTO",
+      "texto": "EL CAMELLO VAMPIRO"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Tenía cuatro colmillos afilados, curvados hacia atrás en los machos. Parecía un monstruo de pesadilla.",
+      "clips": [
+        "buscar:sharp teeth closeup",
+        "buscar:skull dark"
+      ],
+      "numero": "4",
+      "arriba": "TENÍA",
+      "texto": "COLMILLOS COMO PUÑALES"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero sus muelas contaban otra historia. Y los científicos aún discuten para qué servían de verdad esos colmillos.",
+      "clips": [
+        "buscar:scientist lab microscope",
+        "buscar:mystery dark smoke"
+      ],
+      "texto": "¿PARA QUÉ SERVÍAN?",
+      "resalta": "¿PARA QUÉ"
+    },
+    {
+      "tipo": "frase",
+      "voz": "La respuesta, y por qué engañó a todo el mundo, te la cuento en el vídeo completo. Está en el canal.",
+      "clips": [
+        "buscar:subscribe button",
+        "buscar:night sky stars"
+      ],
+      "texto": "MIRA EL VÍDEO COMPLETO",
+      "resalta": "COMPLETO",
+      "chapa": "👇 EN EL CANAL",
+      "musica": "curiosidad"
+    }
+  ],
+  "musica": "misterio"
+}
