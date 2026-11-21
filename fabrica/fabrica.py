@@ -305,7 +305,7 @@ def main():
         sal.update({"voz": f"{pub_rel}/v{i}.mp3", "dur": round(duracion(mp3), 3), "clips": clips, "palabras": palabras_de(mp3)})
         escenas.append(sal)
 
-    props = {"cinta": g.get("cinta", ""), "rotulos": g.get("rotulos", []), "musica": musica, "volumenMusica": 0.07, "escenas": escenas}
+    props = {"cinta": g.get("cinta", ""), "rotulos": g.get("rotulos", []), "musica": musica, "volumenMusica": 0.05, "escenas": escenas}
     props_path = os.path.join(salida_dir, f"props{suf}.json")
     json.dump(props, open(props_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     total = sum(e["dur"] + 0.3 for e in escenas) + 0.5

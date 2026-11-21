@@ -82,7 +82,7 @@ Si una frase no añade nada (ni dato, ni emoción, ni intriga), se borra.
 
 ## 7. Derechos
 - Nada de tráilers, logos de marcas, juegos ni equipos. Clips libres de Pexels/Pixabay + texto propio.
-- Música: Kevin MacLeod (CC BY) al 7 % → el crédito lo pone solo la fábrica.
+- Música: Kevin MacLeod (CC BY) al 5 % → el crédito lo pone solo la fábrica.
 
 ## 8. Checklist del director antes de hacer push
 - [ ] Leí `ESTADO-BOT.md` y no repito errores ni temas.

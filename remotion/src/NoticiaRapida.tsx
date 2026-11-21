@@ -18,7 +18,7 @@ import {
 // FÁBRICA DE NOTICIAS RÁPIDAS (estilo aprobado v4, 21/11/2026)
 // Lo rellena solo el script YouTube Faceless\fabrica\fabrica.py
 // (props.json). Voz Álvaro −8 %, clips Pexels oscurecidos con zoom
-// lento, letras rojo/blanco/azul, cinta "EN DIRECTO", música al 7 %.
+// lento, letras rojo/blanco/azul, cinta "EN DIRECTO", música al 5 %.
 // ============================================================
 
 export const NR_FPS = 30;
@@ -437,7 +437,7 @@ const TIPOS = { titular: Titular, numero: Numero, lista: Lista, frase: Frase, pr
 export const NoticiaRapida: React.FC<NoticiaProps> = (p) => {
   const f = useCurrentFrame();
   const total = duracionNoticia(p);
-  const vol = p.volumenMusica ?? 0.07;
+  const vol = p.volumenMusica ?? 0.05;
   const fin = interpolate(f, [total - COLA, total], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   let inicio = 0;
   const { width, height } = useVideoConfig();
