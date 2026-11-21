@@ -1,0 +1,470 @@
+{
+  "id": "2026-11-21-pterodactilo-mexico",
+  "cinta": "The Sentinel Global · Viral · ¿Un pterodáctilo en México? · Vídeo de 1,5 segundos en Ciudad Juárez",
+  "titulo": "¿Un PTERODÁCTILO en México? 🦖 El vídeo de 1,5 segundos que desató el misterio",
+  "descripcion": "Un vídeo de apenas un segundo y medio, grabado por una cámara de seguridad en Anapra (Ciudad Juárez, Chihuahua), mostró una silueta alada que millones de personas creyeron ver como un pterodáctilo. Jaime Maussan lo difundió, Protección Civil lo desmintió, un paleontólogo apuntó al aleteo y EFE Verifica concluyó que no es un pterodáctilo. ¿Un ave grande, un montaje o algo sin explicar? Te cuento lo que se sabe y lo que todavía no se ha aclarado.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#pterodactilo #Mexico #viral #noticias #misterio",
+  "etiquetas": [
+    "pterodáctilo México",
+    "pterodáctilo Ciudad Juárez",
+    "vídeo viral",
+    "Jaime Maussan",
+    "EFE Verifica",
+    "misterio",
+    "noticias virales",
+    "noticias de hoy",
+    "inteligencia artificial"
+  ],
+  "fuentes": [
+    "https://www.informador.mx/mexico/podria-haber-un-pterodactilo-en-ciudad-juarez-paleontologo-lo-explica-20261115-0062.html",
+    "https://www.iflscience.com/palaeontologist-weighs-in-on-those-videos-of-pterodactyls-flying-over-chihuahua-mexico-85216",
+    "https://los40.com.mx/2026/11/17/un-pterodactilo-en-ciudad-juarez-las-teorias-y-supuestos-avistamientos-que-ya-se-hicieron-virales/",
+    "https://emprendedor.com/pterodactilos-ciudad-juarez-videos-ia-biologo",
+    "https://www.ibtimes.co.uk/mexico-pterodactyl-videos-bird-ai-footage-1833046"
+  ],
+  "escenas": [
+    {
+      "tipo": "titular",
+      "voz": "Una sombra con alas enormes cruza el cielo de noche. Dura un segundo y medio. Y medio país no ha dejado de mirarla.",
+      "clips": [
+        "buscar:night sky dark silhouette",
+        "buscar:city night aerial"
+      ],
+      "etiqueta": "VIRAL",
+      "texto": "¿UN PTERODÁCTILO EN MÉXICO?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "¿Es un dinosaurio volador que sobrevivió setenta millones de años? ¿O nos están engañando delante de todos?",
+      "clips": [
+        "buscar:flying bird silhouette sky",
+        "buscar:dinosaur skeleton museum"
+      ],
+      "texto": "¿REAL O FALSO?",
+      "resalta": "¿REAL O FALSO?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Quédate hasta el final, porque te voy a contar lo que dicen los expertos, y también lo que todavía nadie ha podido explicar.",
+      "clips": [
+        "buscar:mystery fog night",
+        "buscar:scientist looking microscope"
+      ],
+      "texto": "HASTA EL FINAL",
+      "resalta": "LO QUE NADIE EXPLICA",
+      "chapa": "TE LO CUENTO AL FINAL"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Todo empieza en Ciudad Juárez, en el estado de Chihuahua, justo en la frontera con Estados Unidos.",
+      "clips": [
+        "buscar:border city night lights",
+        "buscar:desert city aerial"
+      ],
+      "texto": "CIUDAD JUÁREZ",
+      "resalta": "EN LA FRONTERA",
+      "chapa": "CHIHUAHUA · MÉXICO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Concretamente en Anapra, un barrio del oeste de la ciudad, donde una cámara de seguridad grabó algo extraño.",
+      "clips": [
+        "buscar:security camera street night",
+        "buscar:neighborhood night street"
+      ],
+      "texto": "UNA CÁMARA DE SEGURIDAD",
+      "resalta": "ALGO EXTRAÑO"
+    },
+    {
+      "tipo": "numero",
+      "voz": "El vídeo dura apenas un segundo y medio. Según varios medios, se habría grabado a finales de octubre de este año.",
+      "clips": [
+        "buscar:security camera footage",
+        "buscar:clock ticking close up"
+      ],
+      "numero": "1,5",
+      "arriba": "DURA SOLO",
+      "texto": "SEGUNDOS",
+      "chapa": "FINALES DE OCTUBRE DE 2026"
+    },
+    {
+      "tipo": "frase",
+      "voz": "En él se ve una silueta oscura, con las alas abiertas, cruzando el encuadre. Y nada más. Ni sonido, ni un segundo más de imagen. Solo esa figura oscura, y miles de preguntas.",
+      "clips": [
+        "buscar:dark bird flying night",
+        "buscar:wings flapping slow motion"
+      ],
+      "texto": "UNA SILUETA",
+      "resalta": "SILUETA",
+      "chapa": "SIN MÁS DETALLES"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Durante días, el clip no pasó de unos pocos grupos de redes sociales. Pero entonces ocurrió algo.",
+      "clips": [
+        "buscar:smartphone scrolling social media",
+        "buscar:hand holding phone dark"
+      ],
+      "texto": "ENTONCES OCURRIÓ ALGO",
+      "resalta": "ALGO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Jaime Maussan, el conocido divulgador de temas ovni, lo enseñó en sus programas.",
+      "clips": [
+        "buscar:television studio broadcast",
+        "buscar:microphone presenter studio"
+      ],
+      "texto": "JAIME MAUSSAN",
+      "resalta": "MAUSSAN",
+      "chapa": "LO MOSTRÓ EN SUS PROGRAMAS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y sugirió que la figura podría ser un pteranodon, un reptil volador de la era de los dinosaurios.",
+      "clips": [
+        "buscar:pterosaur fossil",
+        "buscar:dinosaur fossil museum"
+      ],
+      "texto": "UN PTERANODON",
+      "resalta": "PTERANODON"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Aquí es donde la historia se dispara. Pero eso no fue lo más raro. Lo raro llegó justo después, cuando el vídeo salió de internet y llegó a la televisión.",
+      "clips": [
+        "buscar:lightning storm night",
+        "buscar:dark clouds timelapse"
+      ],
+      "texto": "SE DISPARA",
+      "resalta": "DISPARA"
+    },
+    {
+      "tipo": "numero",
+      "voz": "En apenas cinco días, el vídeo habría superado los veintitrés millones de visualizaciones, según un recuento de una guía de memes.",
+      "clips": [
+        "buscar:people watching phones",
+        "buscar:social media notifications"
+      ],
+      "numero": "23 MILLONES",
+      "arriba": "VISUALIZACIONES EN 5 DÍAS",
+      "texto": "CIFRA DE UN RECUENTO EN LÍNEA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y entonces aparecieron más vídeos. Otros clips, supuestamente desde otros lugares, con siluetas parecidas. Cada uno alimentaba al anterior. Cada uno hacía la historia más grande.",
+      "clips": [
+        "buscar:night sky birds flying",
+        "buscar:phone recording sky"
+      ],
+      "texto": "MÁS VÍDEOS",
+      "resalta": "MÁS VÍDEOS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Algunos medios hablaron de otra grabación en Monterrey, a cientos de kilómetros de distancia.",
+      "clips": [
+        "buscar:monterrey city mountains",
+        "buscar:highway car night drive"
+      ],
+      "texto": "OTRO VÍDEO",
+      "resalta": "MONTERREY",
+      "chapa": "A CIENTOS DE KILÓMETROS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "¿Dos criaturas iguales en dos ciudades distintas? ¿O una misma historia contada de dos maneras?",
+      "clips": [
+        "buscar:two paths diverging map",
+        "buscar:map of mexico"
+      ],
+      "texto": "¿DOS CRIATURAS?",
+      "resalta": "¿DOS CRIATURAS?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Mientras tanto, Maussan fue más lejos. Habló incluso de un posible portal interdimensional en el Valle de Juárez.",
+      "clips": [
+        "buscar:desert valley landscape",
+        "buscar:mysterious light sky"
+      ],
+      "texto": "UN PORTAL",
+      "resalta": "PORTAL",
+      "chapa": "LO PLANTEÓ MAUSSAN",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y aseguró que el material era auténtico. Pero no todo el mundo pensaba lo mismo.",
+      "clips": [
+        "buscar:crowd debate people",
+        "buscar:serious man talking"
+      ],
+      "texto": "NO TODOS LO CREEN",
+      "resalta": "AUTÉNTICO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "La primera respuesta oficial llegó desde Protección Civil de Ciudad Juárez.",
+      "clips": [
+        "buscar:government office building",
+        "buscar:city hall flag"
+      ],
+      "texto": "PROTECCIÓN CIVIL",
+      "resalta": "RESPUESTA OFICIAL"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Su director municipal, Sergio Rodríguez, dijo que los vídeos no tienen sustento real. Que son contenido de entretenimiento digital.",
+      "clips": [
+        "buscar:official press conference",
+        "buscar:microphones press"
+      ],
+      "texto": "SERGIO RODRÍGUEZ",
+      "resalta": "SIN SUSTENTO",
+      "chapa": "DIRECTOR MUNICIPAL"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Maussan no se quedó callado. Lo retó en directo a investigar supuestas denuncias de vecinos sobre animales muertos.",
+      "clips": [
+        "buscar:argument debate television",
+        "buscar:dead leaves ground dark"
+      ],
+      "texto": "EL RETO",
+      "resalta": "RETÓ",
+      "chapa": "MAUSSAN CONTRA PROTECCIÓN CIVIL",
+      "musica": "tension"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Animales muertos. Vecinos asustados. Y un vídeo de un segundo y medio. ¿Qué había pasado de verdad? Nadie lo sabía todavía. Y eso, en internet, es combustible.",
+      "clips": [
+        "buscar:suspense dark corridor",
+        "buscar:worried people neighborhood"
+      ],
+      "texto": "¿QUÉ PASÓ?",
+      "resalta": "¿DE VERDAD?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Aquí entra la ciencia. Y atención, porque la respuesta no gustó a los amantes del misterio. Ni a los que ya habían compartido el vídeo cien veces.",
+      "clips": [
+        "buscar:laboratory research",
+        "buscar:scientist analyzing data"
+      ],
+      "texto": "ENTRA LA CIENCIA",
+      "resalta": "LA CIENCIA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "El paleontólogo Evan Jevnikar analizó las imágenes. Y señaló un problema muy concreto.",
+      "clips": [
+        "buscar:paleontologist fossil digging",
+        "buscar:fossil brush excavation"
+      ],
+      "texto": "EVAN JEVNIKAR",
+      "resalta": "PALEONTÓLOGO",
+      "chapa": "UN PROBLEMA CONCRETO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "El aleteo. Según él, la forma en que bate las alas no encaja con cómo volaría un gran pterosaurio.",
+      "clips": [
+        "buscar:bird wings flapping close",
+        "buscar:eagle flying slow motion"
+      ],
+      "texto": "EL ALETEO",
+      "resalta": "ALETEO",
+      "chapa": "NO ENCAJA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los pterosaurios eran enormes. Planeaban más que aleteaban. Esa criatura de la cámara, no.",
+      "clips": [
+        "buscar:glider soaring sky",
+        "buscar:bird soaring clouds"
+      ],
+      "texto": "NO ENCAJA",
+      "resalta": "PLANEABAN"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Otros especialistas fueron más lejos: apuntaron a un ave grande, como una garza azul, que llega a casi dos metros de envergadura.",
+      "clips": [
+        "buscar:heron bird flying",
+        "buscar:great blue heron"
+      ],
+      "texto": "¿UNA GARZA?",
+      "resalta": "GARZA",
+      "chapa": "ENVERGADURA DE CASI 2 METROS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "¿Un pájaro grande, grabado de noche con poca luz, y deformado por la cámara? Es posible.",
+      "clips": [
+        "buscar:night camera low light",
+        "buscar:bird in flight night"
+      ],
+      "texto": "¿SOLO UN PÁJARO?",
+      "resalta": "POSIBLE"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero había una segunda teoría. Y esta es la que más ha crecido en redes.",
+      "clips": [
+        "buscar:dark room computer glow",
+        "buscar:hacker screen code"
+      ],
+      "texto": "LA SEGUNDA TEORÍA",
+      "resalta": "SEGUNDA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Varios verificadores sospechan que algunos de esos clips están hechos con inteligencia artificial.",
+      "clips": [
+        "buscar:artificial intelligence digital face",
+        "buscar:computer screen code dark"
+      ],
+      "texto": "INTELIGENCIA ARTIFICIAL",
+      "resalta": "INTELIGENCIA ARTIFICIAL",
+      "chapa": "SOSPECHA DE VERIFICADORES",
+      "musica": "tension"
+    },
+    {
+      "tipo": "frase",
+      "voz": "De hecho, circuló un falso vídeo de la presidenta hablando de una supuesta fuga de pterodáctilos. Ese sí, fabricado con IA.",
+      "clips": [
+        "buscar:fake news screen",
+        "buscar:television news studio"
+      ],
+      "texto": "VÍDEO FALSO",
+      "resalta": "FALSO",
+      "chapa": "DEL OTRO VÍDEO, SÍ SE HA PROBADO"
+    },
+    {
+      "tipo": "numero",
+      "voz": "El dieciocho de noviembre, EFE Verifica publicó su investigación. Su conclusión: el vídeo no muestra un pterodáctilo sobrevolando Ciudad Juárez.",
+      "clips": [
+        "buscar:journalist writing notes",
+        "buscar:newsroom people working"
+      ],
+      "numero": "18",
+      "arriba": "EFE VERIFICA · NOVIEMBRE",
+      "texto": "NO ES UN PTERODÁCTILO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero ojo, porque aquí viene el detalle. Esa investigación no probó que el vídeo se hiciera con inteligencia artificial.",
+      "clips": [
+        "buscar:magnifying glass document",
+        "buscar:detective investigation board"
+      ],
+      "texto": "EL DETALLE",
+      "resalta": "NO PROBÓ"
+    },
+    {
+      "tipo": "frase",
+      "voz": "O sea: no es un pterodáctilo. Pero tampoco está del todo claro qué es. Todavía no se ha aclarado.",
+      "clips": [
+        "buscar:question mark mystery",
+        "buscar:fog forest mystery"
+      ],
+      "texto": "¿QUÉ ES ENTONCES?",
+      "resalta": "¿QUÉ ES?",
+      "chapa": "SIGUE SIN ACLARARSE",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y hay otro dato que casi nadie cuenta. En México sí hay fósiles de pterosaurios, por ejemplo en Coahuila.",
+      "clips": [
+        "buscar:fossil desert rocks",
+        "buscar:mexico desert landscape"
+      ],
+      "texto": "EN COAHUILA",
+      "resalta": "FÓSILES",
+      "chapa": "DE HACE MILLONES DE AÑOS",
+      "musica": "curiosidad"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Es decir, estos animales existieron en tierras mexicanas. Pero hace más de sesenta y seis millones de años.",
+      "clips": [
+        "buscar:ancient earth prehistoric landscape",
+        "buscar:museum dinosaur exhibit"
+      ],
+      "texto": "EXISTIERON",
+      "resalta": "MILLONES DE AÑOS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Entonces, ¿por qué nos atrapa tanto esta historia? Porque queremos creer que todavía queda algo por descubrir.",
+      "clips": [
+        "buscar:person looking at sky wonder",
+        "buscar:starry sky timelapse"
+      ],
+      "texto": "¿POR QUÉ NOS ATRAPA?",
+      "resalta": "ALGO POR DESCUBRIR",
+      "chapa": "reflexion"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Así queda el caso hasta hoy.",
+      "clips": [
+        "buscar:tv news breaking",
+        "buscar:newspaper headline close up"
+      ],
+      "titulo": "LO QUE SABEMOS",
+      "items": [
+        "VÍDEO DE 1,5 SEGUNDOS",
+        "NO HAY PRUEBA DE UN PTERODÁCTILO",
+        "SOSPECHA DE ENGAÑO O AVE GRANDE",
+        "SIGUE SIN ACLARARSE DEL TODO"
+      ]
+    },
+    {
+      "tipo": "frase",
+      "voz": "Ahora te toca a ti. ¿Era una garza, un montaje con inteligencia artificial, o algo que nadie ha sabido explicar? Cuéntamelo en los comentarios, que los leo todos. Y si crees que me he dejado algún dato importante, dímelo también.",
+      "clips": [
+        "buscar:person thinking window",
+        "buscar:comment typing keyboard"
+      ],
+      "texto": "TÚ DECIDES",
+      "resalta": "¿QUÉ CREES?",
+      "chapa": "DÉJALO EN LOS COMENTARIOS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "La respuesta más probable es la menos mágica: un ave y un vídeo que se hizo viral. Y la lección es seria.",
+      "clips": [
+        "buscar:birds flock sunset",
+        "buscar:calm lake birds"
+      ],
+      "texto": "LA RESPUESTA",
+      "resalta": "MENOS MÁGICA",
+      "chapa": "reflexion"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Piénsalo. Hoy cualquier imagen de un solo segundo puede dar la vuelta al mundo antes de que nadie compruebe si es verdad.",
+      "clips": [
+        "buscar:world network connections",
+        "buscar:globe internet lights"
+      ],
+      "texto": "ANTES DE COMPROBARLO",
+      "resalta": "DAR LA VUELTA AL MUNDO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Si te ha gustado esta historia, suscríbete para enterarte antes que nadie de las noticias más virales. Y recuerda: antes de compartir algo asombroso, respira y compruébalo. Nos vemos en el próximo vídeo.",
+      "clips": [
+        "buscar:sunrise sky hope",
+        "buscar:city skyline sunrise"
+      ],
+      "texto": "SUSCRÍBETE",
+      "resalta": "SUSCRÍBETE",
+      "chapa": "PARA NO PERDERTE NADA"
+    }
+  ],
+  "musica": "misterio"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-21-pterodactilo-mexico",
+  "formato": "short",
+  "cinta": "The Sentinel Global · Viral · ¿Pterodáctilo en México?",
+  "titulo": "Un segundo y medio de vídeo… ¿un pterodáctilo en México? 🦖",
+  "descripcion": "Un vídeo de 1,5 segundos en Ciudad Juárez desató el misterio. La historia completa, en el vídeo largo del canal.\n\n#pterodactilo #Mexico #viral #noticias",
+  "etiquetas": [
+    "pterodáctilo",
+    "México",
+    "viral",
+    "misterio",
+    "shorts"
+  ],
+  "escenas": [
+    {
+      "tipo": "frase",
+      "voz": "Un segundo y medio de vídeo. Y millones de personas creen ver un dinosaurio.",
+      "clips": [
+        "buscar:night sky dark silhouette"
+      ],
+      "texto": "¿UN DINOSAURIO?",
+      "resalta": "DINOSAURIO"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Una cámara de seguridad de Ciudad Juárez grabó una silueta con alas enormes.",
+      "clips": [
+        "buscar:security camera street night"
+      ],
+      "etiqueta": "VIRAL",
+      "texto": "¿UN PTERODÁCTILO?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Millones lo vieron. Un famoso divulgador dijo que era auténtico. Las autoridades dijeron que no.",
+      "clips": [
+        "buscar:smartphone scrolling social media"
+      ],
+      "texto": "MILLONES LO VIERON",
+      "resalta": "AUTÉNTICO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "¿Un ave, un montaje con IA, o algo que nadie explica? La respuesta, en el vídeo completo del canal.",
+      "clips": [
+        "buscar:mystery fog night"
+      ],
+      "texto": "MIRA EL VÍDEO COMPLETO",
+      "resalta": "COMPLETO",
+      "chapa": "👇 EN EL CANAL",
+      "musica": "misterio"
+    }
+  ],
+  "musica": "misterio"
+}
