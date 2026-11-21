@@ -27,7 +27,11 @@ const COLA = 15; // frames de fundido al final
 
 export type ClipInfo = { src: string; dur: number; en?: string }; // en = palabras de la voz con las que entra
 export type Escena = {
-  tipo: "titular" | "numero" | "lista" | "frase" | "pregunta";
+  tipo: "titular" | "numero" | "lista" | "frase" | "pregunta" | "grafico";
+  // GRÁFICO de barras animado (para cifras): la última barra (o la marcada) brilla con su número
+  barras?: { l: string; v: number; destaca?: boolean }[];
+  valor?: string; // número grande junto a la barra destacada: "5,8"
+  unidad?: string; // debajo del número: "billones $"
   voz: string; // ruta dentro de public/
   dur: number; // segundos de la voz
   clips: ClipInfo[];
@@ -467,7 +471,85 @@ const tramosMusica = (p: NoticiaProps) => {
   return out;
 };
 
-const TIPOS = { titular: Titular, numero: Numero, lista: Lista, frase: Frase, pregunta: Pregunta };
+// GRÁFICO DE BARRAS: las barras crecen una tras otra; la destacada (por defecto la última) en rojo
+// con el número gigante encima, que cuenta hasta su valor.
+const Grafico: React.FC<{ e: Escena }> = ({ e }) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const v = useVertical();
+  const bs = e.barras ?? [];
+  if (!bs.length) return <Frase e={e} />;
+  const max = Math.max(...bs.map((b) => b.v), 0.0001);
+  let iD = bs.findIndex((b) => b.destaca);
+  if (iD < 0) iD = bs.length - 1;
+  const paso = Math.max(4, Math.min(10, Math.round((fps * 1.6) / bs.length)));
+  const altoMax = v ? 760 : 440;
+  const ancho = Math.min(130, Math.round((v ? 760 : 1300) / bs.length) - 24);
+  const sD = spring({ frame: f - iD * paso - 8, fps, config: { damping: 14 } });
+  const num = e.valor ?? "";
+  const m = num.match(/^([^\d]*)([\d.]+)(?:,(\d+))?(.*)$/);
+  const cuenta = m
+    ? (() => {
+        const entero = Number(m[2].replace(/\./g, ""));
+        const dec = m[3] ? Number(`0.${m[3]}`) : 0;
+        const x = (entero + dec) * Math.min(1, sD);
+        const txt = m[3] ? x.toFixed(m[3].length).replace(".", ",") : Math.round(x).toLocaleString("es-ES");
+        return `${m[1]}${txt}${m[4]}`;
+      })()
+    : num;
+  const panel = interpolate(f, [0, 10], [0, 1], { extrapolateRight: "clamp" });
+  const brillo = 0.75 + Math.sin(f / 7) * 0.25; // la barra destacada "respira"
+  const lineas = [0.25, 0.5, 0.75, 1];
+  return (
+    <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: v ? "0 40px 400px" : "0 110px 120px" }}>
+      {/* Panel de cristal oscuro tipo telediario */}
+      <div style={{ position: "relative", padding: v ? "40px 36px 30px" : "40px 60px 30px", background: "linear-gradient(180deg, rgba(5,13,34,.82), rgba(5,13,34,.62))", border: "1px solid rgba(255,255,255,.14)", borderRadius: 18, boxShadow: "0 30px 80px rgba(0,0,0,.55)", opacity: panel, transform: `translateY(${(1 - panel) * 40}px)` }}>
+        {e.titulo && (
+          <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 26 }}>
+            <div style={{ width: 10, height: 44, background: ROJO, boxShadow: "0 0 14px rgba(215,20,26,.9)" }} />
+            <div style={{ fontFamily: FUENTE, fontSize: v ? 50 : 44, color: "white", letterSpacing: 3 }}>{e.titulo}</div>
+          </div>
+        )}
+        <div style={{ position: "relative", display: "flex", alignItems: "flex-end", gap: 22, height: altoMax + 190, paddingLeft: 10, paddingRight: 10 }}>
+          {/* Rejilla horizontal que se dibuja de izquierda a derecha */}
+          {lineas.map((p, k) => (
+            <div key={k} style={{ position: "absolute", left: 0, right: 0, bottom: 52 + altoMax * p, height: 1, background: "rgba(255,255,255,.12)", transformOrigin: "left", transform: `scaleX(${interpolate(f, [4 + k * 2, 18 + k * 2], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })})` }} />
+          ))}
+          {/* Línea base */}
+          <div style={{ position: "absolute", left: 0, right: 0, bottom: 50, height: 3, background: "rgba(244,239,230,.7)" }} />
+          {bs.map((b, i) => {
+            const s = spring({ frame: f - 6 - i * paso, fps, config: { damping: 15 } });
+            const h = Math.max(4, (b.v / max) * altoMax * s);
+            const d = i === iD;
+            return (
+              <div key={i} style={{ position: "relative", display: "flex", flexDirection: "column", alignItems: "center", width: ancho }}>
+                {d && num && (
+                  <div style={{ position: "absolute", bottom: h + 70, textAlign: "center", opacity: sD, transform: `translateY(${(1 - sD) * 30}px)` }}>
+                    <div style={{ fontFamily: FUENTE, fontSize: v ? 110 : 100, color: "white", lineHeight: 1, textShadow: "0 0 30px rgba(215,20,26,.7), 0 8px 30px rgba(0,0,0,.8)", whiteSpace: "nowrap" }}>{cuenta}</div>
+                    {e.unidad && <div style={{ marginTop: 6, display: "inline-block", background: ROJO, padding: "4px 14px", fontFamily: FUENTE, fontSize: v ? 32 : 28, color: "white", whiteSpace: "nowrap" }}>{e.unidad}</div>}
+                  </div>
+                )}
+                <div
+                  style={{
+                    width: "100%",
+                    height: h,
+                    borderRadius: "8px 8px 2px 2px",
+                    background: d ? "linear-gradient(180deg, #ff4b4f 0%, #d7141a 45%, #7a070b 100%)" : "linear-gradient(180deg, rgba(244,239,230,.75) 0%, rgba(244,239,230,.25) 100%)",
+                    boxShadow: d ? `0 0 ${30 * brillo}px rgba(215,20,26,${0.85 * brillo}), inset 0 2px 0 rgba(255,255,255,.5)` : "inset 0 2px 0 rgba(255,255,255,.35)",
+                    marginBottom: 50,
+                  }}
+                />
+                <div style={{ position: "absolute", bottom: 6, fontFamily: FUENTE, fontSize: v ? 28 : 24, color: d ? "white" : "rgba(244,239,230,.75)", whiteSpace: "nowrap", opacity: s }}>{b.l}</div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+const TIPOS = { titular: Titular, numero: Numero, lista: Lista, frase: Frase, pregunta: Pregunta, grafico: Grafico };
 
 export const NoticiaRapida: React.FC<NoticiaProps> = (p) => {
   const f = useCurrentFrame();

@@ -38,7 +38,12 @@ Si una frase no añade nada (ni dato, ni emoción, ni intriga), se borra.
 
 ## 4. Lenguaje visual (lo que sabe hacer la fábrica)
 **Tipos de escena:** `titular` (cartel ÚLTIMA HORA), `numero` (cifra gigante que cuenta), `lista` (puntos que entran),
-`frase` (texto enorme, `resalta` en rojo una palabra, `chapa` opcional), **`pregunta`** (gran "?" rojo que late + la pregunta).
+`frase` (texto enorme, `resalta` en rojo una palabra, `chapa` opcional), **`pregunta`** (gran "?" rojo que late + la pregunta),
+**`grafico`** (gráfico de barras PRO animado: panel oscuro, rejilla, barras que crecen, la destacada en rojo brillante con el
+número gigante que cuenta). Úsalo SIEMPRE que la voz compare cifras o una evolución (valor en bolsa, años, víctimas, precios…):
+`{"tipo":"grafico","titulo":"VALOR DE NVIDIA","valor":"5,8","unidad":"BILLONES $","barras":[{"l":"2023","v":1.2},{"l":"2024","v":3.3},{"l":"2026","v":5.8}]}`
+(3–8 barras; `v` = cifra real para la altura; la última se destaca, o pon `"destaca": true` en otra; datos SIEMPRE reales y con fuente).
+Fondo: puede llevar 1 clip suave detrás. Uno cada ~8–10 escenas cuando haya cifras.
 - **Varía el tipo**: nunca 3 escenas seguidas del mismo tipo. Una `numero` o `pregunta` cada 4–6 escenas.
 - **Texto en pantalla corto** (2–6 palabras, MAYÚSCULAS). La voz cuenta; la pantalla remata la idea clave.
 - **SINCRONÍA (regla de Haniel): el texto grande, la `chapa` y cada punto de la `lista` deben usar PALABRAS QUE LA VOZ DICE TAL CUAL** (al menos 2 seguidas, p. ej. voz «…Era un camello» → texto «ERA UN CAMELLO»). La fábrica los hace aparecer justo en el segundo en que Álvaro los dice. Si el texto no sale en la voz, aparece al empezar la escena y queda adelantado: evítalo.
