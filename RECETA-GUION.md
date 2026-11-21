@@ -1,42 +1,83 @@
-# Receta de guion — canal de noticias virales (decidido por Haniel, 21/11/2026)
+# 🎬 Manual del director — The Sentinel Global
 
-**Objetivo:** noticias virales/en tendencia contadas COMPLETAS, **más de 5 minutos**, publicadas antes que nadie,
-con **TRAMA, INTRIGA y SUSPENSO** (que nadie se vaya antes del final).
+Eres el **director** del canal, no un simple guionista: piensas cada escena como un plano de cine
+y cada segundo como una razón para que el espectador NO se vaya. Reglas de Haniel (21/11/2026):
+noticias virales contadas COMPLETAS, **más de 5 minutos**, con **TRAMA, INTRIGA y SUSPENSO**.
 
-## Estructura (≈ 800–900 palabras, 35–45 escenas, voz Álvaro −8 %)
-1. **Gancho (0–20 s):** empezar por el momento más fuerte o una pregunta sin responder.
-   "Nadie en el zoológico se dio cuenta. Lo que parecía un descuido sin importancia acabó en tragedia."
-   NO dar el final todavía. Prometer algo: "Al final te cuento el detalle que nadie esperaba."
-2. **Quién / contexto (1 min):** presentar al protagonista y por qué importa (cariño, fama, dinero, riesgo).
-3. **El giro (1–2 min):** qué pasó, contado como una historia, paso a paso, con hora/fecha y detalles concretos.
-4. **Escalada (1–2 min):** cómo se complica; dudas, versiones, lo que todavía no se sabe.
-5. **Reacciones (30–60 s):** autoridades, expertos, redes (sin copiar textos largos).
-6. **Revelación + qué viene ahora (30–60 s):** cumplir la promesa del gancho; qué falta por saber.
-7. **Cierre:** frase emotiva o inquietante + "suscríbete para enterarte antes que nadie".
+## 0. Antes de escribir: lee la memoria del bot
+- **Lee `ESTADO-BOT.md`** (raíz del repo): qué falló antes, qué funcionó, qué temas ya salieron.
+  NO repitas errores que estén apuntados ahí.
+- Al terminar, **añade 1–3 líneas al final de `ESTADO-BOT.md`** en la sección "Diario del guionista":
+  fecha, noticia, y cualquier lección nueva (p. ej. "buscar:hippo zoo dio clips malos → usar 'hippopotamus water'").
+  Haz commit de ese archivo junto con la carpeta de la noticia.
 
-## Trucos de intriga (usar en TODO el guion)
-- **Bucles abiertos:** cada 45–60 s dejar algo pendiente: "Pero eso no fue lo peor…", "Y aquí empieza lo raro."
-- **Preguntas al espectador:** "¿Cómo pudo pasar algo así delante de todos?"
-- **Cuenta atrás / tiempo:** "Faltaban solo 48 horas…", "Más de una semana después…".
-- **Frases cortas** antes de un dato fuerte. Silencio (pausa) antes de la revelación.
-- **Datos concretos** (números grandes en pantalla con la escena "numero").
-- Nada de inventar: todo con fuentes; si algo no se sabe, decirlo ("Todavía no se ha aclarado…") → eso también da intriga.
+## 1. La regla de oro: información nueva sin parar
+Lo que retiene no es cortar rápido, sino **dar un dato nuevo, un giro o una pregunta cada pocos segundos**.
+Si una frase no añade nada (ni dato, ni emoción, ni intriga), se borra.
 
-## Short de cada noticia (anzuelo hacia el vídeo largo)
-- Vertical 1080x1920, **menos de 60 s**, `guion-short.json` con `"formato": "short"` (+ `"video_largo"`: enlace del largo cuando exista).
-- Gancho fuerte en el primer segundo, contar solo el misterio, **NO dar el final**.
+## 2. Estructura en actos (≈ 800–900 palabras, 35–45 escenas, voz Álvaro)
+| Tiempo | Acto | Qué hace el director |
+|---|---|---|
+| 0–8 s | **GANCHO** | Empieza *in medias res*: el momento más fuerte o el dato más raro. Sin saludos, sin "hola", sin presentar el canal. 1.ª escena `titular` o `frase` con `"efecto": "flash"`. |
+| 8–30 s | **PROMESA** | Di qué va a descubrir y que merece quedarse: "Y al final te cuento el detalle que lo cambia todo." Primer bucle abierto. |
+| 30 s–1:30 | **CONTEXTO** | Protagonista y por qué importa (cariño, fama, dinero, peligro). Cuéntalo como personaje, no como ficha. |
+| 1:30–3:00 | **EL GIRO** | Qué pasó, paso a paso, con hora, fecha, lugar y números concretos. |
+| ~1/3 y ~2/3 | **RE-GANCHOS** | Justo donde la gente se va: "Pero aquí la historia da un giro que nadie vio venir." Escena `pregunta` o `frase` con `"efecto": "temblor"`. |
+| 3:00–4:30 | **ESCALADA** | Dudas, versiones, lo que aún no se sabe, contradicciones. Sube la tensión (cambia la `musica`). |
+| 4:30–5:30 | **REVELACIÓN** | Cumple la promesa del gancho. Escena fuerte (`numero` o `frase` con `resalta`). |
+| último 15 s | **CIERRE** | Frase inquietante o emotiva + "Suscríbete para enterarte antes que nadie". Corto: nada de despedidas largas. |
+
+## 3. Trucos de guion (en TODO el texto)
+- **Bucles abiertos** cada 30–60 s: "Pero eso no fue lo peor…", "Guarda este dato, porque luego importa."
+- **Preguntas al espectador** (usa el tipo `pregunta`): "¿Cómo nadie se dio cuenta?"
+- **Contraste**: "Parecía un día normal. No lo era."
+- **Concreción**: números, horas, nombres de lugares. "48 horas" engancha más que "poco tiempo".
+- **Frases cortas** antes del dato fuerte. Una idea por escena. Máx. ~25 palabras de voz por escena (≈ 8 s).
+- **Cuenta atrás / reloj**: "Faltaban solo 3 días…".
+- Nada inventado: si algo no se sabe, dilo ("todavía no se ha aclarado…"), eso también da intriga.
+
+## 4. Lenguaje visual (lo que sabe hacer la fábrica)
+**Tipos de escena:** `titular` (cartel ÚLTIMA HORA), `numero` (cifra gigante que cuenta), `lista` (puntos que entran),
+`frase` (texto enorme, `resalta` en rojo una palabra, `chapa` opcional), **`pregunta`** (gran "?" rojo que late + la pregunta).
+- **Varía el tipo**: nunca 3 escenas seguidas del mismo tipo. Una `numero` o `pregunta` cada 4–6 escenas.
+- **Texto en pantalla corto** (2–6 palabras, MAYÚSCULAS). La voz cuenta; la pantalla remata la idea clave.
+- **Subtítulos palabra a palabra**: los pone la fábrica sola (amarillo la palabra que suena). No hay que hacer nada.
+- **`"efecto"`** (opcional, cómo entra la escena):
+  - `"golpe"` (por defecto): zoom rápido de entrada → cada cambio de escena se siente.
+  - `"flash"`: destello blanco. Para el gancho, revelaciones y giros (máx. 1 cada ~10 escenas).
+  - `"temblor"`: sacudida. Para datos impactantes o peligro (con moderación).
+  - `"suave"`: sin golpe. Para momentos tristes o de reflexión.
+- **Clips (cada escena = un plano):** 2 clips por escena (3 si la voz pasa de 7 s) → la imagen cambia cada 3–4 s.
+  `"buscar:<plano concreto en inglés>"` pensando como director de fotografía: tipo de plano + acción + ambiente.
+  Bien: `"buscar:aerial night city lights"`, `"buscar:close up hands typing dark room"`, `"buscar:police lights rain slow motion"`.
+  Mal: `"buscar:news"`, `"buscar:problem"` (demasiado genérico).
+  Alterna planos generales (dónde) → medios (quién) → detalle (qué). No repitas la misma búsqueda en el vídeo.
+- **Fotos reales** `"wiki:<nombre exacto en Wikimedia Commons>"` solo para enseñar algo concreto (cara, lugar).
+  **Máximo 1 foto por cada 6 clips** (REGLA de Haniel: SIEMPRE MÁS VÍDEOS QUE FOTOS).
+- **Música por actos** (`"musica"` general y en la escena donde cambia el tono): misterio → tension → drama/epica en la revelación →
+  reflexion o triste en el cierre. Valores: tension, triste, misterio, curiosidad, epica, aventura, guerra, drama, reflexion, noche, humor, industrial.
+
+## 5. Short (anzuelo hacia el vídeo largo)
+- `guion-short.json` con `"formato": "short"`, **menos de 60 s**, 4–7 escenas.
+- **Primer segundo**: la imagen y la frase más fuertes (`"efecto": "flash"`). Nada de contexto al principio.
+- Cuenta solo el misterio, **NO da el final**. Que funcione sin sonido (texto en pantalla claro).
 - Última escena: "Mira el vídeo completo en el canal" (chapa "VÍDEO COMPLETO 👇 EN EL CANAL").
-- Al subirlo: en YouTube Studio → «Vídeo relacionado» → elegir el vídeo largo (la fábrica lo recuerda en el .txt).
+  Si se puede, que la última frase enlace con la primera (bucle) para que se vea dos veces.
 
-## Clips y fotos (REGLA de Haniel: SIEMPRE MÁS VÍDEOS QUE FOTOS)
-- Por defecto, vídeo: `"buscar:<tema en inglés>"` (Pexels/Pixabay, gratis). 1–2 clips por escena.
-- Foto real solo cuando haga falta enseñar algo concreto (cara de un famoso, lugar exacto): `"wiki:<nombre>"`
-  (Wikimedia Commons, la galería de Wikipedia; el crédito se pone solo en la descripción).
-- **Máximo 1 foto por cada 6 clips** (la fábrica cambia las que sobren por vídeos).
+## 6. Título y descripción
+- Título: misterio + emoción + algo concreto, sin mentir. 50–70 caracteres. Mayúsculas solo en 1–2 palabras clave.
+  "Se tragó ALGO que nadie vio… y el zoológico no pudo salvarla 💔"
+- Descripción: 2–3 frases que resumen sin destripar, "Suscríbete…", hashtags; las fuentes las añade la fábrica.
 
-## Derechos
-- Nada de tráilers, logos de juegos ni de marcas. Clips libres de Pexels + texto propio.
-- Música: Interloper (Kevin MacLeod, CC BY) al 7 % → crédito en la descripción (lo pone solo la fábrica).
+## 7. Derechos
+- Nada de tráilers, logos de marcas, juegos ni equipos. Clips libres de Pexels/Pixabay + texto propio.
+- Música: Kevin MacLeod (CC BY) al 7 % → el crédito lo pone solo la fábrica.
 
-## Título y miniatura
-- Título con misterio + emoción, sin mentir: "Se tragó ALGO que nadie vio… y el zoológico no pudo salvarla 💔".
+## 8. Checklist del director antes de hacer push
+- [ ] Leí `ESTADO-BOT.md` y no repito errores ni temas.
+- [ ] Gancho en los primeros 8 s, sin saludos. Promesa antes de los 30 s.
+- [ ] Re-ganchos hacia 1/3 y 2/3. Bucle abierto cada 30–60 s.
+- [ ] Ninguna escena con más de ~25 palabras. Nunca 3 tipos iguales seguidos.
+- [ ] 2 clips por escena, búsquedas concretas y variadas; máx. 1 `wiki:` por cada 6 clips.
+- [ ] Más de 800 palabras de voz en el largo; Short < 60 s.
+- [ ] Añadí mi línea al "Diario del guionista" de `ESTADO-BOT.md`.

@@ -69,20 +69,49 @@ def duracion(ruta):
     return float(out.stdout.strip())
 
 
+def _voz_api(texto, destino):
+    """Voz Álvaro con edge-tts guardando también CUÁNDO suena cada palabra (para los subtítulos)."""
+    import asyncio
+    import edge_tts
+
+    async def run():
+        com = edge_tts.Communicate(texto, VOZ, rate=RATE, boundary="WordBoundary")
+        palabras = []
+        with open(destino, "wb") as f:
+            async for c in com.stream():
+                if c["type"] == "audio":
+                    f.write(c["data"])
+                elif c["type"] == "WordBoundary":
+                    palabras.append({"t": round(c["offset"] / 1e7, 3), "d": round(c["duration"] / 1e7, 3), "w": c["text"]})
+        return palabras
+
+    return asyncio.run(run())
+
+
 def hacer_voz(texto, destino, intentos=8):
     marca = destino + ".txt"
-    if os.path.exists(destino) and os.path.exists(marca) and open(marca, encoding="utf-8").read() == texto:
+    pal = destino + ".palabras.json"
+    if os.path.exists(destino) and os.path.exists(pal) and os.path.exists(marca) and open(marca, encoding="utf-8").read() == texto:
         return
     with open(marca, "w", encoding="utf-8") as f:
         f.write(texto)
     for i in range(1, intentos + 1):
-        r = subprocess.run([sys.executable, "-m", "edge_tts", "--voice", VOZ, f"--rate={RATE}", "-f", marca,
-                            "--write-media", destino], capture_output=True, text=True)
-        if r.returncode == 0 and os.path.exists(destino) and os.path.getsize(destino) > 2000:
-            return
-        log(f"   voz cortada (intento {i}), reintento…", r.stderr[-200:])
+        try:
+            palabras = _voz_api(texto, destino)
+            if os.path.getsize(destino) > 2000:
+                json.dump(palabras, open(pal, "w", encoding="utf-8"), ensure_ascii=False)
+                return
+        except Exception as e:  # noqa: BLE001
+            log(f"   voz cortada (intento {i}), reintento…", str(e)[-200:])
         time.sleep(2 * i)
     raise SystemExit(f"No se pudo generar la voz: {destino}")
+
+
+def palabras_de(mp3):
+    try:
+        return json.load(open(mp3 + ".palabras.json", encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
 
 
 def bajar(url, destino, ua="Mozilla/5.0"):
@@ -273,7 +302,7 @@ def main():
         sal = {k: v for k, v in e.items() if k not in ("voz", "clips", "musica")}
         if e.get("musica"):
             sal["musica"] = preparar_musica(e["musica"], usadas)
-        sal.update({"voz": f"{pub_rel}/v{i}.mp3", "dur": round(duracion(mp3), 3), "clips": clips})
+        sal.update({"voz": f"{pub_rel}/v{i}.mp3", "dur": round(duracion(mp3), 3), "clips": clips, "palabras": palabras_de(mp3)})
         escenas.append(sal)
 
     props = {"cinta": g.get("cinta", ""), "musica": musica, "volumenMusica": 0.07, "escenas": escenas}

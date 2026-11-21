@@ -9,15 +9,16 @@ on:
   workflow_dispatch:
     inputs:
       noticia:
-        description: "Carpeta de la noticia (p. ej. 2026-11-21-fiona)"
-        required: true
+        description: "Carpeta de la noticia (vacío = solo las pendientes de la libreta)"
+        required: false
       subir:
         description: "Subir a YouTube"
         type: boolean
         default: true
 
 permissions:
-  contents: read
+  contents: write   # para guardar la libreta (noticias/<id>/estado.json)
+  actions: read     # para recuperar vídeos ya montados en ejecuciones anteriores
   issues: write
 
 concurrency:
@@ -47,10 +48,14 @@ jobs:
           if [ -n "${{ github.event.inputs.noticia }}" ]; then
             echo "lista=${{ github.event.inputs.noticia }}" >> "$GITHUB_OUTPUT"
           else
-            L=$(git diff-tree --no-commit-id --name-only -r --root HEAD -- 'noticias/*/guion*.json' | cut -d/ -f2 | sort -u | tr '\n' ' ')
+            NUEVAS=$(git diff-tree --no-commit-id --name-only -r --root HEAD -- 'noticias/*/guion*.json' | cut -d/ -f2 | sort -u | tr '\n' ' ')
+            # MEMORIA: lo que quedó a medias en ejecuciones anteriores va PRIMERO (máx. 2)
+            PEND=$(python3 fabrica/memoria.py pendientes 2)
+            L=$(echo $PEND $NUEVAS | tr ' ' '\n' | awk 'NF && !v[$0]++' | tr '\n' ' ')
             echo "lista=$L" >> "$GITHUB_OUTPUT"
+            echo "Pendientes de la libreta: $PEND"
+            echo "Nuevas: $NUEVAS"
           fi
-          echo "Noticias: $L ${{ github.event.inputs.noticia }}"
 
       - uses: actions/setup-node@v4
         with:
@@ -72,30 +77,75 @@ jobs:
           cd remotion && npm ci --no-audit --no-fund
 
       - name: Fabricar vídeos
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           for N in ${{ steps.cuales.outputs.lista }}; do
             echo "::group::Noticia $N"
-            [ -f "noticias/$N/guion.json" ] && python fabrica/fabrica.py "noticias/$N/guion.json"
-            [ -f "noticias/$N/guion-short.json" ] && python fabrica/fabrica.py "noticias/$N/guion-short.json"
+            FALTA=$(python fabrica/memoria.py falta "$N")
+            RUN_ANT=$(python fabrica/memoria.py ver "$N" montado_run)
+            # 1) Si ya se montó antes, recuperar esos vídeos en vez de empezar de 0
+            if [ -n "$RUN_ANT" ] && [ "$RUN_ANT" != "${{ github.run_id }}" ]; then
+              rm -rf descarga && mkdir -p "salida/$N"
+              if gh run download "$RUN_ANT" -n videos -D descarga; then
+                if [ -d "descarga/$N" ]; then cp -r "descarga/$N/." "salida/$N/"; else cp -r descarga/. "salida/$N/"; fi
+                echo "Recuperados los vídeos ya montados (ejecución $RUN_ANT)."
+              else
+                echo "Los vídeos de la ejecución $RUN_ANT ya no están: se vuelven a montar."
+              fi
+            fi
+            # 2) Montar solo lo que falta y no está ya hecho
+            OK=1
+            if echo "$FALTA" | grep -qw largo && [ ! -f "salida/$N/$N.mp4" ]; then
+              python fabrica/fabrica.py "noticias/$N/guion.json" || OK=0
+            fi
+            if echo "$FALTA" | grep -qw short && [ ! -f "salida/$N/$N-short.mp4" ]; then
+              python fabrica/fabrica.py "noticias/$N/guion-short.json" || OK=0
+            fi
+            # 3) Apuntar en la libreta dónde quedan guardados los vídeos
+            if [ -f "salida/$N/$N.mp4" ] || [ -f "salida/$N/$N-short.mp4" ]; then
+              python fabrica/memoria.py marcar "$N" montado_run "${{ github.run_id }}"
+            fi
+            [ $OK = 1 ] || echo "::warning::Falló el montaje de $N (se reintentará la próxima vez)"
             echo "::endgroup::"
           done
 
-      - name: Guardar vídeos para descargar (3 días)
+      - name: Guardar vídeos para descargar (30 días)
         uses: actions/upload-artifact@v4
         with:
           name: videos
           path: |
             salida/**/*.mp4
             salida/**/*.txt
-          retention-days: 3
+            salida/**/meta*.json
+          retention-days: 30
 
       - name: Subir a YouTube
         if: github.event_name == 'push' || github.event.inputs.subir == 'true'
         run: |
           if [ -z "$YT_REFRESH_TOKEN" ]; then echo "Aún no hay permiso de YouTube: no se sube."; exit 0; fi
           for N in ${{ steps.cuales.outputs.lista }}; do
-            python fabrica/subir_youtube.py "salida/$N"
+            if [ -d "salida/$N" ]; then python fabrica/subir_youtube.py "salida/$N" || echo "::warning::No se pudo subir $N (se reintentará)"; fi
           done
+
+      - name: Guardar la libreta (memoria del bot)
+        if: always()
+        run: |
+          git config user.name "fabrica-bot"
+          git config user.email "fabrica-bot@users.noreply.github.com"
+          # Diario de la fábrica en ESTADO-BOT.md (la memoria que lee el guionista)
+          for N in ${{ steps.cuales.outputs.lista }}; do
+            FALTA=$(python fabrica/memoria.py falta "$N")
+            if [ -z "$FALTA" ]; then R="✅ subido a YouTube"
+            elif [ -f "salida/$N/$N.mp4" ] || [ -f "salida/$N/$N-short.mp4" ]; then R="⏳ montado, falta subir: $FALTA ($(python fabrica/memoria.py ver "$N" aviso))"
+            else R="❌ falló el montaje (mirar el run)"; fi
+            echo "- $(date -u +%Y-%m-%d\ %H:%M) UTC · $N · $R · run ${{ github.run_id }}" >> ESTADO-BOT.md
+          done
+          git add ESTADO-BOT.md noticias/*/estado.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "Libreta sin cambios."; exit 0; fi
+          git commit -m "Libreta y diario del bot"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
+          echo "::warning::No se pudo guardar la libreta"
 
       - name: Avisar a Haniel
         if: always()
@@ -104,12 +154,13 @@ jobs:
         run: |
           RUN="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           for N in ${{ steps.cuales.outputs.lista }}; do
-            if [ -f "salida/$N/subidos.json" ]; then
+            FALTA=$(python fabrica/memoria.py falta "$N")
+            if [ -z "$FALTA" ] && [ -f "salida/$N/subidos.json" ]; then
               CUERPO=$(python -c "import json;d=json.load(open('salida/$N/subidos.json'));print('\n'.join(f\"- {v['titulo']}: {v['url']}\" for v in d.values()))")
               gh issue create --title "✅ Vídeo listo: $N" --body "$(printf 'Ya están en tu canal (en PRIVADO). Míralos y ponlos públicos en YouTube Studio:\n\n%s\n\nRecuerda: en el Short, «Vídeo relacionado» → el vídeo largo.\n\nDescargar: %s' "$CUERPO" "$RUN")"
             elif [ -f "salida/$N/$N.mp4" ]; then
-              gh issue create --title "🎬 Vídeo montado (sin subir): $N" --body "Descárgalo aquí (sección Artifacts): $RUN"
+              gh issue create --title "⏳ Montado, falta subir ($FALTA): $N" --body "Está apuntado en la libreta: en la próxima ejecución se sube solo (no empieza de 0). Descárgalo aquí si quieres (Artifacts, 30 días): $RUN"
             else
-              gh issue create --title "❌ Falló la noticia: $N" --body "Mira qué pasó: $RUN"
+              gh issue create --title "❌ Falló la noticia: $N" --body "Se reintentará sola en la próxima ejecución. Mira qué pasó: $RUN"
             fi
           done

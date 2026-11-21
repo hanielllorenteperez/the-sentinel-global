@@ -27,7 +27,7 @@ const COLA = 15; // frames de fundido al final
 
 export type ClipInfo = { src: string; dur: number };
 export type Escena = {
-  tipo: "titular" | "numero" | "lista" | "frase";
+  tipo: "titular" | "numero" | "lista" | "frase" | "pregunta";
   voz: string; // ruta dentro de public/
   dur: number; // segundos de la voz
   clips: ClipInfo[];
@@ -40,12 +40,17 @@ export type Escena = {
   items?: string[];
   resalta?: string;
   musica?: string; // cambia la música desde esta escena
+  // GANCHOS VISUALES (manual del director): cómo entra la escena
+  efecto?: "golpe" | "flash" | "temblor" | "suave";
+  palabras?: Palabra[]; // cuándo suena cada palabra (lo pone la fábrica) → subtítulos
 };
+export type Palabra = { t: number; d: number; w: string };
 export type NoticiaProps = {
   cinta: string;
   musica: string;
   volumenMusica?: number;
   marca?: string; // nombre del canal arriba a la izquierda
+  subtitulos?: boolean; // subtítulos palabra a palabra (por defecto sí)
   escenas: Escena[];
 };
 
@@ -201,6 +206,90 @@ const Frase: React.FC<{ e: Escena }> = ({ e }) => {
   );
 };
 
+// Pregunta al espectador: gran "?" rojo que late + la pregunta
+const Pregunta: React.FC<{ e: Escena }> = ({ e }) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const s = spring({ frame: f, fps, config: { damping: 9 } });
+  const late = 1 + Math.sin(f / 6) * 0.04;
+  const t = e.texto ?? "";
+  return (
+    <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", textAlign: "center", padding: "0 100px 86px" }}>
+      <div style={{ fontFamily: FUENTE, fontSize: 300, color: ROJO, lineHeight: 0.9, transform: `scale(${s * late})`, textShadow: SOMBRA }}>?</div>
+      <div style={{ marginTop: 20, fontFamily: FUENTE, fontSize: tam(t, 100, 58, 20), color: "white", textShadow: SOMBRA, lineHeight: 1.1, opacity: interpolate(f, [8, 22], [0, 1], { extrapolateRight: "clamp" }) }}>
+        {t}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+// SUBTÍTULOS palabra a palabra: grupos de hasta 3 palabras, la que suena en amarillo y más grande.
+const AMARILLO = "#ffd400";
+const grupos = (ps: Palabra[]) => {
+  const out: Palabra[][] = [];
+  let g: Palabra[] = [];
+  ps.forEach((p, i) => {
+    const pausa = i > 0 ? p.t - (ps[i - 1].t + ps[i - 1].d) : 0;
+    if (g.length >= 3 || (g.length > 0 && pausa > 0.35)) {
+      out.push(g);
+      g = [];
+    }
+    g.push(p);
+  });
+  if (g.length) out.push(g);
+  return out;
+};
+const Subtitulos: React.FC<{ ps: Palabra[] }> = ({ ps }) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const v = useVertical();
+  const s = f / fps;
+  const gs = grupos(ps);
+  const g = gs.find((x, i) => s >= x[0].t - 0.05 && s < (gs[i + 1]?.[0].t ?? x[x.length - 1].t + x[x.length - 1].d + 0.4));
+  if (!g) return null;
+  const ini = Math.round(g[0].t * fps);
+  const pop = spring({ frame: f - ini, fps, config: { damping: 11, mass: 0.6 } });
+  return (
+    <div style={{ position: "absolute", left: 0, right: 0, bottom: v ? 560 : 120, display: "flex", justifyContent: "center", gap: v ? 22 : 18, padding: "0 60px", flexWrap: "wrap", transform: `scale(${0.85 + pop * 0.15})` }}>
+      {g.map((p, i) => {
+        const activa = s >= p.t - 0.03 && s < p.t + p.d + 0.08;
+        return (
+          <span key={i} style={{ fontFamily: FUENTE, fontSize: v ? 78 : 58, color: activa ? AMARILLO : "white", transform: activa ? "translateY(-6px)" : "none", display: "inline-block", textTransform: "uppercase", WebkitTextStroke: v ? "3px black" : "2px black", textShadow: "0 6px 18px rgba(0,0,0,.9)" }}>
+            {p.w}
+          </span>
+        );
+      })}
+    </div>
+  );
+};
+
+// ENTRADA de cada escena (gancho visual / "pattern interrupt"): cada cambio de escena se SIENTE.
+const Entrada: React.FC<{ efecto?: Escena["efecto"]; children: React.ReactNode }> = ({ efecto = "golpe", children }) => {
+  const f = useCurrentFrame();
+  let escala = 1;
+  let x = 0;
+  let y = 0;
+  if (efecto === "golpe" || efecto === "flash") escala = interpolate(f, [0, 7], [1.12, 1], { extrapolateRight: "clamp" });
+  if (efecto === "temblor" && f < 14) {
+    const k = (14 - f) * 1.6;
+    x = Math.sin(f * 2.7) * k;
+    y = Math.cos(f * 3.1) * k;
+  }
+  const blanco = efecto === "flash" ? interpolate(f, [0, 5], [0.85, 0], { extrapolateRight: "clamp" }) : 0;
+  return (
+    <AbsoluteFill>
+      <AbsoluteFill style={{ transform: `translate(${x}px, ${y}px) scale(${escala})` }}>{children}</AbsoluteFill>
+      {blanco > 0 && <AbsoluteFill style={{ background: "white", opacity: blanco }} />}
+    </AbsoluteFill>
+  );
+};
+
+// Barra de progreso arriba (solo vídeo largo): el espectador ve que avanza y se queda.
+const Barra: React.FC<{ total: number }> = ({ total }) => {
+  const f = useCurrentFrame();
+  return <div style={{ position: "absolute", top: 0, left: 0, height: 8, width: `${(f / total) * 100}%`, background: ROJO, boxShadow: "0 0 10px rgba(215,20,26,.8)" }} />;
+};
+
 // Clip real de fondo con zoom lento, oscurecido; se repite si es corto.
 const Clip: React.FC<{ c: ClipInfo }> = ({ c }) => {
   const f = useCurrentFrame();
@@ -256,7 +345,7 @@ const tramosMusica = (p: NoticiaProps) => {
   return out;
 };
 
-const TIPOS = { titular: Titular, numero: Numero, lista: Lista, frase: Frase };
+const TIPOS = { titular: Titular, numero: Numero, lista: Lista, frase: Frase, pregunta: Pregunta };
 
 export const NoticiaRapida: React.FC<NoticiaProps> = (p) => {
   const f = useCurrentFrame();
@@ -296,14 +385,18 @@ export const NoticiaRapida: React.FC<NoticiaProps> = (p) => {
         inicio += tramo(e);
         return (
           <Sequence key={i} from={desde} durationInFrames={dur}>
-            <Fondos clips={e.clips} total={dur} />
-            <AbsoluteFill style={capa}>
-              <T e={e} />
-            </AbsoluteFill>
+            <Entrada efecto={e.efecto ?? (i === 0 ? "flash" : "golpe")}>
+              <Fondos clips={e.clips} total={dur} />
+              <AbsoluteFill style={capa}>
+                <T e={e} />
+              </AbsoluteFill>
+            </Entrada>
+            {p.subtitulos !== false && e.palabras && e.palabras.length > 0 && <Subtitulos ps={e.palabras} />}
             <Audio src={staticFile(e.voz)} />
           </Sequence>
         );
       })}
+      {!v && <Barra total={total} />}
       <Marca texto={p.marca ?? "THE SENTINEL GLOBAL"} />
       <Cinta texto={p.cinta} />
     </AbsoluteFill>
