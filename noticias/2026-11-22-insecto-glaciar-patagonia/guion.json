@@ -1,0 +1,511 @@
+{
+  "id": "2026-11-22-insecto-glaciar-patagonia",
+  "cinta": "The Sentinel Global · Última hora · Insecto desconocido en un glaciar · Isla Navarino, Chile",
+  "titulo": "Hallan un INSECTO que nadie conocía pegado a un glaciar… y el hielo se acaba 🧊",
+  "descripcion": "En la isla Navarino, en el extremo sur de Chile, un equipo internacional encontró un insecto sin alas junto a los restos de un glaciar. Podría ser una especie nueva para la ciencia, aunque aún falta confirmarlo. Y el hielo donde vive se derrite. Te contamos qué se sabe y qué no.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#Patagonia #cambioclimatico #ciencia #noticias #glaciar",
+  "etiquetas": [
+    "insecto glaciar",
+    "Patagonia",
+    "isla Navarino",
+    "nueva especie",
+    "cambio climático",
+    "plecóptero",
+    "Chile",
+    "ciencia",
+    "noticias de hoy"
+  ],
+  "fuentes": [
+    "https://www.infobae.com/america/ciencia-america/2026/11/18/un-extrano-insecto-hallado-en-los-glaciares-de-la-patagonia-chilena-podria-ser-una-nueva-especie/",
+    "https://es.euronews.com/2026/11/18/descubren-misterioso-nuevo-insecto-glaciar-hielos-patagonia-chilena",
+    "https://www.biobiochile.cl/noticias/ciencia-y-tecnologia/medio-ambiente-cyt/2026/11/17/descubren-en-la-patagonia-chilena-insecto-que-es-descrito-como-el-centinela-del-cambio-climatico.shtml",
+    "https://www.emol.com/noticias/Tecnologia/2026/11/18/1217438/patagonia-chilena-insecto-cambio-climatico.html"
+  ],
+  "rotulos": [
+    "EN DIRECTO",
+    "HALLAZGO EN EL FIN DEL MUNDO",
+    "EL HIELO SE DERRITE",
+    "LO QUE NO TE CUENTAN",
+    "INVESTIGACIÓN"
+  ],
+  "escenas": [
+    {
+      "tipo": "titular",
+      "voz": "Un insecto sin alas apareció pegado a un glaciar que se derrite. Y puede ser una especie que nadie había visto jamás.",
+      "clips": [
+        "buscar:glacier ice melting aerial mountains",
+        "buscar:small insect on wet rock macro @un insecto sin alas"
+      ],
+      "etiqueta": "ÚLTIMA HORA",
+      "texto": "UN INSECTO QUE NADIE HABÍA VISTO",
+      "efecto": "flash",
+      "fuente": "Infobae · Euronews"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Mide menos de dos centímetros, y casi nadie lo conoce. Y los científicos creen que está viviendo en el último rincón de hielo que le queda.",
+      "clips": [
+        "buscar:tiny insect close up crawling stone",
+        "buscar:glacier edge ice cracks close up @rincón de hielo"
+      ],
+      "texto": "EL ÚLTIMO RINCÓN DE HIELO",
+      "resalta": "ÚLTIMO"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Y al final te cuento por qué este bichito podría ser una alarma para todo un continente. Pero primero, ¿dónde apareció?",
+      "clips": [
+        "buscar:patagonia mountains clouds drone",
+        "buscar:antarctic sea storm waves dark @dónde apareció"
+      ],
+      "texto": "¿DÓNDE APARECIÓ?",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Al sur del sur. En la isla Navarino, en Chile, frente a Puerto Williams, casi donde el mundo se acaba.",
+      "clips": [
+        "buscar:southernmost island chile coast aerial",
+        "buscar:small harbor town remote patagonia @Puerto Williams",
+        "buscar:map globe south america zoom"
+      ],
+      "texto": "CASI DONDE EL MUNDO SE ACABA",
+      "resalta": "ACABA",
+      "lugar": "ISLA NAVARINO · CHILE · NOV 2026"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Estaba a unos setecientos ochenta metros de altura, en los restos de un glaciar en retroceso.",
+      "clips": [
+        "buscar:mountain peak snow ridge hiking",
+        "buscar:glacier remnant rocks snow patch @restos de un glaciar"
+      ],
+      "numero": "780",
+      "arriba": "A UNA ALTURA DE",
+      "texto": "METROS",
+      "chapa": "RESTOS DE UN GLACIAR"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Un equipo internacional subió hasta allí. Los lideraba Javier Rendoll-Cárcamo, del Centro Internacional Cabo de Hornos.",
+      "clips": [
+        "buscar:scientists hiking mountain backpacks",
+        "buscar:researcher notebook field work outdoors @Centro Internacional Cabo de Hornos"
+      ],
+      "titulo": "EL EQUIPO",
+      "items": [
+        "JAVIER RENDOLL-CÁRCAMO",
+        "CENTRO CABO DE HORNOS"
+      ],
+      "fuente": "EFE · Emol"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero ellos no buscaban este insecto. Iban tras otro animal. Uno con nombre de leyenda.",
+      "clips": [
+        "buscar:fantasy dragon silhouette mountains fog",
+        "buscar:footsteps rocky trail mist @Iban tras otro animal"
+      ],
+      "texto": "IBAN TRAS OTRO ANIMAL",
+      "resalta": "OTRO"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Su objetivo era encontrar al llamado dragón de la Patagonia. Un insecto raro, de nombre científico Andiperla willinki.",
+      "clips": [
+        "buscar:dragon statue eyes dark",
+        "buscar:old scientific book insect illustration @un insecto raro"
+      ],
+      "etiqueta": "LA EXPEDICIÓN",
+      "texto": "EL DRAGÓN DE LA PATAGONIA",
+      "efecto": "golpe"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero entre las piedras húmedas, junto al agua del deshielo, algo se movió. Algo que no encajaba.",
+      "clips": [
+        "buscar:wet stones melting water stream close up",
+        "buscar:magnifying glass inspecting rock macro @algo se movió"
+      ],
+      "texto": "ALGO NO ENCAJABA",
+      "resalta": "NO",
+      "efecto": "temblor",
+      "musica": "tension"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Era el dragón que buscaban? No. Era otra cosa. Y los investigadores se dieron cuenta enseguida.",
+      "clips": [
+        "buscar:question mark light dark background",
+        "buscar:scientist surprised looking microscope @los investigadores"
+      ],
+      "texto": "¿ERA EL DRAGÓN?"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Un insecto sin alas, de entre quince y dieciocho milímetros. Más pequeño que un clip.",
+      "clips": [
+        "buscar:paperclip macro close up",
+        "buscar:ruler measuring tiny insect macro @quince y dieciocho milímetros"
+      ],
+      "numero": "18",
+      "arriba": "HASTA",
+      "texto": "MILÍMETROS",
+      "chapa": "SIN ALAS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Vive escondido bajo rocas mojadas, cerca del agua. Y es un plecóptero, un grupo que suele ser muy sensible al frío.",
+      "clips": [
+        "buscar:insect under rock wet macro",
+        "buscar:cold clear mountain stream rocks @cerca del agua",
+        "buscar:water droplets leaf macro slow motion"
+      ],
+      "texto": "BAJO ROCAS MOJADAS",
+      "resalta": "MOJADAS",
+      "fuente": "EFE"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Pertenece a una familia con nombre difícil: Gripopterygidae. Pero lo importante es otra cosa: no se parece a nada conocido.",
+      "clips": [
+        "buscar:scientist writing latin names notebook",
+        "buscar:insect collection museum drawer @una familia"
+      ],
+      "titulo": "LO QUE SABEN",
+      "items": [
+        "INSECTO SIN ALAS",
+        "FAMILIA GRIPOPTERYGIDAE",
+        "NO ENCAJA CON NADA"
+      ]
+    },
+    {
+      "tipo": "frase",
+      "voz": "Parecía un día de campo normal. No lo era. Porque cuando miraron sus genes, la sorpresa fue mayor.",
+      "clips": [
+        "buscar:dna sequencing laboratory screen",
+        "buscar:laboratory pipette samples close up @sus genes"
+      ],
+      "texto": "PARECÍA UN DÍA NORMAL",
+      "resalta": "NORMAL",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Guarda este dato, porque cambia todo. Los análisis genéticos apuntan a que sería una especie nueva. ¿Nueva de verdad?",
+      "clips": [
+        "buscar:dna helix glowing blue",
+        "buscar:genetic code screen scrolling @los análisis genéticos"
+      ],
+      "texto": "¿UNA ESPECIE NUEVA?",
+      "efecto": "temblor",
+      "musica": "curiosidad"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero cuidado. Los propios autores avisan que hacen falta más análisis para confirmar que es de verdad una especie nueva.",
+      "clips": [
+        "buscar:scientist peer review documents stack",
+        "buscar:warning sign caution close up @cuidado"
+      ],
+      "texto": "HACEN FALTA MÁS ANÁLISIS",
+      "resalta": "MÁS",
+      "fuente": "Revista Ecology"
+    },
+    {
+      "tipo": "titular",
+      "voz": "El estudio ya se publicó en Ecology, una revista científica. Se titula, en inglés: pérdida rápida de hielo y un plecóptero raro.",
+      "clips": [
+        "buscar:scientific journal pages flipping",
+        "buscar:laptop research paper reading close up @una revista científica"
+      ],
+      "etiqueta": "CIENCIA",
+      "texto": "PUBLICADO EN ECOLOGY"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y aquí viene el giro. Porque el hallazgo no es lo más inquietante de esta historia.",
+      "clips": [
+        "buscar:storm clouds timelapse dark mountains",
+        "buscar:lightning dark sky slow motion @el giro"
+      ],
+      "texto": "EL GIRO QUE NADIE VIO VENIR",
+      "resalta": "GIRO",
+      "efecto": "temblor",
+      "musica": "tension"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Lo más inquietante es dónde vive. ¿Cuánto hielo le queda a este insecto?",
+      "clips": [
+        "buscar:shrinking glacier time lapse",
+        "buscar:melting ice drops slow motion @cuánto hielo"
+      ],
+      "texto": "¿CUÁNTO HIELO LE QUEDA?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "El equipo comparó cómo era el glaciar del valle Los Bronces en enero de dos mil diez con cómo es hoy.",
+      "clips": [
+        "buscar:old photograph glacier valley black and white",
+        "buscar:valley glacier aerial comparison @Los Bronces",
+        "buscar:calendar pages turning years"
+      ],
+      "texto": "DE 2010 A HOY",
+      "resalta": "2010",
+      "lugar": "VALLE LOS BRONCES · NAVARINO"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Usaron el inventario de glaciares de dos mil veintidós, y el registro de enero de dos mil veintiséis.",
+      "clips": [
+        "buscar:satellite view glacier map",
+        "buscar:data map overlay terrain @el inventario de glaciares"
+      ],
+      "titulo": "LO QUE COMPARARON",
+      "items": [
+        "ENERO DE 2010",
+        "INVENTARIO DE 2022",
+        "ENERO DE 2026"
+      ]
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y hay algo todavía más impactante. Fotos tomadas desde el mismo punto, entre noviembre y febrero, muestran hielo desaparecido en una sola temporada.",
+      "clips": [
+        "buscar:camera tripod mountain landscape",
+        "buscar:ice melting summer sun glacier edge @hielo desaparecido"
+      ],
+      "texto": "HIELO PERDIDO EN UNA TEMPORADA",
+      "resalta": "UNA",
+      "efecto": "temblor",
+      "fuente": "Euronews"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Fueron solo unos tres meses. De noviembre de dos mil veinticinco a febrero de dos mil veintiséis.",
+      "clips": [
+        "buscar:time lapse clouds mountain summer",
+        "buscar:stopwatch ticking close up @solo unos tres meses"
+      ],
+      "numero": "3",
+      "arriba": "SOLO",
+      "texto": "MESES",
+      "chapa": "NOV 2025 · FEB 2026"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Y si el hielo se va, ¿qué pasa con un insecto que no puede volar para huir?",
+      "clips": [
+        "buscar:insect trapped stone close up",
+        "buscar:empty mountain landscape melting snow @un insecto que no puede volar"
+      ],
+      "texto": "¿ADÓNDE VA A HUIR?",
+      "musica": "triste",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Sin alas, no puede escapar lejos. Su movilidad es limitada. Por eso los científicos lo consideran vulnerable.",
+      "clips": [
+        "buscar:wingless insect crawling slowly macro",
+        "buscar:bare rocks cold wind lonely @no puede escapar"
+      ],
+      "texto": "NO PUEDE ESCAPAR",
+      "resalta": "NO"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Pero ojo, que ahora viene lo que aún no se sabe. Y es mucho, muchísimo más de lo que parece.",
+      "clips": [
+        "buscar:fog mountain mystery slow",
+        "buscar:question marks floating dark @lo que aún no se sabe"
+      ],
+      "titulo": "LO QUE NO SABEMOS",
+      "items": [
+        "SU ESTADO DE CONSERVACIÓN",
+        "SI VIVE EN MÁS SITIOS",
+        "CUÁNTOS QUEDAN"
+      ],
+      "musica": "misterio"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los investigadores lo dicen con claridad: su estado de conservación y su riesgo de extinción todavía no están definidos.",
+      "clips": [
+        "buscar:scientist taking notes outdoors cold",
+        "buscar:endangered nature warning dark @riesgo de extinción"
+      ],
+      "texto": "RIESGO DE EXTINCIÓN SIN DEFINIR",
+      "resalta": "SIN DEFINIR"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Aun así, hay una pista. Lo han encontrado también en restos de glaciares de Ushuaia, al otro lado del canal Beagle.",
+      "clips": [
+        "buscar:beagle channel boat aerial",
+        "buscar:ushuaia city mountains aerial @Ushuaia"
+      ],
+      "etiqueta": "NUEVA PISTA",
+      "texto": "TAMBIÉN EN USHUAIA",
+      "lugar": "USHUAIA · ARGENTINA"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Significa eso que no está tan solo como pensábamos? Quizá. Nadie lo ha confirmado todavía.",
+      "clips": [
+        "buscar:two small insects together macro",
+        "buscar:foggy channel water mountains @al otro lado del canal"
+      ],
+      "texto": "¿NO ESTÁ TAN SOLO?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los científicos todavía discuten qué significa. Si fuera una especie nueva, tendría que describirse formalmente, con nombre propio, y ese trabajo sigue en marcha.",
+      "clips": [
+        "buscar:scientist writing report desk lamp",
+        "buscar:old library book latin names @nombre propio"
+      ],
+      "texto": "SU DESCRIPCIÓN SIGUE EN MARCHA",
+      "resalta": "MARCHA",
+      "fuente": "Perfil"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Piénsalo un momento. Un animal de dieciocho milímetros, escondido durante milenios en una montaña helada, y descubierto justo cuando el hielo empieza a faltar.",
+      "clips": [
+        "buscar:ancient frozen mountain timelapse stars",
+        "buscar:ice melting first drop macro @cuando el hielo empieza a faltar"
+      ],
+      "numero": "18",
+      "arriba": "ESCONDIDO TANTO TIEMPO",
+      "texto": "MILÍMETROS",
+      "efecto": "golpe"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y entonces llega la frase que explica el título de esta historia. Un investigador cuenta que no depende del hielo al cien por cien.",
+      "clips": [
+        "buscar:scientist interview portrait outdoors",
+        "buscar:ice and water meeting rocks close up @no depende del hielo"
+      ],
+      "texto": "NO DEPENDE DEL HIELO AL CIEN POR CIEN",
+      "resalta": "CIEN",
+      "fuente": "BioBioChile"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero sí vive, en parte de su vida, alrededor de él. Es decir: el hielo es parte de su mundo.",
+      "clips": [
+        "buscar:glacier meltwater stream flowing",
+        "buscar:frozen drops ice crystal macro @alrededor de él"
+      ],
+      "texto": "EL HIELO ES SU MUNDO",
+      "resalta": "MUNDO",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Por eso lo llaman el centinela del cambio climático. Un guardián diminuto que avisa de lo que ocurre en el hielo.",
+      "clips": [
+        "buscar:sentinel watchtower silhouette dawn",
+        "buscar:tiny insect on ice sunrise macro @un guardián diminuto"
+      ],
+      "etiqueta": "EL CENTINELA",
+      "texto": "CENTINELA DEL CAMBIO CLIMÁTICO",
+      "efecto": "flash",
+      "musica": "epica",
+      "fuente": "BioBioChile · Emol"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Así que el dragón que buscaban nunca fue lo importante. El verdadero hallazgo estaba bajo una piedra, a unos pasos.",
+      "clips": [
+        "buscar:overturning stone reveal insect macro",
+        "buscar:hiking boots stones trail close up @bajo una piedra"
+      ],
+      "texto": "EL VERDADERO HALLAZGO",
+      "resalta": "VERDADERO"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Y si el hallazgo no es una casualidad? ¿Y si cada deshielo nos enseña por fin lo que el hielo guardaba?",
+      "clips": [
+        "buscar:glacier cave blue light mystery",
+        "buscar:melting ice revealing rocks @el deshielo"
+      ],
+      "texto": "¿LO QUE EL HIELO GUARDABA?",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Un solo remanente de hielo. Un puñado de milímetros. Y un aviso silencioso desde el fin del mundo.",
+      "clips": [
+        "buscar:lonely glacier patch snow dusk",
+        "buscar:end of the world lighthouse cliff @el fin del mundo"
+      ],
+      "numero": "1",
+      "arriba": "UN SOLO",
+      "texto": "REMANENTE DE HIELO",
+      "chapa": "NAVARINO · CHILE"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Cuántas especies más estarán viviendo en hielos que se derriten antes de que alguien las encuentre?",
+      "clips": [
+        "buscar:melting glacier cave blue ice",
+        "buscar:snow patch vanishing summer mountain @hielos que se derriten"
+      ],
+      "texto": "¿CUÁNTAS MÁS?",
+      "musica": "reflexion"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Quizá la ciencia llegue a tiempo. Quizá no. Lo único seguro es que este bicho diminuto ya nos está avisando.",
+      "clips": [
+        "buscar:sunrise over glacier mountains calm",
+        "buscar:tiny insect on stone dawn light @este bicho diminuto"
+      ],
+      "texto": "ESTE BICHO YA NOS AVISA",
+      "resalta": "AVISA",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Recuerda esto. Un equipo salió a buscar un dragón y volvió con una pregunta mucho más grande: qué más estamos perdiendo sin saberlo.",
+      "clips": [
+        "buscar:researchers returning camp sunset mountains",
+        "buscar:empty trail fading light @sin saberlo"
+      ],
+      "texto": "QUÉ MÁS ESTAMOS PERDIENDO",
+      "resalta": "PERDIENDO",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Y para no perderte lo que sigue de esta historia, mira lo que han confirmado hasta ahora.",
+      "clips": [
+        "buscar:notebook checklist pen close up",
+        "buscar:scientist laptop data results @lo que han confirmado"
+      ],
+      "titulo": "RESUMEN",
+      "items": [
+        "INSECTO SIN ALAS",
+        "POSIBLE ESPECIE NUEVA",
+        "HIELO EN RETROCESO"
+      ]
+    },
+    {
+      "tipo": "frase",
+      "voz": "Si te ha gustado esta historia, suscríbete para enterarte antes que nadie de las noticias más virales. Y cuéntame en los comentarios qué te parece este hallazgo.",
+      "clips": [
+        "buscar:phone notification subscribe bell dark",
+        "buscar:starry sky mountains night @suscríbete"
+      ],
+      "texto": "SUSCRÍBETE",
+      "resalta": "SUSCRÍBETE",
+      "chapa": "NOTICIAS ANTES QUE NADIE",
+      "musica": "reflexion"
+    }
+  ],
+  "musica": "misterio"
+}

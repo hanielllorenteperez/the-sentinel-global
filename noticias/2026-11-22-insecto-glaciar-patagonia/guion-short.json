@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-22-insecto-glaciar-patagonia",
+  "formato": "short",
+  "cinta": "The Sentinel Global · Última hora · Insecto desconocido en un glaciar · Isla Navarino, Chile",
+  "titulo": "Encontraron un insecto que NO existe en los libros 🧊 (y vive en un glaciar)",
+  "descripcion": "Un insecto sin alas apareció junto a un glaciar de la isla Navarino, en Chile. Podría ser una especie nueva. La historia completa, en el vídeo largo del canal.\n\n#Patagonia #ciencia #glaciar #noticias",
+  "etiquetas": [
+    "insecto",
+    "glaciar",
+    "Patagonia",
+    "nueva especie",
+    "shorts"
+  ],
+  "escenas": [
+    {
+      "tipo": "frase",
+      "voz": "Un bicho de dos centímetros apareció pegado a un glaciar. Y no figura en ningún libro.",
+      "clips": [
+        "buscar:tiny insect on ice macro",
+        "buscar:glacier ice close up"
+      ],
+      "texto": "NO FIGURA EN NINGÚN LIBRO",
+      "resalta": "NINGÚN",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Buscaban a un dragón. Y encontraron esto. ¿Qué es?",
+      "clips": [
+        "buscar:dragon silhouette fog mountains",
+        "buscar:insect under wet rock macro"
+      ],
+      "texto": "¿QUÉ ES?"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Está a setecientos ochenta metros de altura, en la isla Navarino, en Chile.",
+      "clips": [
+        "buscar:patagonia mountains aerial",
+        "buscar:snow patch rocks"
+      ],
+      "numero": "780",
+      "arriba": "A UNA ALTURA DE",
+      "texto": "METROS",
+      "lugar": "ISLA NAVARINO · CHILE"
+    },
+    {
+      "tipo": "frase",
+      "voz": "No tiene alas. No puede huir. Y el hielo donde vive se derrite.",
+      "clips": [
+        "buscar:melting ice drops slow motion",
+        "buscar:glacier edge crack"
+      ],
+      "texto": "NO PUEDE HUIR",
+      "resalta": "HUIR",
+      "efecto": "temblor",
+      "musica": "tension"
+    },
+    {
+      "tipo": "frase",
+      "voz": "La historia completa, y lo que aún nadie sabe, está en el vídeo del canal.",
+      "clips": [
+        "buscar:sunrise glacier mountains",
+        "buscar:phone subscribe notification"
+      ],
+      "texto": "MIRA EL VÍDEO COMPLETO",
+      "resalta": "COMPLETO",
+      "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL",
+      "musica": "reflexion"
+    }
+  ],
+  "musica": "misterio"
+}
