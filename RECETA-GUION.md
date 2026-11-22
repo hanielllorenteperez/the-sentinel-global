@@ -11,6 +11,24 @@ noticias virales contadas COMPLETAS, **más de 5 minutos**, con **TRAMA, INTRIGA
   fecha, noticia, y cualquier lección nueva (p. ej. "buscar:hippo zoo dio clips malos → usar 'hippopotamus water'").
   Haz commit de ese archivo junto con la carpeta de la noticia.
 
+## 0b. Qué noticia elegir (regla de Haniel, 22/11/2026) — ¡VARIEDAD!
+Los 5 primeros vídeos fueron TODOS de naturaleza/animales/hallazgos científicos. Haniel no quiere eso.
+- **Busca la noticia MÁS comentada de las últimas 24–48 h** en el mundo hispano y en EE. UU., con un nombre
+  conocido o una cifra que impacte. Ejemplos del tipo de tema que quiere Haniel:
+  «El hackeo al FBI» · «GTA 6: $3.790 millones en 24 h» · «La captura del Chapo Isidro» ·
+  «¿Claude resolvió Riemann?» · «Bitcoin cayó a $55.000». (Son ejemplos de ESTILO: usa solo noticias reales y
+  comprobadas con 3+ fuentes; si no encuentras confirmación, no la uses.)
+- **Categorías, rotando:** 1) tecnología e IA · 2) hackeos y ciberseguridad · 3) dinero, cripto, bolsa y empresas ·
+  4) videojuegos, cine y famosos · 5) crimen y casos policiales (capturas, narcos, fraudes, estafas) ·
+  6) deportes con cifras (fichajes, récords) · 7) espacio y ciencia · 8) naturaleza y animales.
+- **Nunca la misma categoría dos veces seguidas.** Naturaleza/animales/hallazgos «insólitos» como mucho
+  **1 de cada 6 vídeos**. Mira la lista "Temas ya publicados" de `ESTADO-BOT.md` antes de elegir.
+- **Cómo buscar:** «noticias más vistas hoy», «tendencias hoy», «trending news today», «último momento»,
+  «noticias tecnología hoy», «bitcoin hoy», «capturado hoy», «hackeo hoy»… NO busques «hallazgo insólito
+  científicos» (por eso salían siempre animales).
+- Crimen: contar los hechos, sin gore, sin glorificar a nadie; nada de política muy partidista.
+- Al apuntar el tema en `ESTADO-BOT.md` ("Temas ya publicados"), añade su categoría al final: `· [categoría]`.
+
 ## 1. La regla de oro: información nueva sin parar
 Lo que retiene no es cortar rápido, sino **dar un dato nuevo, un giro o una pregunta cada pocos segundos**.
 Si una frase no añade nada (ni dato, ni emoción, ni intriga), se borra.
@@ -98,6 +116,7 @@ Fondo: puede llevar 1 clip suave detrás. Uno cada ~8–10 escenas cuando haya c
 
 ## 8. Checklist del director antes de hacer push
 - [ ] Leí `ESTADO-BOT.md` y no repito errores ni temas.
+- [ ] La categoría NO es la misma que la del vídeo anterior (y naturaleza máx. 1 de cada 6).
 - [ ] Gancho en los primeros 8 s, sin saludos. Promesa antes de los 30 s.
 - [ ] Re-ganchos hacia 1/3 y 2/3. Bucle abierto cada 30–60 s.
 - [ ] Ninguna escena con más de ~25 palabras. Nunca 3 tipos iguales seguidos.

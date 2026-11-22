@@ -14,13 +14,15 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-21 · Vídeos de más de 5 minutos, estilo intriga/suspenso; máx. 1 foto por cada 6 clips (reglas de Haniel).
 - 2026-11-21 · No hacer push de nada fuera de `noticias/<id>/` y `ESTADO-BOT.md` (el resto del repo lo toca solo Haniel/Claude local).
 
+- 2026-11-22 · Haniel: los 5 primeros vídeos fueron TODOS de naturaleza/animales/hallazgos → VARIEDAD: tecnología/IA, hackeos, dinero/cripto, videojuegos/famosos, crimen, deportes, espacio. Nunca la misma categoría seguida; naturaleza máx. 1 de cada 6 (ver RECETA-GUION.md §0b). El próximo NO puede ser de naturaleza ni de ciencia.
+
 ## Temas ya publicados (no repetir)
-- 2026-11-21 · Fiona, la hipopótama (prueba, no se sube)
-- 2026-11-21 · ¿Un pterodáctilo en México?
-- 2026-11-21 · El camello vampiro
-- 2026-11-22 · El corzo «unicornio» de Estonia (Saaremaa)
-- 2026-11-22 · Insecto sin alas junto a un glaciar de la isla Navarino (Chile)
-- 2026-11-22 · Welopōʻai: sistema de tres estrellas a 28 años luz «que no debería existir»
+- 2026-11-21 · Fiona, la hipopótama (prueba, no se sube) · [naturaleza]
+- 2026-11-21 · ¿Un pterodáctilo en México? · [naturaleza]
+- 2026-11-21 · El camello vampiro · [naturaleza]
+- 2026-11-22 · El corzo «unicornio» de Estonia (Saaremaa) · [naturaleza]
+- 2026-11-22 · Insecto sin alas junto a un glaciar de la isla Navarino (Chile) · [naturaleza]
+- 2026-11-22 · Welopōʻai: sistema de tres estrellas a 28 años luz «que no debería existir» · [espacio]
 
 ## Diario del guionista
 <!-- 1–3 líneas por ejecución: fecha · noticia · lección nueva (si la hay) -->
