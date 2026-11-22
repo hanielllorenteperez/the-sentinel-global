@@ -1,0 +1,66 @@
+{
+  "id": "2026-11-22-corzo-unicornio-estonia",
+  "formato": "short",
+  "cinta": "The Sentinel Global · Viral · Corzo unicornio · Estonia",
+  "titulo": "Una cámara grabó un ANIMAL con un cuerno en la frente 🦄",
+  "descripcion": "Un corzo con una protuberancia en la frente, grabado en Estonia. Nadie sabe qué es. La historia completa, en el vídeo largo del canal.\n\n#unicornio #Estonia #misterio #viral #shorts",
+  "etiquetas": [
+    "unicornio",
+    "corzo",
+    "Estonia",
+    "misterio",
+    "viral",
+    "shorts"
+  ],
+  "escenas": [
+    {
+      "tipo": "frase",
+      "voz": "Una cámara grabó un animal con un cuerno en la frente.",
+      "clips": [
+        "buscar:trail camera forest night"
+      ],
+      "texto": "UN CUERNO EN LA FRENTE",
+      "resalta": "CUERNO",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Es un corzo de la isla de Saaremaa, en Estonia. Y parece un unicornio.",
+      "clips": [
+        "buscar:roe deer forest close up"
+      ],
+      "etiqueta": "IMAGEN VIRAL",
+      "texto": "PARECE UN UNICORNIO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los expertos no saben qué es. ¿Un asta rara? ¿Una oreja de más? ¿Una mutación?",
+      "clips": [
+        "buscar:scientist looking at screen"
+      ],
+      "texto": "NO SABEN QUÉ ES",
+      "resalta": "NO SABEN"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Y ya pasó antes, en Eslovenia e Italia. ¿La causa? Cada vez fue distinta.",
+      "clips": [
+        "buscar:foggy forest mystery"
+      ],
+      "texto": "¿Y TÚ QUÉ CREES?",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Mira el vídeo completo en el canal. Una cámara grabó un animal con un cuerno en la frente.",
+      "clips": [
+        "buscar:forest night fog"
+      ],
+      "texto": "MIRA EL VÍDEO COMPLETO",
+      "resalta": "COMPLETO",
+      "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL",
+      "musica": "triste"
+    }
+  ],
+  "musica": "misterio"
+}

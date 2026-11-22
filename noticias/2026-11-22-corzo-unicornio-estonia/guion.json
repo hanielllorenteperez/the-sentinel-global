@@ -1,0 +1,540 @@
+{
+  "id": "2026-11-22-corzo-unicornio-estonia",
+  "cinta": "The Sentinel Global · Viral · Corzo unicornio · Un cuerno en la frente · Isla de Saaremaa, Estonia",
+  "titulo": "El corzo UNICORNIO de Estonia 🦄 Nadie sabe qué tiene en la frente",
+  "descripcion": "Una cámara de fauna en la isla de Saaremaa (Estonia) grabó un corzo con una misteriosa protuberancia en la frente. Los expertos no pueden identificarla solo con el vídeo: ¿asta anómala, oreja de más o mutación genética? Repasamos lo que se sabe, lo que no, y los casos parecidos de Eslovenia e Italia.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#unicornio #Estonia #corzo #misterio #viral #noticias",
+  "etiquetas": [
+    "corzo unicornio",
+    "ciervo unicornio",
+    "Estonia",
+    "Saaremaa",
+    "Fundación Lutreola",
+    "unicornio real",
+    "animal con un cuerno",
+    "noticias virales",
+    "misterio",
+    "fauna"
+  ],
+  "fuentes": [
+    "https://www.upi.com/Odd_News/2026/11/17/Unicorn-deer-caught-on-trail-camera-in-Estonia/2271794935267/",
+    "https://zamin.uz/en/world/227455-deer-with-unusual-growth-caught-on-camera-trap-in-estonia-video.html",
+    "https://www.aztecajalisco.com/tendenciayviral/ciervo-unicornio-en-estonia-captan-en-video-a-corzo-con-extrano-cuerno-en-la-frente/",
+    "https://www.nationalgeographic.com/news/2014/11/141112-unicorn-deer-slovenia-antlers-science-animals",
+    "https://www.ilmessaggero.it/video/animali/estonia_capriolo_unicorno_fototrappola_protuberanza-9904134.html"
+  ],
+  "rotulos": [
+    "EN DIRECTO",
+    "UN CUERNO EN LA FRENTE",
+    "NADIE SABE QUÉ ES",
+    "DETRÁS DEL MISTERIO",
+    "LO QUE NO TE CUENTAN"
+  ],
+  "musica": "misterio",
+  "escenas": [
+    {
+      "tipo": "titular",
+      "voz": "Una cámara escondida en un bosque grabó algo que parece imposible. Un animal con un cuerno en la frente.",
+      "clips": [
+        "buscar:dark forest night fog",
+        "buscar:trail camera forest night @una cámara escondida"
+      ],
+      "etiqueta": "IMAGEN VIRAL",
+      "texto": "UN CUERNO EN LA FRENTE",
+      "efecto": "flash",
+      "lugar": "ISLA DE SAAREMAA · ESTONIA · NOV 2026"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Parece un unicornio. Y los propios expertos reconocen que no saben exactamente qué es.",
+      "clips": [
+        "buscar:white unicorn horse fantasy mist",
+        "buscar:scientist looking at screen @los propios expertos"
+      ],
+      "texto": "NO SABEN QUÉ ES",
+      "resalta": "NO SABEN",
+      "efecto": "golpe"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Es un cuerno? ¿Una oreja de más? ¿O algo que la ciencia todavía no ha explicado?",
+      "clips": [
+        "buscar:forest deer close up eyes"
+      ],
+      "texto": "¿ES UN CUERNO?",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Quédate hasta el final. Te cuento qué explicaciones hay sobre la mesa y qué caso real parecido ya pasó antes.",
+      "clips": [
+        "buscar:old paper map island @qué explicaciones",
+        "buscar:forest path autumn mist"
+      ],
+      "texto": "QUÉDATE HASTA EL FINAL",
+      "resalta": "FINAL",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Todo empezó con una cámara de fauna, de esas que se dejan en el bosque para grabar animales sin que se den cuenta.",
+      "clips": [
+        "buscar:wildlife camera attached tree @una cámara de fauna",
+        "buscar:forest animals night infrared @animales"
+      ],
+      "titulo": "UNA CÁMARA DE FAUNA",
+      "items": [
+        "GRABA SIN QUE SE DEN CUENTA",
+        "DEJADA EN EL BOSQUE"
+      ],
+      "fuente": "UPI"
+    },
+    {
+      "tipo": "numero",
+      "voz": "La cámara está en la isla de Saaremaa, la mayor isla de Estonia, un país del norte de Europa, junto al mar Báltico.",
+      "clips": [
+        "buscar:aerial island baltic sea coast @isla de Saaremaa",
+        "buscar:estonia countryside windmill @Estonia"
+      ],
+      "numero": "ESTONIA",
+      "arriba": "ISLA DE SAAREMAA",
+      "texto": "MAR BÁLTICO",
+      "chapa": "NORTE DE EUROPA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y no estaba allí para buscar corzos. Estaba para vigilar a un animal pequeño, esquivo y en grave peligro.",
+      "clips": [
+        "buscar:small mink swimming river @un animal pequeño",
+        "buscar:river reeds quiet water"
+      ],
+      "texto": "EN GRAVE PELIGRO",
+      "resalta": "PELIGRO"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Un animal pequeño y esquivo: el visón europeo, clasificado en peligro crítico de extinción.",
+      "clips": [
+        "buscar:european mink close up",
+        "buscar:wetland swamp sunrise @en peligro crítico"
+      ],
+      "etiqueta": "ESPECIE AMENAZADA",
+      "texto": "VISÓN EUROPEO",
+      "fuente": "UICN"
+    },
+    {
+      "tipo": "frase",
+      "voz": "La Fundación Lutreola trabaja para proteger a ese visón. Por eso había colocado la cámara allí.",
+      "clips": [
+        "buscar:conservation researcher forest notebook @La Fundación Lutreola",
+        "buscar:camera setup tree forest @la cámara"
+      ],
+      "texto": "PROTEGER AL VISÓN",
+      "resalta": "VISÓN"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Pero el visón no apareció esa vez. Apareció otra cosa. ¿Qué vio la cámara?",
+      "clips": [
+        "buscar:empty forest clearing dawn",
+        "buscar:shadow moving trees @apareció otra cosa"
+      ],
+      "texto": "¿QUÉ VIO LA CÁMARA?",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Entre los árboles pasó un corzo. Un animal común en los bosques europeos. Hasta que se giró hacia la cámara.",
+      "clips": [
+        "buscar:roe deer walking forest @un corzo",
+        "buscar:deer head turning looking camera @se giró hacia la cámara"
+      ],
+      "texto": "HASTA QUE SE GIRÓ",
+      "resalta": "GIRÓ",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Un corzo es un cérvido pequeño y ágil, muy común en los bosques de Europa. Pasa casi toda su vida escondido entre los árboles. Por eso verlo de frente es tan raro.",
+      "clips": [
+        "buscar:roe deer hiding trees @un cérvido pequeño",
+        "buscar:european forest wildlife @los bosques de Europa"
+      ],
+      "titulo": "QUÉ ES UN CORZO",
+      "items": [
+        "CÉRVIDO PEQUEÑO",
+        "COMÚN EN EUROPA",
+        "MUY ESQUIVO"
+      ]
+    },
+    {
+      "tipo": "numero",
+      "voz": "En el centro de su frente, algo sobresalía. Una sola protuberancia, justo entre los ojos.",
+      "clips": [
+        "buscar:deer face close up forehead @en el centro de su frente",
+        "buscar:deer eyes macro @entre los ojos"
+      ],
+      "numero": "1",
+      "arriba": "UNA SOLA",
+      "texto": "PROTUBERANCIA EN LA FRENTE",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Así nació la frase que dio la vuelta al mundo: unicornio encontrado en Saaremaa.",
+      "clips": [
+        "buscar:social media phone scrolling @dio la vuelta al mundo",
+        "buscar:world map glowing network"
+      ],
+      "texto": "UNICORNIO ENCONTRADO",
+      "resalta": "UNICORNIO",
+      "chapa": "ASÍ LO TITULÓ LA FUNDACIÓN"
+    },
+    {
+      "tipo": "lista",
+      "voz": "La fundación compartió el vídeo en Facebook con ese mensaje. Y en pocas horas lo estaba viendo medio planeta.",
+      "clips": [
+        "buscar:person typing laptop night @compartió el vídeo",
+        "buscar:facebook like notifications phone @medio planeta"
+      ],
+      "titulo": "EL VÍDEO SE VUELVE VIRAL",
+      "items": [
+        "PUBLICADO EN FACEBOOK",
+        "MENSAJE: UNICORNIO",
+        "MEDIO PLANETA LO VE"
+      ],
+      "fuente": "UPI · 17 NOV 2026"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Mucha gente compartió las imágenes y pidió una respuesta. Una respuesta que, a día de hoy, nadie puede dar.",
+      "clips": [
+        "buscar:people sharing phones @compartió las imágenes",
+        "buscar:question mark neon dark @una respuesta"
+      ],
+      "texto": "NADIE PUEDE DAR RESPUESTA",
+      "resalta": "NADIE",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Cómo es posible que un animal real parezca sacado de un cuento?",
+      "clips": [
+        "buscar:fairy tale forest magical light"
+      ],
+      "texto": "¿UN ANIMAL DE CUENTO?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Guarda este dato, porque luego importa. El animal no ha sido examinado. Nadie lo ha tenido delante.",
+      "clips": [
+        "buscar:veterinarian examining animal @examinado",
+        "buscar:empty hands question mark @Nadie lo ha tenido delante"
+      ],
+      "texto": "NADIE LO HA EXAMINADO",
+      "resalta": "NADIE",
+      "efecto": "temblor",
+      "musica": "tension"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Todo lo que se sabe sale de unos segundos de vídeo grabados por una cámara. Nada más.",
+      "clips": [
+        "buscar:video playback screen glitch @unos segundos de vídeo",
+        "buscar:trail camera footage night grain"
+      ],
+      "numero": "0",
+      "arriba": "ANIMALES EXAMINADOS",
+      "texto": "SOLO HAY UN VÍDEO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "No hay muestra, no hay examen y no hay análisis de ADN publicado. Sin eso, cualquier afirmación sería inventar.",
+      "clips": [
+        "buscar:dna test tube lab @análisis de ADN",
+        "buscar:stop sign dark @inventar"
+      ],
+      "texto": "SIN EXAMEN, SIN ADN",
+      "resalta": "ADN"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los expertos que lo han visto dicen que la formación se parece a una pequeña asta.",
+      "clips": [
+        "buscar:antler close up @una pequeña asta",
+        "buscar:scientist magnifying glass"
+      ],
+      "texto": "SE PARECE A UNA ASTA",
+      "resalta": "ASTA"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Y si fuera una oreja de más, creciendo en mitad de la frente?",
+      "clips": [
+        "buscar:deer ear close up @una oreja de más"
+      ],
+      "texto": "¿UNA OREJA DE MÁS?",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Esa es la segunda posibilidad que se maneja. Y desde un vídeo no hay forma de descartarla.",
+      "clips": [
+        "buscar:video editing timeline @desde un vídeo",
+        "buscar:shrugging scientist laboratory"
+      ],
+      "texto": "NO SE PUEDE DESCARTAR",
+      "resalta": "DESCARTAR",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Para entender qué puede ser, hay que saber cómo crecen las astas de un corzo. Y es más raro de lo que parece.",
+      "clips": [
+        "buscar:roe deer antlers velvet @las astas",
+        "buscar:time lapse nature growth @cómo crecen"
+      ],
+      "titulo": "LAS ASTAS DEL CORZO",
+      "items": [
+        "SOLO LOS MACHOS",
+        "SE CAEN CADA AÑO",
+        "VUELVEN A CRECER"
+      ]
+    },
+    {
+      "tipo": "frase",
+      "voz": "Nacen de dos bases en el cráneo, una a cada lado. Lo normal son dos astas. Nunca una en el centro.",
+      "clips": [
+        "buscar:animal skull close up @en el cráneo",
+        "buscar:deer pair antlers symmetrical @dos astas"
+      ],
+      "texto": "LO NORMAL SON DOS",
+      "resalta": "DOS"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Entonces, ¿qué tiene que pasar para que salga solo una, y justo en el medio?",
+      "clips": [
+        "buscar:puzzle pieces dark table"
+      ],
+      "texto": "¿SOLO UNA Y EN EL MEDIO?"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Y aquí la historia da un giro. Porque esto ya había pasado antes.",
+      "clips": [
+        "buscar:lightning dark sky storm",
+        "buscar:old newspaper archive @ya había pasado antes"
+      ],
+      "etiqueta": "UN PRECEDENTE",
+      "texto": "ESTO YA HABÍA PASADO",
+      "efecto": "flash",
+      "musica": "tension"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Agosto de 2014. En Eslovenia, cerca de la ciudad de Celje, se documentó un corzo con un único cuerno en mitad de la frente.",
+      "clips": [
+        "buscar:slovenia mountains green valley @Eslovenia",
+        "buscar:roe deer meadow summer @un corzo"
+      ],
+      "numero": "2014",
+      "arriba": "ESLOVENIA · AGOSTO DE",
+      "texto": "UN SOLO CUERNO",
+      "lugar": "CELJE · ESLOVENIA · AGO 2014",
+      "fuente": "National Geographic"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los científicos lo estudiaron. Y la explicación fue sorprendentemente sencilla.",
+      "clips": [
+        "buscar:researcher analyzing sample laboratory @los científicos",
+        "buscar:microscope lab light"
+      ],
+      "texto": "UNA EXPLICACIÓN SENCILLA",
+      "resalta": "SENCILLA"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Las dos bases de las astas, que deberían estar separadas, habían crecido juntas hasta formar una sola. Se cree que por una lesión.",
+      "clips": [
+        "buscar:two trees growing together @crecido juntas",
+        "buscar:bandage injured wound close up @una lesión"
+      ],
+      "titulo": "LA CAUSA EN ESLOVENIA",
+      "items": [
+        "DOS BASES UNIDAS",
+        "UNA SOLA ASTA",
+        "POSIBLE LESIÓN"
+      ],
+      "fuente": "National Geographic"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y hay un detalle tranquilizador. Como el corzo cambia las astas cada año, a la siguiente temporada podría haberlas tenido casi normales.",
+      "clips": [
+        "buscar:autumn leaves falling forest @cada año",
+        "buscar:spring forest new growth @la siguiente temporada"
+      ],
+      "texto": "CAMBIA LAS ASTAS CADA AÑO",
+      "resalta": "CADA AÑO",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Será eso lo que le pasa al corzo de Estonia?",
+      "clips": [
+        "buscar:forest night deer silhouette"
+      ],
+      "texto": "¿PASA LO MISMO EN ESTONIA?",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Todavía no se sabe. Y justo ahí aparece la tercera posibilidad, la más inquietante.",
+      "clips": [
+        "buscar:dark door opening light @la más inquietante",
+        "buscar:fog trees night"
+      ],
+      "texto": "LA MÁS INQUIETANTE",
+      "resalta": "INQUIETANTE",
+      "musica": "drama"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Dos mil ocho. En Italia, un corzo apodado Unicornio fue visto en una reserva natural cerca de Florencia.",
+      "clips": [
+        "buscar:tuscany hills italy landscape @en Italia",
+        "buscar:nature reserve lake italy"
+      ],
+      "numero": "2008",
+      "arriba": "ITALIA · AÑO",
+      "texto": "EL CORZO UNICORNIO",
+      "lugar": "TOSCANA · ITALIA · 2008",
+      "fuente": "Audubon"
+    },
+    {
+      "tipo": "frase",
+      "voz": "¿La causa en aquel caso? No fue una lesión. Se atribuyó a una mutación genética.",
+      "clips": [
+        "buscar:dna helix glowing @una mutación genética",
+        "buscar:genetics laboratory pipette"
+      ],
+      "texto": "UNA MUTACIÓN GENÉTICA",
+      "resalta": "GENÉTICA",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Así que ya van tres explicaciones posibles para un cuerno en la frente. Y ninguna está confirmada para Estonia.",
+      "clips": [
+        "buscar:three paths forest fork @tres explicaciones",
+        "buscar:question marks chalkboard @ninguna está confirmada"
+      ],
+      "titulo": "LAS TRES HIPÓTESIS",
+      "items": [
+        "UN ASTA ANÓMALA",
+        "UNA OREJA DE MÁS",
+        "UNA MUTACIÓN GENÉTICA",
+        "NADA CONFIRMADO"
+      ]
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Por qué entonces tanta gente está convencida de lo que ve?",
+      "clips": [
+        "buscar:crowd looking phones street @tanta gente",
+        "buscar:person amazed face screen"
+      ],
+      "texto": "¿POR QUÉ LO CREEN?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Porque el cerebro humano ama las historias. Y el unicornio es una de las más antiguas que existen.",
+      "clips": [
+        "buscar:ancient manuscript medieval @las más antiguas",
+        "buscar:tapestry medieval unicorn art @el unicornio"
+      ],
+      "texto": "LA HISTORIA MÁS ANTIGUA",
+      "resalta": "ANTIGUA",
+      "efecto": "suave",
+      "musica": "reflexion"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero hay otro dato de esta grabación que casi nadie ha comentado. En la misma cámara apareció otra criatura rara.",
+      "clips": [
+        "buscar:black stork flying @otra criatura rara",
+        "buscar:forest camera trap bird night"
+      ],
+      "texto": "OTRA CRIATURA RARA",
+      "resalta": "RARA",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Una cigüeña negra, un ave escasa y muy esquiva, quedó grabada en el mismo material.",
+      "clips": [
+        "buscar:black stork wetland close up @una cigüeña negra",
+        "buscar:rare bird forest river"
+      ],
+      "etiqueta": "TAMBIÉN EN EL VÍDEO",
+      "texto": "UNA CIGÜEÑA NEGRA",
+      "fuente": "UPI"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Es la prueba de que ese bosque guarda más secretos de los que creemos. Y que una cámara paciente puede descubrirlos.",
+      "clips": [
+        "buscar:forest sunlight rays secrets",
+        "buscar:camera lens close up forest @una cámara paciente"
+      ],
+      "texto": "UN BOSQUE DE SECRETOS",
+      "resalta": "SECRETOS",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Así que, ¿qué sabemos con certeza? Un corzo, una isla, una cámara, y una protuberancia en la frente.",
+      "clips": [
+        "buscar:notebook list writing pen @qué sabemos con certeza",
+        "buscar:deer forest dawn"
+      ],
+      "numero": "1",
+      "arriba": "LO ÚNICO SEGURO",
+      "texto": "UN CORZO, UNA CÁMARA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Lo que no sabemos: si es asta, oreja o mutación. Si lo volverán a ver. Y si el año que viene seguirá igual.",
+      "clips": [
+        "buscar:empty forest path winter @el año que viene",
+        "buscar:footprints snow forest @si lo volverán a ver"
+      ],
+      "texto": "¿LO VOLVERÁN A VER?",
+      "resalta": "VER",
+      "musica": "reflexion",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Quizá la respuesta llegue cuando otra cámara lo vuelva a grabar, o cuando alguien pueda examinarlo de cerca. O quizá este unicornio se quede para siempre como un misterio.",
+      "clips": [
+        "buscar:foggy forest sunrise silence @un misterio",
+        "buscar:camera trap blinking light night @otra cámara"
+      ],
+      "texto": "UN MISTERIO PARA SIEMPRE",
+      "resalta": "MISTERIO",
+      "musica": "triste"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Tú qué crees que es? Cuéntamelo en los comentarios. Si hay novedades las contaremos aquí. Suscríbete para enterarte antes que nadie.",
+      "clips": [
+        "buscar:person smartphone comment night @en los comentarios",
+        "buscar:subscribe bell notification"
+      ],
+      "texto": "¿TÚ QUÉ CREES?",
+      "chapa": "SUSCRÍBETE AL CANAL"
+    }
+  ]
+}
