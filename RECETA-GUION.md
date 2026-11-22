@@ -13,6 +13,7 @@ noticias virales contadas COMPLETAS, **más de 5 minutos**, con **TRAMA, INTRIGA
 
 ## 0b. Qué noticia elegir (regla de Haniel, 22/11/2026) — ¡VARIEDAD!
 Los 5 primeros vídeos fueron TODOS de naturaleza/animales/hallazgos científicos. Haniel no quiere eso.
+Esta regla MANDA sobre el "prioriza historias con misterio" de la tarea: el misterio y la intriga van en CÓMO lo cuentas, no en elegir siempre animales raros.
 - **Busca la noticia MÁS comentada de las últimas 24–48 h** en el mundo hispano y en EE. UU., con un nombre
   conocido o una cifra que impacte. Ejemplos del tipo de tema que quiere Haniel:
   «El hackeo al FBI» · «GTA 6: $3.790 millones en 24 h» · «La captura del Chapo Isidro» ·
