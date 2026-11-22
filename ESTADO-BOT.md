@@ -30,3 +30,4 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 <!-- lo escribe GitHub Actions solo -->
 - 2026-11-22 00:43 UTC · 2026-11-21-pterodactilo-mexico · ✅ subido a YouTube · run 44964848127
 - 2026-11-22 00:43 UTC · 2026-11-22-corzo-unicornio-estonia · ✅ subido a YouTube · run 44964848127
+- 2026-11-22 08:43 UTC · 2026-11-22-insecto-glaciar-patagonia · ✅ subido a YouTube · run 45001119725
