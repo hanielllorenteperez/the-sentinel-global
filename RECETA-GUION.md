@@ -110,6 +110,23 @@ Fondo: puede llevar 1 clip suave detrás. Uno cada ~8–10 escenas cuando haya c
 - Título: misterio + emoción + algo concreto, sin mentir. 50–70 caracteres. Mayúsculas solo en 1–2 palabras clave.
   "Se tragó ALGO que nadie vio… y el zoológico no pudo salvarla 💔"
 - Descripción: 2–3 frases que resumen sin destripar, "Suscríbete…", hashtags; las fuentes las añade la fábrica.
+- **MINIATURA (obligatoria en el largo, regla 22/11):** en `guion.json` pon
+  `"miniatura": {"texto": "HACKEARON AL FBI", "rojo": "20 MINUTOS", "escena": 1}`.
+  `texto` = 2–4 palabras GIGANTES que dan ganas de pulsar, **sin repetir el título** (lo complementa).
+  `rojo` = una cifra o 1–3 palabras chocantes (opcional). `escena` = de qué escena sale la foto de fondo:
+  elige la que tenga el clip más fuerte y claro (una cara, un objeto, un lugar reconocible). Nada de mentiras ni
+  cifras que no estén en el vídeo. La fábrica la monta (foto oscurecida + letras blancas + bloque rojo) y la sube sola.
+- **Dinero, cripto, bolsa:** la fábrica añade sola "no es asesoría financiera" si lo detecta; para asegurarlo pon
+  `"aviso_financiero": true`. En la voz: cuenta lo que pasó, **nunca** digas si conviene comprar o vender ni des
+  predicciones como si fueran hechos.
+
+## 6b. Tono en tragedias (regla 22/11, para no perder anuncios ni respeto)
+Si hay muertos, heridos graves, víctimas, abusos, enfermedades graves o catástrofes:
+- Pon `"tono": "sobrio"` en el guion → la fábrica quita sola golpes, flashes, temblores y sonidos de impacto.
+- Música `triste` o `reflexion` (nunca `tension` con latido sobre las víctimas). Sin morbo, sin detalles gráficos,
+  sin imágenes de cuerpos ni sangre, sin "BRUTAL" ni "ESCALOFRIANTE" en título o miniatura.
+- Datos de víctimas solo con fuente oficial y dicha ("según la policía…"). El misterio va en el *cómo* y el *porqué*,
+  no en el dolor.
 
 ## 7. Derechos
 - Nada de tráilers, logos de marcas, juegos ni equipos. Clips libres de Pexels/Pixabay + texto propio.
@@ -123,4 +140,6 @@ Fondo: puede llevar 1 clip suave detrás. Uno cada ~8–10 escenas cuando haya c
 - [ ] Ninguna escena con más de ~25 palabras. Nunca 3 tipos iguales seguidos.
 - [ ] 2–4 clips por escena, cada uno = lo que nombra la voz, con `@palabras` de la voz; máx. 1 `wiki:` por cada 6 clips.
 - [ ] Más de 800 palabras de voz en el largo; Short < 60 s.
+- [ ] Puse `"miniatura"` (2–4 palabras que no repiten el título + `rojo` + `escena`).
+- [ ] Si hay víctimas: `"tono": "sobrio"`. Si es de dinero/cripto: `"aviso_financiero": true` y sin consejos.
 - [ ] Añadí mi línea al "Diario del guionista" de `ESTADO-BOT.md`.

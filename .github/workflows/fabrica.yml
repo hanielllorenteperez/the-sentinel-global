@@ -74,7 +74,7 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq ttf-mscorefonts-installer fonts-noto-color-emoji > /dev/null
           fc-cache -f > /dev/null
-          pip install -q edge-tts google-api-python-client google-auth
+          pip install -q edge-tts google-api-python-client google-auth pillow
           cd remotion && npm ci --no-audit --no-fund
 
       - name: Fabricar vídeos
@@ -119,6 +119,7 @@ jobs:
             salida/**/*.mp4
             salida/**/*.txt
             salida/**/meta*.json
+            salida/**/*.jpg
           retention-days: 30
 
       - name: Subir a YouTube

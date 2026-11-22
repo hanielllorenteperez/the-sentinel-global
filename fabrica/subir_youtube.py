@@ -154,6 +154,19 @@ def meta_de(carpeta, nid, suf):
     return m
 
 
+def poner_miniatura(yt, vid, jpg):
+    """Sube la miniatura propia (50 de cupo). Si falla, el vídeo se queda con la de YouTube y no pasa nada."""
+    if not os.path.exists(jpg):
+        print("   (sin miniatura propia)", flush=True)
+        return
+    try:
+        yt.thumbnails().set(videoId=vid, media_body=MediaFileUpload(jpg, mimetype="image/jpeg")).execute()
+        memoria.marcar(NID, "miniatura", "ok")
+        print("   Miniatura propia puesta.", flush=True)
+    except HttpError as e:
+        print(f"   ::warning::No se pudo poner la miniatura ({e.resp.status}): {e.content[:200]!r}", flush=True)
+
+
 def cupo_agotado(err):
     return isinstance(err, HttpError) and err.resp.status in (403, 429) and (
         b"quotaExceeded" in err.content or b"uploadLimitExceeded" in err.content or b"rateLimitExceeded" in err.content)
@@ -177,6 +190,7 @@ def main():
                 memoria.marcar(nid, "largo", f"https://youtu.be/{vid}")
                 memoria.marcar(nid, "titulo_largo", m["titulo"])
                 print("Vídeo largo subido:", f"https://youtu.be/{vid}")
+                poner_miniatura(yt, vid, os.path.join(carpeta, f"{nid}-miniatura.jpg"))
         if "short" in falta:
             m = meta_de(carpeta, nid, "-short")
             if m:

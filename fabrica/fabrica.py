@@ -273,6 +273,18 @@ def credito_musica(usadas):
                      "http://creativecommons.org/licenses/by/4.0/" for t in usadas)
 
 
+PALABRAS_DINERO = ("bitcoin", "cripto", "criptomoneda", "ethereum", "bolsa de valores", "acciones de", "en bolsa", "wall street",
+                   "nasdaq", "inversión", "invertir", "inversores", " ipo", "trading", "binance", "s&p 500")
+
+
+def es_financiero(g):
+    """Vídeos de dinero/cripto/bolsa → aviso de 'no es asesoría financiera'. Se fuerza con "aviso_financiero": true/false."""
+    if "aviso_financiero" in g:
+        return bool(g["aviso_financiero"])
+    txt = " ".join([g.get("titulo", ""), g.get("descripcion", ""), " ".join(g.get("etiquetas", []))]).lower()
+    return any(p in txt for p in PALABRAS_DINERO)
+
+
 def main():
     guion_path = os.path.abspath(sys.argv[1])
     g = json.load(open(guion_path, encoding="utf-8"))
@@ -302,17 +314,23 @@ def main():
                     c = "buscar:" + c[5:]
             nuevos.append(c)
         e["clips"] = nuevos
+    # TONO SOBRIO (tragedias, víctimas, muertes): sin golpes, flashes, temblores ni sonidos de impacto.
+    if g.get("tono") == "sobrio":
+        for e in g["escenas"]:
+            e["efecto"] = "suave"
+            e["sonido"] = "ninguno"
     musica = preparar_musica(g.get("musica", "tension"), usadas)
-    escenas = []
+    escenas, rutas_por_escena = [], []
     for i, e in enumerate(g["escenas"], 1):
         log(f"Escena {i}/{len(g['escenas'])}")
         mp3 = os.path.join(pub, f"v{i}.mp3")
         hacer_voz(e["voz"], mp3)
-        clips = []
+        clips, rutas = [], []
         for c in e.get("clips", []):
             # "buscar:tarjeta grafica @tarjetas para videojuegos" → el clip entra cuando la voz dice esas palabras
             c, _, en = c.partition("@")
             ruta = traer_clip(c.strip(), pub, usados)
+            rutas.append(ruta)
             foto = ruta.lower().endswith((".jpg", ".jpeg", ".png", ".webp"))
             info = {"src": f"{pub_rel}/{os.path.basename(ruta)}", "dur": 999 if foto else round(duracion(ruta), 2)}
             if en.strip():
@@ -323,6 +341,7 @@ def main():
             sal["musica"] = preparar_musica(e["musica"], usadas)
         sal.update({"voz": f"{pub_rel}/v{i}.mp3", "dur": round(duracion(mp3), 3), "clips": clips, "palabras": palabras_de(mp3)})
         escenas.append(sal)
+        rutas_por_escena.append(rutas)
 
     props = {"cinta": g.get("cinta", ""), "rotulos": g.get("rotulos", []), "musica": musica, "volumenMusica": 0.05, "escenas": escenas}
     props_path = os.path.join(salida_dir, f"props{suf}.json")
@@ -340,7 +359,18 @@ def main():
     if subprocess.run(cmd, cwd=REMOTION).returncode != 0:
         raise SystemExit("Falló el render")
 
+    # Miniatura propia (solo el vídeo largo; en los Shorts YouTube usa un fotograma)
+    if not short:
+        try:
+            import miniatura
+            miniatura.desde_guion(g, pub, rutas_por_escena, os.path.join(salida_dir, f"{nid}-miniatura.jpg"), REMOTION)
+            log("Miniatura lista.")
+        except Exception as e:  # noqa: BLE001
+            log("OJO: no se pudo hacer la miniatura:", e)
+
     descripcion = g.get("descripcion", "").strip()
+    if es_financiero(g):
+        descripcion += "\n\n⚠️ Vídeo informativo: no es asesoría financiera ni recomendación de inversión."
     if g.get("fuentes"):
         descripcion += "\n\nFuentes:\n" + "\n".join(g["fuentes"])
     descripcion += "\n\nImágenes: clips de Pexels/Pixabay (licencia libre)."
