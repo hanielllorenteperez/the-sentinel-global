@@ -1,0 +1,563 @@
+{
+  "id": "2026-11-22-tres-estrellas-imposibles",
+  "cinta": "The Sentinel Global · Astronomía · Sistema triple a 28 años luz · Welopōʻai",
+  "titulo": "Hallan TRES estrellas a 28 años luz que NO deberían existir… ni los científicos saben cómo 🌌",
+  "descripcion": "Un equipo de la Universidad de Montreal buscaba planetas alrededor de una enana roja y encontró algo inesperado: un sistema de tres estrellas, Welopōʻai, a unos 28 años luz de la Tierra, con una configuración que según los propios autores no debería existir. Te contamos qué se sabe, qué no y por qué intriga tanto.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#astronomia #espacio #ciencia #noticias #estrellas",
+  "etiquetas": [
+    "sistema triple",
+    "Welopōʻai",
+    "enana blanca",
+    "enana roja",
+    "28 años luz",
+    "astronomía",
+    "Universidad de Montreal",
+    "SPIRou",
+    "Gemini Norte",
+    "ciencia",
+    "noticias de hoy"
+  ],
+  "fuentes": [
+    "https://www.eurekalert.org/news-releases/1152534",
+    "https://www.universetoday.com/articles/a-triple-star-system-that-shouldnt-exist-only-28-light-years-from-earth",
+    "https://arxiv.org/abs/2611.24533",
+    "https://www.cronica.com.mx/academia/2026/11/19/descubren-un-extraordinario-sistema-estelar-triple-a-tan-solo-28-anos-luz-de-la-tierra/",
+    "https://sci.news/astronomy/welopoai-hierarchical-triple-system-15210.html",
+    "https://www.notebookcheck.net/A-rare-triple-star-system-has-been-detected-by-astronomers.1454773.0.html"
+  ],
+  "rotulos": [
+    "EN DIRECTO",
+    "TRES SOLES IMPOSIBLES",
+    "LO QUE NO TE CUENTAN",
+    "MISTERIO ESTELAR",
+    "INVESTIGACIÓN"
+  ],
+  "musica": "misterio",
+  "escenas": [
+    {
+      "tipo": "titular",
+      "voz": "A veintiocho años luz de la Tierra hay tres estrellas que no deberían existir. Y sin embargo, están ahí.",
+      "clips": [
+        "buscar:night sky milky way stars timelapse",
+        "buscar:three bright stars dark space @tres estrellas"
+      ],
+      "etiqueta": "ÚLTIMA HORA",
+      "texto": "TRES ESTRELLAS QUE NO DEBERÍAN EXISTIR",
+      "efecto": "flash",
+      "fuente": "Astronomy & Astrophysics"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los propios científicos lo reconocen: no saben cómo llegaron a estar así. Y eso es lo que lo vuelve fascinante. Y no es una exageración de titular: está en el estudio científico.",
+      "clips": [
+        "buscar:astronomer looking telescope night",
+        "buscar:galaxy stars slow zoom @lo que lo vuelve fascinante"
+      ],
+      "texto": "NO SABEN CÓMO LLEGARON",
+      "resalta": "NO SABEN"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Y al final te cuento el detalle que más inquieta a los expertos. Pero antes, ¿cómo se descubrió algo así?",
+      "clips": [
+        "buscar:dark telescope dome stars rotating",
+        "buscar:mystery fog dark light @el detalle que más inquieta"
+      ],
+      "texto": "¿CÓMO SE DESCUBRIÓ?",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Todo empezó en Canadá, en la Universidad de Montreal, con un equipo que buscaba algo muy distinto: planetas.",
+      "clips": [
+        "buscar:montreal city skyline aerial",
+        "buscar:university lab scientists computer screens @un equipo",
+        "buscar:planet orbiting star animation space @planetas"
+      ],
+      "texto": "ALGO MUY DISTINTO",
+      "resalta": "DISTINTO",
+      "lugar": "MONTREAL · CANADÁ · NOV 2026"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Su objetivo era una estrella pequeña. Una enana roja, tan débil que no se ve a simple vista.",
+      "clips": [
+        "buscar:red star glowing dark space",
+        "buscar:night sky stars looking up @a simple vista"
+      ],
+      "titulo": "LA ESTRELLA",
+      "items": [
+        "UNA ENANA ROJA",
+        "TAN DÉBIL",
+        "A SIMPLE VISTA"
+      ]
+    },
+    {
+      "tipo": "numero",
+      "voz": "Está a veintisiete coma seis años luz de nosotros. Casi en el barrio del Sol, hablando en términos del universo.",
+      "clips": [
+        "buscar:earth from space rotating",
+        "buscar:stars flying through space hyperspace @años luz"
+      ],
+      "numero": "27,6",
+      "arriba": "A UNA DISTANCIA DE",
+      "texto": "AÑOS LUZ",
+      "chapa": "CASI EN NUESTRO BARRIO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Para encontrar planetas usaron un instrumento llamado SPIRou, en un telescopio de Hawái.",
+      "clips": [
+        "buscar:mauna kea observatories sunset aerial",
+        "buscar:telescope instrument lab precision close up @un instrumento llamado SPIRou"
+      ],
+      "texto": "UN TELESCOPIO DE HAWÁI",
+      "lugar": "HAWÁI · TELESCOPIO CANADÁ-FRANCIA-HAWÁI",
+      "fuente": "Universidad de Montreal"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Su truco es medir con enorme precisión cómo la estrella se acerca y se aleja de nosotros. ¿Por qué?",
+      "clips": [
+        "buscar:star wobble animation space",
+        "buscar:pendulum swinging close up @se acerca y se aleja"
+      ],
+      "texto": "¿POR QUÉ?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Porque si un planeta gira alrededor, tira un poquito de su estrella. Y ese tirón delata al planeta.",
+      "clips": [
+        "buscar:planet orbiting star slow motion",
+        "buscar:rope tug of war close up @tira un poquito"
+      ],
+      "texto": "ESE TIRÓN DELATA AL PLANETA",
+      "resalta": "DELATA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Durante años, el equipo siguió a esta enana roja. Y de repente, los datos dejaron de tener sentido.",
+      "clips": [
+        "buscar:scientist staring computer graph worried",
+        "buscar:calendar pages flipping time @durante años",
+        "buscar:data graph screen dark room @los datos"
+      ],
+      "texto": "LOS DATOS DEJARON DE TENER SENTIDO",
+      "efecto": "temblor",
+      "musica": "tension"
+    },
+    {
+      "tipo": "numero",
+      "voz": "La estrella cambió su velocidad en unos dieciséis kilómetros por segundo, en menos de cinco años.",
+      "clips": [
+        "buscar:speedometer spinning fast close up",
+        "buscar:comet streaking space @dieciséis kilómetros por segundo"
+      ],
+      "numero": "16",
+      "arriba": "CAMBIÓ SU VELOCIDAD EN",
+      "texto": "KM POR SEGUNDO",
+      "fuente": "Crónica · Notebookcheck"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Un cambio enorme. Demasiado grande para un planeta. Entonces, ¿qué tiraba de ella? Eso fue lo que dejó al equipo en silencio.",
+      "clips": [
+        "buscar:dark void space mystery",
+        "buscar:giant shadow behind star @qué tiraba de ella"
+      ],
+      "texto": "¿QUÉ TIRABA DE ELLA?",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Algo mucho más pesado que cualquier planeta. Algo que no se veía por ninguna parte.",
+      "clips": [
+        "buscar:empty dark space stars",
+        "buscar:flashlight dark room searching @no se veía"
+      ],
+      "texto": "ALGO QUE NO SE VEÍA",
+      "resalta": "NO SE VEÍA"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Entonces apuntaron otro telescopio: Gemini Norte. Y en la imagen apareció un punto diminuto muy cerca de la enana roja.",
+      "clips": [
+        "buscar:gemini observatory dome night",
+        "buscar:tiny light dot dark sky zoom @un punto diminuto"
+      ],
+      "etiqueta": "DESCUBRIMIENTO",
+      "texto": "UN PUNTO DIMINUTO",
+      "efecto": "flash",
+      "fuente": "Gemini Norte"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Estaba a solo seis décimas de segundo de arco. Y brillaba unas seis magnitudes menos: era unas doscientas veces más tenue.",
+      "clips": [
+        "buscar:candle flame dark close up",
+        "buscar:magnifying glass details close up @seis magnitudes"
+      ],
+      "numero": "6",
+      "arriba": "BRILLABA",
+      "texto": "MAGNITUDES MENOS",
+      "chapa": "MUY TENUE"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Era una enana blanca. El cadáver de una estrella que ya murió.",
+      "clips": [
+        "buscar:white glowing star dark space",
+        "buscar:dying star nebula slow zoom @una estrella que ya murió"
+      ],
+      "texto": "EL CADÁVER DE UNA ESTRELLA",
+      "resalta": "CADÁVER",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Una enana blanca es lo que queda cuando una estrella como el Sol se apaga. Pequeña, densa y muy antigua.",
+      "clips": [
+        "buscar:sun solar flare close up",
+        "buscar:ember glowing dying fire close up @cuando una estrella como el Sol se apaga"
+      ],
+      "titulo": "UNA ENANA BLANCA",
+      "items": [
+        "PEQUEÑA",
+        "DENSA",
+        "MUY ANTIGUA"
+      ]
+    },
+    {
+      "tipo": "numero",
+      "voz": "Pesa algo más de la mitad que el Sol: cero coma seis uno ocho masas solares, medido con un margen de error de apenas siete décimas por ciento.",
+      "clips": [
+        "buscar:scale weighing balance close up",
+        "buscar:sun bright space corona @masas solares"
+      ],
+      "numero": "0,618",
+      "arriba": "MASA DE LA ENANA BLANCA",
+      "texto": "MASAS SOLARES",
+      "fuente": "Artigau et al. 2026"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Dos estrellas girando juntas. Pero ¿a qué distancia? Porque aquí empieza lo raro.",
+      "clips": [
+        "buscar:two spheres orbiting each other animation",
+        "buscar:ruler measuring close up @a qué distancia"
+      ],
+      "texto": "¿A QUÉ DISTANCIA?",
+      "efecto": "temblor",
+      "musica": "tension"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Se dan una vuelta completa cada nueve años y diez meses, más o menos. Una órbita lenta, tranquila, ordenada.",
+      "clips": [
+        "buscar:clock ticking close up slow",
+        "buscar:planet orbit animation slow @una vuelta completa"
+      ],
+      "texto": "UNA VUELTA CADA NUEVE AÑOS",
+      "resalta": "NUEVE"
+    },
+    {
+      "tipo": "grafico",
+      "voz": "Su separación es de unas cuatro coma seis veces la distancia entre la Tierra y el Sol. Algo menos que la distancia de Júpiter.",
+      "clips": [
+        "buscar:solar system planets orbits animation",
+        "buscar:jupiter close up storm @Júpiter"
+      ],
+      "titulo": "DISTANCIA AL SOL (UA)",
+      "valor": "4,6",
+      "unidad": "UA · LA PAREJA",
+      "barras": [
+        {
+          "l": "TIERRA",
+          "v": 1.0
+        },
+        {
+          "l": "MARTE",
+          "v": 1.5
+        },
+        {
+          "l": "PAREJA",
+          "v": 4.6
+        },
+        {
+          "l": "JÚPITER",
+          "v": 5.2
+        }
+      ]
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Y aquí viene el primer giro. Porque esta pareja no estaba sola. ¿Quién más estaba mirando?",
+      "clips": [
+        "buscar:silhouette figure dark fog watching",
+        "buscar:eyes dark close up @quién más"
+      ],
+      "texto": "¿QUIÉN MÁS ESTABA?",
+      "efecto": "temblor",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Había una tercera estrella. Otra enana blanca, mucho más lejos, que los astrónomos ya conocían de antes.",
+      "clips": [
+        "buscar:distant star dim dark sky",
+        "buscar:telescope sky survey stars @los astrónomos"
+      ],
+      "etiqueta": "TERCERA ESTRELLA",
+      "texto": "UNA TERCERA ESTRELLA",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Está a unas ciento veinticuatro veces la distancia de la Tierra al Sol. Cuatro veces más lejos que Neptuno.",
+      "clips": [
+        "buscar:neptune blue planet space",
+        "buscar:long road horizon far away @ciento veinticuatro veces"
+      ],
+      "numero": "124",
+      "arriba": "LA TERCERA ESTRELLA, A",
+      "texto": "VECES LA DISTANCIA TIERRA-SOL",
+      "fuente": "Sci.News"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Tarda más de mil años en completar una sola vuelta. Mil años, para una órbita. Ni siquiera los modelos más aceptados lo explican.",
+      "clips": [
+        "buscar:sundial shadow time lapse",
+        "buscar:old stone ruins sunset @mil años"
+      ],
+      "texto": "MÁS DE MIL AÑOS",
+      "resalta": "MIL",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Resultado: un sistema jerárquico. Una pareja cerrada en el centro, y una compañera lejana dando vueltas alrededor de las dos.",
+      "clips": [
+        "buscar:orbiting spheres three bodies animation",
+        "buscar:abstract galaxy spiral slow @una compañera lejana"
+      ],
+      "titulo": "LAS TRES",
+      "items": [
+        "UNA ENANA ROJA",
+        "UNA ENANA BLANCA CERCANA",
+        "UNA ENANA BLANCA LEJANA"
+      ]
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Hasta aquí es solo un triple raro. Entonces, ¿por qué los científicos dicen que no debería existir?",
+      "clips": [
+        "buscar:scientist shaking head confused",
+        "buscar:question mark neon dark @no debería existir"
+      ],
+      "texto": "¿POR QUÉ NO DEBERÍA EXISTIR?",
+      "efecto": "temblor",
+      "musica": "tension"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pensemos en el Sol. Algún día se hinchará hasta convertirse en una gigante roja, enorme, abrasadora.",
+      "clips": [
+        "buscar:sun red giant animation",
+        "buscar:fire flames close up slow motion @abrasadora"
+      ],
+      "texto": "UNA GIGANTE ROJA",
+      "resalta": "GIGANTE"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y cuando una estrella se hincha así, devora todo lo que tiene cerca. Planetas, compañeras, todo.",
+      "clips": [
+        "buscar:huge fireball space engulf",
+        "buscar:planet burning approaching sun @devora todo lo que tiene cerca"
+      ],
+      "texto": "DEVORA TODO LO QUE TIENE CERCA",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Con una compañera a solo cuatro unidades astronómicas, lo normal es que la enana roja hubiera sido engullida o fusionada.",
+      "clips": [
+        "buscar:two stars colliding animation space",
+        "buscar:smoke swirling dark close up @engullida"
+      ],
+      "texto": "HUBIERA SIDO ENGULLIDA",
+      "etiqueta": "DATO CLAVE"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero no. Sigue ahí, intacta, orbitando tranquila. Como si nada hubiera pasado.",
+      "clips": [
+        "buscar:calm red star glowing",
+        "buscar:quiet lake dawn mist @tranquila"
+      ],
+      "texto": "SIGUE AHÍ, INTACTA",
+      "resalta": "INTACTA",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Y hay más. Las dos enanas blancas indican que el sistema tiene entre nueve y once mil millones de años.",
+      "clips": [
+        "buscar:ancient rock layers canyon",
+        "buscar:old hourglass sand falling @once mil millones de años"
+      ],
+      "numero": "9–11",
+      "arriba": "EDAD DEL SISTEMA",
+      "texto": "MIL MILLONES DE AÑOS",
+      "fuente": "Notebookcheck · EurekAlert"
+    },
+    {
+      "tipo": "grafico",
+      "voz": "Para comparar: el Sol tiene unos cuatro mil seiscientos millones de años. Este sistema es muchísimo más viejo.",
+      "clips": [
+        "buscar:sun rising horizon time lapse",
+        "buscar:ancient tree roots close up @más viejo"
+      ],
+      "titulo": "EDAD (MILES DE MILLONES DE AÑOS)",
+      "valor": "10",
+      "unidad": "SISTEMA · APROX.",
+      "barras": [
+        {
+          "l": "SOL",
+          "v": 4.6
+        },
+        {
+          "l": "SISTEMA",
+          "v": 10
+        },
+        {
+          "l": "UNIVERSO",
+          "v": 13.8
+        }
+      ]
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Una estrella tan vieja debería tener pocos metales. Pero esta enana roja es rica en metales. ¿Cómo es posible?",
+      "clips": [
+        "buscar:metal ore rock close up",
+        "buscar:old rusty metal gears close up @rica en metales"
+      ],
+      "texto": "¿CÓMO ES POSIBLE?",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los autores del estudio no tienen una explicación clara. Es una pieza que simplemente no encaja.",
+      "clips": [
+        "buscar:puzzle pieces not fitting close up",
+        "buscar:scientists whiteboard equations discussing @una explicación clara"
+      ],
+      "texto": "UNA PIEZA QUE NO ENCAJA",
+      "resalta": "NO ENCAJA",
+      "musica": "drama"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Una posibilidad es que la enana roja sobreviviera a esa fase destructiva. Pero eso encaja mal con el resto de datos.",
+      "clips": [
+        "buscar:survivor walking storm silhouette",
+        "buscar:cracked glass slow motion @mal con el resto"
+      ],
+      "texto": "ENCAJA MAL CON EL RESTO",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Patrick Dufour, uno de los autores, lo resumió con una frase: este sistema no debería existir.",
+      "clips": [
+        "buscar:researcher portrait laboratory serious",
+        "buscar:newspaper headline close up @una frase"
+      ],
+      "texto": "NO DEBERÍA EXISTIR",
+      "fuente": "Universidad de Montreal · prensa",
+      "etiqueta": "DATO CLAVE"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Además, no se conoce ningún sistema parecido en un radio de cien años luz alrededor de la Tierra.",
+      "clips": [
+        "buscar:globe earth rotating space",
+        "buscar:radar scan circle green @cien años luz"
+      ],
+      "numero": "100",
+      "arriba": "NINGUNO IGUAL A MENOS DE",
+      "texto": "AÑOS LUZ",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Lo bautizaron Welopōʻai, un nombre hawaiano elegido en un programa de nombres. Y se publicó en la revista Astronomy and Astrophysics.",
+      "clips": [
+        "buscar:hawaii volcano landscape aerial",
+        "buscar:scientific journal pages close up @la revista"
+      ],
+      "titulo": "EL HALLAZGO",
+      "items": [
+        "NOMBRE HAWAIANO",
+        "REVISTA A&A",
+        "NOVIEMBRE 2026"
+      ],
+      "lugar": "HAWÁI · CANADÁ · NOV 2026"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Y ahora, el detalle que prometí. La enana blanca cercana se escondía. Nadie la había visto. ¿Cuántas más hay así?",
+      "clips": [
+        "buscar:hidden figure dark corner close up",
+        "buscar:dark sky countless stars @cuántas más"
+      ],
+      "texto": "¿CUÁNTAS MÁS HAY ASÍ?",
+      "efecto": "flash",
+      "musica": "epica"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Se encontró de casualidad, mientras buscaban planetas. Y justo ahí, a veintiocho años luz, había un secreto.",
+      "clips": [
+        "buscar:detective magnifying glass clue",
+        "buscar:key old lock close up @un secreto"
+      ],
+      "texto": "SE ENCONTRÓ DE CASUALIDAD",
+      "resalta": "CASUALIDAD"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y también hay algo de espejo. El Sol acabará como enana blanca dentro de unos cinco mil millones de años. Es como asomarse a un posible futuro lejano.",
+      "clips": [
+        "buscar:sun sunset silhouette calm",
+        "buscar:mirror reflection sky @el Sol"
+      ],
+      "texto": "EL SOL ACABARÁ COMO ENANA BLANCA",
+      "resalta": "ENANA BLANCA",
+      "musica": "reflexion",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Todavía faltan respuestas. ¿Cómo se formó? ¿Cuándo sobrevivió la enana roja? Nadie lo sabe aún.",
+      "clips": [
+        "buscar:dark night sky stars quiet",
+        "buscar:telescope under stars lone @nadie lo sabe"
+      ],
+      "texto": "¿CÓMO SE FORMÓ?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Tres estrellas, a veintiocho años luz. Y un misterio que nos recuerda cuánto falta por descubrir. Suscríbete para enterarte antes que nadie. Y vuelve mañana, porque seguiremos contándote lo más raro del universo.",
+      "clips": [
+        "buscar:milky way sunrise silhouette person",
+        "buscar:phone subscribe notification @Suscríbete"
+      ],
+      "texto": "SUSCRÍBETE",
+      "resalta": "SUSCRÍBETE",
+      "chapa": "TRES ESTRELLAS · UN MISTERIO",
+      "musica": "reflexion"
+    }
+  ]
+}

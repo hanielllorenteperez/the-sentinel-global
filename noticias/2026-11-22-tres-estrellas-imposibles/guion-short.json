@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-22-tres-estrellas-imposibles",
+  "formato": "short",
+  "cinta": "The Sentinel Global · Astronomía · Sistema triple a 28 años luz · Welopōʻai",
+  "titulo": "Tres estrellas que NO deberían existir… y están a 28 años luz 🌌",
+  "descripcion": "Un sistema de tres estrellas a 28 años luz que, según los propios científicos, no debería existir. La historia completa, en el vídeo largo del canal.\n\n#astronomia #espacio #ciencia #noticias",
+  "etiquetas": [
+    "estrellas",
+    "astronomía",
+    "enana blanca",
+    "misterio",
+    "shorts"
+  ],
+  "escenas": [
+    {
+      "tipo": "frase",
+      "voz": "A veintiocho años luz hay tres estrellas que no deberían existir.",
+      "clips": [
+        "buscar:night sky stars timelapse",
+        "buscar:three bright stars dark space"
+      ],
+      "texto": "NO DEBERÍAN EXISTIR",
+      "resalta": "NO",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Buscaban planetas. Y encontraron esto. ¿Qué tiraba de la estrella?",
+      "clips": [
+        "buscar:telescope dome night",
+        "buscar:dark void space mystery"
+      ],
+      "texto": "¿QUÉ TIRABA DE LA ESTRELLA?"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Era una estrella muerta, escondida a solo cuatro veces la distancia de la Tierra al Sol.",
+      "clips": [
+        "buscar:white glowing star dark space",
+        "buscar:dying star nebula"
+      ],
+      "numero": "4,6",
+      "arriba": "UNA ESTRELLA MUERTA A",
+      "texto": "VECES TIERRA-SOL"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y esa compañera debería haber devorado a la otra. Pero sigue intacta.",
+      "clips": [
+        "buscar:huge fireball space",
+        "buscar:calm red star glowing"
+      ],
+      "texto": "SIGUE INTACTA",
+      "resalta": "INTACTA",
+      "efecto": "temblor",
+      "musica": "tension"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Ni los científicos saben cómo es posible. La historia completa, en el vídeo del canal.",
+      "clips": [
+        "buscar:milky way sunrise silhouette",
+        "buscar:phone subscribe notification"
+      ],
+      "texto": "MIRA EL VÍDEO COMPLETO",
+      "resalta": "COMPLETO",
+      "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL",
+      "musica": "reflexion"
+    }
+  ],
+  "musica": "misterio"
+}
