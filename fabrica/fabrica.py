@@ -146,31 +146,44 @@ def buscar_pexels(consulta, usados, vertical=False):
             candidatos.append((v["id"], files[0]["link"]))
     if not candidatos:
         raise SystemExit("Pexels no devolvió clips para: " + consulta)
-    vid, link = random.choice(candidatos[:4])
+    vid, link = random.choice(candidatos[:2])  # Pexels ya ordena por parecido: de los 2 primeros
     usados.add(vid)
     return link
 
 
 def buscar_pixabay(consulta, usados):
+    """Pixabay ordena por popularidad, no por parecido: se piden 50 y se elige el que más palabras
+    de la búsqueda tiene en sus etiquetas. Si no hay nada, se quita la última palabra y se repite."""
     clave = os.environ.get("PIXABAY_API_KEY")
     if not clave:
         raise SystemExit("Falta PIXABAY_API_KEY para buscar clips: " + consulta)
-    q = urllib.parse.urlencode({"key": clave, "q": consulta, "per_page": 20, "safesearch": "true"})
-    req = urllib.request.Request("https://pixabay.com/api/videos/?" + q, headers={"User-Agent": "fabrica-noticias"})
-    datos = json.load(urllib.request.urlopen(req, timeout=60))
-    candidatos = []
-    for v in datos.get("hits", []):
-        if ("pb", v["id"]) in usados or v.get("duration", 0) < 5:
-            continue
-        tam = [t for t in ("medium", "large", "small") if v["videos"].get(t, {}).get("url")]
-        tam = [t for t in tam if v["videos"][t]["width"] >= v["videos"][t]["height"]]
-        if tam:
-            candidatos.append((v["id"], v["videos"][tam[0]]["url"]))
-    if not candidatos:
-        raise SystemExit("Pixabay no devolvió clips para: " + consulta)
-    vid, link = random.choice(candidatos[:4])
-    usados.add(("pb", vid))
-    return link
+    palabras = consulta.split()
+    while palabras:
+        q = urllib.parse.urlencode({"key": clave, "q": " ".join(palabras), "per_page": 50, "safesearch": "true"})
+        req = urllib.request.Request("https://pixabay.com/api/videos/?" + q, headers={"User-Agent": "fabrica-noticias"})
+        datos = json.load(urllib.request.urlopen(req, timeout=60))
+        candidatos = []
+        buscadas = [w.lower() for w in consulta.split() if len(w) > 2]
+        for pos, v in enumerate(datos.get("hits", [])):
+            if ("pb", v["id"]) in usados or v.get("duration", 0) < 5:
+                continue
+            tam = [t for t in ("medium", "large", "small") if v["videos"].get(t, {}).get("url")]
+            tam = [t for t in tam if v["videos"][t]["width"] >= v["videos"][t]["height"]]
+            if not tam:
+                continue
+            etiquetas = (v.get("tags") or "").lower()
+            puntos = sum(1 for w in buscadas if w in etiquetas)
+            candidatos.append((-puntos, pos, v["id"], v["videos"][tam[0]]["url"]))
+        if candidatos:
+            candidatos.sort()
+            mejores = [c for c in candidatos if c[0] == candidatos[0][0]][:2]  # entre los que más se parecen
+            _, _, vid, link = random.choice(mejores)
+            usados.add(("pb", vid))
+            return link
+        if len(palabras) <= 2:
+            break
+        palabras = palabras[:-1]
+    raise SystemExit("Pixabay no devolvió clips para: " + consulta)
 
 
 def buscar_clip(consulta, usados):

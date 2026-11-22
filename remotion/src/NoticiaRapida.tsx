@@ -405,45 +405,69 @@ const Clip: React.FC<{ c: ClipInfo }> = ({ c }) => {
   );
 };
 
-// Cada clip entra cuando la voz dice su "en" (lo que se ve = lo que se oye). Los que no lo
-// llevan (o no se encuentran) se reparten a partes iguales en el hueco que les toca.
+// Cada clip entra cuando la voz dice su "en" (lo que se ve = lo que se oye).
+// Los clips se ORDENAN por el momento en que se dicen sus palabras: si el "@" de un clip se dice
+// justo al empezar la escena, ese clip va primero (antes se descartaba y entraba a mitad de frase).
+// Los que no llevan "@" (o no se encuentra) van detrás del clip que tenían delante en el guion
+// y se reparten a partes iguales en el hueco libre.
 export const iniciosClips = (clips: ClipInfo[], total: number, ps?: Palabra[]) => {
   const fps = NR_FPS;
-  const fijo: (number | null)[] = [];
-  let ult = 0;
-  clips.forEach((c, i) => {
-    const m = i === 0 ? null : momento(ps, c.en, ult);
-    const fr = m !== null ? Math.round((m - 0.15) * fps) : null;
-    if (fr !== null && fr > (fijo.filter((x) => x !== null).pop() ?? 0) + 15 && fr < total - 15) {
-      fijo.push(fr);
-      ult = m as number;
-    } else fijo.push(i === 0 ? 0 : null);
+  const items = clips.map((c, i) => ({ c, i, m: c.en ? momento(ps, c.en, 0) : null }));
+  const anclados = items.filter((x) => x.m !== null).sort((x, y) => (x.m as number) - (y.m as number));
+  // grupos de clips sin ancla, pegados al anclado que tenían delante en el guion (-1 = al principio)
+  const detras = new Map<number, typeof items>();
+  let prev = -1;
+  items.forEach((x) => {
+    if (x.m !== null) prev = x.i;
+    else detras.set(prev, [...(detras.get(prev) ?? []), x]);
   });
-  // rellenar huecos repartiendo
-  const out = [...fijo] as number[];
+  const orden: typeof items = [];
+  const inicio = detras.get(-1) ?? [];
+  const primeroAlEmpezar = anclados.length > 0 && (anclados[0].m as number) < 0.8;
+  if (!primeroAlEmpezar) orden.push(...inicio);
+  anclados.forEach((x, k) => {
+    orden.push(x);
+    if (k === 0 && primeroAlEmpezar) orden.push(...inicio);
+    orden.push(...(detras.get(x.i) ?? []));
+  });
+  // frames fijos de los anclados (el primero siempre en 0; mínimo medio segundo entre cambios)
+  const fijo: (number | null)[] = [];
+  let ultimo = 0;
+  orden.forEach((x, k) => {
+    if (k === 0) {
+      fijo.push(0);
+      return;
+    }
+    const fr = x.m !== null ? Math.max(0, Math.round(((x.m as number) - 0.15) * fps)) : null;
+    if (fr !== null && fr > ultimo + 15 && fr < total - 15) {
+      fijo.push(fr);
+      ultimo = fr;
+    } else fijo.push(null);
+  });
+  const ini = [...fijo] as number[];
   let i = 0;
-  while (i < out.length) {
+  while (i < ini.length) {
     if (fijo[i] !== null) {
       i++;
       continue;
     }
     let j = i;
-    while (j < out.length && fijo[j] === null) j++;
-    const a = out[i - 1];
-    const b = j < out.length ? (fijo[j] as number) : total;
-    for (let k = i; k < j; k++) out[k] = Math.round(a + ((b - a) * (k - i + 1)) / (j - i + 1));
+    while (j < ini.length && fijo[j] === null) j++;
+    const a0 = ini[i - 1];
+    const b0 = j < ini.length ? (fijo[j] as number) : total;
+    for (let k = i; k < j; k++) ini[k] = Math.round(a0 + ((b0 - a0) * (k - i + 1)) / (j - i + 1));
     i = j;
   }
-  return out;
+  return { orden: orden.map((x) => x.c), ini };
 };
 
 const Fondos: React.FC<{ clips: ClipInfo[]; total: number; ps?: Palabra[] }> = ({ clips, total, ps }) => {
   if (clips.length === 0) return <AbsoluteFill style={{ background: AZUL }} />;
-  const ini = iniciosClips(clips, total, ps);
+  const { orden, ini } = iniciosClips(clips, total, ps);
   return (
     <>
-      {clips.map((c, i) => {
-        const fin = i === clips.length - 1 ? total : ini[i + 1];
+      {orden.map((c, i) => {
+        const fin = i === orden.length - 1 ? total : ini[i + 1];
         return fin - ini[i] > 0 ? (
           <Sequence key={i} from={ini[i]} durationInFrames={fin - ini[i]}>
             <Clip c={c} />

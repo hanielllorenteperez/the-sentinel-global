@@ -39,32 +39,62 @@ def youtube():
     return build("youtube", "v3", credentials=cred, cache_discovery=False)
 
 
-def cuando_publicar(ahora=None):
-    """Con YT_PUBLICAR="02:00,10:00,18:00" (horas UTC) decide cuándo se hace público el vídeo:
-    - si la hora que le tocaba pasó hace menos de 3 h (llegó tarde) -> ("public", None): público ya.
-    - si no -> ("private", "<fecha ISO>"): YouTube lo hace público solo a la próxima hora de la lista.
-    Sin YT_PUBLICAR -> (YT_PRIVACIDAD, None), como antes."""
+def cuando_publicar(ahora=None, ocupadas=()):
+    """Con YT_PUBLICAR="02:00,10:00,18:00" (horas UTC) decide cuándo se hace público el vídeo.
+    Devuelve (privacidad, publicar_en, hueco):
+    - si la hora que le tocaba pasó hace menos de 3 h (o falta <10 min) y esa hora está libre
+      -> ("public", None, hueco): público ya.
+    - si no -> ("private", "<fecha ISO>", hueco): YouTube lo hace público solo a la próxima hora LIBRE.
+    ocupadas = horas ya cogidas por otras noticias (la libreta): así nunca salen 2 a la vez.
+    Sin YT_PUBLICAR -> (YT_PRIVACIDAD, None, None), como antes."""
     horas = [h.strip() for h in os.environ.get("YT_PUBLICAR", "").split(",") if h.strip()]
     if not horas:
-        return os.environ.get("YT_PRIVACIDAD", "private"), None
+        return os.environ.get("YT_PRIVACIDAD", "private"), None, None
     ahora = ahora or datetime.now(timezone.utc)
     huecos = []
-    for dia in (-1, 0, 1):
+    for dia in range(-1, 5):
         base = (ahora + timedelta(days=dia)).replace(second=0, microsecond=0)
         for h in horas:
             hh, mm = (int(x) for x in h.split(":"))
             huecos.append(base.replace(hour=hh, minute=mm))
+    fmt = lambda t: t.strftime("%Y-%m-%dT%H:%M:%S.000Z")  # noqa: E731
+    ocupadas = set(ocupadas)
     pasados = [t for t in huecos if t <= ahora]
-    if pasados and ahora - max(pasados) < timedelta(hours=3):
-        return "public", None
-    siguiente = min(t for t in huecos if t > ahora)
-    if siguiente - ahora < timedelta(minutes=10):  # casi a su hora: público ya
-        return "public", None
-    return "private", siguiente.strftime("%Y-%m-%dT%H:%M:%S.000Z")
+    futuros = sorted(t for t in huecos if t > ahora)
+    actual = None
+    if futuros[0] - ahora < timedelta(minutes=10):  # casi a su hora
+        actual = futuros.pop(0)
+    elif pasados and ahora - max(pasados) < timedelta(hours=3):  # llegó tarde
+        actual = max(pasados)
+    if actual is not None and fmt(actual) not in ocupadas:
+        return "public", None, fmt(actual)
+    siguiente = next(t for t in futuros if fmt(t) not in ocupadas)
+    return "private", fmt(siguiente), fmt(siguiente)
+
+
+NID = None  # noticia que se está subiendo (lo pone main())
+
+
+def horas_ocupadas():
+    """Horas de publicación ya cogidas por OTRAS noticias (apuntadas en su estado.json)."""
+    out = set()
+    for n in os.listdir(memoria.NOTICIAS):
+        if n != NID and os.path.isdir(os.path.join(memoria.NOTICIAS, n)):
+            h = memoria.leer(n).get("publica")
+            if h:
+                out.add(h)
+    return out
 
 
 def subir(yt, meta, extra_desc=""):
-    privacidad, publicar_en = cuando_publicar()
+    previa = memoria.leer(NID).get("publica") if NID else None
+    ahora = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+    if previa and previa > ahora:  # el largo ya cogió hora: el Short de la misma noticia, a la misma
+        privacidad, publicar_en, hueco = "private", previa, previa
+    else:
+        privacidad, publicar_en, hueco = cuando_publicar(ocupadas=horas_ocupadas())
+    if NID and hueco:
+        memoria.marcar(NID, "publica", hueco)
     try:
         return _subir(yt, meta, extra_desc, privacidad, publicar_en)
     except HttpError as e:
@@ -130,8 +160,10 @@ def cupo_agotado(err):
 
 
 def main():
+    global NID
     carpeta = sys.argv[1].rstrip("/\\")
     nid = os.path.basename(carpeta)
+    NID = nid
     falta = memoria.falta(nid)
     if not falta:
         print(f"{nid}: ya estaba todo subido, no se repite.")
