@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-23-ciberataque-178-webs-optimizely",
+  "formato": "short",
+  "cinta": "The Sentinel Global · Última hora · Ciberataque a 178 webs",
+  "titulo": "Infectaron a BBC, CNN e IKEA… sin hackearlas 😨",
+  "descripcion": "Un código malicioso apareció en 178 webs a la vez, sin hackear a ninguna directamente. La historia completa, en el vídeo largo del canal.\n\n#ciberataque #hackeo #noticias #viral",
+  "etiquetas": [
+    "ciberataque",
+    "hackeo",
+    "Optimizely",
+    "noticias",
+    "viral",
+    "shorts"
+  ],
+  "escenas": [
+    {
+      "tipo": "frase",
+      "voz": "Entraron en BBC, CNN, Zoom e IKEA. Y no hackearon a ninguna de ellas.",
+      "clips": [
+        "buscar:hooded hacker dark screen code",
+        "buscar:news website laptop screen @BBC, CNN"
+      ],
+      "texto": "SIN HACKEAR A NINGUNA",
+      "resalta": "NINGUNA",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Un código malicioso apareció, a la vez, en ciento setenta y ocho webs de todo el mundo.",
+      "clips": [
+        "buscar:world map glowing network",
+        "buscar:many screens data center @ciento setenta y ocho webs"
+      ],
+      "etiqueta": "ÚLTIMA HORA",
+      "texto": "178 WEBS INFECTADAS"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Robaba datos de tarjetas, desviaba criptomonedas y atacaba dispositivos de Apple.",
+      "clips": [
+        "buscar:credit card payment close up",
+        "buscar:bitcoin coin closeup @criptomonedas",
+        "buscar:iphone dark table @dispositivos de Apple"
+      ],
+      "titulo": "TRES ARMAS",
+      "items": [
+        "DATOS DE TARJETAS",
+        "DESVIABA CRIPTOMONEDAS",
+        "ATACABA DISPOSITIVOS DE APPLE"
+      ]
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Cómo lo consiguieron sin tocar a las empresas? Y lo más inquietante: nadie sabe a cuántas personas afectó.",
+      "clips": [
+        "buscar:mystery dark hallway door light",
+        "buscar:crowd people phones city @cuántas personas"
+      ],
+      "texto": "¿CÓMO LO CONSIGUIERON?",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "La respuesta está en el vídeo completo. Búscalo en el canal.",
+      "clips": [
+        "buscar:night city aerial lights",
+        "buscar:hand pressing button glowing @en el canal"
+      ],
+      "texto": "MIRA EL VÍDEO COMPLETO",
+      "resalta": "COMPLETO",
+      "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL",
+      "musica": "misterio"
+    }
+  ],
+  "musica": "tension"
+}

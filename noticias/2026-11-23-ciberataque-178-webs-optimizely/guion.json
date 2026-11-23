@@ -1,0 +1,543 @@
+{
+  "id": "2026-11-23-ciberataque-178-webs-optimizely",
+  "cinta": "The Sentinel Global · Última hora · Ciberataque a 178 webs · BBC, CNN, Zoom, HSBC, IKEA · Optimizely",
+  "titulo": "BBC, CNN e IKEA infectadas SIN ser hackeadas: el ataque invisible 😨",
+  "descripcion": "El 16 de noviembre de 2026, el investigador Scott Helme (Report URI) descubrió código malicioso en 188 scripts de Optimizely, ligados a 178 organizaciones como BBC, CNN, Zoom, HSBC e IKEA. Ninguna fue hackeada directamente: el ataque llegó por un proveedor en el que todas confiaban. Te contamos qué hacía el código (robo de tarjetas, desvío de criptomonedas y un kit contra dispositivos Apple), qué dijo Optimizely y todo lo que aún NO se sabe.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#ciberataque #hackeo #Optimizely #noticias #ultimahora",
+  "etiquetas": [
+    "ciberataque",
+    "hackeo",
+    "Optimizely",
+    "ataque cadena de suministro",
+    "BBC",
+    "CNN",
+    "IKEA",
+    "HSBC",
+    "Zoom",
+    "Scott Helme",
+    "noticias de hoy",
+    "última hora",
+    "ciberseguridad"
+  ],
+  "fuentes": [
+    "https://www.computerweekly.com/es/noticias/366654788/Ataque-a-la-cadena-de-suministro-de-Optimizely-usa-scripts-de-confianza-contra-178-organizaciones",
+    "https://x.com/Scott_Helme/status/2122464168989098461",
+    "https://www.csoonline.com/article/4249925/optimizely-confirms-massive-cyberattack-on-customer-websites-injected-stealer-malware.html",
+    "https://darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
+    "https://www.primicias.ec/internacional/ciberataque-sitios-web-zoom-bbc-ikea-afectados-17noviembre-137360/",
+    "https://techaeris.com/2026/11/17/optimizely-supply-chain-attack-served-ios/",
+    "https://www.forbesargentina.com/innovacion/otro-ciberataque-afecto-paginas-web-178-organizaciones-todo-mundo-ellas-hsbc-cnn-zoom-n102774"
+  ],
+  "musica": "misterio",
+  "aviso_financiero": true,
+  "rotulos": [
+    "EN DIRECTO",
+    "CIBERATAQUE GLOBAL",
+    "NOTICIA EN DESARROLLO",
+    "LO QUE NO TE CUENTAN",
+    "INVESTIGACIÓN"
+  ],
+  "miniatura": {
+    "texto": "ATAQUE INVISIBLE",
+    "rojo": "178 WEBS",
+    "escena": 1
+  },
+  "escenas": [
+    {
+      "tipo": "titular",
+      "voz": "Última hora. Un código malicioso apareció, al mismo tiempo, en las páginas web de BBC, CNN, Zoom, HSBC e IKEA. Millones de personas las visitan cada día.",
+      "clips": [
+        "buscar:hacker dark room green code screen",
+        "buscar:news website on laptop screen @BBC, CNN, Zoom",
+        "buscar:bank website on phone close up @HSBC"
+      ],
+      "etiqueta": "ÚLTIMA HORA",
+      "texto": "BBC, CNN, ZOOM, HSBC E IKEA",
+      "efecto": "flash",
+      "fuente": "Report URI",
+      "lugar": "INTERNET · 16 NOV 2026",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y lo más inquietante es esto. Ninguna de esas empresas fue hackeada directamente. Ese es el detalle que lo cambia todo, y te lo cuento al final.",
+      "clips": [
+        "buscar:hooded figure silhouette keyboard",
+        "buscar:padlock lock close up @hackeada directamente",
+        "buscar:server room corridor blue lights @lo cambia todo"
+      ],
+      "texto": "NO FUERON HACKEADAS DIRECTAMENTE",
+      "resalta": "NO"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Entonces, ¿cómo llegó el código hasta páginas que visitan millones de personas, sin que nadie tocara sus sistemas?",
+      "clips": [
+        "buscar:crowd people walking phones city",
+        "buscar:computer code scrolling screen close up @el código"
+      ],
+      "texto": "¿CÓMO LLEGÓ EL CÓDIGO?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Todo empezó el lunes 16 de noviembre de 2026. Un investigador de seguridad, Scott Helme, encontró algo que no debía estar ahí.",
+      "clips": [
+        "buscar:man working laptop night office",
+        "buscar:calendar page november close up @16 de noviembre",
+        "buscar:magnifying glass over code screen @encontró algo"
+      ],
+      "texto": "ENCONTRÓ ALGO QUE NO DEBÍA ESTAR AHÍ",
+      "resalta": "NO DEBÍA",
+      "lugar": "INFORME DE SEGURIDAD · 16 NOV 2026",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Revisó mil seiscientos once fragmentos de código. Y en ciento ochenta y ocho había algo infectado. Nadie lo había notado.",
+      "clips": [
+        "buscar:data center racks blinking lights",
+        "buscar:hand scrolling long list of code @fragmentos de código",
+        "buscar:red warning alert screen @infectado"
+      ],
+      "numero": "188",
+      "arriba": "FRAGMENTOS INFECTADOS",
+      "texto": "DE 1.611 REVISADOS",
+      "fuente": "Report URI"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Esos ciento ochenta y ocho fragmentos pertenecían a ciento setenta y ocho organizaciones de todo el mundo. Bancos, medios, aerolíneas y tecnológicas.",
+      "clips": [
+        "buscar:world map glowing network connections",
+        "buscar:bank building glass facade @bancos",
+        "buscar:airplane taking off airport @aerolíneas"
+      ],
+      "titulo": "178 ORGANIZACIONES",
+      "items": [
+        "BANCOS",
+        "MEDIOS",
+        "AEROLÍNEAS",
+        "TECNOLÓGICAS"
+      ]
+    },
+    {
+      "tipo": "frase",
+      "voz": "El punto de entrada se llama Optimizely. Es una plataforma que las webs usan para probar cambios y personalizar lo que tú ves en pantalla.",
+      "clips": [
+        "buscar:web designer testing website layout screen",
+        "buscar:person scrolling website phone @personalizar",
+        "buscar:analytics dashboard monitor close up @probar cambios"
+      ],
+      "texto": "SE LLAMA OPTIMIZELY",
+      "resalta": "OPTIMIZELY",
+      "chapa": "PLATAFORMA DE PRUEBAS WEB"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Las webs cargan ese código de confianza, de forma automática, en cada visita. Y ahí estaba la trampa.",
+      "clips": [
+        "buscar:computer loading progress bar close up",
+        "buscar:trap door mechanism dark @la trampa"
+      ],
+      "titulo": "LA TRAMPA",
+      "items": [
+        "CÓDIGO DE CONFIANZA",
+        "DE FORMA AUTOMÁTICA",
+        "EN CADA VISITA"
+      ],
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Y qué hacía ese código escondido en tantas páginas? Según los investigadores, tenía tres funciones. Y cada una era peor que la anterior.",
+      "clips": [
+        "buscar:mystery dark hallway door light",
+        "buscar:hacker typing close up hands @tres funciones"
+      ],
+      "texto": "¿QUÉ HACÍA ESE CÓDIGO?",
+      "musica": "tension"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Primero, robo de tarjetas. Segundo, un ladrón de criptomonedas. Y tercero, un ataque contra iPhone.",
+      "clips": [
+        "buscar:credit card payment close up",
+        "buscar:bitcoin coins closeup @criptomonedas",
+        "buscar:iphone in hand dark @iPhone"
+      ],
+      "titulo": "TRES ATAQUES",
+      "items": [
+        "ROBO DE TARJETAS",
+        "LADRÓN DE CRIPTOMONEDAS",
+        "ATAQUE CONTRA IPHONE"
+      ]
+    },
+    {
+      "tipo": "frase",
+      "voz": "Imagina que pagas una compra en una web de confianza. Y que, sin que lo notes, alguien copie los datos de tu tarjeta.",
+      "clips": [
+        "buscar:woman paying online laptop credit card",
+        "buscar:typing card number keyboard close up @los datos de tu tarjeta"
+      ],
+      "texto": "LOS DATOS DE TU TARJETA",
+      "resalta": "TARJETA",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "frase",
+      "voz": "El segundo ataque es más sutil. Cuando vas a enviar criptomonedas, el código cambia la dirección de destino. Tú mandas el dinero, y llega a otra persona.",
+      "clips": [
+        "buscar:crypto wallet app phone screen",
+        "buscar:bitcoin transfer laptop screen @enviar criptomonedas",
+        "buscar:money disappearing dark hand @llega a otra persona"
+      ],
+      "texto": "LLEGA A OTRA PERSONA",
+      "resalta": "OTRA",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Según una actualización de Report URI, esas billeteras movieron unos siete mil ciento cincuenta dólares en criptomonedas.",
+      "clips": [
+        "buscar:gold bitcoin coin spinning",
+        "buscar:counting dollar bills close up @siete mil ciento cincuenta dólares"
+      ],
+      "numero": "7.150",
+      "arriba": "DÓLARES EN CRIPTOMONEDAS",
+      "texto": "SEGÚN REPORT URI",
+      "fuente": "Report URI"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Parece poco dinero? Espera. Porque el tercer ataque es el que de verdad inquieta a los especialistas.",
+      "clips": [
+        "buscar:person staring screen worried dark room",
+        "buscar:smartphone cracked screen dark @el tercer ataque"
+      ],
+      "texto": "¿PARECE POCO DINERO?",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Un kit diseñado para atacar dispositivos de Apple, escondido en páginas que visitas todos los días.",
+      "clips": [
+        "buscar:iphone lying on table notification",
+        "buscar:apple devices on desk laptop phone @dispositivos de Apple",
+        "buscar:person scrolling phone subway @que visitas todos los días"
+      ],
+      "texto": "DISPOSITIVOS DE APPLE",
+      "resalta": "APPLE"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y aquí viene lo peor. Helme dijo que no hay forma de saber cuántos dispositivos se infectaron antes de que el ataque terminara.",
+      "clips": [
+        "buscar:empty dark room one light bulb",
+        "buscar:many phones lined up screens @cuántos dispositivos",
+        "buscar:stopwatch ticking close up @antes de que el ataque terminara"
+      ],
+      "texto": "NO HAY FORMA DE SABER",
+      "resalta": "NO",
+      "efecto": "suave",
+      "musica": "triste"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Reuters tampoco pudo determinar si el código llegó a ejecutarse en todos los casos, ni el alcance real de los robos.",
+      "clips": [
+        "buscar:newspaper press printing close up",
+        "buscar:journalist writing notes desk @Reuters"
+      ],
+      "etiqueta": "SIN CONFIRMAR",
+      "texto": "REUTERS TAMPOCO PUDO DETERMINAR",
+      "fuente": "Reuters"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Mientras tanto, el reloj corría. Cada minuto, millones de personas abrían esas webs: noticias, bancos, videollamadas, vuelos.",
+      "clips": [
+        "buscar:time lapse people phones street night",
+        "buscar:video call laptop home @videollamadas",
+        "buscar:airport departure board @vuelos"
+      ],
+      "texto": "MILLONES DE PERSONAS",
+      "resalta": "MILLONES",
+      "musica": "tension"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Helme lo resumió en su publicación: es un ataque enorme, con de todo, desde robo de criptomonedas y de tarjetas hasta ataques contra iOS.",
+      "clips": [
+        "buscar:social media post phone close up",
+        "buscar:hacker tools laptop sticker dark @robo de criptomonedas"
+      ],
+      "texto": "UN ATAQUE ENORME",
+      "resalta": "ENORME",
+      "fuente": "Scott Helme"
+    },
+    {
+      "tipo": "numero",
+      "voz": "El martes 17 de noviembre, Optimizely confirmó que los atacantes habían aprovechado una vulnerabilidad en su plataforma.",
+      "clips": [
+        "buscar:office building glass exterior day",
+        "buscar:corporate meeting laptop serious @Optimizely",
+        "buscar:warning sign cyber security @una vulnerabilidad"
+      ],
+      "numero": "17",
+      "arriba": "NOVIEMBRE 2026",
+      "texto": "OPTIMIZELY CONFIRMA EL ATAQUE",
+      "lugar": "COMUNICADO DE LA EMPRESA · 17 NOV 2026",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Según informó la empresa, eliminó el código inyectado, cerró las sesiones activas y revocó tokens de acceso.",
+      "clips": [
+        "buscar:engineer fixing server cables",
+        "buscar:delete button click close up @eliminó el código",
+        "buscar:key lock digital security @revocó tokens"
+      ],
+      "titulo": "LA RESPUESTA",
+      "items": [
+        "ELIMINÓ EL CÓDIGO",
+        "CERRÓ SESIONES ACTIVAS",
+        "REVOCÓ TOKENS"
+      ]
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Pero, ¿cómo entraron exactamente? Esa es la parte que todavía no está clara. Y las versiones no coinciden.",
+      "clips": [
+        "buscar:detective board red strings clues",
+        "buscar:puzzle pieces table dark @las versiones"
+      ],
+      "texto": "¿CÓMO ENTRARON?",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Algunos análisis dicen que los atacantes lograron editar proyectos de clientes de Optimizely y colocar ahí un script cargador.",
+      "clips": [
+        "buscar:person editing code dual monitors",
+        "buscar:upload progress bar screen @colocar ahí un script",
+        "buscar:server cloud network graphic @proyectos de clientes"
+      ],
+      "texto": "EDITAR PROYECTOS DE CLIENTES",
+      "resalta": "EDITAR",
+      "fuente": "Sonatype"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Otras fuentes apuntan a una configuración recomendada en la documentación, que permitió ejecutar el código en el sitio de HSBC. Nadie ha zanjado el debate.",
+      "clips": [
+        "buscar:documentation manual book pages close up",
+        "buscar:bank logo building skyscraper night @HSBC",
+        "buscar:two people arguing office @el debate"
+      ],
+      "texto": "LAS VERSIONES NO COINCIDEN",
+      "resalta": "NO",
+      "fuente": "Bitsight"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Y hay un dato que debería hacer pensar a cualquier empresa. Solo veinticuatro de las ciento setenta y ocho organizaciones tenían una defensa lo bastante estricta para frenar el ataque.",
+      "clips": [
+        "buscar:shield protection digital glowing",
+        "buscar:firewall security screen @una defensa",
+        "buscar:stop hand gesture close up @frenar el ataque"
+      ],
+      "numero": "24",
+      "arriba": "DE 178 ORGANIZACIONES",
+      "texto": "TENÍAN UNA DEFENSA",
+      "fuente": "Report URI",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "grafico",
+      "voz": "Las otras ciento cincuenta y cuatro no la tenían. Es decir, solo una de cada siete estaba realmente protegida.",
+      "clips": [
+        "buscar:red alert lights flashing",
+        "buscar:empty office computers night @no la tenían"
+      ],
+      "titulo": "ORGANIZACIONES CON DEFENSA",
+      "valor": "154",
+      "unidad": "SIN DEFENSA",
+      "barras": [
+        {
+          "l": "CON DEFENSA",
+          "v": 24
+        },
+        {
+          "l": "SIN DEFENSA",
+          "v": 154
+        }
+      ]
+    },
+    {
+      "tipo": "frase",
+      "voz": "Esa defensa se llama política de seguridad de contenido. Es una lista de lo que una web puede cargar y lo que no. Y la mayoría no la tenía bien ajustada.",
+      "clips": [
+        "buscar:checklist clipboard pen close up",
+        "buscar:website code security lock @política de seguridad de contenido",
+        "buscar:hand ticking boxes @lo que una web puede cargar"
+      ],
+      "texto": "POLÍTICA DE SEGURIDAD DE CONTENIDO",
+      "resalta": "SEGURIDAD"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Entonces, ¿esto fue un golpe de suerte para los atacantes? ¿O es algo que puede volver a pasar mañana?",
+      "clips": [
+        "buscar:dice rolling slow motion",
+        "buscar:storm clouds dark horizon @mañana"
+      ],
+      "texto": "¿PUEDE VOLVER A PASAR?",
+      "efecto": "temblor",
+      "musica": "tension"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los expertos lo llaman un ataque a la cadena de suministro. Es decir: no te atacan a ti, atacan al proveedor en el que confías.",
+      "clips": [
+        "buscar:factory supply chain conveyor belt",
+        "buscar:chain links metal close up @cadena de suministro",
+        "buscar:handshake business close up @proveedor"
+      ],
+      "texto": "ATACAN AL PROVEEDOR",
+      "resalta": "PROVEEDOR",
+      "fuente": "Dark Reading"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Mientras se aclara todo, queda el sentido común básico: vigila los movimientos de tu tarjeta, revisa la dirección antes de enviar criptomonedas y actualiza tu iPhone.",
+      "clips": [
+        "buscar:checking bank app phone close up",
+        "buscar:typing wallet address phone @revisa la dirección",
+        "buscar:phone software update screen @actualiza tu iPhone"
+      ],
+      "titulo": "LO BÁSICO",
+      "items": [
+        "VIGILA TU TARJETA",
+        "REVISA LA DIRECCIÓN",
+        "ACTUALIZA TU IPHONE"
+      ]
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y ahora, la revelación que te prometí al principio. El mayor problema no fue el código. Fue la confianza.",
+      "clips": [
+        "buscar:spotlight dark stage curtain",
+        "buscar:single door open light @la confianza"
+      ],
+      "texto": "EL PROBLEMA FUE LA CONFIANZA",
+      "resalta": "CONFIANZA",
+      "efecto": "flash",
+      "musica": "epica"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Ciento setenta y ocho organizaciones, entre ellas Zoom, BBC, CNN, HSBC, Salesforce, GitLab, KLM, IKEA, Equifax y Ledger, confiaron en un mismo proveedor.",
+      "clips": [
+        "buscar:many office buildings city skyline aerial",
+        "buscar:video conference laptop @Zoom",
+        "buscar:airplane tail airline airport @KLM"
+      ],
+      "numero": "178",
+      "arriba": "ORGANIZACIONES",
+      "texto": "UN MISMO PROVEEDOR",
+      "fuente": "Report URI"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Todas cargaron el código, porque lo servía alguien en quien creían. Para el visitante, era una web de siempre. Nada parecía raro.",
+      "clips": [
+        "buscar:person browsing website coffee shop",
+        "buscar:laptop screen website normal @una web de siempre"
+      ],
+      "texto": "NADA PARECÍA RARO",
+      "resalta": "RARO",
+      "efecto": "suave",
+      "musica": "drama"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Para las empresas, el golpe fue doble. Primero, el daño a su imagen. Y después, la pregunta de sus clientes: ¿mis datos están a salvo?",
+      "clips": [
+        "buscar:worried customer reading phone",
+        "buscar:company executives meeting tense @sus clientes"
+      ],
+      "texto": "¿MIS DATOS ESTÁN A SALVO?",
+      "resalta": "SALVO",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Y esto es lo que todavía no sabemos, según lo publicado hasta ahora. Cuánto tiempo estuvo abierta la puerta. A cuántas personas afectó. Y quién lo hizo.",
+      "clips": [
+        "buscar:question mark neon dark",
+        "buscar:clock wall ticking close up @cuánto tiempo",
+        "buscar:silhouette person fog @quién lo hizo"
+      ],
+      "titulo": "SIN RESPUESTA",
+      "items": [
+        "CUÁNTO TIEMPO",
+        "A CUÁNTAS PERSONAS",
+        "QUIÉN LO HIZO"
+      ]
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Cuántas webs que visitas cada semana dependen de proveedores como este, sin que tú lo sepas?",
+      "clips": [
+        "buscar:person using laptop home evening",
+        "buscar:many browser tabs open screen @webs que visitas"
+      ],
+      "texto": "¿CUÁNTAS WEBS DEPENDEN DE ÉL?",
+      "musica": "reflexion"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Piénsalo. Tu banco, tu periódico, tu aerolínea. Todos cargan scripts que no escribieron ellos. Y confían en que nadie los toque.",
+      "clips": [
+        "buscar:bank atm night street",
+        "buscar:newspaper stand morning @tu periódico",
+        "buscar:airport terminal passengers @tu aerolínea"
+      ],
+      "texto": "SCRIPTS QUE NO ESCRIBIERON ELLOS",
+      "resalta": "NO ESCRIBIERON"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Esta historia sigue en desarrollo. Cualquier cifra nueva podría cambiar lo que sabemos hoy.",
+      "clips": [
+        "buscar:breaking news studio desk lights",
+        "buscar:world map digital glowing @desarrollo"
+      ],
+      "etiqueta": "EN DESARROLLO",
+      "texto": "HISTORIA EN DESARROLLO",
+      "lugar": "THE SENTINEL GLOBAL · 23 NOV 2026"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Una puerta que parecía segura. Ciento setenta y ocho casas con la llave puesta. Y un código que viajó en silencio hasta millones de pantallas.",
+      "clips": [
+        "buscar:door ajar light night house",
+        "buscar:keys in lock close up @con la llave puesta",
+        "buscar:glowing screens dark city @millones de pantallas"
+      ],
+      "texto": "CIENTO SETENTA Y OCHO CASAS CON LA LLAVE PUESTA",
+      "resalta": "LLAVE",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Si quieres enterarte antes que nadie de historias como esta, suscríbete a The Sentinel Global. Hasta el próximo vídeo.",
+      "clips": [
+        "buscar:night city timelapse aerial lights",
+        "buscar:hand pressing button glowing @suscríbete"
+      ],
+      "texto": "SUSCRÍBETE",
+      "resalta": "SUSCRÍBETE",
+      "chapa": "THE SENTINEL GLOBAL"
+    }
+  ]
+}

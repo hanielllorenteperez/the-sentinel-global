@@ -23,12 +23,15 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-22 · El corzo «unicornio» de Estonia (Saaremaa) · [naturaleza]
 - 2026-11-22 · Insecto sin alas junto a un glaciar de la isla Navarino (Chile) · [naturaleza]
 - 2026-11-22 · Welopōʻai: sistema de tres estrellas a 28 años luz «que no debería existir» · [espacio]
+- 2026-11-23 · Ciberataque a 178 webs (BBC, CNN, Zoom, HSBC, IKEA) vía Optimizely · [hackeos]
 
 ## Diario del guionista
 <!-- 1–3 líneas por ejecución: fecha · noticia · lección nueva (si la hay) -->
 - 2026-11-22 · Corzo «unicornio» de Estonia · WebFetch no resuelve la mayoría de dominios en la nube (solo WebSearch); las fuentes se contrastan con snippets. Día flojo de noticias: tema suave y verificable, sin inventar.
 - 2026-11-22 · Insecto de glaciar en Navarino (Chile) · Búsqueda genérica de «viral hoy» sale vacía; mejor buscar «hallazgo insólito científicos» y contrastar con 3-4 medios. Contar 800+ palabras exige ~42 escenas de ~20 palabras.
 - 2026-11-22 · Sistema triple Welopōʻai (28 años luz) · Búsqueda «científicos hallazgo misterioso noviembre 2026» en modo extended da buenos temas; el script generador en Python con comprobación de @palabras y de 3 tipos seguidos ahorra revisiones. WebFetch sigue sin resolver dominios.
+
+- 2026-11-23 · Ciberataque Optimizely (178 webs) · Buscar «hackeo ciberataque hoy» y luego el nombre técnico (Optimizely, Scott Helme) da fuentes en español e inglés; cifras que no aparecen en 2+ fuentes (p. ej. 7.040 $ / 9 h) se descartan; WebFetch sigue sin resolver dominios.
 
 ## Diario de la fábrica
 <!-- lo escribe GitHub Actions solo -->
