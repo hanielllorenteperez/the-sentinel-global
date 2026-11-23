@@ -24,6 +24,7 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-22 · Insecto sin alas junto a un glaciar de la isla Navarino (Chile) · [naturaleza]
 - 2026-11-22 · Welopōʻai: sistema de tres estrellas a 28 años luz «que no debería existir» · [espacio]
 - 2026-11-23 · Ciberataque a 178 webs (BBC, CNN, Zoom, HSBC, IKEA) vía Optimizely · [hackeos]
+- 2026-11-23 · Marc Márquez, décimo título mundial (remontada de 102 puntos, Portimão) · [deportes]
 
 ## Diario del guionista
 <!-- 1–3 líneas por ejecución: fecha · noticia · lección nueva (si la hay) -->
@@ -32,6 +33,7 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-22 · Sistema triple Welopōʻai (28 años luz) · Búsqueda «científicos hallazgo misterioso noviembre 2026» en modo extended da buenos temas; el script generador en Python con comprobación de @palabras y de 3 tipos seguidos ahorra revisiones. WebFetch sigue sin resolver dominios.
 
 - 2026-11-23 · Ciberataque Optimizely (178 webs) · Buscar «hackeo ciberataque hoy» y luego el nombre técnico (Optimizely, Scott Helme) da fuentes en español e inglés; cifras que no aparecen en 2+ fuentes (p. ej. 7.040 $ / 9 h) se descartan; WebFetch sigue sin resolver dominios.
+- 2026-11-23 · Márquez décimo título (MotoGP) · Buscar «noticias más vistas hoy» da portadas; luego «<tema> campeón crónica» confirma con 4+ medios. Datos dudosos (operación de hombro, 8º/9º puesto) se omiten o se señalan como no aclarados. Para 800+ palabras con escenas de ~21 palabras bastan 39 escenas.
 
 ## Diario de la fábrica
 <!-- lo escribe GitHub Actions solo -->

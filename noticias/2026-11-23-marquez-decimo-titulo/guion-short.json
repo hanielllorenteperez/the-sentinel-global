@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-23-marquez-decimo-titulo",
+  "formato": "short",
+  "cinta": "The Sentinel Global · Última hora · Marc Márquez · Décimo título",
+  "titulo": "Estaba a 102 PUNTOS… y acaba de ser campeón del mundo 🏍️",
+  "descripcion": "Marc Márquez llegó a estar 102 puntos por detrás y acaba de ganar su décimo título mundial. La historia completa, en el vídeo largo del canal.\n\n#MarcMarquez #MotoGP #deportes #viral",
+  "etiquetas": ["Marc Márquez", "MotoGP", "remontada", "campeón del mundo", "noticias", "shorts"],
+  "escenas": [
+    {"tipo": "numero", "voz": "Estaba a ciento dos puntos del líder. Y acaba de ser campeón del mundo.", "clips": ["buscar:motorcycle racer helmet close up", "buscar:scoreboard numbers digital @ciento dos puntos"], "numero": "102", "arriba": "PUNTOS DE DESVENTAJA", "texto": "CIENTO DOS PUNTOS", "efecto": "flash"},
+    {"tipo": "frase", "voz": "Nadie en la historia de MotoGP había remontado algo así. Ni siquiera Bagnaia.", "clips": ["buscar:motorcycle racers overtaking slow motion", "buscar:history book old pages @la historia"], "texto": "NADIE EN LA HISTORIA", "resalta": "NADIE"},
+    {"tipo": "titular", "voz": "Marc Márquez gana su décimo Mundial, el octavo en la categoría reina.", "clips": ["buscar:trophy gold close up @décimo Mundial", "buscar:stadium crowd cheering flags"], "etiqueta": "ÚLTIMA HORA", "texto": "DÉCIMO MUNDIAL"},
+    {"tipo": "pregunta", "voz": "¿Cómo se da la vuelta a lo imposible? Y la última carrera tuvo un detalle que casi nadie vio.", "clips": ["buscar:race start motorcycles grid @la última carrera", "buscar:question mark neon dark"], "texto": "¿CÓMO SE DA LA VUELTA?", "efecto": "temblor"},
+    {"tipo": "frase", "voz": "La respuesta está en el vídeo completo. Búscalo en el canal.", "clips": ["buscar:night city aerial lights", "buscar:hand pressing button glowing @en el canal"], "texto": "MIRA EL VÍDEO COMPLETO", "resalta": "COMPLETO", "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL", "musica": "epica"}
+  ],
+  "musica": "epica"
+}

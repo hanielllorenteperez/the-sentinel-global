@@ -1,0 +1,526 @@
+{
+  "id": "2026-11-23-marquez-decimo-titulo",
+  "cinta": "The Sentinel Global · Última hora · Marc Márquez · Décimo título mundial · Portimão",
+  "titulo": "Marc Márquez: de 102 PUNTOS abajo a CAMPEÓN, la remontada imposible 🏍️",
+  "descripcion": "El 22 de noviembre de 2026, en Portimão, Marc Márquez se proclamó campeón del mundo de MotoGP por octava vez en la categoría reina y décima en total. Llegó a estar 102 puntos por detrás de Bezzecchi tras Mugello; superó el récord de remontada de Bagnaia (91 puntos en 2022). Te contamos cómo lo logró, qué pasó en la última carrera y qué datos aún se discuten.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#MarcMarquez #MotoGP #Ducati #deportes #ultimahora",
+  "etiquetas": [
+    "Marc Márquez",
+    "MotoGP",
+    "campeón del mundo",
+    "Ducati",
+    "Portimão",
+    "Bezzecchi",
+    "remontada histórica",
+    "Agostini",
+    "noticias de hoy",
+    "deportes"
+  ],
+  "fuentes": [
+    "https://www.motorpasionmoto.com/motogp/oficial-marc-marquez-se-proclama-campeon-mundo-motogp-decima-vez-portimao",
+    "https://www.crash.net/motogp/news/1110804/1/marc-marquez-wins-2026-motogp-world-title-portuguese-gp",
+    "https://www.eurosport.es/motociclismo/gran-premio-de-portugal/2026/marc-marquez-decimo-mundial-mayor-remontada-puntos-historia-motogp_sto23352923/story.shtml",
+    "https://theobjective.com/deportes/2026-11-22/marquez-octavo-mundial-motogp-rossi-remontada-historica/",
+    "https://www.canariasdiario.com/noticia/153076/deportes/marc-marquez-logra-su-octava-corona-de-motogp-e-iguala-a-agostini.html",
+    "https://www.prensa-latina.cu/2026/11/22/marc-marquez-conquista-el-decimo-mundial-de-motociclismo/",
+    "https://iusport.com/art/152524/marc-marquez-logra-su-octavo-titulo-en-motogp-y-su-decimo-titulo-mundial-en-portugal"
+  ],
+  "musica": "epica",
+  "rotulos": [
+    "EN DIRECTO",
+    "DÉCIMO TÍTULO",
+    "REMONTADA HISTÓRICA",
+    "NOTICIA EN DESARROLLO",
+    "MOTOGP"
+  ],
+  "miniatura": {
+    "texto": "REMONTADA IMPOSIBLE",
+    "rojo": "102 PUNTOS",
+    "escena": 1
+  },
+  "escenas": [
+    {
+      "tipo": "titular",
+      "voz": "Última hora. Marc Márquez acaba de ser campeón del mundo por décima vez. Y hace seis meses, ese título parecía imposible.",
+      "clips": [
+        "buscar:motorcycle racing track aerial",
+        "buscar:motorcycle racer helmet close up @Marc Márquez",
+        "buscar:trophy gold close up @campeón del mundo"
+      ],
+      "etiqueta": "ÚLTIMA HORA",
+      "texto": "CAMPEÓN DEL MUNDO POR DÉCIMA VEZ",
+      "efecto": "flash",
+      "fuente": "Motorpasión Moto",
+      "lugar": "PORTIMÃO · 22 NOV 2026",
+      "musica": "epica"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Llegó a estar a ciento dos puntos del líder. Nadie en la historia del Mundial había dado la vuelta a algo así.",
+      "clips": [
+        "buscar:scoreboard numbers digital close up @ciento dos puntos",
+        "buscar:motorcycle racers overtaking slow motion",
+        "buscar:history book old pages @la historia"
+      ],
+      "texto": "NADIE EN LA HISTORIA",
+      "resalta": "NADIE"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Cómo se remonta lo imposible? Quédate hasta el final, porque la última carrera tuvo un detalle que casi nadie vio venir.",
+      "clips": [
+        "buscar:question mark neon dark",
+        "buscar:race start motorcycles grid @la última carrera"
+      ],
+      "texto": "¿CÓMO SE REMONTA LO IMPOSIBLE?"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Diez campeonatos del mundo. Ocho de ellos en la categoría reina. Una cifra que solo dos pilotos en toda la historia han alcanzado.",
+      "clips": [
+        "buscar:trophies shelf gold row",
+        "buscar:motorcycle wheel spinning track close up @categoría reina",
+        "buscar:stadium crowd cheering flags @toda la historia"
+      ],
+      "numero": "10",
+      "arriba": "TÍTULOS MUNDIALES",
+      "texto": "OCHO EN LA CATEGORÍA REINA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Para entenderlo, hay que volver unos años atrás. A una caída en Jerez, en dos mil veinte, que casi acaba con su carrera.",
+      "clips": [
+        "buscar:empty racetrack grandstands sunset",
+        "buscar:hospital corridor blurry @una caída",
+        "buscar:motorcycle crash slow motion sparks @en Jerez"
+      ],
+      "texto": "UNA CAÍDA EN JEREZ",
+      "resalta": "JEREZ",
+      "efecto": "suave",
+      "lugar": "JEREZ DE LA FRONTERA · 2020",
+      "musica": "reflexion"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Muchos lo dieron por acabado. Pero volvió, cambió de equipo y ganó con Ducati. Seis títulos con Honda, y ahora el segundo con los italianos.",
+      "clips": [
+        "buscar:red motorcycle racing close up @con Ducati",
+        "buscar:man walking paddock alone helmet",
+        "buscar:motorcycle fairing red italian @los italianos"
+      ],
+      "titulo": "SU CAMINO",
+      "items": [
+        "SEIS CON HONDA",
+        "CAÍDA EN JEREZ",
+        "FICHA POR DUCATI",
+        "SEGUNDO TÍTULO"
+      ]
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Entonces llegó dos mil veintiséis. Un año que debía ser tranquilo. ¿Qué pasó para que todo se torciera?",
+      "clips": [
+        "buscar:calendar pages flipping 2026 @dos mil veintiséis",
+        "buscar:storm clouds over racetrack @todo se torciera"
+      ],
+      "texto": "¿QUÉ PASÓ?",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "titular",
+      "voz": "En Le Mans, Márquez se lesionó y tuvo que parar unas dos semanas. En un campeonato tan igualado, eso es una eternidad.",
+      "clips": [
+        "buscar:french racetrack aerial grandstand @Le Mans",
+        "buscar:doctor examining shoulder xray @se lesionó",
+        "buscar:stopwatch ticking close up @dos semanas"
+      ],
+      "etiqueta": "LESIÓN",
+      "texto": "UNAS DOS SEMANAS FUERA",
+      "fuente": "The Objective",
+      "lugar": "LE MANS · 2026",
+      "musica": "tension"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Mientras tanto, otro piloto volaba. Marco Bezzecchi lideraba el campeonato y se escapaba en la clasificación.",
+      "clips": [
+        "buscar:motorcycle racer leaning corner fast @Marco Bezzecchi",
+        "buscar:championship podium champagne spray @lideraba el campeonato"
+      ],
+      "texto": "BEZZECCHI SE ESCAPABA",
+      "resalta": "ESCAPABA"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Tras el Gran Premio de Italia, en Mugello, la diferencia era enorme. Ciento dos puntos separaban a Márquez del primer puesto.",
+      "clips": [
+        "buscar:italian hills racetrack aerial @en Mugello",
+        "buscar:points table screen numbers @ciento dos puntos",
+        "buscar:rider sitting garage head down @Márquez"
+      ],
+      "numero": "102",
+      "arriba": "PUNTOS DE DESVENTAJA",
+      "texto": "EN MUGELLO",
+      "efecto": "temblor",
+      "fuente": "Eurosport",
+      "lugar": "MUGELLO · ITALIA",
+      "musica": "drama"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Quedaban muchas carreras, sí. Pero casi nadie apostaba ya por él. Los expertos hablaban de otro año perdido.",
+      "clips": [
+        "buscar:empty garage bikes lights off",
+        "buscar:newspaper headlines pile @los expertos",
+        "buscar:calendar crossing out days"
+      ],
+      "texto": "CASI NADIE APOSTABA",
+      "resalta": "NADIE",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "grafico",
+      "voz": "Fíjate en la cifra a batir. El récord de remontada era de Pecco Bagnaia en dos mil veintidós: noventa y un puntos.",
+      "clips": [
+        "buscar:motorcycle racer red leathers podium 2022 @Pecco Bagnaia",
+        "buscar:bar chart growing screen @noventa y un puntos"
+      ],
+      "titulo": "MAYOR REMONTADA EN MOTOGP",
+      "valor": "102",
+      "unidad": "PUNTOS",
+      "barras": [
+        {
+          "l": "BAGNAIA 2022",
+          "v": 91
+        },
+        {
+          "l": "MÁRQUEZ 2026",
+          "v": 102
+        }
+      ],
+      "fuente": "Canarias Diario"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Márquez necesitaba más que sumar. Necesitaba ganar, y ganar casi siempre. ¿Era posible?",
+      "clips": [
+        "buscar:racer checking lap time dashboard @necesitaba ganar",
+        "buscar:finish line checkered flag @ganar"
+      ],
+      "texto": "¿ERA POSIBLE?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y entonces, algo cambió. Todo. Desde el Gran Premio de Hungría, Márquez empezó a correr como si no hubiera mañana.",
+      "clips": [
+        "buscar:hungarian racetrack aerial green @Hungría",
+        "buscar:motorcycle racer fast straight line blur @como si no hubiera mañana"
+      ],
+      "texto": "NO HUBIERA MAÑANA",
+      "resalta": "NO",
+      "efecto": "flash",
+      "lugar": "HUNGRÍA · 2026",
+      "musica": "epica"
+    },
+    {
+      "tipo": "numero",
+      "voz": "En los doce Grandes Premios siguientes, ganó ocho. Ocho victorias en doce carreras, contra los mejores pilotos del planeta.",
+      "clips": [
+        "buscar:podium first place raising arms @ganó ocho",
+        "buscar:racers crossing finish line group @doce carreras",
+        "buscar:champagne celebration podium"
+      ],
+      "numero": "8",
+      "arriba": "VICTORIAS EN 12 CARRERAS",
+      "texto": "OCHO VICTORIAS",
+      "fuente": "Canarias Diario"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Desde Hungría sumó trescientos sesenta y cinco puntos. Cada fin de semana, el mismo guion: salir, apretar y no fallar.",
+      "clips": [
+        "buscar:points scoreboard screen racing numbers @trescientos sesenta y cinco puntos",
+        "buscar:rider kneeling touching asphalt corner @apretar",
+        "buscar:mechanics working motorcycle garage @cada fin de semana"
+      ],
+      "titulo": "SU RACHA",
+      "items": [
+        "365 PUNTOS",
+        "OCHO VICTORIAS",
+        "CADA FIN DE SEMANA"
+      ]
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Y Bezzecchi? Seguía siendo rapidísimo. Pero la presión empezó a pesar, y la diferencia se encogía carrera a carrera.",
+      "clips": [
+        "buscar:racer helmet visor reflection nervous @Bezzecchi",
+        "buscar:gap closing arrows graphic @la diferencia se encogía"
+      ],
+      "texto": "¿Y BEZZECCHI?",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Aquí la historia da un giro. El líder empezó a ver a Márquez cada vez más cerca en el retrovisor, y la ventaja se evaporaba.",
+      "clips": [
+        "buscar:motorcycle mirror reflection rider @en el retrovisor",
+        "buscar:two motorcycles side by side corner"
+      ],
+      "texto": "LO TENÍA EN EL RETROVISOR",
+      "resalta": "RETROVISOR",
+      "musica": "tension"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Antes de Portugal, Márquez ya no iba por detrás. Lideraba el campeonato por sesenta puntos. Estaba a un paso de la hazaña.",
+      "clips": [
+        "buscar:portugal coast road aerial @Portugal",
+        "buscar:leaderboard first place highlight @lideraba el campeonato",
+        "buscar:rider hand on heart helmet @a un paso"
+      ],
+      "etiqueta": "GRAN FINAL",
+      "texto": "POR SESENTA PUNTOS",
+      "fuente": "Crash.net",
+      "lugar": "PORTIMÃO · PORTUGAL",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Le bastaba con acabar en el top nueve. Sesenta puntos de ventaja y solo una carrera para firmar el título más grande de su vida.",
+      "clips": [
+        "buscar:racetrack scoreboard clock zero @solo una carrera",
+        "buscar:rider sitting calm helmet in hands @el título más grande",
+        "buscar:grandstand fans waiting excited @el título más grande"
+      ],
+      "numero": "9",
+      "arriba": "LE BASTABA CON SER",
+      "texto": "TOP NUEVE"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Pero el sábado hubo un susto. En la carrera esprint, Márquez iba tercero y se cayó. ¿Se le escapaba el título?",
+      "clips": [
+        "buscar:motorcycle crash sparks asphalt slow motion @se cayó",
+        "buscar:worried crowd fans watching @el título"
+      ],
+      "texto": "¿SE LE ESCAPABA?",
+      "efecto": "temblor",
+      "musica": "drama"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Se levantó, y el título seguía en juego. Le bastaba con acabar bien la carrera del domingo. Pero la presión era enorme.",
+      "clips": [
+        "buscar:rider walking pit lane helmet alone @se levantó",
+        "buscar:night racetrack lights empty",
+        "buscar:sunrise over racetrack @el domingo"
+      ],
+      "texto": "FALTABA EL DOMINGO",
+      "resalta": "DOMINGO",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Domingo veintidós de noviembre. Autódromo del Algarve. Última carrera importante del Mundial. Todo se decidía ahí.",
+      "clips": [
+        "buscar:racetrack aerial algarve hills",
+        "buscar:motorcycles grid start lights @Última carrera",
+        "buscar:crowd flags spain waving @todo se decidía"
+      ],
+      "etiqueta": "EN DIRECTO",
+      "texto": "DOMINGO 22 DE NOVIEMBRE",
+      "lugar": "AUTÓDROMO DO ALGARVE · 22 NOV 2026",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Bezzecchi dominó la carrera y ganó con autoridad. Pero a Márquez ya no le hacía falta ganar.",
+      "clips": [
+        "buscar:racer winning arms up finish line @ganó con autoridad",
+        "buscar:rider cruising corner calm"
+      ],
+      "texto": "NO IBA A GANAR",
+      "resalta": "NO"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Jorge Martín fue segundo. Bezzecchi, primero. Y Márquez, en una conducción segura y sin riesgos, acabó octavo. Con eso le sobraba.",
+      "clips": [
+        "buscar:podium three riders spray @Jorge Martín",
+        "buscar:motorcycle number eight display @octavo",
+        "buscar:safe ride sunset track slow @sin riesgos"
+      ],
+      "titulo": "LA CARRERA",
+      "items": [
+        "1º BEZZECCHI",
+        "2º JORGE MARTÍN",
+        "8º MÁRQUEZ"
+      ],
+      "fuente": "Crash.net"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Octavo. La posición que bastaba. Y con ella, Márquez igualaba a una leyenda: ocho títulos en la categoría reina, como Agostini.",
+      "clips": [
+        "buscar:vintage racing photo black and white @Agostini",
+        "buscar:eight golden trophies row @ocho títulos",
+        "buscar:rider kissing tank emotional"
+      ],
+      "numero": "8",
+      "arriba": "TÍTULOS EN MOTOGP",
+      "texto": "COMO AGOSTINI",
+      "efecto": "flash",
+      "fuente": "Motorpasión Moto",
+      "musica": "epica"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Y Valentino Rossi? Según The Objective, Márquez también lo supera: Rossi ganó siete títulos en la categoría reina.",
+      "clips": [
+        "buscar:yellow number 46 helmet close up @Valentino Rossi",
+        "buscar:trophy cabinet gold @siete títulos"
+      ],
+      "texto": "¿Y VALENTINO ROSSI?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Cuando cruzó la meta, Márquez paseó la bandera de España. Un título distinto a los demás. Por todo lo que costó.",
+      "clips": [
+        "buscar:spanish flag waving racetrack @la bandera de España",
+        "buscar:rider emotional tears helmet off @un título distinto",
+        "buscar:fans hugging celebrating grandstand"
+      ],
+      "texto": "UN TÍTULO DISTINTO",
+      "resalta": "DISTINTO",
+      "efecto": "suave",
+      "musica": "reflexion"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Lo logró con Ducati. Es su segundo título con la marca italiana. Y Aprilia, la moto de Bezzecchi, ganó el campeonato de equipos.",
+      "clips": [
+        "buscar:ducati red motorcycle garage @con Ducati",
+        "buscar:aprilia motorcycle racing @Aprilia",
+        "buscar:team celebration pit wall @de equipos"
+      ],
+      "etiqueta": "DATO CLAVE",
+      "texto": "DUCATI Y APRILIA",
+      "fuente": "Crash.net"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Entonces, ¿qué hace tan especial esta remontada? Tres cosas: la lesión, la diferencia de puntos y la presión de las últimas carreras.",
+      "clips": [
+        "buscar:rider injured shoulder sling @la lesión",
+        "buscar:points chart red line @la diferencia de puntos",
+        "buscar:race pressure close up helmet eyes @la presión"
+      ],
+      "titulo": "TRES CLAVES",
+      "items": [
+        "LA LESIÓN",
+        "102 PUNTOS",
+        "LA PRESIÓN"
+      ]
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Y ahora, la gran duda. ¿Hasta cuándo puede seguir así? ¿Podrá llegar a nueve títulos y acercarse al récord absoluto?",
+      "clips": [
+        "buscar:racer looking horizon sunset track @la gran duda",
+        "buscar:record book gold numbers"
+      ],
+      "texto": "¿HASTA CUÁNDO?",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Con diez títulos mundiales en total, solo Ángel Nieto y Giacomo Agostini tienen más que él en la historia del motociclismo.",
+      "clips": [
+        "buscar:motorcycle museum vintage bikes @Ángel Nieto",
+        "buscar:old motorcycle racer photo @Giacomo Agostini",
+        "buscar:stadium lights night track"
+      ],
+      "texto": "SOLO DOS TIENEN MÁS",
+      "resalta": "DOS",
+      "fuente": "Motorpasión Moto"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Y eso con treinta y tres años. En su momento, muchos pensaban que no volvería a ganar ni una sola carrera.",
+      "clips": [
+        "buscar:motorcycle racer older veteran portrait @treinta y tres años",
+        "buscar:disbelief crowd reaction @muchos pensaban",
+        "buscar:rider winning arms up @una sola carrera"
+      ],
+      "numero": "33",
+      "arriba": "AÑOS DE EDAD",
+      "texto": "TREINTA Y TRES AÑOS"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Quién lo iba a decir? Desde aquella caída en Jerez, el camino fue largo. Y en Portimão, Marc lo ha cerrado con una sonrisa.",
+      "clips": [
+        "buscar:rider smiling podium night @una sonrisa",
+        "buscar:long road horizon @el camino fue largo"
+      ],
+      "texto": "¿QUIÉN LO IBA A DECIR?",
+      "efecto": "suave",
+      "musica": "reflexion"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Quizá esto es lo que de verdad enseña esta historia: que no siempre gana el más rápido, sino el que no se rinde.",
+      "clips": [
+        "buscar:runner dawn silhouette road @el que no se rinde",
+        "buscar:hands clenched fist determination @no se rinde"
+      ],
+      "texto": "EL QUE NO SE RINDE",
+      "resalta": "RINDE",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Esta es la historia completa. Hay datos que todavía no están claros, como la posición exacta con la que cerró la carrera según algunos medios.",
+      "clips": [
+        "buscar:newsroom desk papers lamp @datos",
+        "buscar:magnifying glass reading text close @no están claros"
+      ],
+      "etiqueta": "PRECISIÓN",
+      "texto": "LO QUE AÚN NO ESTÁ CLARO",
+      "fuente": "Prensa Latina",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Algunos medios hablan de octavo y otros de noveno. Lo cierto es que bastaba con acabar entre los nueve primeros. ¿Cambia eso algo?",
+      "clips": [
+        "buscar:results table screen racing @octavo",
+        "buscar:person comparing two newspapers @algunos medios"
+      ],
+      "texto": "BASTABA CON ACABAR"
+    },
+    {
+      "tipo": "frase",
+      "voz": "No cambia nada. Marc Márquez ya es campeón del mundo por décima vez. Y lo ha hecho remontando lo que nadie había remontado.",
+      "clips": [
+        "buscar:rider champion celebration flag @campeón del mundo",
+        "buscar:fireworks night sky @por décima vez"
+      ],
+      "texto": "NADIE HABÍA REMONTADO ESTO",
+      "resalta": "NADIE",
+      "efecto": "flash",
+      "musica": "epica"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Cuando creas que algo ya está perdido, recuerda lo que pasó en Portimão. Suscríbete para enterarte antes que nadie.",
+      "clips": [
+        "buscar:racetrack night lights aerial @Portimão",
+        "buscar:subscribe button finger click @Suscríbete"
+      ],
+      "texto": "SUSCRÍBETE",
+      "chapa": "ANTES QUE NADIE",
+      "musica": "reflexion"
+    }
+  ]
+}
