@@ -39,3 +39,4 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-22 00:43 UTC · 2026-11-22-corzo-unicornio-estonia · ✅ subido a YouTube · run 44964848127
 - 2026-11-22 08:43 UTC · 2026-11-22-insecto-glaciar-patagonia · ✅ subido a YouTube · run 45001119725
 - 2026-11-22 16:46 UTC · 2026-11-22-tres-estrellas-imposibles · ✅ subido a YouTube · run 45041811222
+- 2026-11-23 00:36 UTC · 2026-11-23-ciberataque-178-webs-optimizely · ✅ subido a YouTube · run 45086683789
