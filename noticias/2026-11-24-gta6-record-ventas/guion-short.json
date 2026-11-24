@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-24-gta6-record-ventas",
+  "formato": "short",
+  "cinta": "The Sentinel Global · Última hora · GTA VI · Récord y polémica",
+  "titulo": "GTA 6 vendió 32 millones en un día… y alguien PERDIÓ 😳",
+  "descripcion": "GTA VI rompió récords y aun así algo no cuadra. La historia completa, en el vídeo largo del canal. No es asesoría financiera.\n\n#GTA6 #videojuegos #noticias #viral",
+  "etiquetas": [
+    "GTA 6",
+    "GTA VI",
+    "récord",
+    "videojuegos",
+    "noticias",
+    "viral",
+    "shorts"
+  ],
+  "musica": "misterio",
+  "aviso_financiero": true,
+  "escenas": [
+    {
+      "tipo": "frase",
+      "voz": "Treinta y dos millones de copias en un día. Y aun así, alguien perdió dinero.",
+      "clips": [
+        "buscar:video game console glowing dark room",
+        "buscar:stock chart red falling @perdió dinero"
+      ],
+      "texto": "ALGUIEN PERDIÓ DINERO",
+      "resalta": "PERDIÓ",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Tres mil setecientos noventa millones de dólares en veinticuatro horas. Es lo que dice Rockstar que ingresó su nuevo juego.",
+      "clips": [
+        "buscar:cash money falling slow motion",
+        "buscar:gold coins close up @millones de dólares"
+      ],
+      "numero": "3.790",
+      "arriba": "EN 24 HORAS",
+      "texto": "MILLONES DE DÓLARES"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Los críticos le ponen noventa y nueve. Los jugadores, cinco coma seis. ¿Quién tiene razón?",
+      "clips": [
+        "buscar:gaming magazine pages @los críticos",
+        "buscar:angry gamer close up @los jugadores"
+      ],
+      "texto": "¿QUIÉN TIENE RAZÓN?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y en bolsa, la empresa cayó ese mismo día. Hay una explicación, y una cifra que no cuadra.",
+      "clips": [
+        "buscar:red arrow stock market falling @en bolsa",
+        "buscar:calculator numbers close up @una cifra que no cuadra"
+      ],
+      "texto": "UNA CIFRA QUE NO CUADRA",
+      "resalta": "NO CUADRA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Te lo cuento todo en el vídeo completo. Está en el canal.",
+      "clips": [
+        "buscar:person pointing down screen",
+        "buscar:sunrise city skyline @en el canal"
+      ],
+      "texto": "MIRA EL VÍDEO COMPLETO",
+      "resalta": "COMPLETO",
+      "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL",
+      "musica": "reflexion"
+    }
+  ]
+}

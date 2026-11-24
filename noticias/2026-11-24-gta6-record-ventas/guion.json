@@ -1,0 +1,549 @@
+{
+  "id": "2026-11-24-gta6-record-ventas",
+  "cinta": "The Sentinel Global · Última hora · GTA VI · Récord de ventas · Take-Two en bolsa",
+  "titulo": "GTA 6 vendió 32 MILLONES en un día… y aun así alguien perdió 🎮",
+  "descripcion": "Grand Theft Auto VI salió el 19 de noviembre de 2026 y rompió récords: según Rockstar, 32,5 millones de copias y 3.790 millones de dólares en 24 horas, y según Sony, más de 39 millones de jugadores únicos en PS5. Pero los críticos le dan 99 y los usuarios 5,6, y las acciones de Take-Two cayeron ese día. Te contamos qué se sabe y qué no.\n\nNo es asesoría financiera. Suscríbete para enterarte de las noticias virales antes que nadie.\n\n#GTA6 #videojuegos #noticias #ultimahora #viral",
+  "etiquetas": [
+    "GTA 6",
+    "GTA VI",
+    "Grand Theft Auto VI",
+    "récord de ventas",
+    "Take-Two",
+    "Rockstar Games",
+    "PlayStation 5",
+    "Metacritic",
+    "noticias de hoy",
+    "última hora",
+    "videojuegos"
+  ],
+  "fuentes": [
+    "https://www.infobae.com/america/agencias/2026/11/24/gta-vi-se-convierte-en-el-mayor-lanzamiento-en-la-historia-de-playstation-mas-de-39-millones-de-jugadores-unicos/",
+    "https://www.asktraders.com/analysis/gta-vi-takes-3-79bn-on-day-one-says-reuters/",
+    "https://247wallst.com/investing/2026/11/23/gta-vi-broke-every-record-in-24-hours-so-why-did-take-two-shareholders-sell/",
+    "https://variety.com/2026/gaming/news/gta-6-reviews-highest-rated-video-game-1236951803/",
+    "https://www.notebookcheck.net/GTA-6-Metacritic-user-score-opens-at-5-2-10-prompting-review-bombing-accusations.1455598.0.html",
+    "https://www.lanacion.com.ar/tecnologia/el-gta-6-rompio-todos-los-records-de-ventas-y-usuarios-pero-los-accionistas-no-estan-convencidos-nid24112026/"
+  ],
+  "musica": "misterio",
+  "aviso_financiero": true,
+  "rotulos": [
+    "EN DIRECTO",
+    "GTA VI: RÉCORD HISTÓRICO",
+    "NOTICIA EN DESARROLLO",
+    "DETRÁS DE LA CIFRA",
+    "LO QUE NO TE CUENTAN"
+  ],
+  "miniatura": {
+    "texto": "EL RÉCORD ESCONDE ALGO",
+    "rojo": "99 vs 5,6",
+    "escena": 1
+  },
+  "escenas": [
+    {
+      "tipo": "titular",
+      "voz": "Última hora. Treinta y dos millones y medio de copias vendidas en un solo día. Y aun así, alguien salió perdiendo.",
+      "clips": [
+        "buscar:video game console glowing dark room",
+        "buscar:cheering crowd night lights @en un solo día"
+      ],
+      "etiqueta": "ÚLTIMA HORA",
+      "texto": "EN UN SOLO DÍA",
+      "efecto": "flash",
+      "musica": "misterio",
+      "fuente": "Reuters"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Quédate hasta el final. Te voy a contar quién perdió, y por qué la nota más alta de la historia tiene una trampa.",
+      "clips": [
+        "buscar:man worried looking at stock screen dark",
+        "buscar:gold trophy spotlight @la nota más alta"
+      ],
+      "texto": "QUIÉN PERDIÓ",
+      "resalta": "PERDIÓ",
+      "lugar": "19 NOV 2026 · LANZAMIENTO MUNDIAL"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Tres mil setecientos noventa millones de dólares. Es lo que ingresó Grand Theft Auto seis en sus primeras veinticuatro horas, según Rockstar.",
+      "clips": [
+        "buscar:cash money falling slow motion",
+        "buscar:gold coins pile close up @millones de dólares"
+      ],
+      "numero": "3.790",
+      "arriba": "PRIMERAS VEINTICUATRO HORAS",
+      "texto": "MILLONES DE DÓLARES",
+      "fuente": "Reuters"
+    },
+    {
+      "tipo": "frase",
+      "voz": "El juego salió el jueves diecinueve de noviembre de dos mil veintiséis. Y el mundo llevaba años esperando ese día.",
+      "clips": [
+        "buscar:calendar page close up @jueves diecinueve de noviembre",
+        "buscar:crowd waiting outside store night @el mundo"
+      ],
+      "texto": "EL MUNDO LLEVABA AÑOS ESPERANDO",
+      "resalta": "AÑOS"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Cuánta gente compra un videojuego en un solo día? Más que toda la población de Chile.",
+      "clips": [
+        "buscar:crowded city street from above @toda la población",
+        "buscar:hands holding game disc close up @un videojuego"
+      ],
+      "texto": "¿CUÁNTA GENTE?"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Primero, las cifras de Rockstar. Treinta y dos millones y medio de copias. Tres mil setecientos noventa millones de dólares. Todo, en un día.",
+      "clips": [
+        "buscar:stack of video game boxes shelf @treinta y dos millones y medio de copias",
+        "buscar:dollar bills counting machine @millones de dólares"
+      ],
+      "titulo": "LAS CIFRAS DE ROCKSTAR",
+      "items": [
+        "TREINTA Y DOS MILLONES Y MEDIO DE COPIAS",
+        "TRES MIL SETECIENTOS NOVENTA MILLONES DE DÓLARES"
+      ],
+      "fuente": "Reuters"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero guarda este dato: no todos los números cuentan lo mismo. Más adelante verás que una consultora calculó otra cifra muy distinta.",
+      "clips": [
+        "buscar:calculator numbers close up desk",
+        "buscar:analyst looking at charts laptop @una consultora"
+      ],
+      "texto": "OTRA CIFRA MUY DISTINTA",
+      "resalta": "DISTINTA"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Y aquí llega Sony. Treinta y nueve millones de jugadores únicos en PlayStation cinco en solo cuatro días, del diecinueve al veintidós de noviembre.",
+      "clips": [
+        "buscar:playstation controller close up hands",
+        "buscar:person playing video game dark room tv glow @jugadores únicos"
+      ],
+      "numero": "39",
+      "arriba": "MILLONES DE JUGADORES ÚNICOS",
+      "texto": "EN PLAYSTATION CINCO",
+      "fuente": "Sony",
+      "lugar": "19–22 NOV 2026"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Ojo: son personas que jugaron, no copias vendidas. Y Sony dice que es el mayor lanzamiento de su historia.",
+      "clips": [
+        "buscar:video game player smiling excited @personas que jugaron",
+        "buscar:trophy winner celebration confetti @mayor lanzamiento"
+      ],
+      "texto": "EL MAYOR LANZAMIENTO",
+      "resalta": "MAYOR",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Los datos de Sony. Seiscientos ochenta y tres millones de horas jugadas. Diecisiete horas y media por jugador, de promedio.",
+      "clips": [
+        "buscar:clock ticking close up @horas jugadas",
+        "buscar:gamer playing late night energy drink @por jugador"
+      ],
+      "titulo": "LOS DATOS DE SONY",
+      "items": [
+        "SEISCIENTOS OCHENTA Y TRES MILLONES DE HORAS",
+        "DIECISIETE HORAS Y MEDIA POR JUGADOR"
+      ],
+      "fuente": "Sony"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Y un detalle curioso. En el setenta por ciento de las consolas nuevas que se activaron esos días, este fue el primer juego que se jugó.",
+      "clips": [
+        "buscar:opening new console box unboxing",
+        "buscar:television screen startup logo dark @el primer juego"
+      ],
+      "numero": "70",
+      "arriba": "DE LAS CONSOLAS NUEVAS",
+      "texto": "POR CIENTO",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Entonces, si todo son récords, ¿por qué hubo gente que perdió dinero ese mismo día?",
+      "clips": [
+        "buscar:red stock chart falling screen close up @perdió dinero",
+        "buscar:worried businessman at desk night @ese mismo día"
+      ],
+      "texto": "¿QUIÉN PERDIÓ DINERO?",
+      "musica": "tension"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero antes de llegar ahí, tienes que saber cómo se llegó a este día. Porque esta historia empezó hace mucho tiempo.",
+      "clips": [
+        "buscar:old film reel projector dark @hace mucho tiempo",
+        "buscar:calendar pages flying time lapse @cómo se llegó"
+      ],
+      "texto": "HACE MUCHO TIEMPO",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "numero",
+      "voz": "El anterior título de la saga salió en dos mil trece. Trece años de espera. Una generación entera creció preguntando cuándo llegaría el siguiente.",
+      "clips": [
+        "buscar:children growing up time lapse",
+        "buscar:teenager waiting impatient phone @una generación entera"
+      ],
+      "numero": "13",
+      "arriba": "AÑOS DE ESPERA",
+      "texto": "DESDE EL ANTERIOR",
+      "lugar": "LOS ÁNGELES · EE. UU."
+    },
+    {
+      "tipo": "frase",
+      "voz": "Durante años circularon rumores, filtraciones y retrasos. Cada vez que parecía que ya estaba cerca, la fecha se movía.",
+      "clips": [
+        "buscar:calendar date crossed out red marker @la fecha se movía",
+        "buscar:hacker typing code dark room @filtraciones"
+      ],
+      "texto": "LA FECHA SE MOVÍA",
+      "resalta": "MOVÍA"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Es posible que un juego cumpla trece años de expectativas? Muchos pensaban que no.",
+      "clips": [
+        "buscar:person looking at sky thinking @trece años",
+        "buscar:crowd of people waiting patient @muchos pensaban"
+      ],
+      "texto": "¿PODÍA CUMPLIR?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y llegó el día. Tiendas abiertas a medianoche, colas en las puertas y millones de personas conectadas a la vez.",
+      "clips": [
+        "buscar:store opening at night line of people @colas",
+        "buscar:server room blinking lights @conectadas a la vez"
+      ],
+      "texto": "MILLONES CONECTADAS A LA VEZ",
+      "resalta": "MILLONES",
+      "efecto": "golpe"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Lo que dijeron los críticos. Una nota de noventa y nueve sobre cien en Metacritic. Ciento cincuenta y dos reseñas profesionales.",
+      "clips": [
+        "buscar:journalist typing review laptop close up @reseñas profesionales",
+        "buscar:gaming magazine pages flipping @los críticos"
+      ],
+      "titulo": "LOS CRÍTICOS",
+      "items": [
+        "NOVENTA Y NUEVE SOBRE CIEN",
+        "CIENTO CINCUENTA Y DOS RESEÑAS"
+      ],
+      "fuente": "Metacritic",
+      "musica": "epica"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Noventa y nueve. Con esa nota empata el juego mejor valorado de todos los tiempos: Ocarina of Time, de mil novecientos noventa y ocho.",
+      "clips": [
+        "buscar:golden trophy rotating spotlight @mejor valorado",
+        "buscar:retro video game cartridge close up @de mil novecientos noventa y ocho"
+      ],
+      "texto": "EMPATA CON EL MEJOR DE LA HISTORIA",
+      "resalta": "MEJOR",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Parece el final perfecto, ¿verdad? Pues la historia da un giro que casi nadie vio venir.",
+      "clips": [
+        "buscar:curtain opening dramatic dark stage",
+        "buscar:mysterious door opening light @un giro"
+      ],
+      "texto": "¿EL FINAL PERFECTO?",
+      "efecto": "temblor",
+      "musica": "tension"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Los jugadores pusieron otra nota. Cinco coma seis sobre diez. Más de cien mil valoraciones de usuarios en Metacritic.",
+      "clips": [
+        "buscar:thumbs down angry gamer close up @cinco coma seis sobre diez",
+        "buscar:person typing angry comment laptop @valoraciones de usuarios"
+      ],
+      "numero": "5,6",
+      "arriba": "NOTA DE LOS USUARIOS",
+      "texto": "SOBRE DIEZ",
+      "fuente": "Metacritic"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los críticos, noventa y nueve. Los usuarios, cinco coma seis. Dos mundos distintos mirando exactamente el mismo juego.",
+      "clips": [
+        "buscar:split screen contrast light dark @dos mundos distintos",
+        "buscar:gamer face close up screen reflection @el mismo juego"
+      ],
+      "texto": "DOS MUNDOS DISTINTOS",
+      "resalta": "DISTINTOS"
+    },
+    {
+      "tipo": "grafico",
+      "voz": "Para que lo veas claro: Ocarina of Time, noventa y nueve. Los críticos del juego nuevo, noventa y nueve. Y los usuarios, cincuenta y seis sobre cien.",
+      "clips": [
+        "buscar:bar chart growing dark background"
+      ],
+      "titulo": "NOTAS EN METACRITIC (SOBRE 100)",
+      "valor": "99",
+      "unidad": "CRÍTICOS",
+      "barras": [
+        {
+          "l": "OCARINA OF TIME",
+          "v": 99
+        },
+        {
+          "l": "USUARIOS (5,6/10)",
+          "v": 56
+        },
+        {
+          "l": "CRÍTICOS GTA VI",
+          "v": 99
+        }
+      ],
+      "fuente": "Metacritic"
+    },
+    {
+      "tipo": "frase",
+      "voz": "¿Qué pasó? Parte de esas notas bajas, según varios medios, llegó de cuentas nuevas y de gente que decía no haber jugado todavía.",
+      "clips": [
+        "buscar:person on laptop anonymous hoodie dark @cuentas nuevas",
+        "buscar:empty chair computer screen night @no haber jugado"
+      ],
+      "texto": "CUENTAS NUEVAS",
+      "resalta": "NUEVAS",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Una campaña organizada? Algunos fans señalaron a seguidores de otra marca. Pero no hay ninguna prueba de que eso sea cierto.",
+      "clips": [
+        "buscar:question mark neon dark @una campaña organizada",
+        "buscar:magnifying glass evidence desk @ninguna prueba"
+      ],
+      "texto": "¿UNA CAMPAÑA ORGANIZADA?",
+      "fuente": "Notebookcheck"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Pero no todo fue ruido. Entre las quejas reales: va a treinta cuadros por segundo, incluso en la PS5 Pro, y tiene errores técnicos.",
+      "clips": [
+        "buscar:game screen lag glitch close up @errores técnicos",
+        "buscar:tv screen frame rate stutter @treinta cuadros por segundo"
+      ],
+      "titulo": "QUEJAS REALES",
+      "items": [
+        "TREINTA CUADROS POR SEGUNDO",
+        "ERRORES TÉCNICOS"
+      ],
+      "musica": "drama"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Es decir: una parte del enfado es ruido, y otra parte tiene fundamento. Y el público aún no se ha puesto de acuerdo.",
+      "clips": [
+        "buscar:crowd arguing shouting from above @una parte del enfado",
+        "buscar:scales balance close up @tiene fundamento"
+      ],
+      "texto": "RUIDO Y FUNDAMENTO",
+      "resalta": "RUIDO"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Pero lo más raro estaba en la bolsa. ¿Por qué cayó la acción de la empresa dueña del juego el día del estreno?",
+      "clips": [
+        "buscar:stock exchange trading floor red numbers",
+        "buscar:wall street street sign close up @la bolsa"
+      ],
+      "texto": "¿POR QUÉ CAYÓ LA ACCIÓN?",
+      "efecto": "temblor",
+      "musica": "tension",
+      "lugar": "NUEVA YORK · 19 NOV 2026"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Las acciones de Take-Two cayeron alrededor de un cuatro por ciento el día del lanzamiento. Según el medio, entre dos y cuatro.",
+      "clips": [
+        "buscar:red arrow falling stock chart close up @cayeron",
+        "buscar:trader hands on head screens red @un cuatro por ciento"
+      ],
+      "numero": "4",
+      "arriba": "CAYERON CERCA DE UN",
+      "texto": "POR CIENTO",
+      "fuente": "24/7 Wall St."
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y lo más extraño: ese mismo mes, la acción había subido cerca de un veinticinco por ciento. Todo el mundo esperaba el éxito.",
+      "clips": [
+        "buscar:green stock chart rising line @había subido",
+        "buscar:crowd of investors waiting expectation @todo el mundo esperaba"
+      ],
+      "texto": "TODO EL MUNDO ESPERABA EL ÉXITO",
+      "resalta": "ÉXITO"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los analistas lo llaman vender con la noticia. Cuando algo ya está en el precio, ni un récord basta para sostenerlo.",
+      "clips": [
+        "buscar:analyst pointing screen chart office",
+        "buscar:money changing hands close up @vender con la noticia"
+      ],
+      "texto": "VENDER CON LA NOTICIA",
+      "resalta": "NOTICIA",
+      "fuente": "24/7 Wall St."
+    },
+    {
+      "tipo": "lista",
+      "voz": "Y hay otro factor. Ese día el mercado entero cayó cerca de un dos por ciento. No fue solo cosa del juego.",
+      "clips": [
+        "buscar:stock market board red numbers wide shot @el mercado entero",
+        "buscar:office workers watching tv news @no fue solo cosa del juego"
+      ],
+      "titulo": "ESE JUEVES",
+      "items": [
+        "EL MERCADO ENTERO",
+        "UN DOS POR CIENTO"
+      ]
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Entonces las cifras son de fiar? Aquí viene la parte que te prometí, así que presta atención.",
+      "clips": [
+        "buscar:detective magnifying glass paper documents @las cifras",
+        "buscar:person reading document close up @la parte que te prometí"
+      ],
+      "texto": "¿SON DE FIAR?",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Una consultora, Sensor Tower, estimó unos veinticuatro millones seiscientas mil copias digitales y dos mil trescientos sesenta millones de dólares.",
+      "clips": [
+        "buscar:laptop data analytics dark room @una consultora",
+        "buscar:digital download progress bar screen @copias digitales"
+      ],
+      "numero": "2.360",
+      "arriba": "ESTIMACIÓN DE SENSOR TOWER",
+      "texto": "MILLONES DE DÓLARES",
+      "fuente": "Sensor Tower"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Dos mil trescientos sesenta frente a tres mil setecientos noventa. La diferencia es enorme, y ninguna de las dos la ha auditado nadie.",
+      "clips": [
+        "buscar:two paths diverging forest aerial",
+        "buscar:calculator and papers desk close up @la diferencia es enorme"
+      ],
+      "texto": "LA DIFERENCIA ES ENORME",
+      "resalta": "ENORME",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Rockstar, de momento, no ha desglosado cómo llegó a su cifra. Y las cuentas oficiales llegarán más adelante, con el informe de resultados.",
+      "clips": [
+        "buscar:empty boardroom table dark @las cuentas oficiales",
+        "buscar:stack of financial reports close up @el informe de resultados"
+      ],
+      "texto": "LAS CUENTAS OFICIALES",
+      "resalta": "OFICIALES",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Cuándo sabremos la verdad? Según lo previsto, en febrero, cuando la empresa presente su primer informe con este juego dentro.",
+      "clips": [
+        "buscar:calendar february page close up @en febrero",
+        "buscar:company presentation conference room @su primer informe"
+      ],
+      "texto": "¿CUÁNDO SABREMOS LA VERDAD?",
+      "fuente": "24/7 Wall St."
+    },
+    {
+      "tipo": "frase",
+      "voz": "Mientras tanto, queda una pregunta incómoda. ¿Puede un producto ser un éxito histórico y, a la vez, una decepción para quien invirtió?",
+      "clips": [
+        "buscar:lonely man silhouette window city night @una pregunta incómoda",
+        "buscar:investor holding head desk @quien invirtió"
+      ],
+      "texto": "ÉXITO HISTÓRICO Y DECEPCIÓN",
+      "resalta": "DECEPCIÓN",
+      "musica": "reflexion"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Los números cuentan que fue un éxito. La bolsa cuenta que no fue suficiente. Y los jugadores cuentan algo todavía distinto.",
+      "clips": [
+        "buscar:rain on window city lights slow motion @la bolsa",
+        "buscar:gamer alone controller night @los jugadores"
+      ],
+      "titulo": "TRES VERSIONES",
+      "items": [
+        "FUE UN ÉXITO",
+        "NO FUE SUFICIENTE",
+        "ALGO DISTINTO"
+      ],
+      "efecto": "suave"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Esto no es asesoría financiera. Solo cuento lo que pasó. Si te interesa la bolsa, mira los datos oficiales y decide por tu cuenta.",
+      "clips": [
+        "buscar:person reading financial news tablet @asesoría financiera",
+        "buscar:office desk notebook pen thinking @decide por tu cuenta"
+      ],
+      "texto": "NO ES ASESORÍA FINANCIERA",
+      "resalta": "NO ES",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Treinta y dos millones y medio de copias. Treinta y nueve millones de jugadores. Y una nota de usuarios que no llega ni a seis.",
+      "clips": [
+        "buscar:video game player excited screen glow @treinta y nueve millones de jugadores",
+        "buscar:thumbs down rating screen @no llega ni a seis"
+      ],
+      "titulo": "LA PARADOJA",
+      "items": [
+        "TREINTA Y DOS MILLONES Y MEDIO DE COPIAS",
+        "TREINTA Y NUEVE MILLONES DE JUGADORES",
+        "NO LLEGA NI A SEIS"
+      ],
+      "musica": "drama"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Y tú, ¿te fías más de los críticos o de los jugadores? Cuéntamelo en los comentarios.",
+      "clips": [
+        "buscar:person typing comment phone close up @en los comentarios",
+        "buscar:friends talking cafe @los jugadores"
+      ],
+      "texto": "¿CRÍTICOS O JUGADORES?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "La historia sigue abierta y las cifras definitivas aún no están. Suscríbete para enterarte antes que nadie.",
+      "clips": [
+        "buscar:sunrise city skyline time lapse @aún no están",
+        "buscar:subscribe button click hand @Suscríbete"
+      ],
+      "texto": "SUSCRÍBETE",
+      "resalta": "SUSCRÍBETE",
+      "chapa": "NOTICIAS ANTES QUE NADIE",
+      "musica": "reflexion",
+      "efecto": "suave"
+    }
+  ]
+}
