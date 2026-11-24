@@ -1,0 +1,73 @@
+{
+ "id": "2026-11-24-anthropic-salida-bolsa-record",
+ "formato": "short",
+ "cinta": "The Sentinel Global · Última hora · Anthropic · Salida a bolsa",
+ "titulo": "Perdió 42.000 millones… y vale más de UN BILLÓN 😳",
+ "descripcion": "Anthropic ha hecho la mayor salida a bolsa de la historia, pero sus cuentas esconden un detalle. La historia completa, en el vídeo largo del canal. Información, no asesoría financiera.\n\n#Anthropic #Nasdaq #bolsa #viral",
+ "etiquetas": [
+  "Anthropic",
+  "salida a bolsa",
+  "Nasdaq",
+  "inteligencia artificial",
+  "noticias",
+  "shorts"
+ ],
+ "musica": "tension",
+ "aviso_financiero": true,
+ "escenas": [
+  {
+   "tipo": "numero",
+   "voz": "Ochenta y un mil millones de dólares en un solo día. La mayor salida a bolsa de la historia.",
+   "clips": [
+    "buscar:stock exchange trading floor wide",
+    "buscar:stock market screen green numbers @ochenta y un mil millones"
+   ],
+   "numero": "81",
+   "arriba": "MIL MILLONES DE DÓLARES",
+   "texto": "LA MAYOR DE LA HISTORIA",
+   "efecto": "flash"
+  },
+  {
+   "tipo": "frase",
+   "voz": "La empresa perdió cuarenta y dos mil millones de dólares en dos mil veinticinco. Y aun así, vale más de un billón.",
+   "clips": [
+    "buscar:red negative numbers screen close up @perdió cuarenta y dos mil millones",
+    "buscar:gold coins stack growing @más de un billón"
+   ],
+   "texto": "PERDIÓ CUARENTA Y DOS MIL MILLONES",
+   "resalta": "PERDIÓ"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Cómo es posible? Su acción abrió con un treinta y cuatro por ciento de subida, y acabó el día en un diecisiete.",
+   "clips": [
+    "buscar:stock chart candles volatile @su acción",
+    "buscar:green stock numbers jumping screen @un treinta y cuatro por ciento"
+   ],
+   "texto": "¿CÓMO ES POSIBLE?",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Y ese día, el resto del mercado cerró a la baja. Además, hay un detalle en las cuentas que casi nadie cuenta.",
+   "clips": [
+    "buscar:red stock arrows falling screen @cerró a la baja",
+    "buscar:secret documents folder dark desk @en las cuentas"
+   ],
+   "texto": "CASI NADIE CUENTA",
+   "resalta": "NADIE"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Te lo explico en el vídeo completo. Búscalo en el canal.",
+   "clips": [
+    "buscar:night city aerial lights",
+    "buscar:hand pressing button glowing @en el canal"
+   ],
+   "texto": "MIRA EL VÍDEO COMPLETO",
+   "resalta": "COMPLETO",
+   "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL",
+   "musica": "tension"
+  }
+ ]
+}

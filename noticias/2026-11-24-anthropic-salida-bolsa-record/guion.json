@@ -1,0 +1,532 @@
+{
+ "id": "2026-11-24-anthropic-salida-bolsa-record",
+ "cinta": "The Sentinel Global · Última hora · Anthropic · Salida a bolsa récord · Nasdaq",
+ "titulo": "Anthropic en bolsa: 81.000 millones en UN día… ¿genio o BURBUJA? 📈",
+ "descripcion": "El 18 de noviembre de 2026 Anthropic fijó en 83 dólares el precio de su salida a bolsa y recaudó unos 81.300 millones: la mayor de la historia. Al día siguiente empezó a cotizar en el Nasdaq (ANT), abrió con un 34 % de subida y cerró con un 17 %. Pero su borrador mostraba una pérdida de 42.000 millones y una factura de 518.000 millones. Te contamos la historia completa y lo que los analistas dudan.\n\nEste vídeo es informativo y no constituye asesoría financiera.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#Anthropic #SalidaABolsa #Nasdaq #InteligenciaArtificial #ultimahora",
+ "etiquetas": [
+  "Anthropic",
+  "salida a bolsa",
+  "OPI",
+  "Nasdaq",
+  "ANT",
+  "inteligencia artificial",
+  "burbuja de la IA",
+  "SpaceX",
+  "Claude",
+  "noticias de hoy",
+  "economía"
+ ],
+ "fuentes": [
+  "https://www.cnn.com/2026/11/18/investing/anthropic-ipo-price-stock",
+  "https://ca.finance.yahoo.com/news/anthropic-raises-81-3-billion-123000699.html",
+  "https://www.bloomberglinea.com/mercados/anthropic-debuta-hoy-en-wall-street-con-una-opi-historica-precio-valoracion-y-riesgos/",
+  "https://www.diarioestrategia.cl/texto-diario/mostrar/6101286/anthropic-sube-17-cierre-primera-sesion-nasdaq",
+  "https://www.timeslive.co.za/news/business/2026-11-19-anthropic-hits-21-trillion-valuation-in-nasdaq-debut-tops-spacexs-june-listing/",
+  "https://www.telemundo.com/noticias/noticias-telemundo/estados-unidos/anthropic-protagoniza-una-historica-salida-a-bolsa-con-acciones-a-1115-rcna610236",
+  "https://www.koreatimes.co.kr/world/20260929/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs",
+  "https://www.computing.co.uk/news/2026/anthropic-faces-42bn-loss-and-518bn-infrastructure-bill-ipo-filing-reveals",
+  "https://www.thestar.com.my/tech/tech-news/2026/11/19/anthropic039s-historic-debut-to-put-ai039s-promise-and-peril-to-wall-st-test"
+ ],
+ "musica": "tension",
+ "aviso_financiero": true,
+ "rotulos": [
+  "EN DIRECTO",
+  "SALIDA A BOLSA RÉCORD",
+  "NOTICIA EN DESARROLLO",
+  "DETRÁS DE LA CIFRA",
+  "NASDAQ: ANT"
+ ],
+ "miniatura": {
+  "texto": "LA MAYOR SALIDA A BOLSA",
+  "rojo": "81.300 MILLONES",
+  "escena": 1
+ },
+ "escenas": [
+  {
+   "tipo": "titular",
+   "voz": "Última hora. Una empresa acaba de levantar ochenta y un mil millones de dólares en un solo día. Es la mayor salida a bolsa de la historia.",
+   "clips": [
+    "buscar:stock exchange trading floor wide",
+    "buscar:stock market screen green numbers @ochenta y un mil millones",
+    "buscar:new york skyline financial district @la mayor salida a bolsa"
+   ],
+   "etiqueta": "ÚLTIMA HORA",
+   "texto": "LA MAYOR SALIDA A BOLSA",
+   "efecto": "flash",
+   "fuente": "Reuters",
+   "lugar": "NUEVA YORK · 19 NOV 2026",
+   "musica": "tension"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Es la empresa detrás de Claude, el asistente de inteligencia artificial. Quédate hasta el final: hay un detalle que casi nadie está contando.",
+   "clips": [
+    "buscar:artificial intelligence glowing brain dark",
+    "buscar:laptop chat screen typing close up @el asistente",
+    "buscar:man watching clock thinking @hasta el final"
+   ],
+   "texto": "DETRÁS DE CLAUDE",
+   "resalta": "CLAUDE"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Cómo puede una empresa que perdió cuarenta y dos mil millones en un año valer más de un billón de dólares?",
+   "clips": [
+    "buscar:money burning cash close up @perdió cuarenta y dos mil millones",
+    "buscar:gold coins stack growing @valer más de un billón"
+   ],
+   "texto": "¿VALER MÁS DE UN BILLÓN?"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Ochenta y un mil trescientos millones de dólares. Eso recaudó Anthropic al salir a bolsa, más que cualquier empresa antes.",
+   "clips": [
+    "buscar:dollar bills falling slow motion",
+    "buscar:server room blue lights @Anthropic",
+    "buscar:businessmen applauding stock exchange bell @más que cualquier empresa"
+   ],
+   "numero": "81,3",
+   "arriba": "MIL MILLONES DE DÓLARES",
+   "texto": "MÁS QUE CUALQUIER EMPRESA",
+   "fuente": "CNN"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Para entender esta cifra hay que volver unos meses atrás. Al día en que se filtró un documento que lo cambió todo.",
+   "clips": [
+    "buscar:calendar pages flipping autumn",
+    "buscar:secret documents folder dark desk @se filtró un documento",
+    "buscar:flashlight on papers close up @lo cambió todo"
+   ],
+   "texto": "SE FILTRÓ UN DOCUMENTO",
+   "resalta": "FILTRÓ",
+   "efecto": "suave",
+   "lugar": "SEPTIEMBRE 2026",
+   "musica": "misterio"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Ese borrador contaba tres cosas. Ingresos de cuatro mil seiscientos millones. Una pérdida de cuarenta y dos mil millones. Y una factura de quinientos dieciocho mil millones.",
+   "clips": [
+    "buscar:calculator close up numbers",
+    "buscar:red arrow chart falling @una pérdida",
+    "buscar:stack of invoices paper @una factura"
+   ],
+   "titulo": "EL BORRADOR",
+   "items": [
+    "CUATRO MIL SEISCIENTOS MILLONES",
+    "CUARENTA Y DOS MIL MILLONES",
+    "QUINIENTOS DIECIOCHO MIL MILLONES"
+   ],
+   "fuente": "Reuters"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Primero, los ingresos de dos mil veinticinco: multiplicados por doce en solo un año. Un cohete.",
+   "clips": [
+    "buscar:rocket launch fire slow motion @un cohete",
+    "buscar:growth chart rising office screen @multiplicados por doce"
+   ],
+   "numero": "12",
+   "arriba": "VECES MÁS INGRESOS",
+   "texto": "MULTIPLICADOS POR DOCE"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Pero ahora viene el segundo dato, el que más ha dado que hablar. Guarda este número, porque luego importa.",
+   "clips": [
+    "buscar:hand holding paper number close up @Guarda este número",
+    "buscar:analyst frowning computer screen @el que más ha dado que hablar"
+   ],
+   "texto": "GUARDA ESTE NÚMERO",
+   "resalta": "NÚMERO"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Cuarenta y dos mil millones de dólares de pérdida neta en dos mil veinticinco. Pero ojo con la letra pequeña.",
+   "clips": [
+    "buscar:red negative numbers screen close up @pérdida neta",
+    "buscar:magnifying glass fine print document @la letra pequeña"
+   ],
+   "numero": "42",
+   "arriba": "MIL MILLONES DE PÉRDIDA",
+   "texto": "PÉRDIDA NETA",
+   "efecto": "temblor",
+   "fuente": "Reuters"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Unos treinta y cuatro mil millones fueron un cargo contable, no dinero que saliera de la caja. La pérdida operativa fue de unos ocho mil millones.",
+   "clips": [
+    "buscar:accountant ledger pen close up @un cargo contable",
+    "buscar:cash register drawer open @de la caja",
+    "buscar:business charts documents desk @pérdida operativa"
+   ],
+   "texto": "UN CARGO CONTABLE",
+   "resalta": "CONTABLE",
+   "fuente": "Reuters"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Entonces, ¿en qué se gasta tanto dinero una empresa de inteligencia artificial? La respuesta tiene nombre: cómputo.",
+   "clips": [
+    "buscar:question mark neon dark",
+    "buscar:computer chips circuit board macro @cómputo"
+   ],
+   "texto": "¿EN QUÉ SE GASTA TANTO?"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Quinientos dieciocho mil millones de dólares. Eso se comprometió a pagar en centros de datos, chips y nube durante los próximos años.",
+   "clips": [
+    "buscar:data center aisles servers blinking @centros de datos",
+    "buscar:graphics card gpu close up @chips",
+    "buscar:cloud computing network lines @nube"
+   ],
+   "numero": "518",
+   "arriba": "MIL MILLONES COMPROMETIDOS",
+   "texto": "CENTROS DE DATOS",
+   "fuente": "Reuters"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Y según el borrador, cerca del ochenta por ciento de ese compromiso hay que pagarlo pase lo que pase, se use ese poder de cálculo o no.",
+   "clips": [
+    "buscar:contract signing pen close up @ese compromiso",
+    "buscar:electric meter spinning fast @poder de cálculo"
+   ],
+   "texto": "PASE LO QUE PASE",
+   "resalta": "PASE"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Llegó el gran día. Jueves, diecinueve de noviembre. La acción de Anthropic empezaba a cotizar en el Nasdaq con el símbolo ANT.",
+   "clips": [
+    "buscar:stock exchange bell ringing",
+    "buscar:times square billboards night @el Nasdaq",
+    "buscar:stock ticker board scrolling @el símbolo"
+   ],
+   "etiqueta": "EN DIRECTO",
+   "texto": "SÍMBOLO ANT",
+   "efecto": "flash",
+   "lugar": "NASDAQ · 19 NOV 2026",
+   "musica": "epica"
+  },
+  {
+   "tipo": "numero",
+   "voz": "El precio de salida ya estaba fijado: ochenta y tres dólares por acción. Más de lo previsto, que era entre setenta y setenta y ocho.",
+   "clips": [
+    "buscar:price tag number close up @ochenta y tres dólares",
+    "buscar:stock certificate paper @por acción"
+   ],
+   "numero": "83",
+   "arriba": "DÓLARES POR ACCIÓN",
+   "texto": "MÁS DE LO PREVISTO",
+   "fuente": "CNN"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Fueron novecientos ochenta millones de acciones, vendidas por encima del rango que la propia empresa había previsto.",
+   "clips": [
+    "buscar:crowd of investors screens @novecientos ochenta millones",
+    "buscar:arrow breaking through ceiling @por encima del rango"
+   ],
+   "texto": "POR ENCIMA DEL RANGO",
+   "resalta": "ENCIMA"
+  },
+  {
+   "tipo": "grafico",
+   "voz": "Para ponerlo en perspectiva: Alibaba, veinticinco mil millones. Aramco, casi treinta mil. SpaceX, setenta y cinco mil. Anthropic los superó a todos.",
+   "clips": [
+    "buscar:bar chart growing dark background"
+   ],
+   "titulo": "MAYORES SALIDAS A BOLSA",
+   "valor": "81,3",
+   "unidad": "MIL MILLONES $",
+   "barras": [
+    {
+     "l": "ALIBABA 2014",
+     "v": 25
+    },
+    {
+     "l": "ARAMCO 2019",
+     "v": 29.4
+    },
+    {
+     "l": "SPACEX 2026",
+     "v": 75
+    },
+    {
+     "l": "ANTHROPIC",
+     "v": 81.3
+    }
+   ]
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Pero lo más raro llegó cuando sonó la campana. ¿Se dispararía la acción o se hundiría? Lo que pasó fue una montaña rusa.",
+   "clips": [
+    "buscar:roller coaster ride first person @una montaña rusa",
+    "buscar:stock chart candles volatile @se dispararía la acción"
+   ],
+   "texto": "¿O SE HUNDIRÍA?",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Abrió a ciento once dólares con cincuenta. Un treinta y cuatro por ciento por encima del precio de salida, nada más abrir.",
+   "clips": [
+    "buscar:green stock numbers jumping screen @ciento once dólares",
+    "buscar:traders cheering hands up @nada más abrir"
+   ],
+   "numero": "+34%",
+   "arriba": "AL ABRIR LA SESIÓN",
+   "texto": "TREINTA Y CUATRO POR CIENTO",
+   "fuente": "Bloomberg"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Durante la sesión tocó su máximo: ciento quince dólares con diez. A ese precio, la empresa llegó a valer más de dos billones de dólares.",
+   "clips": [
+    "buscar:mountain peak summit clouds @su máximo",
+    "buscar:gold bars vault @más de dos billones"
+   ],
+   "texto": "MÁS DE DOS BILLONES",
+   "resalta": "DOS",
+   "fuente": "Reuters"
+  },
+  {
+   "tipo": "lista",
+   "voz": "La sesión fue así. Abrió a ciento once con cincuenta. Tocó un máximo de ciento quince con diez. Y llegó a bajar a noventa y dos con setenta y dos.",
+   "clips": [
+    "buscar:stock chart zigzag line close up",
+    "buscar:trader sweating worried screens @llegó a bajar"
+   ],
+   "titulo": "LA MONTAÑA RUSA",
+   "items": [
+    "ABRIÓ A CIENTO ONCE",
+    "UN MÁXIMO DE CIENTO QUINCE",
+    "BAJAR A NOVENTA Y DOS"
+   ]
+  },
+  {
+   "tipo": "numero",
+   "voz": "Y al final del día, la acción cerró en noventa y siete dólares con diecisiete. Un diecisiete por ciento más que el precio de salida.",
+   "clips": [
+    "buscar:stock market closing bell evening",
+    "buscar:calculator percent sign close up @un diecisiete por ciento"
+   ],
+   "numero": "+17%",
+   "arriba": "AL CIERRE",
+   "texto": "UN DIECISIETE POR CIENTO",
+   "fuente": "Bloomberg"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Y ojo: ese día el resto del mercado cerró a la baja. Según la cadena CNBC, las bolsas tocaron sus mínimos justo cuando Anthropic empezó a cotizar.",
+   "clips": [
+    "buscar:red stock arrows falling screen @cerró a la baja",
+    "buscar:wall street sign street low angle @las bolsas"
+   ],
+   "texto": "CERRÓ A LA BAJA",
+   "resalta": "BAJA",
+   "fuente": "CNBC"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Es el principio de una nueva era, o la señal de que la burbuja de la inteligencia artificial está llegando a su límite?",
+   "clips": [
+    "buscar:soap bubble floating close up @la burbuja",
+    "buscar:futuristic city night robot @una nueva era"
+   ],
+   "texto": "¿LA BURBUJA DE LA INTELIGENCIA ARTIFICIAL?",
+   "efecto": "temblor",
+   "musica": "tension"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Un analista lo resumió así: quizá la burbuja ha frenado su crecimiento, pero no se atrevía a decir que esté a punto de estallar.",
+   "clips": [
+    "buscar:businessman suit speaking interview @Un analista",
+    "buscar:balloon about to pop slow motion @a punto de estallar"
+   ],
+   "texto": "A PUNTO DE ESTALLAR",
+   "resalta": "ESTALLAR",
+   "fuente": "Reuters"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Y hubo otra operación a la vez: una colocación privada de veintiséis mil millones con grandes tecnológicas como Nvidia, Google y Microsoft, según algunos medios.",
+   "clips": [
+    "buscar:handshake corporate close up @una colocación privada",
+    "buscar:tech company headquarters glass building @grandes tecnológicas",
+    "buscar:microchip glowing macro @Nvidia"
+   ],
+   "numero": "26",
+   "arriba": "MIL MILLONES MÁS",
+   "texto": "NVIDIA, GOOGLE Y MICROSOFT"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Aquí viene el detalle incómodo. Buena parte del escrutinio se ha centrado en los acuerdos circulares: empresas que invierten en ella y a la vez son sus proveedores.",
+   "clips": [
+    "buscar:circle arrows loop diagram money @los acuerdos circulares",
+    "buscar:dark office lawyers documents @el escrutinio",
+    "buscar:supply chain containers port @sus proveedores"
+   ],
+   "texto": "ACUERDOS CIRCULARES",
+   "resalta": "CIRCULARES",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "lista",
+   "voz": "En resumen, estas son las dudas sobre la mesa. Pérdidas enormes. Una factura de cómputo gigantesca. Y casi una cuarta parte de los ingresos viene de solo dos clientes.",
+   "clips": [
+    "buscar:worried investor reading newspaper",
+    "buscar:server room corridor huge @una factura de cómputo",
+    "buscar:two businessmen shaking hands silhouette @solo dos clientes"
+   ],
+   "titulo": "LAS DUDAS",
+   "items": [
+    "PÉRDIDAS ENORMES",
+    "FACTURA DE CÓMPUTO",
+    "SOLO DOS CLIENTES"
+   ],
+   "fuente": "Reuters"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Mil trescientos sesenta y ocho por ciento. Ese fue el salto de los ingresos en el trimestre hasta junio, comparado con un año antes.",
+   "clips": [
+    "buscar:chart exponential growth line white background",
+    "buscar:calendar months passing time lapse @un año antes"
+   ],
+   "numero": "+1.368%",
+   "arriba": "CRECIMIENTO DE INGRESOS",
+   "texto": "UN AÑO ANTES",
+   "fuente": "Reuters"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Es decir: un crecimiento casi sin precedentes, mezclado con pérdidas que tampoco los tienen. Esa es la apuesta que han comprado los inversores.",
+   "clips": [
+    "buscar:poker chips push all in @la apuesta",
+    "buscar:investors meeting boardroom discussing @los inversores"
+   ],
+   "texto": "ESA ES LA APUESTA",
+   "resalta": "APUESTA"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Récord batido. En junio, SpaceX había levantado setenta y cinco mil millones. Cinco meses después, Anthropic le quitó la corona.",
+   "clips": [
+    "buscar:rocket launch pad dawn @SpaceX",
+    "buscar:golden crown on cushion close up @le quitó la corona"
+   ],
+   "etiqueta": "RÉCORD",
+   "texto": "LE QUITÓ LA CORONA",
+   "fuente": "Reuters"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Importante: esto es información, no un consejo. Nadie sabe qué hará la acción mañana, y aquí no decimos si comprar o vender.",
+   "clips": [
+    "buscar:warning sign caution close up @no un consejo",
+    "buscar:crystal ball fortune teller @qué hará la acción mañana"
+   ],
+   "texto": "NO ES UN CONSEJO",
+   "resalta": "CONSEJO",
+   "chapa": "NO ES ASESORÍA FINANCIERA",
+   "efecto": "suave",
+   "sonido": "ninguno"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Pero queda una duda. ¿Por qué hay tantas cifras distintas sobre cuánto vale la empresa? Mira esto.",
+   "clips": [
+    "buscar:confused man looking at numbers @tantas cifras distintas",
+    "buscar:question marks floating dark @cuánto vale"
+   ],
+   "texto": "¿TANTAS CIFRAS DISTINTAS?"
+  },
+  {
+   "tipo": "grafico",
+   "voz": "Al precio de salida, un billón y medio de dólares. Al cierre, cerca de uno coma ocho, contando todas las acciones. Y en el máximo, dos coma uno.",
+   "clips": [
+    "buscar:bar chart growing dark background"
+   ],
+   "titulo": "VALOR DE ANTHROPIC",
+   "valor": "2,1",
+   "unidad": "BILLONES $",
+   "barras": [
+    {
+     "l": "PRECIO SALIDA",
+     "v": 1.5
+    },
+    {
+     "l": "CIERRE (DILUIDO)",
+     "v": 1.8
+    },
+    {
+     "l": "MÁXIMO",
+     "v": 2.1
+    }
+   ],
+   "fuente": "Reuters"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Por eso verás cifras distintas según el medio. Depende del momento del día y de cómo se cuenten las acciones.",
+   "clips": [
+    "buscar:newspapers stack headlines @según el medio",
+    "buscar:clock ticking close up @del momento del día"
+   ],
+   "texto": "SEGÚN EL MEDIO"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Lo que sí sabemos es que la empresa ha captado más de ochenta mil millones de dólares. Ese dinero ya está en juego.",
+   "clips": [
+    "buscar:money bags vault gold @más de ochenta mil millones",
+    "buscar:poker table chips pushed @en juego"
+   ],
+   "numero": "81",
+   "arriba": "MIL MILLONES CAPTADOS",
+   "texto": "MÁS DE OCHENTA MIL MILLONES"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Y aquí está el detalle que prometí. Lo extraordinario no es el récord. Es que han pagado más de un billón de dólares por una empresa con pérdidas multimillonarias.",
+   "clips": [
+    "buscar:diamond glowing dark reveal @el detalle que prometí",
+    "buscar:empty wallet open pocket @pérdidas multimillonarias"
+   ],
+   "texto": "NO ES EL RÉCORD",
+   "resalta": "RÉCORD",
+   "efecto": "flash",
+   "musica": "drama"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Si la apuesta sale bien, será una de las historias empresariales más rápidas jamás contadas. Si sale mal, será el símbolo de una burbuja. Hoy, nadie lo sabe.",
+   "clips": [
+    "buscar:sunrise over city skyline timelapse @una de las historias",
+    "buscar:storm clouds dark horizon @el símbolo de una burbuja"
+   ],
+   "texto": "HOY NADIE LO SABE",
+   "resalta": "NADIE",
+   "efecto": "suave",
+   "musica": "reflexion"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Y tú, ¿qué crees? ¿Genio o burbuja? Cuéntamelo en los comentarios y suscríbete para enterarte antes que nadie.",
+   "clips": [
+    "buscar:thumbs up comments screen phone @en los comentarios",
+    "buscar:night city aerial lights @antes que nadie"
+   ],
+   "texto": "¿GENIO O BURBUJA?",
+   "musica": "reflexion"
+  }
+ ]
+}
