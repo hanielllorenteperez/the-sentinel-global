@@ -49,3 +49,4 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-23 00:36 UTC · 2026-11-23-ciberataque-178-webs-optimizely · ✅ subido a YouTube · run 45086683789
 - 2026-11-23 08:35 UTC · 2026-11-23-marquez-decimo-titulo · ✅ subido a YouTube · run 45135743577
 - 2026-11-24 00:42 UTC · 2026-11-24-anthropic-salida-bolsa-record · ✅ subido a YouTube · run 45294307428
+- 2026-11-24 16:43 UTC · 2026-11-24-gta6-record-ventas · ✅ subido a YouTube · run 45433083288
