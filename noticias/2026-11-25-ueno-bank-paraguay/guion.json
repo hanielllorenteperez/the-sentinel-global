@@ -1,0 +1,565 @@
+{
+ "id": "2026-11-25-ueno-bank-paraguay",
+ "cinta": "The Sentinel Global · Última hora · Paraguay · Caso Ueno Bank · Renuncia presidencial",
+ "titulo": "Cayó un BANCO y renunció un presidente: el dinero de los jubilados 😨",
+ "descripcion": "El 3 de noviembre de 2026, el Banco Central de Paraguay intervino Ueno, un banco digital con más de tres millones de clientes. Dos días después, el presidente Santiago Peña renunció acorralado por un juicio político. El IPS denuncia que hasta 516 millones de dólares de los jubilados quedaron atrapados. Te contamos qué se sabe y qué no. Nadie ha sido condenado por este caso.\n\nNo es asesoría financiera. Suscríbete para enterarte de las noticias virales antes que nadie.\n\n#Paraguay #UenoBank #noticias #ultimahora #viral",
+ "etiquetas": [
+  "Ueno Bank",
+  "Paraguay",
+  "Santiago Peña",
+  "IPS",
+  "jubilados",
+  "Banco Central del Paraguay",
+  "renuncia presidente",
+  "crisis bancaria",
+  "noticias de hoy",
+  "última hora"
+ ],
+ "fuentes": [
+  "https://www.ksat.com/business/2026/11/03/paraguay-seizes-major-digital-bank-tied-to-president-leaving-millions-of-customers-in-limbo/",
+  "https://www.forbesargentina.com/today/crisis-bancaria-paraguay-intervienen-banco-mas-us-2800-millones-depositos-n101654",
+  "https://www.infobae.com/america/america-latina/2026/11/11/el-instituto-de-prevision-social-de-paraguay-denuncio-que-el-ueno-bank-se-quedo-con-mas-de-usd-516-millones-de-los-jubilados/",
+  "https://www.primicias.ec/internacional/santiago-pena-presidente-paraguay-renuncia-video-juicio-ueno-bank-136465/",
+  "https://www.abc.com.py/policiales/2026/11/24/ueno-fiscalia-imputara-a-leticia-ocampos-y-exautoridades-del-ips/",
+  "https://www.rdn.com.py/2026/11/24/caso-ueno-fiscalia-analiza-responsabilidades-de-ocampos-y-extitulares-del-ips",
+  "https://www.iproup.com/finanzas/72999-caso-ueno-paraguay-devolvio-usd-160-millones-a-los-ahorristas.amp",
+  "https://www.canal12misiones.com/noticias-de-misiones/internacionales-2/ueno-bank-allanaron-el-ips"
+ ],
+ "musica": "misterio",
+ "aviso_financiero": true,
+ "rotulos": [
+  "EN DIRECTO",
+  "CASO UENO BANK",
+  "NOTICIA EN DESARROLLO",
+  "DÓNDE ESTÁ EL DINERO",
+  "LO QUE NO TE CUENTAN"
+ ],
+ "miniatura": {
+  "texto": "CAYÓ EL BANCO",
+  "rojo": "516 MILLONES",
+  "escena": 19
+ },
+ "escenas": [
+  {
+   "tipo": "titular",
+   "voz": "Última hora. Un banco con tres millones de clientes se desploma en una madrugada. Y cuatro días después, el presidente de su país renuncia.",
+   "clips": [
+    "buscar:bank building night lights empty street",
+    "buscar:man resigning press conference microphones @el presidente de su país renuncia"
+   ],
+   "etiqueta": "ÚLTIMA HORA",
+   "texto": "EL PRESIDENTE RENUNCIA",
+   "efecto": "flash",
+   "musica": "misterio",
+   "fuente": "BBC Mundo"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Quédate hasta el final. Te cuento adónde fue el dinero de los jubilados, y la pregunta que la fiscalía todavía no ha respondido.",
+   "clips": [
+    "buscar:elderly man walking alone street @los jubilados",
+    "buscar:prosecutor office documents desk @la fiscalía"
+   ],
+   "texto": "EL DINERO DE LOS JUBILADOS",
+   "resalta": "JUBILADOS",
+   "lugar": "ASUNCIÓN, PARAGUAY · NOVIEMBRE 2026"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Cómo puede desaparecer de golpe el dinero de millones de personas, y quién debía vigilarlo?",
+   "clips": [
+    "buscar:worried woman looking at phone @el dinero de millones de personas",
+    "buscar:security camera dark corridor @quién debía vigilarlo"
+   ],
+   "texto": "¿QUIÉN DEBÍA VIGILARLO?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Esto no es una película. Es lo que ha pasado en Paraguay durante las últimas tres semanas, y todavía no ha terminado.",
+   "clips": [
+    "buscar:aerial city asuncion river sunset",
+    "buscar:newspaper headlines stack @lo que ha pasado"
+   ],
+   "texto": "TODAVÍA NO HA TERMINADO",
+   "resalta": "TERMINADO",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Primero, los hechos básicos. Un banco digital llamado Ueno. Más de tres millones de clientes. Y una intervención del Banco Central.",
+   "clips": [
+    "buscar:smartphone banking app close up @un banco digital",
+    "buscar:crowd of people walking city @tres millones de clientes",
+    "buscar:central bank building columns @del Banco Central"
+   ],
+   "titulo": "EL CASO EN TRES PUNTOS",
+   "items": [
+    "UN BANCO DIGITAL",
+    "MÁS DE TRES MILLONES DE CLIENTES",
+    "UNA INTERVENCIÓN DEL BANCO CENTRAL"
+   ],
+   "fuente": "Forbes Argentina"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Más de dos mil ochocientos millones de dólares en depósitos. Eso custodiaba Ueno, según las primeras informaciones de la prensa económica.",
+   "clips": [
+    "buscar:stack of dollar bills close up @millones de dólares",
+    "buscar:vault door steel dark @custodiaba"
+   ],
+   "numero": "2.800",
+   "arriba": "EN DEPÓSITOS",
+   "texto": "MILLONES DE DÓLARES",
+   "fuente": "Forbes Argentina"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Ueno había crecido muy rápido. Era un banco que se manejaba desde el móvil, sin sucursales, y que prometía todo fácil.",
+   "clips": [
+    "buscar:person using phone banking app @desde el móvil",
+    "buscar:modern bank empty branch @sin sucursales"
+   ],
+   "texto": "TODO FÁCIL DESDE EL MÓVIL",
+   "resalta": "MÓVIL"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Quién estaba detrás? Aquí aparece el primer detalle que enciende todas las alarmas.",
+   "clips": [
+    "buscar:silhouette man dark office window @quién estaba detrás",
+    "buscar:red alarm light flashing @alarmas"
+   ],
+   "texto": "¿QUIÉN ESTABA DETRÁS?",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "El grupo propietario de Ueno tenía como socio al propio presidente, Santiago Peña, hasta marzo de dos mil veinticinco.",
+   "clips": [
+    "buscar:presidential palace flag @al propio presidente",
+    "buscar:handshake business suits close up @tenía como socio"
+   ],
+   "texto": "AL PROPIO PRESIDENTE",
+   "resalta": "PRESIDENTE",
+   "fuente": "AP"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Y el presidente del Banco Central, Carlos Carvallo, había dirigido antes ese mismo banco. Guarda este dato, porque luego importa.",
+   "clips": [
+    "buscar:man in suit walking corridor @Carlos Carvallo",
+    "buscar:old keys on table close up @guarda este dato"
+   ],
+   "texto": "GUARDA ESTE DATO",
+   "resalta": "DATO",
+   "fuente": "AP"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Lunes dos de noviembre. El directorio del Banco Central vota por unanimidad poner a Ueno en resolución.",
+   "clips": [
+    "buscar:board meeting table men suits dark",
+    "buscar:hand raised voting @vota por unanimidad",
+    "buscar:calendar november page close up @dos de noviembre"
+   ],
+   "etiqueta": "DECISIÓN",
+   "texto": "VOTA POR UNANIMIDAD",
+   "efecto": "golpe",
+   "lugar": "BANCO CENTRAL DEL PARAGUAY · 2 NOV 2026",
+   "fuente": "AP"
+  },
+  {
+   "tipo": "numero",
+   "voz": "La razón: su solvencia había caído por debajo de la mitad del mínimo que exige la ley. La mitad.",
+   "clips": [
+    "buscar:red arrow falling chart @su solvencia",
+    "buscar:calculator and papers close up @la mitad del mínimo"
+   ],
+   "numero": "50 %",
+   "arriba": "DEL MÍNIMO LEGAL",
+   "texto": "POR DEBAJO DE LA MITAD",
+   "efecto": "temblor",
+   "fuente": "AP"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Madrugada del martes tres de noviembre. Los clientes abren la aplicación y se encuentran con algo que nunca habían visto.",
+   "clips": [
+    "buscar:person bed night phone screen glow @abren la aplicación",
+    "buscar:phone error screen close up @algo que nunca habían visto"
+   ],
+   "texto": "ALGO QUE NUNCA HABÍAN VISTO",
+   "resalta": "NUNCA",
+   "lugar": "PARAGUAY · 3 NOV 2026"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Qué pasa con tu dinero cuando tu banco desaparece mientras duermes?",
+   "clips": [
+    "buscar:woman anxious night phone @tu dinero",
+    "buscar:empty atm machine dark street @tu banco"
+   ],
+   "texto": "¿QUÉ PASA CON TU DINERO?"
+  },
+  {
+   "tipo": "lista",
+   "voz": "El Banco Central dio tres mensajes. Es un caso puntual. El sistema financiero no está en riesgo. Y casi todos los depósitos están garantizados.",
+   "clips": [
+    "buscar:official press conference podium @dio tres mensajes",
+    "buscar:bank safe deposit boxes @los depósitos están garantizados"
+   ],
+   "titulo": "LO QUE DIJO EL BANCO CENTRAL",
+   "items": [
+    "ES UN CASO PUNTUAL",
+    "EL SISTEMA NO ESTÁ EN RIESGO",
+    "DEPÓSITOS GARANTIZADOS"
+   ],
+   "fuente": "AP"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Según las primeras estimaciones, el noventa y siete por ciento de los depositantes tenía su saldo cubierto por la garantía de depósitos.",
+   "clips": [
+    "buscar:insurance shield guarantee concept @la garantía de depósitos",
+    "buscar:crowd people smiling relieved"
+   ],
+   "numero": "97 %",
+   "arriba": "DE LOS DEPOSITANTES",
+   "texto": "SALDO CUBIERTO",
+   "fuente": "AP"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Parecía que lo peor había pasado. Parecía. Porque había un grupo de clientes para quienes esa garantía no servía de mucho.",
+   "clips": [
+    "buscar:elderly woman sitting bench sad @un grupo de clientes",
+    "buscar:storm clouds approaching field @lo peor había pasado"
+   ],
+   "texto": "PARECÍA",
+   "resalta": "PARECÍA",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Quiénes eran? Los jubilados del Instituto de Previsión Social, el IPS.",
+   "clips": [
+    "buscar:retired couple walking park @los jubilados",
+    "buscar:pension card hand close up @Instituto de Previsión Social"
+   ],
+   "texto": "¿QUIÉNES ERAN?",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Desde dos mil veinticuatro, unos veintiocho mil jubilados cobraban su pensión a través de Ueno. Un tercio de todos los beneficiarios.",
+   "clips": [
+    "buscar:elderly man receiving cash teller @cobraban su pensión",
+    "buscar:crowd of seniors queue bank @veintiocho mil jubilados"
+   ],
+   "texto": "VEINTIOCHO MIL JUBILADOS",
+   "resalta": "VEINTIOCHO MIL",
+   "fuente": "ABC Color",
+   "lugar": "IPS · OCTUBRE 2024"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Pero el problema no eran solo las cuentas. El IPS había colocado dinero de su fondo en Ueno. Hasta quinientos dieciséis millones de dólares, según su denuncia.",
+   "clips": [
+    "buscar:pile of dollar bills dark @quinientos dieciséis millones",
+    "buscar:legal document signing pen @según su denuncia"
+   ],
+   "numero": "516",
+   "arriba": "SEGÚN EL IPS",
+   "texto": "MILLONES DE DÓLARES",
+   "efecto": "flash",
+   "fuente": "Infobae"
+  },
+  {
+   "tipo": "grafico",
+   "voz": "Para que veas la escala, estas son las cifras que se han mencionado en este caso, según la prensa y las propias instituciones.",
+   "clips": [
+    "buscar:bar chart screen business dark @las cifras",
+    "buscar:calculator money desk @la escala"
+   ],
+   "titulo": "EL DINERO DEL CASO",
+   "valor": "2.800",
+   "unidad": "MILLONES $ EN DEPÓSITOS",
+   "barras": [
+    {
+     "l": "DEVUELTO",
+     "v": 160
+    },
+    {
+     "l": "IPS",
+     "v": 516
+    },
+    {
+     "l": "FONDOS PENS.",
+     "v": 700
+    },
+    {
+     "l": "DEPÓSITOS",
+     "v": 2800
+    }
+   ]
+  },
+  {
+   "tipo": "frase",
+   "voz": "Ojo, porque aquí las cifras no coinciden. Otros medios hablan de trescientos cincuenta y cinco millones. Y otros, de setecientos millones en fondos de pensiones.",
+   "clips": [
+    "buscar:papers different numbers desk close up @no coinciden",
+    "buscar:magnifying glass on documents @otros medios"
+   ],
+   "texto": "LAS CIFRAS NO COINCIDEN",
+   "resalta": "NO COINCIDEN",
+   "fuente": "EFE"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Por qué un fondo de jubilaciones tenía tanto dinero en un banco ligado al poder?",
+   "clips": [
+    "buscar:pension fund building exterior @un fondo de jubilaciones",
+    "buscar:chess pieces king dark table @ligado al poder"
+   ],
+   "texto": "¿POR QUÉ TANTO DINERO?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Ya en dos mil veinticuatro, el consejo del IPS aprobó comprar bonos de Ueno por hasta doscientos cincuenta mil millones de guaraníes. Aquello ya causó críticas.",
+   "clips": [
+    "buscar:meeting room men suits papers @el consejo del IPS",
+    "buscar:paraguay guarani banknotes @mil millones de guaraníes"
+   ],
+   "texto": "CAUSÓ CRÍTICAS",
+   "resalta": "CRÍTICAS",
+   "lugar": "AGOSTO 2024",
+   "fuente": "ABC Color"
+  },
+  {
+   "tipo": "frase",
+   "voz": "En julio de este año, el propio director de inversiones del IPS reconoció que Ueno estaba por encima del límite de concentración.",
+   "clips": [
+    "buscar:senate hearing room testimony @reconoció",
+    "buscar:red warning sign limit exceeded @por encima del límite"
+   ],
+   "texto": "POR ENCIMA DEL LÍMITE",
+   "resalta": "LÍMITE",
+   "lugar": "JULIO 2026",
+   "fuente": "Última Hora"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Si ya se sabía, ¿por qué nadie lo detuvo? Esa es la pregunta que hoy investigan los fiscales.",
+   "clips": [
+    "buscar:detective investigating documents wall @los fiscales",
+    "buscar:empty courtroom dark @nadie lo detuvo"
+   ],
+   "texto": "¿POR QUÉ NADIE LO DETUVO?",
+   "efecto": "temblor",
+   "musica": "tension"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Pero antes de llegar a ellos, la historia da un giro que nadie vio venir. Y tiene que ver con el presidente.",
+   "clips": [
+    "buscar:dark corridor door light @un giro",
+    "buscar:politician walking away flashbulbs @el presidente"
+   ],
+   "texto": "UN GIRO QUE NADIE VIO VENIR",
+   "resalta": "GIRO",
+   "efecto": "flash",
+   "musica": "tension"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Jueves cinco de noviembre. Santiago Peña presenta su renuncia a la presidencia de Paraguay, acorralado por un juicio político.",
+   "clips": [
+    "buscar:congress building paraguay columns",
+    "buscar:man signing letter close up @presenta su renuncia",
+    "buscar:parliament session crowd @juicio político"
+   ],
+   "etiqueta": "ÚLTIMA HORA",
+   "texto": "PRESENTA SU RENUNCIA",
+   "efecto": "flash",
+   "lugar": "ASUNCIÓN · 5 NOV 2026",
+   "fuente": "BBC Mundo"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Qué decía su carta? Que ningún cargo es más importante que la estabilidad de la república. Y pidió disculpas.",
+   "clips": [
+    "buscar:hand writing letter fountain pen @su carta",
+    "buscar:man apologizing microphone close up @pidió disculpas"
+   ],
+   "texto": "¿QUÉ DECÍA SU CARTA?",
+   "efecto": "suave",
+   "fuente": "Primicias"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Pero la renuncia no cerró el asunto. El Congreso decidió seguir adelante con el juicio político. Según algunos medios, sin aceptarla todavía.",
+   "clips": [
+    "buscar:senate chamber voting @el Congreso",
+    "buscar:paper stamped pending documents @sin aceptarla"
+   ],
+   "texto": "SIGUE EL JUICIO POLÍTICO",
+   "resalta": "JUICIO",
+   "fuente": "BBC Mundo"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Lo reemplaza el vicepresidente, Pedro Alliana. Su primera promesa: que los jubilados cobrarán sus pensiones y el aguinaldo.",
+   "clips": [
+    "buscar:new president oath ceremony @el vicepresidente",
+    "buscar:senior citizens smiling money envelope @el aguinaldo"
+   ],
+   "texto": "COBRARÁN SU AGUINALDO",
+   "resalta": "AGUINALDO",
+   "fuente": "La Capital"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Mientras tanto, el Banco Central empezó a devolver dinero. Unos ciento sesenta millones de dólares, repartidos entre más de un millón de clientes.",
+   "clips": [
+    "buscar:money transfer phone notification @devolver dinero",
+    "buscar:crowd people city celebration @más de un millón de clientes"
+   ],
+   "numero": "160",
+   "arriba": "DEVUELTOS HASTA AHORA",
+   "texto": "MILLONES DE DÓLARES",
+   "fuente": "iProUP"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Y más de treinta y dos mil jubilados cobraron el diecisiete de noviembre en cuentas de otros bancos, con tarjetas nuevas.",
+   "clips": [
+    "buscar:elderly woman bank card atm @cuentas de otros bancos",
+    "buscar:calendar page date circled @el diecisiete de noviembre"
+   ],
+   "texto": "COBRARON EN OTROS BANCOS",
+   "resalta": "OTROS BANCOS",
+   "lugar": "PARAGUAY · 17 NOV 2026",
+   "fuente": "iProUP"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Martes diez de noviembre. El IPS presenta una denuncia penal contra los directivos de Ueno y autoridades del Banco Central.",
+   "clips": [
+    "buscar:lawyer delivering documents court @denuncia penal",
+    "buscar:justice scales statue dark",
+    "buscar:police entering building @autoridades"
+   ],
+   "etiqueta": "DENUNCIA",
+   "texto": "DENUNCIA PENAL",
+   "efecto": "golpe",
+   "lugar": "FISCALÍA DE DELITOS ECONÓMICOS",
+   "fuente": "Infobae"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Los fiscales allanaron varias oficinas del IPS en Asunción. Buscan registros de depósitos, inversiones y movimientos de fondos con Ueno.",
+   "clips": [
+    "buscar:police raid office boxes evidence @allanaron",
+    "buscar:hard drives computers desk @registros de depósitos"
+   ],
+   "texto": "REGISTROS DE DEPÓSITOS",
+   "resalta": "DEPÓSITOS",
+   "fuente": "Canal 12"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Y el dinero? ¿Dónde está, y cuánto de él se puede recuperar?",
+   "clips": [
+    "buscar:treasure chest empty dark @dónde está",
+    "buscar:globe map lines world @recuperar"
+   ],
+   "texto": "¿DÓNDE ESTÁ EL DINERO?",
+   "efecto": "temblor",
+   "musica": "drama"
+  },
+  {
+   "tipo": "frase",
+   "voz": "La fiscalía pidió cooperación internacional para rastrear activos de Ueno en el extranjero. Todavía no se ha informado de resultados.",
+   "clips": [
+    "buscar:world map airplane routes @en el extranjero",
+    "buscar:detective board red string @rastrear activos"
+   ],
+   "texto": "COOPERACIÓN INTERNACIONAL",
+   "resalta": "INTERNACIONAL",
+   "fuente": "Perfil"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Y este martes veinticuatro, la fiscal general, Alba Cantero, reveló que analiza posibles responsabilidades penales de otras personas.",
+   "clips": [
+    "buscar:woman prosecutor press conference @la fiscal general",
+    "buscar:folder documents confidential stamp @posibles responsabilidades"
+   ],
+   "etiqueta": "FISCALÍA",
+   "texto": "ANALIZA POSIBLES RESPONSABILIDADES",
+   "efecto": "flash",
+   "lugar": "PARAGUAY · 24 NOV 2026",
+   "fuente": "ABC Color"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Entre ellas mencionó a la exprimera dama, Leticia Ocampos, al exministro de Economía, Carlos Fernández Valdovinos, y a exautoridades del IPS.",
+   "clips": [
+    "buscar:silhouettes group dark room @exautoridades",
+    "buscar:government building at dusk @exministro de Economía"
+   ],
+   "titulo": "LOS NOMBRES EN ANÁLISIS",
+   "items": [
+    "LETICIA OCAMPOS",
+    "CARLOS FERNÁNDEZ VALDOVINOS",
+    "EXAUTORIDADES DEL IPS"
+   ],
+   "fuente": "RDN"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Ojo: analizar no es imputar. La fiscal evitó anticipar acusaciones, y ninguno de ellos ha sido condenado por esto. Es información que debe quedar clara.",
+   "clips": [
+    "buscar:gavel on desk close up @no es imputar",
+    "buscar:scales of justice balance @ha sido condenado"
+   ],
+   "texto": "ANALIZAR NO ES IMPUTAR",
+   "resalta": "NO ES",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Esto es lo que sabemos. Un banco cayó, un presidente renunció, y miles de jubilados se quedaron sin saber si cobrarían.",
+   "clips": [
+    "buscar:empty bank lobby slow motion @un banco cayó",
+    "buscar:old hands holding coins @miles de jubilados"
+   ],
+   "texto": "MILES DE JUBILADOS",
+   "resalta": "JUBILADOS",
+   "musica": "reflexion"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Y esto es lo que aún no sabemos. ¿Dónde acabó el dinero, y quién responderá por ello?",
+   "clips": [
+    "buscar:foggy road night lights @aún no sabemos",
+    "buscar:empty chair courtroom @quién responderá"
+   ],
+   "texto": "¿QUIÉN RESPONDERÁ?",
+   "efecto": "golpe"
+  },
+  {
+   "tipo": "frase",
+   "voz": "La historia sigue abierta, y cada semana trae un dato nuevo. Suscríbete para enterarte antes que nadie.",
+   "clips": [
+    "buscar:city night timelapse lights @sigue abierta",
+    "buscar:subscribe bell notification screen @suscríbete"
+   ],
+   "texto": "LA HISTORIA SIGUE ABIERTA",
+   "resalta": "ABIERTA",
+   "chapa": "SUSCRÍBETE 🔔",
+   "musica": "reflexion",
+   "efecto": "suave"
+  }
+ ]
+}

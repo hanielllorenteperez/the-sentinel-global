@@ -27,6 +27,7 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-23 · Marc Márquez, décimo título mundial (remontada de 102 puntos, Portimão) · [deportes]
 - 2026-11-24 · Anthropic: OPI récord de 81.300 M$ en el Nasdaq (ANT) · [dinero/bolsa]
 - 2026-11-24 · GTA VI: récord de ventas (32,5 M copias, 3.790 M$ en 24 h), nota 99 vs 5,6 y caída de Take-Two en bolsa · [videojuegos]
+- 2026-11-25 · Ueno Bank (Paraguay): colapso, renuncia de Peña, fondos del IPS · [dinero/crimen]
 
 ## Diario del guionista
 <!-- 1–3 líneas por ejecución: fecha · noticia · lección nueva (si la hay) -->
@@ -39,6 +40,7 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 
 - 2026-11-24 · Anthropic, OPI récord · Buscar «<empresa> IPO priced/debut» y luego «prospectus loss» da cifras con 5+ medios; las valoraciones (1,5/1,8/2,1 billones) difieren por momento/dilución → se explican en un gráfico en vez de elegir una. Nota: el tema trata de la empresa creadora de Claude; se contó neutral y con aviso financiero.
 - 2026-11-24 · GTA VI récord y polémica · Buscar «videojuego estreno récord OR polémica noticias esta semana» (modo extended) encontró el tema; las cifras difieren por fuente (Rockstar 3.790 M$ vs Sensor Tower 2.360 M$; 39 M son jugadores, no copias) → se cuentan atribuidas y sin elegir. Búsquedas con cifras exactas ya dichas dan «no encontrado»: mejor buscar el titular de Infobae/Reuters.
+- 2026-11-25 · Caso Ueno Bank · Tema muy político con fechas/cifras discrepantes entre fuentes (516/355/700 M$; resolución 2 vs 3 nov; estado de la renuncia) → se atribuyen y se aclara «analizar no es imputar». Buscar «noticias más vistas hoy <fecha>» y mirar portadas de ABC Color/Infobae dio el tema.
 
 ## Diario de la fábrica
 <!-- lo escribe GitHub Actions solo -->

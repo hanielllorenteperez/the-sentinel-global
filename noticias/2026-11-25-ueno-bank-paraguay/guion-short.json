@@ -1,0 +1,72 @@
+{
+ "id": "2026-11-25-ueno-bank-paraguay",
+ "formato": "short",
+ "cinta": "The Sentinel Global · Última hora · Paraguay · Caso Ueno Bank",
+ "titulo": "Cayó un BANCO y renunció un PRESIDENTE 😳",
+ "descripcion": "El caso Ueno Bank en Paraguay: jubilados, un presidente que renuncia y una pregunta sin respuesta. La historia completa, en el vídeo largo del canal. No es asesoría financiera.\n\n#Paraguay #UenoBank #noticias #viral",
+ "etiquetas": [
+  "Ueno Bank",
+  "Paraguay",
+  "Santiago Peña",
+  "jubilados",
+  "noticias",
+  "viral",
+  "shorts"
+ ],
+ "musica": "misterio",
+ "aviso_financiero": true,
+ "escenas": [
+  {
+   "tipo": "frase",
+   "voz": "Un banco con tres millones de clientes cayó en una madrugada. Y días después, renunció un presidente.",
+   "clips": [
+    "buscar:bank building night lights empty street",
+    "buscar:man resigning microphones press @renunció un presidente"
+   ],
+   "texto": "RENUNCIÓ UN PRESIDENTE",
+   "resalta": "PRESIDENTE",
+   "efecto": "flash"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Quinientos dieciséis millones de dólares de los jubilados, según el IPS, quedaron atrapados en ese banco.",
+   "clips": [
+    "buscar:stack dollar bills dark",
+    "buscar:elderly man walking alone @los jubilados"
+   ],
+   "numero": "516",
+   "arriba": "SEGÚN EL IPS",
+   "texto": "MILLONES DE DÓLARES"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "El banco pertenecía a un grupo del que el propio presidente fue socio. ¿Casualidad?",
+   "clips": [
+    "buscar:presidential palace flag @el propio presidente",
+    "buscar:chess king dark table @casualidad"
+   ],
+   "texto": "¿CASUALIDAD?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Los fiscales ya allanaron oficinas y analizan responsabilidades. Pero ninguna acusación está confirmada.",
+   "clips": [
+    "buscar:police raid office evidence @allanaron oficinas",
+    "buscar:gavel desk close up @responsabilidades"
+   ],
+   "texto": "NINGUNA ACUSACIÓN CONFIRMADA",
+   "resalta": "CONFIRMADA"
+  },
+  {
+   "tipo": "frase",
+   "voz": "¿Dónde está el dinero? Mira el vídeo completo en el canal.",
+   "clips": [
+    "buscar:treasure chest empty dark @dónde está el dinero",
+    "buscar:subscribe bell notification screen @el canal"
+   ],
+   "texto": "MIRA EL VÍDEO COMPLETO",
+   "resalta": "COMPLETO",
+   "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL"
+  }
+ ]
+}
