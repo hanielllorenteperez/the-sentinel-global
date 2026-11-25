@@ -76,8 +76,8 @@ Fondo: puede llevar 1 clip suave detrás. Uno cada ~8–10 escenas cuando haya c
   - `"lugar": "CIUDAD DE MÉXICO · 19 NOV 2026"` → rótulo con 📍 abajo a la izquierda (5 s). Ponlo cuando
     la historia cambia de sitio o fecha (2–5 veces por vídeo, y en la escena 2 o 3 del largo).
   - `"fuente": "BBC Mundo"` → etiqueta "FUENTE: …" arriba a la derecha cuando des un dato importante (da credibilidad).
-  - `"sonido"`: `"whoosh"`, `"impacto"`, `"latido"` o `"ninguno"`. Por defecto la fábrica pone sola impacto en flash/temblor,
-    latido en las preguntas y whoosh en algunos cambios. Solo cámbialo si hace falta (p. ej. `"ninguno"` en escenas tristes).
+  - ~~`"sonido"`~~: **desde el 25/11/2026 NO hay efectos de sonido** (Haniel los quitó: el del inicio sonaba raro y no quiere
+    sonidos de transición). La fábrica los ignora aunque los pongas; no hace falta escribir este campo. Solo voz + música.
   - En el guion (nivel general) `"rotulos": [...]` → textos de la caja roja de la cinta, que van cambiando cada 9 s.
     Por defecto: EN DIRECTO, NOTICIA EN DESARROLLO, DETRÁS DE LA VERDAD, ÚLTIMA HORA, LO QUE NO TE CUENTAN, INVESTIGACIÓN.
     Puedes poner otros que encajen con la noticia (cortos, MAYÚSCULAS, máx. 4 palabras).

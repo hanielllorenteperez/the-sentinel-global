@@ -365,7 +365,12 @@ const Fuente: React.FC<{ t: string }> = ({ t }) => {
 const Vineta: React.FC = () => <AbsoluteFill style={{ pointerEvents: "none", background: "radial-gradient(ellipse at center, rgba(0,0,0,0) 55%, rgba(0,0,0,.55) 100%)" }} />;
 
 // Efecto de sonido de cada escena (sonidos propios en public/sfx, sin derechos)
+// 25/11/2026 (Haniel): «al comenzar hace un sonido extraño y cuando cambia de escena, quítale esos sonidos de transición»
+// → SIN efectos de sonido en ninguna escena (ni el impacto del inicio, ni whoosh, ni latido), aunque el guion los pida.
+// Solo voz + música. Para volver a ponerlos, cambiar SIN_SFX a false.
+const SIN_SFX = true;
 const sonidoDe = (e: Escena, i: number) => {
+  if (SIN_SFX) return null;
   if (e.sonido) return e.sonido === "ninguno" ? null : e.sonido;
   const ef = e.efecto ?? (i === 0 ? "flash" : "golpe");
   if (ef === "flash" || ef === "temblor") return "impacto";
