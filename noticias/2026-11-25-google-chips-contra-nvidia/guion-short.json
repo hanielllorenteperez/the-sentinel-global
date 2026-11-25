@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-25-google-chips-contra-nvidia",
+  "formato": "short",
+  "cinta": "The Sentinel Global · Última hora · Google vs Nvidia",
+  "titulo": "Google vende su arma secreta a sus RIVALES… ¿y Nvidia? 😳",
+  "descripcion": "Google ofrece sus chips de IA a empresas que compiten con ella. La historia completa, en el vídeo largo del canal. No es asesoría financiera.\n\n#Google #Nvidia #IA #noticias #shorts",
+  "etiquetas": [
+    "Google",
+    "Nvidia",
+    "TPU",
+    "chips de IA",
+    "noticias",
+    "viral",
+    "shorts"
+  ],
+  "musica": "misterio",
+  "aviso_financiero": true,
+  "escenas": [
+    {
+      "tipo": "frase",
+      "voz": "Google acaba de vender su arma secreta a sus propios rivales.",
+      "clips": [
+        "buscar:computer chip glowing close up dark",
+        "buscar:server room blue lights corridor @sus propios rivales"
+      ],
+      "texto": "ARMA SECRETA A SUS PROPIOS RIVALES",
+      "resalta": "RIVALES",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Casi cien clientes ya compran sus chips de inteligencia artificial.",
+      "clips": [
+        "buscar:crowd walking city @cien clientes",
+        "buscar:robot hand touching screen @inteligencia artificial"
+      ],
+      "numero": "100",
+      "arriba": "CASI",
+      "texto": "CASI CIEN CLIENTES"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Apple, Meta y hasta Anthropic. ¿Quién más está en la lista?",
+      "clips": [
+        "buscar:smartphone glass building night @Apple",
+        "buscar:chess pieces face to face dark @quién más"
+      ],
+      "texto": "¿QUIÉN MÁS ESTÁ EN LA LISTA?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "¿Está Nvidia en peligro? Un dato que casi nadie cuenta lo cambia todo.",
+      "clips": [
+        "buscar:green neon glow abstract @Nvidia",
+        "buscar:fog road night headlights @un dato"
+      ],
+      "texto": "LO CAMBIA TODO",
+      "resalta": "TODO",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Mira el vídeo completo en el canal.",
+      "clips": [
+        "buscar:person pointing down screen",
+        "buscar:night city lights bokeh @en el canal"
+      ],
+      "texto": "MIRA EL VÍDEO COMPLETO",
+      "resalta": "COMPLETO",
+      "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL",
+      "musica": "reflexion"
+    }
+  ]
+}

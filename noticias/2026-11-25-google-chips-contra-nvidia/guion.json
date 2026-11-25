@@ -1,0 +1,555 @@
+{
+  "id": "2026-11-25-google-chips-contra-nvidia",
+  "cinta": "The Sentinel Global · Última hora · Google vs Nvidia · La guerra de los chips de IA",
+  "titulo": "Google vende su arma secreta a sus RIVALES… y Nvidia tiembla 🤖",
+  "descripcion": "El 9 de noviembre de 2026 Google presentó dos chips de IA nuevos (TPU 8tx y 8i Max) y ya los ofrece a empresas que compiten con ella: Apple, Meta, Oracle y hasta Anthropic. ¿Está Nvidia en peligro? Te contamos qué se sabe, qué es solo una proyección y qué no está confirmado. Aviso: Anthropic es la creadora de Claude. No es asesoría financiera.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#Google #Nvidia #IA #chips #TPU #noticias #ultimahora",
+  "etiquetas": [
+    "Google",
+    "Nvidia",
+    "TPU",
+    "chips de IA",
+    "inteligencia artificial",
+    "Anthropic",
+    "Meta",
+    "Apple",
+    "OpenAI",
+    "noticias de hoy",
+    "última hora",
+    "tecnología"
+  ],
+  "fuentes": [
+    "https://qz.com/google-specialized-ai-chips-tpu-nvidia-110926",
+    "https://www.anews.com.tr/tech/2026/11/09/google-unveils-2-specialized-ai-chip-systems-in-growing-nvidia-challenge-report",
+    "https://finance.yahoo.com/markets/article/googles-chip-business-is-on-a-faster-track-than-nvidias-own-ai-boom-135447046.html",
+    "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63469027/google-ai-chips-nvidia-rivals",
+    "https://www.businessinsider.jp/article/2611-news-google-is-turning-its-secret-ai-weapon-into-an-nvidia-problem/",
+    "https://www.mercadonegro.pe/actualidad/google-chip-nvidia/",
+    "https://live.euronext.com/en/financial-news/nvidia-provide-105-billion-guarantee-openais-ohio-data-center",
+    "https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the"
+  ],
+  "musica": "misterio",
+  "aviso_financiero": true,
+  "rotulos": [
+    "EN DIRECTO",
+    "LA GUERRA DE LOS CHIPS",
+    "NOTICIA EN DESARROLLO",
+    "DETRÁS DE LA CIFRA",
+    "LO QUE NO TE CUENTAN"
+  ],
+  "miniatura": {
+    "texto": "GOOGLE VS NVIDIA",
+    "rojo": "¿QUIÉN GANA?",
+    "escena": 1
+  },
+  "escenas": [
+    {
+      "tipo": "titular",
+      "voz": "Última hora. Google acaba de lanzar dos chips nuevos. Y sus clientes son justo las empresas que compiten contra ella.",
+      "clips": [
+        "buscar:computer chip glowing close up dark",
+        "buscar:server room blue lights corridor @sus clientes"
+      ],
+      "etiqueta": "ÚLTIMA HORA",
+      "texto": "COMPITEN CONTRA ELLA",
+      "efecto": "flash",
+      "musica": "misterio",
+      "fuente": "Bloomberg"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Quédate hasta el final. Te cuento por qué esto inquieta a Nvidia, y el detalle que casi nadie está contando.",
+      "clips": [
+        "buscar:man silhouette looking at city night window",
+        "buscar:green glowing circuit board macro @a Nvidia"
+      ],
+      "texto": "INQUIETA A NVIDIA",
+      "resalta": "INQUIETA",
+      "lugar": "9 NOV 2026 · PRESENTACIÓN DE GOOGLE"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Casi cien clientes. Es lo que dice Google que ya tiene para sus chips de inteligencia artificial, llamados TPU.",
+      "clips": [
+        "buscar:crowd of business people walking city @cien clientes",
+        "buscar:robot hand touching screen @inteligencia artificial"
+      ],
+      "numero": "100",
+      "arriba": "CASI",
+      "texto": "CASI CIEN CLIENTES",
+      "fuente": "Anadolu"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Qué es un TPU? Imagina un cerebro de silicio diseñado para una sola cosa: hacer las cuentas de la inteligencia artificial.",
+      "clips": [
+        "buscar:silicon wafer chip macro",
+        "buscar:human brain animation blue @un cerebro de silicio",
+        "buscar:binary code numbers falling @las cuentas"
+      ],
+      "texto": "¿QUÉ ES UN TPU?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Un TPU no sirve para jugar ni para navegar. Está pensado para multiplicar enormes tablas de números a toda velocidad, una y otra vez, sin parar.",
+      "clips": [
+        "buscar:spreadsheet numbers screen close up @tablas de números",
+        "buscar:fast data stream light trails @a toda velocidad"
+      ],
+      "texto": "TABLAS DE NÚMEROS",
+      "resalta": "NÚMEROS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Durante años, Google los usó solo en casa. Para su buscador, sus mapas y sus propios modelos de inteligencia artificial.",
+      "clips": [
+        "buscar:search engine typing keyboard close up @su buscador",
+        "buscar:world map digital glowing @sus mapas"
+      ],
+      "texto": "SOLO EN CASA",
+      "resalta": "CASA"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Mientras tanto, Nvidia vendía muchísimos más chips de inteligencia artificial que nadie. Y Nvidia lo sabía.",
+      "clips": [
+        "buscar:graphics card close up gpu @chips de inteligencia artificial",
+        "buscar:warehouse boxes stacked shipping @vendía muchísimos"
+      ],
+      "titulo": "EL MERCADO",
+      "items": [
+        "MUCHÍSIMOS MÁS CHIPS",
+        "QUE NADIE"
+      ]
+    },
+    {
+      "tipo": "frase",
+      "voz": "Para una empresa de inteligencia artificial, depender de un solo proveedor es un riesgo enorme. Si falta el chip, se para todo el trabajo.",
+      "clips": [
+        "buscar:factory production line stopped empty @se para todo",
+        "buscar:worried engineer looking at screen @un riesgo enorme"
+      ],
+      "texto": "SE PARA TODO",
+      "resalta": "PARA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y entonces, Google cambió de estrategia. Dejó de guardar su chip en casa y empezó a ofrecerlo a otros.",
+      "clips": [
+        "buscar:locked door key turning @guardar su chip",
+        "buscar:handshake business close up @a otros"
+      ],
+      "texto": "EMPEZÓ A OFRECERLO",
+      "resalta": "OFRECERLO",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "numero",
+      "voz": "El lunes nueve de noviembre presentó dos chips nuevos: el TPU ocho te equis y el ocho i Max.",
+      "clips": [
+        "buscar:calendar page flipping november",
+        "buscar:microchip placed on circuit board @dos chips nuevos"
+      ],
+      "numero": "9",
+      "arriba": "LUNES · NOVIEMBRE",
+      "texto": "DOS CHIPS NUEVOS",
+      "fuente": "Anadolu"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Para qué sirve cada uno? Atento, porque aquí hay un detalle importante.",
+      "clips": [
+        "buscar:engineer examining chip magnifying glass",
+        "buscar:two chips side by side @cada uno"
+      ],
+      "texto": "¿PARA QUÉ SIRVE CADA UNO?"
+    },
+    {
+      "tipo": "lista",
+      "voz": "El ocho te equis, para trabajos confidenciales y regulados. El ocho i Max, para contextos muy largos.",
+      "clips": [
+        "buscar:padlock digital security glowing @confidenciales",
+        "buscar:long scroll document text moving @contextos muy largos"
+      ],
+      "titulo": "DOS CHIPS, DOS USOS",
+      "items": [
+        "TRABAJOS CONFIDENCIALES",
+        "CONTEXTOS MUY LARGOS"
+      ]
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero ojo: según los informes, no son una arquitectura nueva. Son versiones retocadas de la octava generación.",
+      "clips": [
+        "buscar:technician soldering circuit board close up @versiones retocadas",
+        "buscar:blueprint drawing desk"
+      ],
+      "texto": "VERSIONES RETOCADAS",
+      "resalta": "RETOCADAS"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Y todavía no hay precio. Sin precio publicado y con llegada prevista para dos mil veintisiete.",
+      "clips": [
+        "buscar:price tag blank close up @sin precio",
+        "buscar:calendar new year countdown @dos mil veintisiete"
+      ],
+      "numero": "2027",
+      "arriba": "LLEGADA PREVISTA",
+      "texto": "SIN PRECIO PUBLICADO"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Entonces, ¿por qué todo el mundo habla de esto? Porque la lista de clientes es la verdadera noticia.",
+      "clips": [
+        "buscar:phone news headlines scrolling @todo el mundo habla",
+        "buscar:client list paper pen close up @la lista de clientes"
+      ],
+      "texto": "POR QUÉ TODO EL MUNDO HABLA",
+      "efecto": "temblor",
+      "musica": "tension"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Según Bloomberg, entre los clientes de Google están Apple, Meta y Oracle.",
+      "clips": [
+        "buscar:smartphone apple store glass building night @Apple",
+        "buscar:social media icons phone screen @Meta",
+        "buscar:database servers corridor @Oracle"
+      ],
+      "etiqueta": "CLIENTES",
+      "texto": "APPLE, META Y ORACLE",
+      "fuente": "Bloomberg"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Alphabet afirma que Apple usa la última generación para entrenar sus modelos fundacionales.",
+      "clips": [
+        "buscar:engineer typing code multiple monitors @entrenar sus modelos",
+        "buscar:data center racks blinking lights"
+      ],
+      "texto": "ENTRENAR SUS MODELOS",
+      "resalta": "ENTRENAR",
+      "fuente": "Business Insider"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Y Meta, según Diario Financiero, firmó un acuerdo de varios años por miles de millones de dólares.",
+      "clips": [
+        "buscar:contract signing pen close up @firmó un acuerdo",
+        "buscar:dollar bills falling slow motion @miles de millones de dólares"
+      ],
+      "titulo": "EL ACUERDO DE META",
+      "items": [
+        "UN ACUERDO DE VARIOS AÑOS",
+        "MILES DE MILLONES DE DÓLARES"
+      ],
+      "fuente": "Diario Financiero"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero falta el nombre que más sorprende. Una empresa que es rival de Google en inteligencia artificial.",
+      "clips": [
+        "buscar:two chess pieces face to face dark @rival de Google",
+        "buscar:question mark neon dark"
+      ],
+      "texto": "RIVAL DE GOOGLE",
+      "resalta": "RIVAL"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Anthropic, la creadora de Claude, puede comprar hasta ciento cincuenta mil millones de dólares en TPU, entre dos mil veintiocho y dos mil treinta y uno.",
+      "clips": [
+        "buscar:stack of cash dollar bills close up @mil millones de dólares",
+        "buscar:calendar pages flipping fast @dos mil veintiocho"
+      ],
+      "numero": "150.000",
+      "arriba": "HASTA",
+      "texto": "MILLONES DE DÓLARES EN TPU",
+      "efecto": "flash",
+      "fuente": "Bloomberg"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Aviso de transparencia: Anthropic es la empresa que creó a Claude, la inteligencia artificial que ayuda a preparar estos vídeos.",
+      "clips": [
+        "buscar:person typing laptop night soft light @que ayuda a preparar",
+        "buscar:abstract neural network blue"
+      ],
+      "texto": "AVISO DE TRANSPARENCIA",
+      "resalta": "TRANSPARENCIA",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "grafico",
+      "voz": "Mira las proyecciones de Bloomberg Intelligence: doce mil millones en ventas de TPU este año, más de ciento treinta y cinco mil millones en dos mil veintiocho.",
+      "clips": [
+        "buscar:bar chart growing dark background"
+      ],
+      "titulo": "VENTAS PROYECTADAS DE TPU",
+      "valor": "135",
+      "unidad": "MIL MILLONES $ EN 2028",
+      "barras": [
+        {
+          "l": "2026",
+          "v": 12
+        },
+        {
+          "l": "2028 (PROYECCIÓN)",
+          "v": 135
+        }
+      ],
+      "fuente": "Bloomberg Intelligence"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Según esa proyección, las ventas se multiplicarían por más de once en solo dos años.",
+      "clips": [
+        "buscar:rocket launch slow motion @se multiplicarían",
+        "buscar:growing plant timelapse dark"
+      ],
+      "numero": "x11",
+      "arriba": "SEGÚN LA PROYECCIÓN",
+      "texto": "MÁS DE ONCE"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Ojo: es una proyección de un analista. No es una venta cerrada, ni una cifra de Nvidia.",
+      "clips": [
+        "buscar:analyst pointing at chart whiteboard @de un analista",
+        "buscar:stock ticker screen blurred"
+      ],
+      "texto": "ES UNA PROYECCIÓN",
+      "resalta": "PROYECCIÓN"
+    },
+    {
+      "tipo": "numero",
+      "voz": "El mismo analista calcula que los TPU cuestan un treinta por ciento menos que las GPU de Nvidia.",
+      "clips": [
+        "buscar:discount sale percent sign @treinta por ciento menos",
+        "buscar:graphics card box close up @las GPU de Nvidia"
+      ],
+      "numero": "30%",
+      "arriba": "SEGÚN UN ANALISTA",
+      "texto": "UN TREINTA POR CIENTO MENOS",
+      "fuente": "Bloomberg Intelligence"
+    },
+    {
+      "tipo": "frase",
+      "voz": "La consultora SemiAnalysis midió el Ironwood de Google: casi tres veces más trabajo por dólar que el Blackwell de Nvidia, con agentes de IA.",
+      "clips": [
+        "buscar:benchmark test performance graph screen @midió el Ironwood",
+        "buscar:stopwatch close up @tres veces más trabajo"
+      ],
+      "texto": "TRES VECES MÁS TRABAJO POR DÓLAR",
+      "resalta": "TRES VECES",
+      "fuente": "SemiAnalysis"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Entonces Nvidia ya perdió? Aquí viene el giro que casi nadie cuenta.",
+      "clips": [
+        "buscar:boxer ring knockout dark slow motion @ya perdió",
+        "buscar:green neon logo glow abstract @Nvidia"
+      ],
+      "texto": "¿ENTONCES NVIDIA YA PERDIÓ?",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Según SemiAnalysis, el sistema más potente de Nvidia sigue ganando cuando lo único que importa es la velocidad.",
+      "clips": [
+        "buscar:race car speed motion blur @la velocidad",
+        "buscar:supercomputer room rows @más potente"
+      ],
+      "texto": "NVIDIA SIGUE GANANDO",
+      "resalta": "GANANDO",
+      "fuente": "SemiAnalysis"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Y Anthropic ampliará su acuerdo con Google y Broadcom: unos tres coma cinco gigavatios de capacidad, desde dos mil veintisiete.",
+      "clips": [
+        "buscar:power plant electricity pylons dusk @gigavatios",
+        "buscar:data center aerial big building"
+      ],
+      "numero": "3,5",
+      "arriba": "GIGAVATIOS",
+      "texto": "TRES COMA CINCO GIGAVATIOS",
+      "fuente": "Business Insider"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Pero Anthropic seguirá usando chips de Google, chips de Nvidia y chips de Amazon.",
+      "clips": [
+        "buscar:three paths road fork aerial @chips de Amazon",
+        "buscar:circuit board macro orange"
+      ],
+      "titulo": "NO APUESTAN A UNO SOLO",
+      "items": [
+        "CHIPS DE GOOGLE",
+        "CHIPS DE NVIDIA",
+        "CHIPS DE AMAZON"
+      ]
+    },
+    {
+      "tipo": "frase",
+      "voz": "Nvidia, por su parte, sigue vendiendo muchos más chips de inteligencia artificial que cualquier otro fabricante. Una previsión no es una venta cerrada.",
+      "clips": [
+        "buscar:semiconductor factory clean room @fabricante",
+        "buscar:warehouse shipping boxes @más chips"
+      ],
+      "texto": "UNA PREVISIÓN NO ES UNA VENTA",
+      "resalta": "PREVISIÓN"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Y OpenAI? Un medio dijo que iba a comprar chips de Google. Pero espera.",
+      "clips": [
+        "buscar:chatbot interface screen typing @OpenAI",
+        "buscar:shopping cart chips @comprar chips"
+      ],
+      "texto": "¿Y OPENAI?",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "The Information informó que OpenAI planea comprar TPU. OpenAI respondió que no tiene planes actuales de usarlos.",
+      "clips": [
+        "buscar:journalist reading newspaper close up @The Information",
+        "buscar:man shaking head no close up @no tiene planes"
+      ],
+      "texto": "NO TIENE PLANES ACTUALES",
+      "resalta": "NO",
+      "fuente": "The Information"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Así que, hoy, esa compra no está confirmada. Y esa palabra importa.",
+      "clips": [
+        "buscar:rubber stamp pending paper close up @no está confirmada",
+        "buscar:clock ticking close up dark"
+      ],
+      "texto": "NO ESTÁ CONFIRMADA",
+      "resalta": "CONFIRMADA",
+      "musica": "epica"
+    },
+    {
+      "tipo": "numero",
+      "voz": "En agosto, Nvidia declaró que garantizaría hasta ciento cinco mil millones de dólares de los contratos de OpenAI en un centro de datos de Ohio.",
+      "clips": [
+        "buscar:construction site aerial big building @un centro de datos",
+        "buscar:cornfield aerial farm @de Ohio"
+      ],
+      "numero": "105.000",
+      "arriba": "HASTA",
+      "texto": "MILLONES DE DÓLARES",
+      "lugar": "OHIO · AGOSTO 2026",
+      "fuente": "Reuters"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Ojo: según los análisis es un tope, no una factura. Y las fuentes no coinciden en qué cubre exactamente.",
+      "clips": [
+        "buscar:calculator papers desk close up @un tope",
+        "buscar:magnifying glass document @qué cubre exactamente"
+      ],
+      "texto": "UN TOPE, NO UNA FACTURA",
+      "resalta": "TOPE"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Nvidia invierte en OpenAI. OpenAI mira a Google. Google vende a Anthropic. ¿Quién financia a quién?",
+      "clips": [
+        "buscar:circular arrows loop abstract @Google vende",
+        "buscar:tangled cables close up @quién financia a quién"
+      ],
+      "texto": "¿QUIÉN FINANCIA A QUIÉN?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Es un tablero donde los rivales se compran, se invierten y se necesitan, todo a la vez.",
+      "clips": [
+        "buscar:chess board top view pieces moving @los rivales",
+        "buscar:gears turning together close up @se necesitan"
+      ],
+      "texto": "SE NECESITAN",
+      "resalta": "NECESITAN"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Detrás de todo esto hay una carrera: quien tenga más capacidad de cómputo entrena modelos más grandes y los lanza antes que los demás.",
+      "clips": [
+        "buscar:racing start line runners @una carrera",
+        "buscar:huge data center aerial night @capacidad de cómputo"
+      ],
+      "texto": "MÁS CAPACIDAD DE CÓMPUTO",
+      "resalta": "CÓMPUTO"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Lo que sabemos: dos chips nuevos, llegada prevista para dos mil veintisiete y casi cien clientes.",
+      "clips": [
+        "buscar:checklist pen ticking close up @lo que sabemos",
+        "buscar:new microchip slow rotation"
+      ],
+      "titulo": "LO QUE SABEMOS",
+      "items": [
+        "DOS CHIPS NUEVOS",
+        "CASI CIEN CLIENTES"
+      ]
+    },
+    {
+      "tipo": "frase",
+      "voz": "Lo que no sabemos: el precio, el reparto real de ventas, y si OpenAI terminará comprando.",
+      "clips": [
+        "buscar:foggy road night headlights @lo que no sabemos",
+        "buscar:empty chair dark office"
+      ],
+      "texto": "LO QUE NO SABEMOS",
+      "resalta": "NO",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "frase",
+      "voz": "La lectura de varios analistas es esta: ya no gana solo quien fabrica el mejor chip, sino quien consigue venderlo a todos.",
+      "clips": [
+        "buscar:global trade shipping containers aerial @venderlo a todos",
+        "buscar:light reflecting on silicon chip @el mejor chip"
+      ],
+      "texto": "VENDERLO A TODOS",
+      "resalta": "TODOS",
+      "musica": "reflexion"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Y si el verdadero ganador no es ninguno de los dos?",
+      "clips": [
+        "buscar:finish line empty track dawn",
+        "buscar:two shadows long evening @de los dos"
+      ],
+      "texto": "EL VERDADERO GANADOR",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Quizá lo importante no sea quién gana la guerra de los chips, sino quién depende de quién.",
+      "clips": [
+        "buscar:ropes tied knot close up @depende de quién",
+        "buscar:city skyline sunset timelapse"
+      ],
+      "texto": "QUIÉN DEPENDE DE QUIÉN",
+      "resalta": "DEPENDE"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Esto no es asesoría financiera, solo lo que ocurrió. Suscríbete para enterarte antes que nadie.",
+      "clips": [
+        "buscar:subscribe button finger tapping phone @Suscríbete",
+        "buscar:night city lights bokeh"
+      ],
+      "texto": "SUSCRÍBETE",
+      "resalta": "SUSCRÍBETE",
+      "chapa": "NO ES ASESORÍA FINANCIERA"
+    }
+  ]
+}
