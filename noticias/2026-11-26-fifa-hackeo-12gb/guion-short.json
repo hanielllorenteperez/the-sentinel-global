@@ -1,0 +1,83 @@
+{
+ "id": "2026-11-26-fifa-hackeo-12gb",
+ "formato": "short",
+ "cinta": "The Sentinel Global · Última hora · FIFA",
+ "titulo": "Hackearon a la FIFA… y todo empezó con un engaño 🔓😳",
+ "descripcion": "La FIFA confirmó un ciberataque y un grupo asegura tener 12 GB. Qué se sabe y qué no. Historia completa en el vídeo largo del canal.\n\n#FIFA #Hackeo #noticias #shorts",
+ "etiquetas": [
+  "FIFA",
+  "hackeo",
+  "ciberataque",
+  "noticias",
+  "shorts"
+ ],
+ "musica": "tension",
+ "escenas": [
+  {
+   "tipo": "frase",
+   "voz": "Hackearon a la FIFA. Y los atacantes dicen que tienen doce gigas de documentos.",
+   "clips": [
+    "buscar:red alert screen computer code dark",
+    "buscar:hooded hacker laptop dark room @doce gigas"
+   ],
+   "texto": "HACKEARON A LA FIFA",
+   "resalta": "FIFA",
+   "efecto": "flash"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Doce gigabytes, según un grupo llamado Handsome Boy Hacking Club.",
+   "clips": [
+    "buscar:hard drive data close up",
+    "buscar:masked person computer screen code @un grupo"
+   ],
+   "texto": "DOCE GIGABYTES",
+   "numero": "12",
+   "arriba": "GIGABYTES QUE DICEN TENER",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Cómo entraron? La BBC dice que empezó con delincuentes que se hacían pasar por personal de la FIFA.",
+   "clips": [
+    "buscar:person on phone office fake smile",
+    "buscar:employee badge id card close up @personal de la FIFA"
+   ],
+   "texto": "¿CÓMO ENTRARON?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "La FIFA habla de menos del cero coma uno por ciento de sus datos. Los hackers, de información confidencial.",
+   "clips": [
+    "buscar:server room rows data close up",
+    "buscar:folder confidential stamp close up @información confidencial"
+   ],
+   "texto": "MENOS DEL CERO COMA UNO",
+   "resalta": "CERO",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "¿Quién dice la verdad? Todavía nadie lo ha podido comprobar.",
+   "clips": [
+    "buscar:balance scale tilting",
+    "buscar:smoke fog slow drift dark @nadie lo ha podido comprobar"
+   ],
+   "texto": "NADIE LO HA PODIDO COMPROBAR",
+   "resalta": "COMPROBAR",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "frase",
+   "voz": "La historia completa, y el detalle que lo cambia todo, está en el vídeo largo del canal.",
+   "clips": [
+    "buscar:person pointing down screen",
+    "buscar:night city lights bokeh @del canal"
+   ],
+   "texto": "MIRA EL VÍDEO COMPLETO",
+   "resalta": "COMPLETO",
+   "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL",
+   "musica": "reflexion"
+  }
+ ]
+}

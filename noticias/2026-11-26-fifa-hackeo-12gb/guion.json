@@ -1,0 +1,503 @@
+{
+ "id": "2026-11-26-fifa-hackeo-12gb",
+ "cinta": "The Sentinel Global · Última hora · FIFA · Ciberataque",
+ "titulo": "La FIFA fue HACKEADA: 12 GB… y todo empezó con un engaño 🔓",
+ "descripcion": "La FIFA confirmó el 26 de noviembre de 2026 un ciberataque con acceso no autorizado a información personal y empresarial. El grupo Handsome Boy Hacking Club afirma haber robado 12 GB; según los reportes, lo afectado sería menos del 0,1 % de los datos. Contamos qué se sabe, cómo habría empezado (suplantación de identidad, según la BBC) y qué sigue sin aclararse. Las cifras de los atacantes no están verificadas.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#FIFA #Ciberataque #Hackeo #noticias #ultimahora",
+ "etiquetas": [
+  "FIFA",
+  "hackeo FIFA",
+  "ciberataque",
+  "Handsome Boy Hacking Club",
+  "12 GB",
+  "suplantación de identidad",
+  "phishing",
+  "Infantino",
+  "noticias de hoy",
+  "última hora",
+  "ciberseguridad"
+ ],
+ "fuentes": [
+  "https://continental.com.ar/2026-11-26/la-fifa-confirmo-un-ciberataque-robaron-12-gigabytesd-e-datos-153082",
+  "https://www.df.cl/internacional/ft/la-fifa-sufre-ciberataque-y-confirma-filtracion-de-informacion-personal-y",
+  "https://thenextweb.com/news/fifa-cyberattack-handsome-boy-hacking-club-12gb",
+  "https://noticiasrcn.com/deportes/fifa-ciberataque-hackers-robo-datos-confidenciales-1085695",
+  "https://revistamercado.do/money-invest/fifa-confirma-ciberataque-hackers-12-gb-que-se-llevaron/",
+  "https://www.mundiario.com/deportes/fifa-admite-sufrir-ciberataque-filtracion-documentos-internos/20261126144813455089.html",
+  "https://www.ejecentral.com.mx/nuestro-eje/fifa-confirma-ciberataque-hackers-aseguran-haber-robado-12-gb-de-informacion-confidencial",
+  "https://www.darkreading.com/application-security/fifa-bug-world-cup-streams-remote-takeover",
+  "https://www.itnews.com.au/news/access-control-flaw-left-fifa-world-cup-match-streams-wide-open-626688"
+ ],
+ "musica": "tension",
+ "rotulos": [
+  "EN DIRECTO",
+  "CIBERATAQUE A LA FIFA",
+  "NOTICIA EN DESARROLLO",
+  "DETRÁS DEL HACKEO",
+  "LO QUE NO TE CUENTAN"
+ ],
+ "miniatura": {
+  "texto": "HACKEARON A LA FIFA",
+  "rojo": "12 GB",
+  "escena": 15
+ },
+ "escenas": [
+  {
+   "tipo": "titular",
+   "voz": "Última hora. La FIFA acaba de confirmar que la hackearon. Y los atacantes aseguran que se llevaron doce gigas de documentos internos.",
+   "clips": [
+    "buscar:red alert screen computer code dark",
+    "buscar:stack of documents folders close up @documentos internos"
+   ],
+   "texto": "LA FIFA ACABA DE CONFIRMAR",
+   "etiqueta": "ÚLTIMA HORA",
+   "efecto": "flash",
+   "musica": "tension",
+   "fuente": "Continental"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Quédate hasta el final. Te cuento cómo entraron, qué dicen los hackers que tienen y el detalle que la FIFA prefiere subrayar.",
+   "clips": [
+    "buscar:hooded hacker laptop dark room",
+    "buscar:football stadium night aerial @la FIFA"
+   ],
+   "texto": "QUÉDATE HASTA EL FINAL",
+   "resalta": "FINAL",
+   "lugar": "ZÚRICH · 26 NOV 2026"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Doce gigabytes. Eso es lo que afirma tener un grupo que se hace llamar Handsome Boy Hacking Club.",
+   "clips": [
+    "buscar:hard drive data close up",
+    "buscar:masked person computer screen code @un grupo"
+   ],
+   "texto": "UN GRUPO",
+   "numero": "12",
+   "arriba": "GIGABYTES QUE DICEN TENER",
+   "fuente": "The Next Web"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Suena a mucho. Pero la historia tiene una letra pequeña que cambia cómo se lee ese número. Ya llegamos.",
+   "clips": [
+    "buscar:magnifying glass small print document",
+    "buscar:person reading contract close up @una letra pequeña"
+   ],
+   "texto": "UNA LETRA PEQUEÑA",
+   "resalta": "PEQUEÑA"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Antes, lo básico. Es la FIFA, la organización que manda sobre el fútbol mundial, el Mundial y miles de millones de dólares.",
+   "clips": [
+    "buscar:soccer ball grass close up @el fútbol mundial",
+    "buscar:stadium crowd cheering @el Mundial",
+    "buscar:money cash stack close up @miles de millones de dólares"
+   ],
+   "titulo": "QUIÉN ES LA FIFA",
+   "items": [
+    "EL FÚTBOL MUNDIAL",
+    "EL MUNDIAL",
+    "MILES DE MILLONES DE DÓLARES"
+   ]
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Qué hace un grupo de hackers con documentos de una organización así? ¿Y cómo consiguieron entrar?",
+   "clips": [
+    "buscar:hacker typing keyboard green code",
+    "buscar:locked door security keypad @cómo consiguieron entrar"
+   ],
+   "texto": "¿Y CÓMO CONSIGUIERON ENTRAR?"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Este jueves veintiséis de noviembre, la FIFA lo reconoció. Un portavoz habló de un ataque criminal con acceso no autorizado.",
+   "clips": [
+    "buscar:press conference microphones close up",
+    "buscar:swiss city zurich lake aerial @veintiséis de noviembre"
+   ],
+   "texto": "UN ATAQUE CRIMINAL",
+   "etiqueta": "26 DE NOVIEMBRE",
+   "fuente": "Financial Times"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Información personal y empresarial. Así describió la FIFA lo que quedó al alcance de los atacantes: datos de personas y datos del negocio.",
+   "clips": [
+    "buscar:person silhouette data privacy screen",
+    "buscar:office business documents desk @datos del negocio"
+   ],
+   "texto": "PERSONAL Y EMPRESARIAL",
+   "resalta": "EMPRESARIAL"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Pero fíjate en esta cifra. Según los reportes, lo afectado equivale a menos del cero coma uno por ciento de los datos almacenados por la FIFA.",
+   "clips": [
+    "buscar:server room rows data close up",
+    "buscar:calculator percentage numbers @menos del cero coma uno por ciento"
+   ],
+   "texto": "MENOS DEL CERO COMA UNO",
+   "numero": "0,1",
+   "arriba": "POR CIENTO O MENOS · SEGÚN REPORTES",
+   "fuente": "Reuters",
+   "efecto": "golpe"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Poco o mucho? Doce gigas pueden ser unas pocas carpetas o miles de documentos. Todo depende de qué haya dentro.",
+   "clips": [
+    "buscar:folders cabinet files drawer open",
+    "buscar:scale balance weighing @poco o mucho"
+   ],
+   "texto": "¿POCO O MUCHO?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Guarda este dato, porque luego importa. La cifra de doce gigas sale de los propios atacantes y no ha sido verificada de forma independiente.",
+   "clips": [
+    "buscar:question mark chalkboard",
+    "buscar:checklist pen close up @no ha sido verificada"
+   ],
+   "texto": "NO HA SIDO VERIFICADA",
+   "resalta": "VERIFICADA",
+   "fuente": "The Next Web"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Esto es lo que se sabe hasta ahora. La FIFA lo confirmó. Un grupo lo reivindica. Y hay una investigación abierta con las autoridades.",
+   "clips": [
+    "buscar:detective desk papers lamp",
+    "buscar:police officers meeting office @las autoridades"
+   ],
+   "titulo": "LO QUE SE SABE",
+   "items": [
+    "LA FIFA LO CONFIRMÓ",
+    "UN GRUPO LO REIVINDICA",
+    "INVESTIGACIÓN ABIERTA"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "voz": "Pero aquí la historia da un giro. Porque lo más llamativo no es lo que se llevaron. Es cómo, según la BBC, empezó todo.",
+   "clips": [
+    "buscar:dark corridor lights flicker mystery",
+    "buscar:email inbox laptop night @según la BBC"
+   ],
+   "texto": "EMPEZÓ TODO",
+   "resalta": "EMPEZÓ",
+   "efecto": "temblor",
+   "musica": "misterio"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Un virus sofisticado? ¿Un fallo en un servidor? ¿Un genio informático encerrado en un sótano?",
+   "clips": [
+    "buscar:computer virus red warning screen @un virus sofisticado",
+    "buscar:dark basement hacker silhouette @un sótano"
+   ],
+   "texto": "¿UN VIRUS SOFISTICADO?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "No. Según BBC Sport, el ataque comenzó con delincuentes que se hacían pasar por personal de la propia FIFA.",
+   "clips": [
+    "buscar:person on phone office fake smile",
+    "buscar:employee badge id card close up @personal de la propia FIFA"
+   ],
+   "texto": "SE HACÍAN PASAR POR PERSONAL",
+   "resalta": "PASAR",
+   "efecto": "flash",
+   "fuente": "BBC Sport",
+   "musica": "tension"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Eso tiene nombre: suplantación de identidad. Se basa en fingir ser de confianza, crear prisa y conseguir que te abran la puerta.",
+   "clips": [
+    "buscar:mask face hiding theater",
+    "buscar:clock ticking close up @crear prisa",
+    "buscar:hand opening door handle @te abran la puerta"
+   ],
+   "titulo": "LA SUPLANTACIÓN",
+   "items": [
+    "FINGIR SER DE CONFIANZA",
+    "CREAR PRISA",
+    "QUE TE ABRAN LA PUERTA"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "voz": "En otras palabras: a veces el punto más débil no es el ordenador. Es una persona que confía.",
+   "clips": [
+    "buscar:person laptop café relaxed",
+    "buscar:hand clicking mouse close up @una persona que confía"
+   ],
+   "texto": "UNA PERSONA QUE CONFÍA",
+   "resalta": "CONFÍA",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Los atacantes difundieron capturas de pantalla de archivos del organismo. Una forma de decir: mirad, tenemos esto.",
+   "clips": [
+    "buscar:screenshot computer screen files folders",
+    "buscar:hacker showing laptop dark @tenemos esto"
+   ],
+   "texto": "CAPTURAS DE PANTALLA",
+   "etiqueta": "LAS PRUEBAS",
+   "fuente": "Ejecentral"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Y qué había en esos archivos? Aquí hay que separar lo que se sabe de lo que solo afirman los hackers.",
+   "clips": [
+    "buscar:papers shuffle table close up",
+    "buscar:two paths fork road fog @separar lo que se sabe"
+   ],
+   "texto": "¿QUÉ HABÍA EN ESOS ARCHIVOS?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Según algunos medios, que citan al grupo, habría documentos de identidad y registros financieros y legales de directivos. La FIFA no lo ha confirmado.",
+   "clips": [
+    "buscar:passport documents close up desk @documentos de identidad",
+    "buscar:legal papers gavel close up @registros financieros y legales"
+   ],
+   "texto": "LA FIFA NO LO HA CONFIRMADO",
+   "resalta": "CONFIRMADO",
+   "fuente": "Mundiario",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Y hay un proyecto que sí quedó fuera, según Reuters: FIFA Forward Enterprise. Los atacantes no habrían llegado a esos archivos.",
+   "clips": [
+    "buscar:locked vault safe door close up",
+    "buscar:business meeting boardroom glass @un proyecto"
+   ],
+   "texto": "FIFA FORWARD ENTERPRISE",
+   "etiqueta": "QUEDÓ FUERA",
+   "fuente": "Reuters"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Ese proyecto es la iniciativa que el presidente, Gianni Infantino, abandonó en julio tras las críticas.",
+   "clips": [
+    "buscar:man in suit podium speech @el presidente",
+    "buscar:calendar july page close up @en julio"
+   ],
+   "texto": "ABANDONÓ EN JULIO",
+   "resalta": "JULIO"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Estaba el ataque dirigido contra Infantino? Ninguna fuente lo indica. Y esa es una frase que conviene repetir.",
+   "clips": [
+    "buscar:target bullseye dart close up",
+    "buscar:person shrugging uncertain @ninguna fuente lo indica"
+   ],
+   "texto": "DIRIGIDO CONTRA INFANTINO"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Pero hay algo más inquietante que los números. Y es lo que pasa cuando estos documentos empiezan a circular.",
+   "clips": [
+    "buscar:papers flying wind dark",
+    "buscar:dark web screen hooded @empiezan a circular"
+   ],
+   "texto": "EMPIEZAN A CIRCULAR",
+   "resalta": "CIRCULAR",
+   "efecto": "temblor",
+   "musica": "tension"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Cuando se filtran datos, el daño puede llegar por varios caminos. Estafas con mensajes falsos. Chantaje. Y más suplantaciones de identidad.",
+   "clips": [
+    "buscar:phone text message scam notification @mensajes falsos",
+    "buscar:threatening shadow silhouette wall @chantaje"
+   ],
+   "titulo": "EL DAÑO POSIBLE",
+   "items": [
+    "ESTAFAS CON MENSAJES FALSOS",
+    "CHANTAJE",
+    "MÁS SUPLANTACIONES DE IDENTIDAD"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "voz": "Y ojo, porque un ataque así se alimenta a sí mismo. Con los datos robados se prepara el siguiente engaño.",
+   "clips": [
+    "buscar:domino chain falling slow motion",
+    "buscar:hacker planning notes board @el siguiente engaño"
+   ],
+   "texto": "EL SIGUIENTE ENGAÑO",
+   "resalta": "ENGAÑO"
+  },
+  {
+   "tipo": "titular",
+   "voz": "No sería la primera alerta este año. Un investigador, Bob the Hacker, afirmó que un fallo en un portal de la FIFA daba acceso a sistemas de retransmisión del Mundial.",
+   "clips": [
+    "buscar:television broadcast control room screens",
+    "buscar:security researcher laptop coffee night @un investigador"
+   ],
+   "texto": "NO SERÍA LA PRIMERA ALERTA",
+   "etiqueta": "OTRO AVISO",
+   "fuente": "Dark Reading"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Según esos reportes, el fallo se cerró a la mañana siguiente, tras avisar a las autoridades de EE. UU. Es un caso distinto, sin relación probada con el de hoy.",
+   "clips": [
+    "buscar:sunrise window office morning",
+    "buscar:padlock closing metal close up @se cerró"
+   ],
+   "texto": "SIN RELACIÓN PROBADA",
+   "resalta": "PROBADA",
+   "efecto": "suave",
+   "fuente": "iTnews"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Entonces, ¿es la FIFA un blanco fácil? Sería injusto decirlo. Las grandes organizaciones reciben ataques todos los días.",
+   "clips": [
+    "buscar:castle walls fortress aerial",
+    "buscar:server room security camera @reciben ataques"
+   ],
+   "texto": "¿UN BLANCO FÁCIL?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Y suelen fallar casi todos. Pero basta que uno funcione, un solo correo falso, para abrir la puerta.",
+   "clips": [
+    "buscar:email envelope icon computer screen @un solo correo falso",
+    "buscar:door ajar light dark room @abrir la puerta"
+   ],
+   "texto": "UN SOLO CORREO FALSO",
+   "resalta": "FALSO",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Dos versiones enfrentadas. Los atacantes hablan de doce gigas. La FIFA, de menos del cero coma uno por ciento y de un acceso limitado.",
+   "clips": [
+    "buscar:two people arguing office",
+    "buscar:data chart gigabytes screen @doce gigas",
+    "buscar:small door lock key @un acceso limitado"
+   ],
+   "titulo": "DOS VERSIONES",
+   "items": [
+    "DOCE GIGAS",
+    "MENOS DEL CERO COMA UNO",
+    "UN ACCESO LIMITADO"
+   ]
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Quién tiene razón? Probablemente las dos cosas pueden ser ciertas a la vez. Un archivo pequeño puede contener un secreto enorme.",
+   "clips": [
+    "buscar:small envelope secret letter close up",
+    "buscar:balance scale tilting @quién tiene razón"
+   ],
+   "texto": "¿QUIÉN TIENE RAZÓN?"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Y aquí está el detalle que prometí. Nadie fuera de los atacantes y de la FIFA sabe todavía qué hay exactamente en esos archivos.",
+   "clips": [
+    "buscar:locked safe dark room",
+    "buscar:closed folder confidential stamp close up @esos archivos"
+   ],
+   "texto": "QUÉ HAY EXACTAMENTE",
+   "etiqueta": "REVELACIÓN",
+   "efecto": "flash",
+   "musica": "epica"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Hasta que se publique o se aclare, todo lo demás son versiones. Y en este tipo de casos, las versiones cambian rápido.",
+   "clips": [
+    "buscar:newspapers headlines stack close up",
+    "buscar:smoke fog slow drift dark @las versiones cambian"
+   ],
+   "texto": "TODO LO DEMÁS SON VERSIONES",
+   "resalta": "VERSIONES",
+   "musica": "misterio"
+  },
+  {
+   "tipo": "lista",
+   "voz": "¿Y tú qué puedes hacer? Desconfía de la prisa. No abras enlaces sorpresa. Y activa la verificación en dos pasos.",
+   "clips": [
+    "buscar:smartphone lock screen password close up @verificación en dos pasos",
+    "buscar:person looking suspicious email laptop @enlaces sorpresa"
+   ],
+   "titulo": "QUÉ PUEDES HACER",
+   "items": [
+    "DESCONFÍA DE LA PRISA",
+    "NO ABRAS ENLACES SORPRESA",
+    "VERIFICACIÓN EN DOS PASOS"
+   ]
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Y si el siguiente mensaje falso lo recibe alguien de una empresa que guarda tus datos?",
+   "clips": [
+    "buscar:office worker reading email worried",
+    "buscar:people crowd walking city blur @tus datos"
+   ],
+   "texto": "¿EL SIGUIENTE MENSAJE FALSO?",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Por eso esta noticia no es solo de fútbol. Es una historia de confianza. Y de lo fácil que es perderla.",
+   "clips": [
+    "buscar:football stadium empty night",
+    "buscar:handshake close up slow @una historia de confianza"
+   ],
+   "texto": "UNA HISTORIA DE CONFIANZA",
+   "resalta": "CONFIANZA",
+   "efecto": "suave",
+   "musica": "triste"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Resumen rápido. La FIFA confirmó el ataque. El grupo dice tener doce gigas. La FIFA habla de una parte mínima. Y la investigación sigue abierta.",
+   "clips": [
+    "buscar:notebook list pen close up",
+    "buscar:detective board photos strings @la investigación"
+   ],
+   "titulo": "EN RESUMEN",
+   "items": [
+    "CONFIRMÓ EL ATAQUE",
+    "DOCE GIGAS",
+    "UNA PARTE MÍNIMA",
+    "SIGUE ABIERTA"
+   ]
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Lo que no sabemos: quién más aparece en esos archivos, si habrá más filtraciones, y qué hará la FIFA ahora.",
+   "clips": [
+    "buscar:crowd walking street blur",
+    "buscar:question marks floating dark @más filtraciones"
+   ],
+   "texto": "HABRÁ MÁS FILTRACIONES",
+   "musica": "reflexion"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Si quieres seguir esta historia, suscríbete para enterarte antes que nadie. Porque esto aún no ha terminado.",
+   "clips": [
+    "buscar:subscribe button red click",
+    "buscar:night city lights timelapse @antes que nadie"
+   ],
+   "texto": "SUSCRÍBETE",
+   "etiqueta": "SIGUE ESTA HISTORIA",
+   "musica": "reflexion"
+  }
+ ]
+}

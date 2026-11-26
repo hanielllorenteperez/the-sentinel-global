@@ -31,6 +31,7 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-25 · Google vende sus chips TPU a sus rivales (Apple, Meta, Anthropic) y reta a Nvidia · [tecnología/IA]
 - 2026-11-26 · Final Libertadores Estudiantes–Palmeiras (28 nov, Centenario) y la revancha de 1968 · [deportes]
 - 2026-11-26 · Bitcoin cae hacia los 60.000 (−50 % desde el máximo de 126.080; liquidaciones, ETF, miedo extremo) · [dinero/cripto]
+- 2026-11-26 · FIFA confirma ciberataque (Handsome Boy Hacking Club, 12 GB, suplantación de identidad) · [hackeos]
 
 ## Diario del guionista
 <!-- 1–3 líneas por ejecución: fecha · noticia · lección nueva (si la hay) -->
@@ -47,6 +48,7 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-25 · Google TPU vs Nvidia · Las búsquedas «trending hoy» de tecnología devuelven agregadores sin fecha; hay que fijar fechas con una búsqueda del nombre técnico (TPU 8tx, 9 nov). Fecha de Nvidia/OpenAI Ohio es de agosto (no es noticia de hoy) → contextualizada. Proyecciones y reportes sin confirmar (OpenAI comprando TPU) se dicen como tales.
 - 2026-11-26 · Final Libertadores (previa + final de 1968) · Noticia de «mañana»: se cuenta como previa sin inventar resultado. Datos de 1968 (2-1, 1-3, desempate 2-0 en el Centenario) contrastados en RSSSF/Wikipedia/Estadio Centenario; ojo con «datos históricos» recordados de memoria (descartadas frases sin fuente). Buscar «<tema> final previa árbitro horario» da varias fuentes.
 - 2026-11-26 · Bitcoin cayendo a 60.000 · WebFetch sigue sin resolver dominios; resultados de «bitcoin hoy» mezclan 2024/2025/feb-2026 → solo usar cifras con fecha 2026 visible (13-15 nov) y atribuir el cierre del 23/25 nov a Investing.com (fuente única, dicho como tal). Búsqueda «Interpol 266 detenidos» descartada: una sola fuente.
+- 2026-11-26 · Hackeo a la FIFA · Buscar «hackeo ciberataque filtración datos esta semana» (extended) dio el tema con 8+ medios. Cifras de los atacantes (12 GB) vs. FIFA (<0,1 %) se atribuyen por separado; LaLiga/Comisión Europea solo aparecían en un snippet → descartados. Cuidado: sin wiki:, todo clips genéricos para no usar logos.
 
 ## Diario de la fábrica
 <!-- lo escribe GitHub Actions solo -->
