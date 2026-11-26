@@ -64,3 +64,4 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-25 08:40 UTC · 2026-11-25-google-chips-contra-nvidia · ✅ subido a YouTube · run 45573305371
 - 2026-11-26 00:47 UTC · 2026-11-26-final-libertadores-estudiantes-palmeiras · ✅ subido a YouTube · run 45726190334
 - 2026-11-26 08:35 UTC · 2026-11-26-bitcoin-cae-60000 · ✅ subido a YouTube · run 45780173887
+- 2026-11-26 16:41 UTC · 2026-11-26-fifa-hackeo-12gb · ✅ subido a YouTube · run 45855467166
