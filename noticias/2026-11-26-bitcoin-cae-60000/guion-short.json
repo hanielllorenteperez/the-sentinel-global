@@ -1,0 +1,84 @@
+{
+ "id": "2026-11-26-bitcoin-cae-60000",
+ "formato": "short",
+ "cinta": "The Sentinel Global · Última hora · Bitcoin",
+ "titulo": "Bitcoin pierde casi la MITAD de su valor… 📉😳",
+ "descripcion": "Bitcoin cayó de 126.000 dólares a rondar los 60.000. Qué pasó, según los datos disponibles. Historia completa en el vídeo largo del canal. No es asesoría financiera.\n\n#Bitcoin #Cripto #noticias #shorts",
+ "etiquetas": [
+  "bitcoin",
+  "caída de bitcoin",
+  "criptomonedas",
+  "noticias",
+  "shorts"
+ ],
+ "musica": "tension",
+ "aviso_financiero": true,
+ "escenas": [
+  {
+   "tipo": "frase",
+   "voz": "Bitcoin acaba de perder casi la mitad de su valor. Y lo peor pasó mientras casi todos dormían.",
+   "clips": [
+    "buscar:red stock chart crashing screen",
+    "buscar:bitcoin coin falling dark background @casi la mitad"
+   ],
+   "texto": "CASI LA MITAD",
+   "resalta": "MITAD",
+   "efecto": "flash"
+  },
+  {
+   "tipo": "numero",
+   "voz": "De ciento veintiséis mil dólares, a unos sesenta mil.",
+   "clips": [
+    "buscar:golden bitcoin coin close up shining",
+    "buscar:red candlestick chart plunge @sesenta mil"
+   ],
+   "texto": "126.000 A 60.000",
+   "numero": "60",
+   "arriba": "MIL DÓLARES · HOY CERCA DE",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Más de dos mil millones liquidados en un fin de semana. ¿Qué los empujó?",
+   "clips": [
+    "buscar:money burning fire close up",
+    "buscar:laptop glowing dark room weekend @un fin de semana"
+   ],
+   "texto": "¿QUÉ LOS EMPUJÓ?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Salidas de fondos, dinero prestado y mucho miedo. Y una hipótesis que apunta a la inteligencia artificial.",
+   "clips": [
+    "buscar:server room data center blue lights @inteligencia artificial",
+    "buscar:scared man face close up dark @mucho miedo"
+   ],
+   "texto": "¿Y LA IA?",
+   "resalta": "IA",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Nadie sabe si ya tocó fondo. Esto no es consejo financiero.",
+   "clips": [
+    "buscar:cliff edge man standing sunset",
+    "buscar:warning sign close up yellow @consejo financiero"
+   ],
+   "texto": "NADIE SABE SI TOCÓ FONDO",
+   "resalta": "FONDO",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "frase",
+   "voz": "La historia completa, con las cifras y lo que aún no se sabe, está en el vídeo largo del canal.",
+   "clips": [
+    "buscar:person pointing down screen",
+    "buscar:night city lights bokeh @del canal"
+   ],
+   "texto": "MIRA EL VÍDEO COMPLETO",
+   "resalta": "COMPLETO",
+   "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL",
+   "musica": "reflexion"
+  }
+ ]
+}

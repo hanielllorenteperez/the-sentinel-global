@@ -1,0 +1,502 @@
+{
+ "id": "2026-11-26-bitcoin-cae-60000",
+ "cinta": "The Sentinel Global · Última hora · Bitcoin · Caída de noviembre",
+ "titulo": "Bitcoin pierde casi la MITAD de su valor… y lo peor pasó un fin de semana 📉",
+ "descripcion": "Bitcoin llegó a 126.000 dólares en octubre de 2025 y, en noviembre de 2026, cayó por debajo de 70.000 por primera vez desde agosto y rozó los 62.500 el fin de semana del 14-15 de noviembre. Repasamos qué se sabe: salidas de ETF, liquidaciones de más de 1.600 millones, el miedo del mercado y las hipótesis sobre por qué ahora. Las cifras varían según la fuente y nadie puede predecir el precio.\n\nEste vídeo es informativo y no constituye asesoría financiera.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#Bitcoin #Criptomonedas #Mercados #noticias #ultimahora",
+ "etiquetas": [
+  "bitcoin",
+  "caída de bitcoin",
+  "criptomonedas",
+  "liquidaciones",
+  "ETF de bitcoin",
+  "BlackRock",
+  "miedo extremo",
+  "60.000 dólares",
+  "noviembre 2026",
+  "noticias de hoy",
+  "economía",
+  "última hora"
+ ],
+ "fuentes": [
+  "https://investinglive.com/es/Criptomonedas/fin-de-semana-bitcoin-cayo-a-un-minimo-de-cuatro-meses-cerca-de-los-62000-mientras-las-cripto-liquidaciones-superan-los-2-mil-millones/",
+  "https://cryptoticker.io/es/caida-bitcoin-liquidaciones-etf-dolar-13-noviembre-2026/",
+  "https://cryptoticker.io/es/noticias-criptomonedas-bitcoin-cae-63500-dolares-14-noviembre-2026/",
+  "https://cryptoticker.io/es/precio-bitcoin-minimo-nocturno-cierre-semanal-15-noviembre-2026/",
+  "https://investinglive.com/es/Criptomonedas/bitcoin-cayo-por-debajo-de-los-70000-por-primera-vez-desde-agosto/",
+  "https://coinedition.com/es/el-precio-de-bitcoin-cae-por-debajo-de-los-70-000-dolares-mientras-797-millones-de-dolares-en-liquidaciones-llegan-al-mercado/",
+  "https://www.cointribune.com/es/bitcoin-se-hunde-bajo-los-69-000-panico-extremo-en-el-mercado/",
+  "https://www.investing.com/crypto/bitcoin/historical-data",
+  "https://www.criptonoticias.com/"
+ ],
+ "musica": "tension",
+ "aviso_financiero": true,
+ "rotulos": [
+  "EN DIRECTO",
+  "BITCOIN EN CAÍDA",
+  "NOTICIA EN DESARROLLO",
+  "DETRÁS DE LA CIFRA",
+  "LO QUE NO TE CUENTAN"
+ ],
+ "miniatura": {
+  "texto": "BITCOIN SE HUNDE",
+  "rojo": "-50%",
+  "escena": 9
+ },
+ "escenas": [
+  {
+   "tipo": "titular",
+   "voz": "Última hora. Bitcoin acaba de borrar casi la mitad de su valor máximo. Y lo más inquietante es lo que pasó un fin de semana de noviembre.",
+   "clips": [
+    "buscar:red stock chart crashing screen",
+    "buscar:bitcoin coin falling dark background @borrar casi la mitad"
+   ],
+   "texto": "BITCOIN BORRA CASI LA MITAD",
+   "etiqueta": "ÚLTIMA HORA",
+   "efecto": "flash",
+   "musica": "tension",
+   "fuente": "Investing.com"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Quédate hasta el final. Te cuento qué detonó la caída, qué dice el miedo del mercado y qué es lo único que nadie sabe responder.",
+   "clips": [
+    "buscar:trader watching screens worried night",
+    "buscar:question mark neon dark @nadie sabe responder"
+   ],
+   "texto": "LO ÚNICO QUE NADIE SABE",
+   "resalta": "NADIE",
+   "lugar": "MERCADOS GLOBALES · NOVIEMBRE 2026"
+  },
+  {
+   "tipo": "numero",
+   "voz": "En octubre de dos mil veinticinco, bitcoin llegó a ciento veintiséis mil dólares. Era su máximo histórico.",
+   "clips": [
+    "buscar:golden bitcoin coin close up shining",
+    "buscar:rocket launching sky @su máximo histórico"
+   ],
+   "texto": "SU MÁXIMO HISTÓRICO",
+   "numero": "126.080",
+   "arriba": "DÓLARES · MÁXIMO HISTÓRICO",
+   "fuente": "CryptoTicker"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Parecía que no tenía techo. Pero un mes después empezó a pasar algo extraño.",
+   "clips": [
+    "buscar:skyscrapers looking up sunny sky",
+    "buscar:storm clouds gathering city @algo extraño"
+   ],
+   "texto": "ALGO EXTRAÑO",
+   "resalta": "EXTRAÑO",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Noviembre de dos mil veintiséis empezó ya muy por debajo. Unos setenta y ocho mil dólares el dos de noviembre, y setenta y cinco mil setecientos el siete.",
+   "clips": [
+    "buscar:calendar pages flipping close up",
+    "buscar:phone screen crypto price falling @setenta y cinco mil setecientos"
+   ],
+   "titulo": "NOVIEMBRE EN CAÍDA",
+   "items": [
+    "SETENTA Y OCHO MIL DÓLARES",
+    "SETENTA Y CINCO MIL SETECIENTOS",
+    "40 % BAJO SU MÁXIMO"
+   ],
+   "fuente": "CoinMarketCap"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Quién estaba vendiendo? ¿Y por qué justo ahora, cuando todo el mundo hablaba de inteligencia artificial?",
+   "clips": [
+    "buscar:businessman thinking window office",
+    "buscar:artificial intelligence robot hand @inteligencia artificial"
+   ],
+   "texto": "¿QUIÉN ESTABA VENDIENDO?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Guarda este dato. Los grandes fondos que compran bitcoin a través de ETF empezaron a sacar dinero. Un solo día, casi trescientos millones.",
+   "clips": [
+    "buscar:bank vault door heavy",
+    "buscar:money cash stack hand pulling @sacar dinero",
+    "buscar:stock exchange floor traders shouting @grandes fondos"
+   ],
+   "texto": "TRESCIENTOS MILLONES",
+   "resalta": "TRESCIENTOS",
+   "fuente": "Farside Investors"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Fue el once de noviembre: doscientos noventa y nueve millones ochocientos mil dólares salieron de los ETF de bitcoin. Doscientos setenta de ellos, del fondo de BlackRock.",
+   "clips": [
+    "buscar:calendar november date close up",
+    "buscar:glass skyscraper financial district @fondo de BlackRock"
+   ],
+   "texto": "SALIERON DE LOS ETF",
+   "numero": "299,8",
+   "arriba": "MILLONES SALIERON EL 11 DE NOVIEMBRE",
+   "fuente": "Farside"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Y entonces llegó el jueves trece de noviembre. Bitcoin cayó por debajo de setenta mil dólares por primera vez desde agosto.",
+   "clips": [
+    "buscar:red numbers falling stock ticker close up",
+    "buscar:trader hands on head screens @desde agosto"
+   ],
+   "texto": "POR DEBAJO DE 70.000",
+   "etiqueta": "13 DE NOVIEMBRE",
+   "efecto": "temblor",
+   "lugar": "WALL STREET · 13 NOV 2026",
+   "fuente": "InvestingLive"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Cuánto dinero se evaporó en esas horas? La respuesta tiene un nombre: liquidaciones.",
+   "clips": [
+    "buscar:money burning fire close up",
+    "buscar:red candlestick chart plunge @liquidaciones"
+   ],
+   "texto": "¿CUÁNTO SE EVAPORÓ?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Una liquidación es cuando alguien apostó con dinero prestado y el mercado lo obliga a vender. Y arrastra a los demás.",
+   "clips": [
+    "buscar:dominoes falling slow motion",
+    "buscar:casino chips pushed table @dinero prestado"
+   ],
+   "texto": "APOSTÓ CON DINERO PRESTADO",
+   "resalta": "PRESTADO"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Ese jueves se habló de mil seiscientos cuarenta millones de dólares liquidados. Casi el noventa por ciento eran apuestas a que subiría.",
+   "clips": [
+    "buscar:stock market red screen panic",
+    "buscar:hand holding phone red arrow down @a que subiría"
+   ],
+   "texto": "APUESTAS A QUE SUBIRÍA",
+   "numero": "1.640",
+   "arriba": "MILLONES LIQUIDADOS",
+   "fuente": "CryptoTicker",
+   "efecto": "golpe"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Cuatro causas aparecían en los análisis. Liquidaciones. Salidas de ETF. Un dólar fuerte. Y un mercado con pocas órdenes, muy frágil.",
+   "clips": [
+    "buscar:us dollar bill close up green",
+    "buscar:empty trading room desks @un mercado con pocas órdenes",
+    "buscar:chart red candles zoom @salidas de ETF"
+   ],
+   "titulo": "LAS CUATRO CAUSAS",
+   "items": [
+    "LIQUIDACIONES",
+    "SALIDAS DE ETF",
+    "UN DÓLAR FUERTE",
+    "MERCADO FRÁGIL"
+   ],
+   "fuente": "CryptoTicker"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Ese miedo tiene medida. Los analistas lo llamaron miedo extremo, el nivel más alto del indicador que usa el mercado.",
+   "clips": [
+    "buscar:red gauge needle maximum @miedo extremo",
+    "buscar:crowd panic city blur"
+   ],
+   "texto": "MIEDO EXTREMO",
+   "resalta": "EXTREMO",
+   "fuente": "CryptoTicker"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Pero eso no fue lo peor. Lo peor llegó al día siguiente, cuando casi nadie miraba las pantallas.",
+   "clips": [
+    "buscar:night city empty streets quiet",
+    "buscar:clock midnight close up @casi nadie miraba las pantallas"
+   ],
+   "texto": "LO PEOR LLEGÓ DESPUÉS",
+   "resalta": "PEOR",
+   "efecto": "temblor",
+   "musica": "misterio"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Qué ocurre cuando un mercado que nunca duerme se hunde un sábado por la noche?",
+   "clips": [
+    "buscar:laptop glowing dark room weekend",
+    "buscar:person sleeping phone buzzing @sábado por la noche"
+   ],
+   "texto": "¿Y UN SÁBADO POR LA NOCHE?"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Durante el fin de semana del catorce y quince, bitcoin tocó unos sesenta y dos mil quinientos dólares. Su nivel más bajo en cuatro meses.",
+   "clips": [
+    "buscar:chart bottom red line low",
+    "buscar:calendar weekend saturday @fin de semana"
+   ],
+   "texto": "MÍNIMO EN CUATRO MESES",
+   "numero": "62.500",
+   "arriba": "DÓLARES · MÍNIMO EN CUATRO MESES",
+   "efecto": "flash",
+   "fuente": "InvestingLive",
+   "lugar": "FIN DE SEMANA · 14-15 NOV 2026"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Según los reportes, las liquidaciones del fin de semana superaron los dos mil millones de dólares. Las cifras cambian según la fuente.",
+   "clips": [
+    "buscar:data analyst screens numbers",
+    "buscar:red alarm light flashing @dos mil millones de dólares"
+   ],
+   "texto": "MÁS DE DOS MIL MILLONES",
+   "resalta": "DOS MIL MILLONES",
+   "fuente": "InvestingLive"
+  },
+  {
+   "tipo": "grafico",
+   "voz": "Mira el camino. Ciento veintiséis mil en octubre del año pasado. Setenta y ocho mil a principios de noviembre. Sesenta y cinco mil el quince. Y sesenta y un mil el veintitrés.",
+   "clips": [
+    "buscar:stock chart falling red animation"
+   ],
+   "titulo": "PRECIO DE BITCOIN (MILES DE $)",
+   "valor": "61",
+   "unidad": "MIL $ · 23 NOV",
+   "barras": [
+    {
+     "l": "OCT 2025",
+     "v": 126
+    },
+    {
+     "l": "2 NOV",
+     "v": 78
+    },
+    {
+     "l": "15 NOV",
+     "v": 64.8
+    },
+    {
+     "l": "23 NOV",
+     "v": 61.3
+    }
+   ],
+   "fuente": "CryptoTicker · Investing.com"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Mientras tanto, un detalle pasó casi desapercibido: a principios de mes bitcoin se encaminaba a cinco semanas seguidas de pérdidas.",
+   "clips": [
+    "buscar:calendar weeks flipping close up @cinco semanas seguidas",
+    "buscar:red arrow down chart slow"
+   ],
+   "texto": "CINCO SEMANAS DE PÉRDIDAS",
+   "etiqueta": "RACHA NEGATIVA",
+   "fuente": "CryptoTicker"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Entonces, ¿por qué justo ahora? Aquí la historia da un giro que casi nadie vio venir.",
+   "clips": [
+    "buscar:detective board red string clues",
+    "buscar:magnifying glass paper close up @casi nadie vio venir"
+   ],
+   "texto": "¿POR QUÉ JUSTO AHORA?",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Una hipótesis que circuló el dieciocho de noviembre: dinero que salía de bitcoin hacia otro sitio. Hacia la inteligencia artificial.",
+   "clips": [
+    "buscar:server room data center blue lights",
+    "buscar:money flowing arrows animation @hacia otro sitio"
+   ],
+   "texto": "EL DINERO SE VA A LA IA",
+   "resalta": "IA",
+   "fuente": "CriptoNoticias"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Dos días antes, Anthropic había salido a bolsa y recaudó unos ochenta y un mil trescientos millones de dólares, la mayor salida de la historia.",
+   "clips": [
+    "buscar:stock exchange bell ringing celebration",
+    "buscar:wall street sign building @salido a bolsa"
+   ],
+   "texto": "LA MAYOR SALIDA A BOLSA",
+   "numero": "81.300",
+   "arriba": "MILLONES RECAUDÓ ANTHROPIC",
+   "fuente": "CNN"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Ojo: es una explicación que proponen algunos medios. Nadie ha demostrado que un hecho cause el otro. Y eso también es parte del misterio.",
+   "clips": [
+    "buscar:fog forest path mystery",
+    "buscar:person shrugging confused @nadie ha demostrado"
+   ],
+   "texto": "NADIE LO HA DEMOSTRADO",
+   "resalta": "DEMOSTRADO",
+   "efecto": "suave",
+   "musica": "misterio"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Mientras tanto, el índice del miedo marcaba lo más alto. Los análisis hablaban de miedo extremo. De posibles caídas a sesenta mil. Y de ecos del colapso de dos mil veintidós.",
+   "clips": [
+    "buscar:scared man face close up dark",
+    "buscar:crumbling building ruins @colapso de dos mil veintidós",
+    "buscar:red gauge needle maximum @miedo extremo"
+   ],
+   "titulo": "EL MIEDO EN EL MERCADO",
+   "items": [
+    "MIEDO EXTREMO",
+    "BAJAR A 60.000",
+    "ECOS DE 2022"
+   ],
+   "fuente": "Cointribune"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Y aquí viene el dato que prometí. Porque el sesenta mil no era solo un número redondo.",
+   "clips": [
+    "buscar:round number zero close up glass",
+    "buscar:trader pointing at chart line @el sesenta mil"
+   ],
+   "texto": "EL DATO QUE PROMETÍ",
+   "etiqueta": "REVELACIÓN",
+   "efecto": "flash",
+   "musica": "epica"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Los analistas señalaban concentraciones de liquidaciones entre cincuenta y nueve mil y sesenta y dos mil dólares. Si el precio llegaba ahí, otra cascada podía activarse.",
+   "clips": [
+    "buscar:waterfall cascade slow motion",
+    "buscar:map minefield warning sign @otra cascada"
+   ],
+   "texto": "OTRA CASCADA PODÍA ACTIVARSE",
+   "resalta": "CASCADA",
+   "fuente": "CryptoTicker"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Y los datos diarios de Investing punto com apuntan a un cierre de unos sesenta y un mil el veintitrés de noviembre, y sesenta mil el veinticinco.",
+   "clips": [
+    "buscar:laptop screen chart close up night",
+    "buscar:finger tapping calendar @veinticinco"
+   ],
+   "texto": "PEGADO A LOS 60.000",
+   "numero": "60.292",
+   "arriba": "DÓLARES · CIERRE DEL 25 NOV",
+   "fuente": "Investing.com",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Fue el suelo o solo una parada en la caída? Nadie puede asegurarlo.",
+   "clips": [
+    "buscar:cliff edge man standing sunset",
+    "buscar:coin spinning on table @una parada"
+   ],
+   "texto": "¿FUE EL SUELO?",
+   "efecto": "suave",
+   "musica": "reflexion"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Hay quien recuerda que bitcoin ya cayó más de la mitad en otros ciclos y volvió a subir. Y hay quien dice que esta vez es distinto.",
+   "clips": [
+    "buscar:old stock market crash black white",
+    "buscar:sunrise over city hopeful @volvió a subir"
+   ],
+   "texto": "ESTA VEZ ES DISTINTO",
+   "resalta": "DISTINTO"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Esto es lo que sabemos con seguridad. Máximo de ciento veintiséis mil. Caída por debajo de setenta mil. Mínimo de unos sesenta y dos mil. Y cifras de liquidaciones que no coinciden.",
+   "clips": [
+    "buscar:notebook list pen close up",
+    "buscar:calculator numbers mismatch @cifras de liquidaciones"
+   ],
+   "titulo": "LO QUE SÍ SABEMOS",
+   "items": [
+    "MÁXIMO DE 126.000",
+    "BAJO 70.000 EL 13 NOV",
+    "MÍNIMO DE 62.500",
+    "CIFRAS QUE NO COINCIDEN"
+   ]
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Y lo que no sabemos? Si alguien sabía algo antes. Si la caída ha terminado. Y qué hará el dinero ahora.",
+   "clips": [
+    "buscar:locked safe dark room",
+    "buscar:crowd walking street blur @qué hará el dinero"
+   ],
+   "texto": "¿QUÉ NO SABEMOS?",
+   "efecto": "temblor",
+   "musica": "tension"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Una cosa es clara: cuando bitcoin se mueve así, no solo les pasa a los grandes inversores. Mueve ahorros, ilusiones y deudas de gente común.",
+   "clips": [
+    "buscar:family kitchen table worried bills",
+    "buscar:person looking at phone sad @gente común"
+   ],
+   "texto": "GENTE COMÚN",
+   "resalta": "COMÚN",
+   "efecto": "suave",
+   "musica": "triste"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Este vídeo es solo información, no es una recomendación de comprar ni de vender. Ahora mismo nadie puede predecir el precio con certeza.",
+   "clips": [
+    "buscar:warning sign close up yellow",
+    "buscar:person reading documents calm @no es una recomendación"
+   ],
+   "texto": "SOLO INFORMACIÓN",
+   "resalta": "INFORMACIÓN",
+   "chapa": "NO ES ASESORÍA FINANCIERA"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Entonces, ¿era una burbuja que por fin se desinfla, o la mayor oportunidad que algunos verán en años? La respuesta, todavía, no existe.",
+   "clips": [
+    "buscar:soap bubble floating pop slow motion",
+    "buscar:crossroads two paths fog @la mayor oportunidad"
+   ],
+   "texto": "¿BURBUJA U OPORTUNIDAD?",
+   "resalta": "BURBUJA",
+   "musica": "reflexion"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Casi la mitad de su valor, borrada en unas pocas semanas. Y el mercado sigue conteniendo la respiración.",
+   "clips": [
+    "buscar:person holding breath closeup eyes",
+    "buscar:coin falling slow motion dark @conteniendo la respiración"
+   ],
+   "texto": "CONTIENE LA RESPIRACIÓN",
+   "numero": "50",
+   "arriba": "POR CIENTO MENOS, CASI",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Si quieres seguir esta historia, suscríbete para enterarte antes que nadie. Porque en las próximas horas el sesenta mil lo decide todo.",
+   "clips": [
+    "buscar:subscribe button red click",
+    "buscar:night city lights timelapse @antes que nadie"
+   ],
+   "texto": "SUSCRÍBETE",
+   "etiqueta": "SIGUE ESTA HISTORIA",
+   "musica": "reflexion"
+  }
+ ]
+}
