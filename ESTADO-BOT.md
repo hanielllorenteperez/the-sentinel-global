@@ -58,3 +58,4 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-24 16:43 UTC · 2026-11-24-gta6-record-ventas · ✅ subido a YouTube · run 45433083288
 - 2026-11-25 00:44 UTC · 2026-11-25-ueno-bank-paraguay · ✅ subido a YouTube · run 45515199342
 - 2026-11-25 08:40 UTC · 2026-11-25-google-chips-contra-nvidia · ✅ subido a YouTube · run 45573305371
+- 2026-11-26 00:47 UTC · 2026-11-26-final-libertadores-estudiantes-palmeiras · ✅ subido a YouTube · run 45726190334
