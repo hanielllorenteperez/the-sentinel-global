@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-26-final-libertadores-estudiantes-palmeiras",
+  "formato": "short",
+  "cinta": "The Sentinel Global · Última hora · Libertadores",
+  "titulo": "La final de hace 58 AÑOS vuelve al mismo estadio… ⚽😳",
+  "descripcion": "Estudiantes y Palmeiras juegan este sábado la final de la Libertadores en el estadio Centenario, como en 1968. La historia completa, en el vídeo largo del canal.\n\n#Libertadores #Estudiantes #Palmeiras #noticias #shorts",
+  "etiquetas": [
+    "Libertadores",
+    "Estudiantes",
+    "Palmeiras",
+    "final",
+    "1968",
+    "fútbol",
+    "noticias",
+    "shorts"
+  ],
+  "musica": "misterio",
+  "escenas": [
+    {
+      "tipo": "frase",
+      "voz": "Hace cincuenta y ocho años, dos equipos jugaron una final. Y este sábado vuelven al mismo estadio.",
+      "clips": [
+        "buscar:old black and white football match crowd",
+        "buscar:aerial soccer stadium night lights @al mismo estadio"
+      ],
+      "texto": "VUELVEN AL MISMO ESTADIO",
+      "resalta": "MISMO",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Cincuenta y ocho años. Estudiantes contra Palmeiras, en Montevideo.",
+      "clips": [
+        "buscar:old clock ticking close up @Cincuenta y ocho años",
+        "buscar:montevideo city skyline aerial @en Montevideo"
+      ],
+      "numero": "58",
+      "arriba": "HACE",
+      "texto": "CINCUENTA Y OCHO AÑOS"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Qué pasó aquella noche de mil novecientos sesenta y ocho? Hubo tres partidos y un final inolvidable.",
+      "clips": [
+        "buscar:vintage stadium black white crowd",
+        "buscar:golden trophy cup shining dark @un final inolvidable"
+      ],
+      "texto": "¿QUÉ PASÓ AQUELLA NOCHE?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y esta vez, los dos llegan por penales. ¿Se repite la historia?",
+      "clips": [
+        "buscar:penalty kick shootout tension @por penales",
+        "buscar:fans nervous stadium night @la historia"
+      ],
+      "texto": "¿SE REPITE LA HISTORIA?",
+      "resalta": "HISTORIA",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Mira el vídeo completo en el canal.",
+      "clips": [
+        "buscar:person pointing down screen",
+        "buscar:night city lights bokeh @en el canal"
+      ],
+      "texto": "MIRA EL VÍDEO COMPLETO",
+      "resalta": "COMPLETO",
+      "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL",
+      "musica": "reflexion"
+    }
+  ]
+}

@@ -29,6 +29,7 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-24 · GTA VI: récord de ventas (32,5 M copias, 3.790 M$ en 24 h), nota 99 vs 5,6 y caída de Take-Two en bolsa · [videojuegos]
 - 2026-11-25 · Ueno Bank (Paraguay): colapso, renuncia de Peña, fondos del IPS · [dinero/crimen]
 - 2026-11-25 · Google vende sus chips TPU a sus rivales (Apple, Meta, Anthropic) y reta a Nvidia · [tecnología/IA]
+- 2026-11-26 · Final Libertadores Estudiantes–Palmeiras (28 nov, Centenario) y la revancha de 1968 · [deportes]
 
 ## Diario del guionista
 <!-- 1–3 líneas por ejecución: fecha · noticia · lección nueva (si la hay) -->
@@ -43,6 +44,7 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-24 · GTA VI récord y polémica · Buscar «videojuego estreno récord OR polémica noticias esta semana» (modo extended) encontró el tema; las cifras difieren por fuente (Rockstar 3.790 M$ vs Sensor Tower 2.360 M$; 39 M son jugadores, no copias) → se cuentan atribuidas y sin elegir. Búsquedas con cifras exactas ya dichas dan «no encontrado»: mejor buscar el titular de Infobae/Reuters.
 - 2026-11-25 · Caso Ueno Bank · Tema muy político con fechas/cifras discrepantes entre fuentes (516/355/700 M$; resolución 2 vs 3 nov; estado de la renuncia) → se atribuyen y se aclara «analizar no es imputar». Buscar «noticias más vistas hoy <fecha>» y mirar portadas de ABC Color/Infobae dio el tema.
 - 2026-11-25 · Google TPU vs Nvidia · Las búsquedas «trending hoy» de tecnología devuelven agregadores sin fecha; hay que fijar fechas con una búsqueda del nombre técnico (TPU 8tx, 9 nov). Fecha de Nvidia/OpenAI Ohio es de agosto (no es noticia de hoy) → contextualizada. Proyecciones y reportes sin confirmar (OpenAI comprando TPU) se dicen como tales.
+- 2026-11-26 · Final Libertadores (previa + final de 1968) · Noticia de «mañana»: se cuenta como previa sin inventar resultado. Datos de 1968 (2-1, 1-3, desempate 2-0 en el Centenario) contrastados en RSSSF/Wikipedia/Estadio Centenario; ojo con «datos históricos» recordados de memoria (descartadas frases sin fuente). Buscar «<tema> final previa árbitro horario» da varias fuentes.
 
 ## Diario de la fábrica
 <!-- lo escribe GitHub Actions solo -->

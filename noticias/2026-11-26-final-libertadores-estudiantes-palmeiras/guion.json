@@ -1,0 +1,511 @@
+{
+  "id": "2026-11-26-final-libertadores-estudiantes-palmeiras",
+  "cinta": "The Sentinel Global · Última hora · Libertadores · Estudiantes vs Palmeiras",
+  "titulo": "La final que ya se jugó hace 58 AÑOS… y vuelve al mismo estadio ⚽",
+  "descripcion": "Este sábado 28 de noviembre, Estudiantes de La Plata y Palmeiras juegan la final de la Copa Libertadores 2026 en el estadio Centenario de Montevideo, el mismo escenario de la final de 1968. Repasamos qué pasó aquella noche, cómo llegaron los dos finalistas y qué se sabe del partido. Todavía no hay resultado: la final no se ha jugado cuando se grabó este vídeo.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#Libertadores #Estudiantes #Palmeiras #futbol #noticias #ultimahora",
+  "etiquetas": [
+    "Copa Libertadores",
+    "Estudiantes de La Plata",
+    "Palmeiras",
+    "final Libertadores 2026",
+    "Estadio Centenario",
+    "Montevideo",
+    "Muslera",
+    "1968",
+    "fútbol",
+    "noticias de hoy",
+    "última hora",
+    "deportes"
+  ],
+  "fuentes": [
+    "https://www.conmebol.com/noticias/palmeiras-vs-estudiantes-por-la-gloria-eterna-en-montevideo/",
+    "https://www.lanacion.com.ar/deportes/futbol/final-de-la-copa-libertadores-2026-cuando-juega-estudiantes-vs-palmeiras-nid23112026/",
+    "https://www.eluniverso.com/deportes/futbol/cuando-es-la-final-de-la-copa-libertadores-2026-entre-palmeiras-y-estudiantes-de-la-plata-nota/",
+    "https://442.perfil.com/noticias/futbol/estudiantes-vs-palmeiras-jesus-valenzuela-sera-el-arbitro-de-la-final-de-la-copa-libertadores-2026.phtml",
+    "https://www.latintimes.com/espanol/muslera-ataja-3-penales-estudiantes-elimino-al-flamengo-y-va-la-final-de-la-copa-libertadores-545495",
+    "https://elgrafico.com.ar/articulo/1065/103486/%C2%A1estudiantes-le-gano-a-flamengo-por-penales-y-jugara-la-final-de-la-copa-libertadores!",
+    "https://rsssf.org/sacups/copa68.html",
+    "https://en.wikipedia.org/wiki/1968_Copa_Libertadores_finals",
+    "https://www.estadiocentenario.com.uy/en/news/article/tiebreaker-for-the-1968-copa-libertadores-final-estudiantes-de-la-plata-vs-palmeiras",
+    "https://www.infobae.com/espana/agencias/2026/11/25/hoy-sera-noticia-jueves-26-de-noviembre/"
+  ],
+  "musica": "misterio",
+  "rotulos": [
+    "EN DIRECTO",
+    "LA FINAL DE LA LIBERTADORES",
+    "NOTICIA EN DESARROLLO",
+    "58 AÑOS DESPUÉS",
+    "LO QUE NO TE CUENTAN"
+  ],
+  "miniatura": {
+    "texto": "REVANCHA DE 1968",
+    "rojo": "58 AÑOS",
+    "escena": 9
+  },
+  "escenas": [
+    {
+      "tipo": "titular",
+      "voz": "Última hora. Este sábado se juega una final de la Libertadores en el mismo estadio donde, hace cincuenta y ocho años, ocurrió algo que nadie ha olvidado.",
+      "clips": [
+        "buscar:aerial soccer stadium night lights",
+        "buscar:crowd cheering stadium fans flares @nadie ha olvidado"
+      ],
+      "etiqueta": "ÚLTIMA HORA",
+      "texto": "EL MISMO ESTADIO",
+      "efecto": "flash",
+      "musica": "misterio",
+      "fuente": "CONMEBOL"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Quédate hasta el final. Te cuento qué pasó en mil novecientos sesenta y ocho, y por qué esa noche vuelve a perseguir a dos equipos.",
+      "clips": [
+        "buscar:old black and white football match crowd",
+        "buscar:man silhouette stadium tunnel dark @dos equipos"
+      ],
+      "texto": "ESA NOCHE VUELVE",
+      "resalta": "VUELVE",
+      "lugar": "MONTEVIDEO · SÁBADO 28 NOV 2026"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Cincuenta y ocho años. Ese es el tiempo que separa aquel partido de este.",
+      "clips": [
+        "buscar:old clock ticking close up @el tiempo",
+        "buscar:empty stadium seats sunset"
+      ],
+      "numero": "58",
+      "arriba": "HACE",
+      "texto": "CINCUENTA Y OCHO AÑOS"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Quién se enfrenta? Estudiantes de La Plata, de Argentina, contra Palmeiras, de Brasil. Los mismos de entonces.",
+      "clips": [
+        "buscar:soccer players walking out tunnel stadium",
+        "buscar:two teams lining up football @contra Palmeiras"
+      ],
+      "texto": "¿QUIÉN SE ENFRENTA?"
+    },
+    {
+      "tipo": "titular",
+      "voz": "La final de la Copa Libertadores se juega el sábado veintiocho de noviembre, a las cinco de la tarde en Argentina, en el estadio Centenario de Montevideo.",
+      "clips": [
+        "buscar:montevideo city skyline aerial",
+        "buscar:soccer stadium entrance fans walking @estadio Centenario"
+      ],
+      "etiqueta": "LA FINAL",
+      "texto": "ESTADIO CENTENARIO",
+      "fuente": "CONMEBOL",
+      "lugar": "MONTEVIDEO · URUGUAY"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Lo que se juega: la copa más importante de Sudamérica, la gloria eterna y veinticinco millones de dólares para el campeón.",
+      "clips": [
+        "buscar:golden trophy cup shining dark @la copa",
+        "buscar:hundred dollar bills falling @millones de dólares"
+      ],
+      "titulo": "EN JUEGO",
+      "items": [
+        "LA COPA",
+        "LA GLORIA ETERNA",
+        "VEINTICINCO MILLONES DE DÓLARES"
+      ],
+      "fuente": "Infobae"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero hay algo más. Estudiantes no pisaba una final continental desde hace diecisiete años. Diecisiete años esperando este sábado.",
+      "clips": [
+        "buscar:calendar pages flipping time passing",
+        "buscar:fans praying hands stadium @esperando este sábado"
+      ],
+      "texto": "DIECISIETE AÑOS",
+      "resalta": "DIECISIETE",
+      "efecto": "temblor",
+      "musica": "tension"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Y por qué importa tanto el estadio? Porque ya hubo una final entre estos dos equipos. Y se decidió justo allí.",
+      "clips": [
+        "buscar:old stadium vintage photo grass",
+        "buscar:question mark neon dark @por qué importa"
+      ],
+      "texto": "¿POR QUÉ IMPORTA TANTO?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Viajemos a mayo de mil novecientos sesenta y ocho. Estudiantes y Palmeiras juegan la final de la Libertadores. Dos partidos, ida y vuelta.",
+      "clips": [
+        "buscar:vintage 1960s newspaper football headline",
+        "buscar:old film reel projector @ida y vuelta"
+      ],
+      "texto": "IDA Y VUELTA",
+      "resalta": "VUELTA",
+      "lugar": "MAYO DE 1968",
+      "efecto": "suave",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "numero",
+      "voz": "El primero, el dos de mayo, en La Plata. Estudiantes gana dos a uno.",
+      "clips": [
+        "buscar:crowd flags waving stadium old @en La Plata",
+        "buscar:scoreboard numbers close up @dos a uno"
+      ],
+      "numero": "2-1",
+      "arriba": "LA PLATA",
+      "texto": "DOS A UNO",
+      "fuente": "RSSSF"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Parecía casi hecho. Pero cinco días después, en Brasil, Palmeiras responde con un tres a uno. La serie queda empatada.",
+      "clips": [
+        "buscar:brazil stadium crowd green flags @en Brasil",
+        "buscar:tied rope tug of war close up @empatada"
+      ],
+      "texto": "LA SERIE QUEDA EMPATADA",
+      "resalta": "EMPATADA",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Y ahora qué? En esa época no había diferencia de gol que decidiera. Hacía falta un tercer partido.",
+      "clips": [
+        "buscar:coin flip slow motion",
+        "buscar:referee whistle close up @tercer partido"
+      ],
+      "texto": "¿Y AHORA QUÉ?"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Se jugó el dieciséis de mayo de mil novecientos sesenta y ocho, en terreno neutral: el estadio Centenario de Montevideo.",
+      "clips": [
+        "buscar:vintage stadium aerial black white",
+        "buscar:montevideo old buildings street @Montevideo"
+      ],
+      "etiqueta": "DESEMPATE",
+      "texto": "TERRENO NEUTRAL",
+      "lugar": "MONTEVIDEO · 16 MAYO 1968",
+      "fuente": "Estadio Centenario"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Cincuenta y cinco mil personas llenaron las gradas, según los registros de la época.",
+      "clips": [
+        "buscar:packed stadium crowd aerial",
+        "buscar:fans cheering faces close up @las gradas"
+      ],
+      "numero": "55.000",
+      "arriba": "PERSONAS",
+      "texto": "CINCUENTA Y CINCO MIL PERSONAS",
+      "fuente": "Estadio Centenario",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Estudiantes cargaba con una espina: nunca había ganado la Copa Libertadores. Aquella noche se jugaba la gloria máxima de su historia entera.",
+      "clips": [
+        "buscar:golden trophy empty pedestal dark @la Copa Libertadores",
+        "buscar:soccer players focused faces close up @la gloria máxima"
+      ],
+      "texto": "NUNCA HABÍA GANADO",
+      "resalta": "NUNCA",
+      "musica": "tension"
+    },
+    {
+      "tipo": "lista",
+      "voz": "El partido, minuto a minuto, según los registros: un árbitro peruano, César Orozco, un gol temprano y otro ya sobre el final.",
+      "clips": [
+        "buscar:referee whistle vintage black white",
+        "buscar:soccer ball net goal slow motion @un gol temprano",
+        "buscar:stopwatch ticking close up @sobre el final"
+      ],
+      "titulo": "EL DESEMPATE",
+      "items": [
+        "ÁRBITRO PERUANO",
+        "UN GOL TEMPRANO",
+        "OTRO SOBRE EL FINAL"
+      ],
+      "fuente": "RSSSF"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Ribaudo marcó en el minuto trece. Y cuando Palmeiras buscaba el empate, Verón sentenció en el ochenta y dos.",
+      "clips": [
+        "buscar:soccer striker shooting goal slow motion @Ribaudo",
+        "buscar:goalkeeper diving ball net @sentenció"
+      ],
+      "texto": "VERÓN SENTENCIÓ",
+      "resalta": "SENTENCIÓ",
+      "efecto": "flash",
+      "musica": "epica"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Dos a cero. Estudiantes ganaba su primera Libertadores, la primera de su historia. En La Plata, la locura se tomó las calles.",
+      "clips": [
+        "buscar:players celebrating hugging field @Estudiantes ganaba",
+        "buscar:confetti falling stadium red white"
+      ],
+      "numero": "2-0",
+      "arriba": "CAMPEÓN",
+      "texto": "DOS A CERO",
+      "fuente": "RSSSF"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Pero entonces, ¿por qué esa noche aún pesa? Porque Palmeiras se quedó sin la copa en el último partido. Y hoy tiene su revancha.",
+      "clips": [
+        "buscar:sad soccer player sitting grass alone @Palmeiras",
+        "buscar:green and white scarf fans night"
+      ],
+      "texto": "SU REVANCHA",
+      "resalta": "REVANCHA",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y aquí la historia da un giro. Porque llegar a esta final no fue nada fácil para ninguno de los dos.",
+      "clips": [
+        "buscar:storm clouds over stadium timelapse",
+        "buscar:road split two paths aerial @ninguno de los dos"
+      ],
+      "texto": "NADA FÁCIL",
+      "resalta": "NADA",
+      "efecto": "flash",
+      "musica": "tension"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Empecemos por Estudiantes. En semifinales le tocó Flamengo, en el mítico Maracaná, rodeado de hinchas rivales, en una noche que prometía ser durísima.",
+      "clips": [
+        "buscar:maracana stadium aerial brazil",
+        "buscar:red black flag fans roaring @Flamengo"
+      ],
+      "etiqueta": "SEMIFINAL",
+      "texto": "EL MÍTICO MARACANÁ",
+      "lugar": "RÍO DE JANEIRO · OCTUBRE 2026",
+      "fuente": "El Gráfico"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Ida y vuelta terminaron cero a cero. Y en el Maracaná, Estudiantes se quedó sin un jugador: expulsaron a Baltasar Rodríguez, y el equipo quedó contra las cuerdas, con diez.",
+      "clips": [
+        "buscar:red card referee showing close up @expulsaron a Baltasar",
+        "buscar:zero zero scoreboard @cero a cero"
+      ],
+      "texto": "EXPULSARON A BALTASAR",
+      "resalta": "EXPULSARON",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Cuarenta minutos. Eso fue lo que Estudiantes aguantó con un hombre menos, en la casa de su rival.",
+      "clips": [
+        "buscar:stopwatch fast ticking dark @Cuarenta minutos",
+        "buscar:tired soccer players sweating close up @un hombre menos"
+      ],
+      "numero": "40",
+      "arriba": "MINUTOS CON DIEZ",
+      "texto": "CUARENTA MINUTOS"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Cómo se sobrevive a eso? Con un arquero. Fernando Muslera, uruguayo, jugando casi en casa, atajó tres penales.",
+      "clips": [
+        "buscar:goalkeeper diving save penalty slow motion @Fernando Muslera",
+        "buscar:penalty kick shootout tension @tres penales"
+      ],
+      "texto": "¿CÓMO SE SOBREVIVE?"
+    },
+    {
+      "tipo": "grafico",
+      "voz": "Los penales terminaron tres a dos para Estudiantes. Mira los números de la tanda: Muslera atajó tres, y con eso se ganó el pase a la final.",
+      "clips": [
+        "buscar:bar chart growing screen dark @los números",
+        "buscar:soccer ball penalty spot @los penales"
+      ],
+      "titulo": "TANDA DE PENALES",
+      "valor": "3",
+      "unidad": "GOLES EN LA TANDA",
+      "barras": [
+        {
+          "l": "FLAMENGO",
+          "v": 2
+        },
+        {
+          "l": "ESTUDIANTES",
+          "v": 3
+        }
+      ],
+      "fuente": "El Gráfico"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y hay un detalle que da escalofríos. El año pasado, Flamengo eliminó a Estudiantes por penales. Esta vez, la historia se dio la vuelta.",
+      "clips": [
+        "buscar:rewind film old tape @se dio la vuelta",
+        "buscar:soccer fans crying joy stands"
+      ],
+      "texto": "LA HISTORIA SE DIO LA VUELTA",
+      "resalta": "VUELTA",
+      "musica": "drama",
+      "fuente": "El Gráfico"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Ahora Palmeiras. Su rival en semifinales fue Fluminense, campeón de la edición dos mil veintitrés, y tampoco hubo manera de separarlos.",
+      "clips": [
+        "buscar:green soccer jersey fans stadium @Palmeiras",
+        "buscar:soccer stadium rain night @Fluminense"
+      ],
+      "etiqueta": "OTRA SEMIFINAL",
+      "texto": "TAMPOCO HUBO MANERA",
+      "fuente": "El Universo"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Palmeiras perdió uno a cero en la vuelta. Todo se fue a la tanda de penales. Y allí ganó cinco a tres.",
+      "clips": [
+        "buscar:penalty shootout goalkeeper celebrating",
+        "buscar:scoreboard 5 3 stadium @cinco a tres"
+      ],
+      "texto": "CINCO A TRES",
+      "resalta": "CINCO",
+      "efecto": "temblor",
+      "fuente": "El Universo"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Dos finalistas que llegan por penales. ¿Casualidad, o el destino preparando otra noche de infarto en Montevideo, con el mismo escenario de siempre?",
+      "clips": [
+        "buscar:dramatic sky clouds stadium lights @el destino",
+        "buscar:fans nervous biting nails stadium @de infarto"
+      ],
+      "texto": "NOCHE DE INFARTO",
+      "efecto": "flash",
+      "musica": "tension"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Y mira lo que pesa cada lado: Estudiantes busca su quinta Libertadores. Palmeiras, la cuarta de su historia.",
+      "clips": [
+        "buscar:four trophies shelf gold dark @su quinta Libertadores",
+        "buscar:palm trees green night @Palmeiras"
+      ],
+      "titulo": "LA CUENTA",
+      "items": [
+        "ESTUDIANTES: QUINTA",
+        "PALMEIRAS: CUARTA",
+        "UNA SOLA COPA"
+      ],
+      "fuente": "CONMEBOL"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero no todo está decidido sobre el campo. También hay dudas y nervios, y una pregunta que se repite en las dos ciudades.",
+      "clips": [
+        "buscar:fans anxious waiting phone close up @nervios",
+        "buscar:night street crowd walking @las dos ciudades"
+      ],
+      "texto": "DUDAS Y NERVIOS",
+      "resalta": "NERVIOS",
+      "musica": "noche",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "titular",
+      "voz": "La CONMEBOL ya confirmó al árbitro: el venezolano Jesús Valenzuela, con Jorge Urrego y Tulio Moreno como asistentes.",
+      "clips": [
+        "buscar:referee walking field whistle @al árbitro",
+        "buscar:var screen referee monitor @Jesús Valenzuela"
+      ],
+      "etiqueta": "EL ÁRBITRO",
+      "texto": "JESÚS VALENZUELA",
+      "fuente": "Perfil",
+      "lugar": "CONMEBOL · DESIGNACIÓN"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Y si el partido no se decide en noventa minutos? Si hay empate, habrá media hora de suplementario. Y después, penales.",
+      "clips": [
+        "buscar:stopwatch overtime ticking @noventa minutos",
+        "buscar:penalty spot ball lonely stadium night @penales"
+      ],
+      "texto": "SI HAY EMPATE",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Penales. Tanto Estudiantes como Palmeiras ya los vivieron en semifinales. Y los dos salieron vivos, aunque con las manos temblando.",
+      "clips": [
+        "buscar:goalkeeper gloves close up",
+        "buscar:players arms around shoulders waiting @los dos"
+      ],
+      "numero": "2",
+      "arriba": "FINALISTAS POR",
+      "texto": "LOS DOS SALIERON VIVOS"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Piensa en esto. Si el sábado vuelve a haber tanda, otra vez todo se decidirá desde los doce pasos, con el corazón en la garganta de millones de hinchas.",
+      "clips": [
+        "buscar:player walking alone penalty spot stadium",
+        "buscar:crowd silent tension stadium night @tanda"
+      ],
+      "texto": "DESDE LOS DOCE PASOS",
+      "resalta": "DOCE",
+      "musica": "tension"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y ahora, la pregunta que prometí contestar. ¿Qué tiene de especial este duelo? No es el premio, ni la copa. Es la fecha en el calendario.",
+      "clips": [
+        "buscar:calendar november date circled close up @la fecha",
+        "buscar:old photograph vintage football team @este duelo"
+      ],
+      "texto": "LA FECHA EN EL CALENDARIO",
+      "resalta": "CALENDARIO",
+      "efecto": "flash",
+      "musica": "epica"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Cincuenta y ocho años después, mismo estadio, mismos rivales, mismo escenario. Una final que ya se jugó… y que pide un nuevo capítulo.",
+      "clips": [
+        "buscar:time lapse stadium day to night @cincuenta y ocho años",
+        "buscar:two soccer captains shaking hands @mismos rivales"
+      ],
+      "numero": "58",
+      "arriba": "AÑOS DESPUÉS",
+      "texto": "MISMOS RIVALES",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y aún no se sabe quién escribirá ese capítulo. Esta historia no tiene final todavía. Lo sabremos este sábado, en Montevideo.",
+      "clips": [
+        "buscar:stadium lights turning on night @este sábado",
+        "buscar:empty trophy table spotlight @quién escribirá"
+      ],
+      "texto": "NO TIENE FINAL TODAVÍA",
+      "resalta": "TODAVÍA",
+      "musica": "reflexion",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Quién levantará la copa? Cuéntame en los comentarios tu pronóstico. Y suscríbete para enterarte antes que nadie de lo que ocurra.",
+      "clips": [
+        "buscar:trophy lifted confetti slow motion @levantará la copa",
+        "buscar:phone comments typing close up @en los comentarios"
+      ],
+      "texto": "¿QUIÉN LEVANTARÁ LA COPA?",
+      "musica": "reflexion"
+    }
+  ]
+}
