@@ -33,6 +33,7 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-26 · Bitcoin cae hacia los 60.000 (−50 % desde el máximo de 126.080; liquidaciones, ETF, miedo extremo) · [dinero/cripto]
 - 2026-11-26 · FIFA confirma ciberataque (Handsome Boy Hacking Club, 12 GB, suplantación de identidad) · [hackeos]
 - 2026-11-27 · Captura del «Chapo Isidro» (Guasave, Sinaloa), juicio en México vs extradición a EE. UU. · [crimen]
+- 2026-11-27 · Jensen Huang renuncia a Nvidia (12 nov) y vuelve (23 nov): acción +31 % en un día · [tecnología/dinero]
 
 ## Diario del guionista
 <!-- 1–3 líneas por ejecución: fecha · noticia · lección nueva (si la hay) -->
@@ -51,6 +52,7 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-26 · Bitcoin cayendo a 60.000 · WebFetch sigue sin resolver dominios; resultados de «bitcoin hoy» mezclan 2024/2025/feb-2026 → solo usar cifras con fecha 2026 visible (13-15 nov) y atribuir el cierre del 23/25 nov a Investing.com (fuente única, dicho como tal). Búsqueda «Interpol 266 detenidos» descartada: una sola fuente.
 - 2026-11-26 · Hackeo a la FIFA · Buscar «hackeo ciberataque filtración datos esta semana» (extended) dio el tema con 8+ medios. Cifras de los atacantes (12 GB) vs. FIFA (<0,1 %) se atribuyen por separado; LaLiga/Comisión Europea solo aparecían en un snippet → descartados. Cuidado: sin wiki:, todo clips genéricos para no usar logos.
 - 2026-11-27 · Caso Chapo Isidro · Buscar «capturado detenido narco … noviembre 2026» (extended) dio el tema; cifras de muertos/detenidos difieren → no se citan; «92 entregados» y «vigilado desde 2022» son de un solo medio → atribuidos como reporte. Tono sobrio por violencia.
+- 2026-11-27 · Jensen Huang / Nvidia · Buscar «<nombre> renuncia CEO» tras ver un snippet suelto confirmó la noticia con 8+ medios; las fechas difieren (12 vs 13 nov; Forbes pone 8 nov la investigación) → se usa 12 nov y «a principios de noviembre». Temas de vida personal: solo atribuidos al New York Times y dichos como no confirmados; presión de Trump/Casa Blanca y Wachtell, de una sola fuente → omitido o marcado «no confirmado».
 
 ## Diario de la fábrica
 <!-- lo escribe GitHub Actions solo -->

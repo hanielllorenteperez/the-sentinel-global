@@ -1,0 +1,70 @@
+{
+ "id": "2026-11-27-jensen-huang-nvidia-vuelve",
+ "formato": "short",
+ "cinta": "The Sentinel Global · Última hora · Nvidia",
+ "titulo": "Renunció a Nvidia… y 11 días después VOLVIÓ 🚨",
+ "descripcion": "Jensen Huang renunció el 12 de noviembre de 2026 y fue readmitido el 23. La acción subió un 31 % en un día. Historia completa en el vídeo largo del canal. No es asesoría financiera.\n\n#Nvidia #JensenHuang #noticias #shorts",
+ "etiquetas": [
+  "Nvidia",
+  "Jensen Huang",
+  "noticias",
+  "shorts"
+ ],
+ "musica": "misterio",
+ "aviso_financiero": true,
+ "escenas": [
+  {
+   "tipo": "frase",
+   "voz": "El jefe de Nvidia renunció un jueves. Once días después, volvió.",
+   "clips": [
+    "buscar:microchip glowing circuit board close up",
+    "buscar:empty office chair spotlight @renunció"
+   ],
+   "texto": "RENUNCIÓ UN JUEVES. VOLVIÓ.",
+   "resalta": "VOLVIÓ",
+   "efecto": "flash"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Treinta y uno por ciento. Eso subió la acción en un solo día tras su regreso.",
+   "clips": [
+    "buscar:stock chart green rocket rising",
+    "buscar:traders cheering screens @un solo día"
+   ],
+   "texto": "TREINTA Y UNO POR CIENTO",
+   "numero": "31",
+   "arriba": "% SUBIÓ NVIDIA EN UN DÍA",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Una semana antes, la junta había dicho que no tenía intención de readmitirlo.",
+   "clips": [
+    "buscar:boardroom table empty dark",
+    "buscar:businessman shaking head no close up @no tenía intención"
+   ],
+   "texto": "DIJO QUE NO",
+   "resalta": "NO"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Qué cambió en solo seis días?",
+   "clips": [
+    "buscar:calendar days crossed off",
+    "buscar:door light opening dark room @seis días"
+   ],
+   "texto": "¿QUÉ CAMBIÓ EN SEIS DÍAS?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Hay una investigación abierta, y presión política que nadie ha confirmado. Cuento todo en el vídeo completo en el canal.",
+   "clips": [
+    "buscar:magnifying glass documents desk",
+    "buscar:subscribe button click screen @en el canal"
+   ],
+   "texto": "MIRA EL VÍDEO COMPLETO",
+   "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL",
+   "resalta": "COMPLETO"
+  }
+ ]
+}

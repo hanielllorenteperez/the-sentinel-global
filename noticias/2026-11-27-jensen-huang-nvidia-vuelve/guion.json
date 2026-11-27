@@ -1,0 +1,526 @@
+{
+ "id": "2026-11-27-jensen-huang-nvidia-vuelve",
+ "cinta": "The Sentinel Global · Última hora · Nvidia · Jensen Huang",
+ "titulo": "Jensen Huang RENUNCIÓ a Nvidia… y 11 días después VOLVIÓ 🚨",
+ "descripcion": "El 12 de noviembre de 2026, Jensen Huang renunció como director ejecutivo de Nvidia en medio de reportajes del New York Times sobre espionaje y su vida personal. La junta dijo que no lo readmitiría… y el 23 de noviembre lo readmitió por unanimidad. La acción subió un 31 % en un día. Te contamos la cronología, lo que dicen la empresa y los críticos, y lo que sigue sin aclararse. Los reportes sobre su vida personal son de medios y no han sido confirmados por Nvidia. No es asesoría financiera.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#Nvidia #JensenHuang #inteligenciaartificial #noticias #ultimahora",
+ "etiquetas": [
+  "Jensen Huang",
+  "Nvidia",
+  "renuncia",
+  "CEO",
+  "inteligencia artificial",
+  "acciones Nvidia",
+  "Colette Kress",
+  "Harvey Jones",
+  "noticias de hoy",
+  "última hora"
+ ],
+ "fuentes": [
+  "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+  "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+  "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+  "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+  "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+  "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+  "https://www.lanacion.com.ar/estados-unidos/jensen-huang-renuncio-como-ceo-de-nvidia-tras-el-escandalo-por-su-romance-con-una-presunta-espia-nid12112026/",
+  "https://www.axios.com/2026/11/23/jensen-huang-ceo-board-affair",
+  "https://www.forbes.com/sites/alisondurkee/2026/11/25/jensen-huang-returns-timeline-of-the-nvidia-scandal-as-trump-isnt-ruling-out-pardon/",
+  "https://www.bloomberglinea.com/mercados/repunte-del-31-de-nvidia-expone-el-riesgo-de-vender-acciones-tecnologicas-y-quedarse-fuera-de-la-recuperacion/",
+  "https://dolarhoy.com/empresas/volvio-jensen-huang-nvidia-explota-31-y-recupera-casi-us-1-billon-en-un-solo-dia-2026112412150",
+  "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress"
+ ],
+ "musica": "misterio",
+ "aviso_financiero": true,
+ "rotulos": [
+  "EN DIRECTO",
+  "RENUNCIÓ Y VOLVIÓ",
+  "NOTICIA EN DESARROLLO",
+  "LO QUE NO TE CUENTAN",
+  "INVESTIGACIÓN"
+ ],
+ "miniatura": {
+  "texto": "RENUNCIÓ Y VOLVIÓ",
+  "rojo": "11 DÍAS",
+  "escena": 1
+ },
+ "escenas": [
+  {
+   "tipo": "titular",
+   "voz": "Última hora. El jefe de la empresa que fabrica el cerebro de la inteligencia artificial renunció un jueves. Once días después, volvió. Y ganó casi un billón de dólares en una sola sesión.",
+   "clips": [
+    "buscar:microchip glowing circuit board close up",
+    "buscar:stock market screen green numbers @casi un billón de dólares"
+   ],
+   "texto": "ONCE DÍAS DESPUÉS, VOLVIÓ",
+   "etiqueta": "ÚLTIMA HORA",
+   "efecto": "flash",
+   "musica": "misterio",
+   "fuente": "CNBC"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Quédate hasta el final. Te cuento qué lo hizo caer, por qué la junta dijo que no volvería, y la pregunta que sigue sin respuesta.",
+   "clips": [
+    "buscar:empty boardroom table dark",
+    "buscar:question mark neon dark @sin respuesta"
+   ],
+   "texto": "LA JUNTA DIJO QUE NO",
+   "resalta": "NO",
+   "lugar": "SANTA CLARA, CALIFORNIA · NOV 2026"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Piensa en una cifra. Mil novecientos noventa y tres. Ese es el año en que nació Nvidia, y su fundador la dirigía desde entonces.",
+   "clips": [
+    "buscar:calendar pages flipping close up",
+    "buscar:silicon wafer factory clean room @nació Nvidia"
+   ],
+   "texto": "SU FUNDADOR LA DIRIGÍA",
+   "numero": "1993",
+   "arriba": "AÑO DE FUNDACIÓN DE NVIDIA",
+   "fuente": "Forbes Argentina"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Se llama Jensen Huang. Chaqueta de cuero negra. Presidente y director ejecutivo. Y, hasta este mes, uno de los directivos más poderosos de toda la tecnología.",
+   "clips": [
+    "buscar:man leather jacket silhouette stage",
+    "buscar:graphics card close up @los directivos más poderosos",
+    "buscar:data center server racks blue lights"
+   ],
+   "titulo": "EL HOMBRE DE LA CHAQUETA",
+   "items": [
+    "JENSEN HUANG",
+    "CHAQUETA DE CUERO NEGRA",
+    "DIRECTOR EJECUTIVO"
+   ],
+   "efecto": "suave"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Qué lo hizo caer? ¿Qué puede obligar a un directivo así a dejarlo todo de un día para otro?",
+   "clips": [
+    "buscar:businessman looking out window dark office",
+    "buscar:door closing slowly hallway @dejarlo todo"
+   ],
+   "texto": "¿QUÉ LO HIZO CAER?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Todo empezó con una investigación periodística. A finales de octubre, el New York Times publicó que Huang habría sido objetivo de una operación de espionaje vinculada a China.",
+   "clips": [
+    "buscar:newspaper printing press close up",
+    "buscar:spy silhouette shadows corridor @operación de espionaje"
+   ],
+   "texto": "OPERACIÓN DE ESPIONAJE",
+   "resalta": "ESPIONAJE",
+   "lugar": "NUEVA YORK · 29 OCT 2026",
+   "fuente": "The New York Times"
+  },
+  {
+   "tipo": "titular",
+   "voz": "A principios de noviembre, la junta directiva de Nvidia anunció que investigaba si su director ejecutivo había sido blanco de un esfuerzo de inteligencia extranjera.",
+   "clips": [
+    "buscar:corporate building glass facade dusk",
+    "buscar:magnifying glass documents desk @investigaba"
+   ],
+   "texto": "INTELIGENCIA EXTRANJERA",
+   "etiqueta": "INVESTIGACIÓN",
+   "musica": "tension",
+   "fuente": "Forbes"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Y entonces llegó el once de noviembre. El Times informó, citando a cinco empleados, de supuestas relaciones extramatrimoniales de Huang. Él no lo confirmó.",
+   "clips": [
+    "buscar:phone screen notification news close up",
+    "buscar:people whispering office hallway @cinco empleados"
+   ],
+   "texto": "NO LO CONFIRMÓ",
+   "numero": "5",
+   "arriba": "EMPLEADOS CITADOS POR EL TIMES",
+   "fuente": "The New York Times"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Al día siguiente, jueves doce de noviembre, llegó el golpe. Nvidia anunció que Huang dejaba la presidencia, la dirección ejecutiva y hasta su asiento en la junta. Con efecto inmediato.",
+   "clips": [
+    "buscar:empty office chair spotlight",
+    "buscar:press release document sec filing @su asiento en la junta"
+   ],
+   "texto": "CON EFECTO INMEDIATO",
+   "resalta": "INMEDIATO",
+   "efecto": "temblor",
+   "lugar": "SANTA CLARA · 12 NOV 2026",
+   "fuente": "Nvidia · SEC"
+  },
+  {
+   "tipo": "lista",
+   "voz": "El comunicado hablaba de conducta personal incompatible con el código de conducta, los estándares y las normas culturales de la empresa. Y nada más. Ningún detalle concreto.",
+   "clips": [
+    "buscar:legal document stamp close up",
+    "buscar:businessman hands folded tense @código de conducta"
+   ],
+   "titulo": "LO QUE DIJO LA EMPRESA",
+   "items": [
+    "CONDUCTA PERSONAL",
+    "CÓDIGO DE CONDUCTA",
+    "NINGÚN DETALLE"
+   ],
+   "fuente": "Nvidia"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Ese mismo día, la acción de Nvidia cayó un cuatro coma tres por ciento. Una sacudida enorme para una de las empresas más valiosas del planeta.",
+   "clips": [
+    "buscar:stock chart red falling screen",
+    "buscar:wall street trading floor reaction @la acción de Nvidia"
+   ],
+   "texto": "CAYÓ UN CUATRO COMA TRES",
+   "numero": "4,3",
+   "arriba": "% CAYÓ LA ACCIÓN EN UN DÍA",
+   "fuente": "CNBC"
+  },
+  {
+   "tipo": "frase",
+   "voz": "La directora financiera, Colette Kress, quedó como directora ejecutiva interina. Y la empresa admitió algo clave: no tenía preparado ningún plan de sucesión.",
+   "clips": [
+    "buscar:businesswoman walking corporate lobby",
+    "buscar:blank chess board king piece @plan de sucesión"
+   ],
+   "texto": "NINGÚN PLAN DE SUCESIÓN",
+   "resalta": "NINGÚN"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Pero aquí la historia da un giro que nadie vio venir. ¿Y si su salida no era definitiva?",
+   "clips": [
+    "buscar:shadow door light opening dark room",
+    "buscar:clock ticking close up @un giro"
+   ],
+   "texto": "¿Y SI NO ERA DEFINITIVA?",
+   "efecto": "temblor",
+   "musica": "tension"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Mientras tanto, el mercado se puso nervioso. Las acciones tecnológicas llevaban semanas bajando y los inversores empezaban a dudar de la salud de toda la industria de la inteligencia artificial.",
+   "clips": [
+    "buscar:investor looking laptop worried night",
+    "buscar:robot hand artificial intelligence @inteligencia artificial",
+    "buscar:nasdaq screen red numbers @acciones tecnológicas"
+   ],
+   "titulo": "EL MERCADO, NERVIOSO",
+   "items": [
+    "ACCIONES EN CAÍDA",
+    "DUDAS SOBRE LA IA",
+    "INVERSORES ASUSTADOS"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "voz": "Incluso el presidente Donald Trump entró en el debate. Según medios internacionales, sugirió a Tim Cook, ex director de Apple, como posible sucesor. No hubo ningún nombramiento.",
+   "clips": [
+    "buscar:white house exterior flag",
+    "buscar:smartphone apple store glass @Tim Cook"
+   ],
+   "texto": "SUGIRIÓ A TIM COOK",
+   "lugar": "WASHINGTON · NOV 2026"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Diecisiete de noviembre. Presentación de resultados. El presidente de la junta, Harvey Jones, fue tajante: la junta no tenía intención de readmitir a Huang como director ejecutivo.",
+   "clips": [
+    "buscar:conference call speaker phone table",
+    "buscar:businessman shaking head no close up @no tenía intención"
+   ],
+   "texto": "NO TENÍA INTENCIÓN DE READMITIR",
+   "etiqueta": "LA JUNTA DICE NO",
+   "fuente": "CNBC"
+  },
+  {
+   "tipo": "frase",
+   "voz": "El veinte de noviembre, el Times publicó otro reportaje sobre su estilo de dirección. Habla de humillaciones, amenazas y acuerdos con exdirectivos. Son acusaciones del diario, no hechos probados.",
+   "clips": [
+    "buscar:tense meeting room people silent",
+    "buscar:legal contract signing pen close up @acuerdos con exdirectivos"
+   ],
+   "texto": "ACUSACIONES DEL DIARIO",
+   "resalta": "ACUSACIONES",
+   "efecto": "suave",
+   "fuente": "The New York Times"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Huang pidió disculpas por graves errores en su vida personal y dijo que cooperaría con la investigación independiente de la junta.",
+   "clips": [
+    "buscar:man speaking apology microphone close up",
+    "buscar:handshake lawyers office @investigación independiente"
+   ],
+   "texto": "PIDIÓ DISCULPAS",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Con la junta diciendo no, ¿qué pudo cambiar en solo seis días? ¿Qué hizo que un no se convirtiera en un sí?",
+   "clips": [
+    "buscar:calendar six days marked close up",
+    "buscar:traffic sign wrong way turn @un no"
+   ],
+   "texto": "¿QUÉ PUDO CAMBIAR EN SOLO SEIS DÍAS?",
+   "musica": "epica"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Lunes, veintitrés de noviembre. La junta de Nvidia votó por unanimidad. Jensen Huang volvía como presidente, director ejecutivo y miembro de la junta. Con efecto inmediato.",
+   "clips": [
+    "buscar:corporate headquarters glass building morning",
+    "buscar:vote hands raised boardroom @votó por unanimidad"
+   ],
+   "texto": "VOLVÍA COMO DIRECTOR EJECUTIVO",
+   "etiqueta": "ÚLTIMA HORA",
+   "efecto": "flash",
+   "lugar": "SANTA CLARA · 23 NOV 2026",
+   "fuente": "Nvidia · SEC"
+  },
+  {
+   "tipo": "frase",
+   "voz": "El comunicado decía que, tras una serie de reuniones y conversaciones, la junta quedó satisfecha con su sinceridad y su capacidad para liderar la empresa.",
+   "clips": [
+    "buscar:boardroom meeting people talking",
+    "buscar:man signing document close up @liderar la empresa"
+   ],
+   "texto": "SATISFECHA CON SU SINCERIDAD",
+   "resalta": "SINCERIDAD",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Y entonces reaccionó el mercado. Las acciones de Nvidia subieron un treinta y uno por ciento en un solo día.",
+   "clips": [
+    "buscar:stock chart green rocket rising",
+    "buscar:traders cheering screens @subieron un treinta y uno por ciento"
+   ],
+   "texto": "UN TREINTA Y UNO POR CIENTO",
+   "numero": "31",
+   "arriba": "% SUBIÓ LA ACCIÓN EN UN DÍA",
+   "efecto": "temblor",
+   "fuente": "CNBC"
+  },
+  {
+   "tipo": "grafico",
+   "voz": "Compara los dos días. El día de la renuncia, cuatro coma tres por ciento a la baja. El día del regreso, treinta y uno por ciento al alza.",
+   "clips": [
+    "buscar:stock market ticker board abstract"
+   ],
+   "titulo": "CAMBIO DE LA ACCIÓN EN UN DÍA (%)",
+   "valor": "31",
+   "unidad": "% AL ALZA · 23 NOV",
+   "barras": [
+    {
+     "l": "12 NOV · BAJÓ",
+     "v": 4.3
+    },
+    {
+     "l": "23 NOV · SUBIÓ",
+     "v": 31.5
+    }
+   ],
+   "fuente": "CNBC"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Casi un billón de dólares. Eso ganó en valor de mercado en una jornada, según varios medios. Algunos hablan de novecientos cincuenta y dos mil millones.",
+   "clips": [
+    "buscar:stack of dollar bills close up",
+    "buscar:calculator numbers close up @mil millones"
+   ],
+   "texto": "CASI UN BILLÓN DE DÓLARES",
+   "numero": "952",
+   "arriba": "MIL MILLONES DE $ GANADOS EN UN DÍA",
+   "fuente": "CNN · Bloomberg Línea"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Según CNN, fue el mejor día de la acción desde dos mil tres. Pero es un solo día. No es una garantía.",
+   "clips": [
+    "buscar:fireworks night city celebration",
+    "buscar:single candle dark @no es una garantía"
+   ],
+   "texto": "EL MEJOR DÍA",
+   "resalta": "MEJOR",
+   "fuente": "CNN"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Quién decidió de verdad? ¿La junta, los inversores, o la presión desde Washington? Algunos medios apuntan a presión política. Pero esa parte no está confirmada.",
+   "clips": [
+    "buscar:capitol building dusk",
+    "buscar:puppet strings hand dark @la presión desde Washington"
+   ],
+   "texto": "¿QUIÉN DECIDIÓ DE VERDAD?",
+   "musica": "misterio"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Los críticos no tardaron. Expertos en gobierno corporativo hablaron de falta de carácter de la junta. Dijeron que la readmisión llegó antes de terminar la investigación y pusieron en duda su independencia.",
+   "clips": [
+    "buscar:man reading newspaper critical",
+    "buscar:scales of justice close up @su independencia",
+    "buscar:empty courtroom benches"
+   ],
+   "titulo": "LAS CRÍTICAS",
+   "items": [
+    "FALTA DE CARÁCTER",
+    "ANTES DE TERMINAR",
+    "SU INDEPENDENCIA"
+   ],
+   "fuente": "Axios"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Y hay un detalle clave. La investigación sigue en marcha. Un comité formado solo por directores independientes la dirige, con asesoría de abogados externos.",
+   "clips": [
+    "buscar:lawyers reviewing files table night",
+    "buscar:file folders stack documents @abogados externos"
+   ],
+   "texto": "LA INVESTIGACIÓN SIGUE EN MARCHA",
+   "resalta": "SIGUE",
+   "musica": "tension",
+   "fuente": "Nvidia"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Primero de diciembre. Según los reportes, comités del Congreso de Estados Unidos entrevistarán a Huang ese día.",
+   "clips": [
+    "buscar:us congress building aerial",
+    "buscar:calendar december page close up @primero de diciembre"
+   ],
+   "texto": "ENTREVISTARÁN A HUANG",
+   "numero": "1",
+   "arriba": "DE DICIEMBRE · CONGRESO EE. UU.",
+   "fuente": "Axios",
+   "lugar": "WASHINGTON · 1 DIC 2026"
+  },
+  {
+   "tipo": "frase",
+   "voz": "En su primera reunión con empleados, Huang pidió perdón. Dijo cuánto lamentaba lo que había hecho. Y aseguró que Nvidia no necesita un plan de sucesión.",
+   "clips": [
+    "buscar:employees listening auditorium dim",
+    "buscar:man apologizing head down @pidió perdón"
+   ],
+   "texto": "PIDIÓ PERDÓN",
+   "efecto": "suave",
+   "musica": "reflexion",
+   "fuente": "CNBC"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Puede una empresa que vale billones de dólares depender tanto de una sola persona?",
+   "clips": [
+    "buscar:single tall tower city skyline night",
+    "buscar:tightrope walker above city @una sola persona"
+   ],
+   "texto": "¿DEPENDER DE UNA SOLA PERSONA?"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Veinticinco días. Eso pasó entre el primer reportaje del Times sobre el espionaje y el regreso de Huang a la dirección.",
+   "clips": [
+    "buscar:time lapse clock fast city",
+    "buscar:calendar days crossed off @primer reportaje"
+   ],
+   "texto": "VEINTICINCO DÍAS",
+   "numero": "25",
+   "arriba": "DÍAS DEL PRIMER REPORTAJE AL REGRESO"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Y esto es lo que todavía no sabemos. Si la investigación encontrará algo. Qué pesó más en el cambio de postura. Y si habrá consecuencias para él o para la junta.",
+   "clips": [
+    "buscar:foggy road night headlights",
+    "buscar:blank paper question marks @todavía no sabemos"
+   ],
+   "titulo": "LO QUE NO SE SABE",
+   "items": [
+    "QUÉ ENCONTRARÁ LA INVESTIGACIÓN",
+    "QUÉ CAMBIÓ A LA JUNTA",
+    "HABRÁ CONSECUENCIAS"
+   ],
+   "musica": "misterio"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Lo que sí sabemos es esto. Huang renunció el doce de noviembre. La junta dijo que no lo readmitiría. Y once días después, lo readmitió.",
+   "clips": [
+    "buscar:calendar november pages flipping",
+    "buscar:door opening light flooding dark room @lo readmitió"
+   ],
+   "texto": "LO READMITIÓ",
+   "resalta": "READMITIÓ",
+   "musica": "epica",
+   "efecto": "flash"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Tres lecciones. Una: el mercado reacciona a personas, no solo a números. Dos: el riesgo no desapareció. Tres: la investigación aún no terminó.",
+   "clips": [
+    "buscar:chess pieces dark table close up",
+    "buscar:red warning light flashing @el riesgo",
+    "buscar:notebook pen writing close up"
+   ],
+   "titulo": "TRES LECCIONES",
+   "items": [
+    "EL MERCADO ES HUMANO",
+    "EL RIESGO SIGUE",
+    "LA INVESTIGACIÓN NO TERMINÓ"
+   ],
+   "musica": "reflexion"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Entonces, ¿volvió porque la junta confió en él, o porque el mercado no podía soportar su ausencia?",
+   "clips": [
+    "buscar:man walking empty corridor silhouette",
+    "buscar:stock graph drop rise abstract @el mercado"
+   ],
+   "texto": "¿CONFIÓ EN ÉL?",
+   "musica": "triste"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Nadie lo sabe con certeza. Y esa duda es la que acompaña ahora a la empresa más importante de la inteligencia artificial.",
+   "clips": [
+    "buscar:city skyline night rain slow",
+    "buscar:chip glowing dark macro @la inteligencia artificial"
+   ],
+   "texto": "NADIE LO SABE CON CERTEZA",
+   "resalta": "NADIE",
+   "efecto": "suave",
+   "musica": "reflexion"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Esto no es un consejo financiero. Es lo que pasó, con las fuentes que lo cuentan, y lo que aún no se aclara.",
+   "clips": [
+    "buscar:person reading documents calm light",
+    "buscar:magnifying glass text close up @las fuentes"
+   ],
+   "texto": "ESTO NO ES UN CONSEJO",
+   "etiqueta": "AVISO",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Si quieres enterarte antes que nadie de la próxima, suscríbete a The Sentinel Global. Porque esta historia aún no ha terminado.",
+   "clips": [
+    "buscar:subscribe button click screen",
+    "buscar:night city lights slow zoom @esta historia"
+   ],
+   "texto": "ESTA HISTORIA AÚN NO HA TERMINADO",
+   "resalta": "TERMINADO",
+   "chapa": "SUSCRÍBETE 🔔",
+   "musica": "reflexion"
+  }
+ ]
+}
