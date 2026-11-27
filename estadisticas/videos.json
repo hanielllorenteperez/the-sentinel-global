@@ -1,11 +1,11 @@
 {
- "leido": "2026-11-27T03:39:53Z",
+ "leido": "2026-11-27T16:44:03Z",
  "canal": {
   "nombre": "The Sentinel Global",
-  "suscriptores": 10,
+  "suscriptores": 11,
   "suscriptores_ocultos": false,
-  "vistas": 5084,
-  "videos": 37
+  "vistas": 5753,
+  "videos": 39
  },
  "videos": {
   "UHxUkpv53qo": {
@@ -19,7 +19,7 @@
   "oIkG0nExYJA": {
    "titulo": "Tenía colmillos de VAMPIRO… pero había un truco 🧛 #shorts",
    "visible": "public",
-   "vistas": 389,
+   "vistas": 390,
    "likes": 3,
    "comentarios": 0,
    "ultimos": []
@@ -35,7 +35,7 @@
   "_bvIHUbUxXA": {
    "titulo": "Un segundo y medio de vídeo… ¿un pterodáctilo en México? 🦖 #shorts",
    "visible": "public",
-   "vistas": 1205,
+   "vistas": 1206,
    "likes": 15,
    "comentarios": 0,
    "ultimos": []
@@ -163,7 +163,7 @@
   "PXq38BRhxBE": {
    "titulo": "Google vende su arma secreta a sus RIVALES… ¿y Nvidia? 😳 #shorts",
    "visible": "public",
-   "vistas": 37,
+   "vistas": 39,
    "likes": 1,
    "comentarios": 0,
    "ultimos": []
@@ -195,7 +195,7 @@
   "Vk-p1mtWmgg": {
    "titulo": "Bitcoin pierde casi la MITAD de su valor… 📉😳 #shorts",
    "visible": "public",
-   "vistas": 10,
+   "vistas": 15,
    "likes": 1,
    "comentarios": 0,
    "ultimos": []
@@ -203,7 +203,7 @@
   "qCcR9E5zjtc": {
    "titulo": "La FIFA fue HACKEADA: 12 GB… y todo empezó con un engaño 🔓",
    "visible": "public",
-   "vistas": 6,
+   "vistas": 7,
    "likes": 0,
    "comentarios": 0,
    "ultimos": []
@@ -211,7 +211,7 @@
   "gcDGbGQGWIs": {
    "titulo": "Hackearon a la FIFA… y todo empezó con un engaño 🔓😳 #shorts",
    "visible": "public",
-   "vistas": 5,
+   "vistas": 8,
    "likes": 1,
    "comentarios": 0,
    "ultimos": []
@@ -227,7 +227,7 @@
   "be1oe1AEwQE": {
    "titulo": "La final de hace 58 AÑOS vuelve al mismo estadio… ⚽😳 #shorts",
    "visible": "public",
-   "vistas": 45,
+   "vistas": 46,
    "likes": 0,
    "comentarios": 0,
    "ultimos": []
@@ -235,7 +235,7 @@
   "eEojriBAJSk": {
    "titulo": "Cayó el Chapo Isidro: ¿lo juzgarán aquí o lo entregan a EE. UU.? 🚨",
    "visible": "public",
-   "vistas": 0,
+   "vistas": 1,
    "likes": 0,
    "comentarios": 0,
    "ultimos": []
@@ -243,8 +243,24 @@
   "jgn9vE9OUXo": {
    "titulo": "Cayó el Chapo Isidro… y esta no era su primera captura 🚨 #shorts",
    "visible": "public",
-   "vistas": 279,
+   "vistas": 635,
    "likes": 5,
+   "comentarios": 0,
+   "ultimos": []
+  },
+  "j7-6jiH3PYw": {
+   "titulo": "Jensen Huang RENUNCIÓ a Nvidia… y 11 días después VOLVIÓ 🚨",
+   "visible": "public",
+   "vistas": 0,
+   "likes": 0,
+   "comentarios": 0,
+   "ultimos": []
+  },
+  "vju7YK_V_wo": {
+   "titulo": "Renunció a Nvidia… y 11 días después VOLVIÓ 🚨 #shorts",
+   "visible": "public",
+   "vistas": 6,
+   "likes": 0,
    "comentarios": 0,
    "ultimos": []
   }
