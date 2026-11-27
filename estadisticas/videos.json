@@ -1,11 +1,11 @@
 {
- "leido": "2026-11-26T19:04:06Z",
+ "leido": "2026-11-27T03:39:53Z",
  "canal": {
   "nombre": "The Sentinel Global",
   "suscriptores": 10,
   "suscriptores_ocultos": false,
   "vistas": 5084,
-  "videos": 34
+  "videos": 37
  },
  "videos": {
   "UHxUkpv53qo": {
@@ -83,7 +83,7 @@
   "vS8vTw12yrU": {
    "titulo": "Tres estrellas que NO deberían existir… y están a 28 años luz 🌌 #shorts",
    "visible": "public",
-   "vistas": 829,
+   "vistas": 830,
    "likes": 17,
    "comentarios": 0,
    "ultimos": []
@@ -163,7 +163,7 @@
   "PXq38BRhxBE": {
    "titulo": "Google vende su arma secreta a sus RIVALES… ¿y Nvidia? 😳 #shorts",
    "visible": "public",
-   "vistas": 35,
+   "vistas": 37,
    "likes": 1,
    "comentarios": 0,
    "ultimos": []
@@ -179,7 +179,7 @@
   "L9jkyTS6l48": {
    "titulo": "Cayó un BANCO y renunció un PRESIDENTE 😳 #shorts",
    "visible": "public",
-   "vistas": 16,
+   "vistas": 17,
    "likes": 0,
    "comentarios": 0,
    "ultimos": []
@@ -195,7 +195,7 @@
   "Vk-p1mtWmgg": {
    "titulo": "Bitcoin pierde casi la MITAD de su valor… 📉😳 #shorts",
    "visible": "public",
-   "vistas": 9,
+   "vistas": 10,
    "likes": 1,
    "comentarios": 0,
    "ultimos": []
@@ -203,7 +203,7 @@
   "qCcR9E5zjtc": {
    "titulo": "La FIFA fue HACKEADA: 12 GB… y todo empezó con un engaño 🔓",
    "visible": "public",
-   "vistas": 2,
+   "vistas": 6,
    "likes": 0,
    "comentarios": 0,
    "ultimos": []
@@ -211,8 +211,8 @@
   "gcDGbGQGWIs": {
    "titulo": "Hackearon a la FIFA… y todo empezó con un engaño 🔓😳 #shorts",
    "visible": "public",
-   "vistas": 0,
-   "likes": 0,
+   "vistas": 5,
+   "likes": 1,
    "comentarios": 0,
    "ultimos": []
   },
@@ -227,8 +227,24 @@
   "be1oe1AEwQE": {
    "titulo": "La final de hace 58 AÑOS vuelve al mismo estadio… ⚽😳 #shorts",
    "visible": "public",
-   "vistas": 43,
+   "vistas": 45,
    "likes": 0,
+   "comentarios": 0,
+   "ultimos": []
+  },
+  "eEojriBAJSk": {
+   "titulo": "Cayó el Chapo Isidro: ¿lo juzgarán aquí o lo entregan a EE. UU.? 🚨",
+   "visible": "public",
+   "vistas": 0,
+   "likes": 0,
+   "comentarios": 0,
+   "ultimos": []
+  },
+  "jgn9vE9OUXo": {
+   "titulo": "Cayó el Chapo Isidro… y esta no era su primera captura 🚨 #shorts",
+   "visible": "public",
+   "vistas": 279,
+   "likes": 5,
    "comentarios": 0,
    "ultimos": []
   }
