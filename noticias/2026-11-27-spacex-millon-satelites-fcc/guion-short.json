@@ -1,0 +1,71 @@
+{
+ "id": "2026-11-27-spacex-millon-satelites-fcc",
+ "formato": "short",
+ "cinta": "The Sentinel Global · Última hora · SpaceX",
+ "titulo": "Aprobaron UN MILLÓN de satélites… ¿fantasía o realidad? 🛰️",
+ "descripcion": "La FCC autorizó a SpaceX hasta un millón de satélites para centros de datos en órbita (25 nov 2026). Historia completa en el vídeo largo del canal.\n\n#SpaceX #Starmind #espacio #noticias #shorts",
+ "etiquetas": [
+  "SpaceX",
+  "Starmind",
+  "FCC",
+  "satélites",
+  "noticias",
+  "shorts"
+ ],
+ "musica": "misterio",
+ "escenas": [
+  {
+   "tipo": "frase",
+   "voz": "Acaban de aprobar un millón de satélites sobre tu cabeza.",
+   "clips": [
+    "buscar:earth from space orbit satellites",
+    "buscar:night sky stars timelapse @sobre tu cabeza"
+   ],
+   "texto": "UN MILLÓN DE SATÉLITES",
+   "resalta": "MILLÓN",
+   "efecto": "flash"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Hoy hay unos diecisiete mil en el espacio. Esto sería más de cincuenta veces más.",
+   "clips": [
+    "buscar:satellite orbiting earth close up",
+    "buscar:rocket launch night flames @en el espacio"
+   ],
+   "texto": "UNOS DIECISIETE MIL",
+   "numero": "17000",
+   "arriba": "SATÉLITES EN ÓRBITA HOY",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Son para centros de datos que flotan en órbita. Idea de SpaceX, y la FCC dijo que sí.",
+   "clips": [
+    "buscar:server racks blue lights",
+    "buscar:government building washington dome @la FCC"
+   ],
+   "texto": "CENTROS DE DATOS EN ÓRBITA",
+   "resalta": "ÓRBITA"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Por qué los científicos dicen que es una fantasía?",
+   "clips": [
+    "buscar:telescope dome stars timelapse",
+    "buscar:question mark neon dark @una fantasía"
+   ],
+   "texto": "¿POR QUÉ UNA FANTASÍA?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Amazon se opuso, y hay un detalle que casi nadie ha contado. Míralo en el vídeo completo en el canal.",
+   "clips": [
+    "buscar:magnifying glass documents desk",
+    "buscar:subscribe button click screen @en el canal"
+   ],
+   "texto": "MIRA EL VÍDEO COMPLETO",
+   "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL",
+   "resalta": "COMPLETO"
+  }
+ ]
+}

@@ -34,6 +34,7 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-26 · FIFA confirma ciberataque (Handsome Boy Hacking Club, 12 GB, suplantación de identidad) · [hackeos]
 - 2026-11-27 · Captura del «Chapo Isidro» (Guasave, Sinaloa), juicio en México vs extradición a EE. UU. · [crimen]
 - 2026-11-27 · Jensen Huang renuncia a Nvidia (12 nov) y vuelve (23 nov): acción +31 % en un día · [tecnología/dinero]
+- 2026-11-27 · FCC autoriza a SpaceX hasta un millón de satélites (Starmind, centros de datos en órbita), críticas de Amazon/astrónomos/Earthjustice · [espacio/tecnología]
 
 ## Diario del guionista
 <!-- 1–3 líneas por ejecución: fecha · noticia · lección nueva (si la hay) -->
@@ -53,6 +54,7 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-26 · Hackeo a la FIFA · Buscar «hackeo ciberataque filtración datos esta semana» (extended) dio el tema con 8+ medios. Cifras de los atacantes (12 GB) vs. FIFA (<0,1 %) se atribuyen por separado; LaLiga/Comisión Europea solo aparecían en un snippet → descartados. Cuidado: sin wiki:, todo clips genéricos para no usar logos.
 - 2026-11-27 · Caso Chapo Isidro · Buscar «capturado detenido narco … noviembre 2026» (extended) dio el tema; cifras de muertos/detenidos difieren → no se citan; «92 entregados» y «vigilado desde 2022» son de un solo medio → atribuidos como reporte. Tono sobrio por violencia.
 - 2026-11-27 · Jensen Huang / Nvidia · Buscar «<nombre> renuncia CEO» tras ver un snippet suelto confirmó la noticia con 8+ medios; las fechas difieren (12 vs 13 nov; Forbes pone 8 nov la investigación) → se usa 12 nov y «a principios de noviembre». Temas de vida personal: solo atribuidos al New York Times y dichos como no confirmados; presión de Trump/Casa Blanca y Wachtell, de una sola fuente → omitido o marcado «no confirmado».
+- 2026-11-27 · SpaceX Starmind (FCC, 1 millón de satélites) · Buscar «último momento noticia viral hoy <fecha>» dio un resumen de Telemundo con el tema; luego «<tema> autoriza» en español e inglés dio 10+ medios. Plazos 2033/2035/2038/2040 son de la FCC; inicio del despliegue (2028 CBS vs finales de 2027 Reuters/Xataka) difiere → atribuido. Datos de una sola fuente (Q3 2027 Starship, Altman) omitidos. Sin wiki:.
 
 ## Diario de la fábrica
 <!-- lo escribe GitHub Actions solo -->

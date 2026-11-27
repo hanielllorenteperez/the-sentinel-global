@@ -1,0 +1,535 @@
+{
+ "id": "2026-11-27-spacex-millon-satelites-fcc",
+ "cinta": "The Sentinel Global · Última hora · SpaceX · Starmind",
+ "titulo": "Aprobaron UN MILLÓN de satélites en el cielo… y los científicos dicen que es una fantasía 🛰️",
+ "descripcion": "El 25 de noviembre de 2026, la FCC de Estados Unidos autorizó a SpaceX a desplegar hasta un millón de satélites de cómputo para centros de datos en órbita (proyecto Starmind). Te contamos qué se aprobó, los plazos hasta 2040, quién se opone (Amazon, Viasat, astrónomos, Earthjustice), el problema de la basura espacial y lo que todavía nadie sabe: si es viable. Es una autorización, no una garantía de que se vaya a construir. No es asesoría financiera.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#SpaceX #Starmind #FCC #inteligenciaartificial #espacio #noticias #ultimahora",
+ "etiquetas": [
+  "SpaceX",
+  "Starmind",
+  "FCC",
+  "un millón de satélites",
+  "centros de datos en el espacio",
+  "Elon Musk",
+  "Brendan Carr",
+  "Amazon",
+  "basura espacial",
+  "inteligencia artificial",
+  "noticias de hoy",
+  "última hora"
+ ],
+ "fuentes": [
+  "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+  "https://www.cbsnews.com/news/spacex-fcc-approval-data-centers-space/",
+  "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space",
+  "https://www.aljazeera.com/news/2026/11/25/us-grants-spacex-approval-for-1-million-space-data-centres",
+  "https://www.nbcnews.com/science/space/spacex-fcc-authorizes-1-million-satellites-data-centers-space-rcna611341",
+  "https://www.cnn.com/2026/11/26/business/spacex-satellites-space-data-centers-intl",
+  "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/",
+  "https://docs.fcc.gov/public/attachments/DOC-427572A1.txt",
+  "https://www.xataka.com/espacio/spacex-tiene-luz-verde-para-desplegar-millon-satelites-centros-datos-no-ia-energia",
+  "https://www.commondreams.org/news/spacex-satellites"
+ ],
+ "musica": "misterio",
+ "aviso_financiero": true,
+ "rotulos": [
+  "EN DIRECTO",
+  "UN MILLÓN DE SATÉLITES",
+  "NOTICIA EN DESARROLLO",
+  "LO QUE NO TE CUENTAN",
+  "INVESTIGACIÓN"
+ ],
+ "miniatura": {
+  "texto": "EL CIELO, EN VENTA",
+  "rojo": "1.000.000",
+  "escena": 1
+ },
+ "escenas": [
+  {
+   "tipo": "titular",
+   "voz": "Última hora. Un organismo del gobierno de Estados Unidos acaba de dar permiso para poner un millón de satélites en órbita. Y no son para darte internet.",
+   "clips": [
+    "buscar:rocket launch night flames",
+    "buscar:earth from space orbit satellites @un millón de satélites"
+   ],
+   "texto": "UN MILLÓN DE SATÉLITES",
+   "etiqueta": "ÚLTIMA HORA",
+   "efecto": "flash",
+   "musica": "misterio",
+   "fuente": "CNBC"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Quédate hasta el final. Te cuento para qué los quieren, quién se opone, y el detalle que los científicos no dejan de repetir.",
+   "clips": [
+    "buscar:dark space stars slow",
+    "buscar:question mark neon dark @quién se opone"
+   ],
+   "texto": "QUIÉN SE OPONE",
+   "resalta": "OPONE",
+   "lugar": "WASHINGTON D. C. · 25 NOV 2026"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Para que te hagas una idea. Hoy hay unos diecisiete mil satélites en el espacio, según Al Jazeera. Esto sería más de cincuenta veces esa cifra.",
+   "clips": [
+    "buscar:satellite orbiting earth close up",
+    "buscar:night sky stars timelapse @diecisiete mil satélites"
+   ],
+   "texto": "UNOS DIECISIETE MIL",
+   "numero": "17000",
+   "arriba": "SATÉLITES EN ÓRBITA HOY",
+   "fuente": "Al Jazeera"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Se llama Starmind. Lo propone SpaceX, la empresa de Elon Musk. Y la idea es tan simple como atrevida: centros de datos que flotan en el espacio.",
+   "clips": [
+    "buscar:rocket on launch pad dawn",
+    "buscar:server racks blue lights @centros de datos",
+    "buscar:astronaut floating earth view @en el espacio"
+   ],
+   "titulo": "EL PROYECTO STARMIND",
+   "items": [
+    "SE LLAMA STARMIND",
+    "LO PROPONE SPACEX",
+    "CENTROS DE DATOS"
+   ],
+   "efecto": "suave"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Un centro de datos en el espacio? Sí, has oído bien. Y la autorización ya está firmada.",
+   "clips": [
+    "buscar:signing document pen close up @firmada",
+    "buscar:earth glowing horizon from orbit"
+   ],
+   "texto": "¿UN CENTRO DE DATOS EN EL ESPACIO?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Un centro de datos es una nave llena de ordenadores que procesan todo lo que haces en internet. Y la inteligencia artificial necesita cada vez más.",
+   "clips": [
+    "buscar:data center corridor servers",
+    "buscar:person typing smartphone scrolling @en internet",
+    "buscar:artificial intelligence brain neural network @la inteligencia artificial"
+   ],
+   "texto": "TODO LO QUE HACES EN INTERNET",
+   "resalta": "INTERNET"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Esas naves gastan electricidad para funcionar y necesitan enfriarse. Por eso las grandes tecnológicas buscan dónde ponerlas sin que la red eléctrica reviente.",
+   "clips": [
+    "buscar:power lines sunset high voltage",
+    "buscar:cooling fans server close up @enfriarse",
+    "buscar:electricity meter spinning close up @gastan electricidad"
+   ],
+   "titulo": "EL PROBLEMA",
+   "items": [
+    "GASTAN ELECTRICIDAD",
+    "NECESITAN ENFRIARSE",
+    "LA RED ELÉCTRICA"
+   ],
+   "fuente": "Xataka"
+  },
+  {
+   "tipo": "frase",
+   "voz": "La respuesta de Musk: sácalas del planeta. Satélites con paneles solares que procesan datos allá arriba y mandan solo los resultados a la Tierra.",
+   "clips": [
+    "buscar:solar panels satellite space",
+    "buscar:earth night city lights from space @a la Tierra"
+   ],
+   "texto": "SÁCALAS DEL PLANETA",
+   "resalta": "PLANETA",
+   "efecto": "golpe"
+  },
+  {
+   "tipo": "titular",
+   "voz": "El miércoles veinticinco de noviembre, el presidente de la FCC, Brendan Carr, lo anunció. La Comisión Federal de Comunicaciones aprobó el plan. Una primera vez.",
+   "clips": [
+    "buscar:government building washington dome",
+    "buscar:microphone press conference close up @lo anunció"
+   ],
+   "texto": "LA FCC APROBÓ EL PLAN",
+   "etiqueta": "APROBADO",
+   "efecto": "flash",
+   "lugar": "WASHINGTON D. C. · 25 NOV 2026",
+   "fuente": "CBS News"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Hasta un millón de módulos de cómputo en órbita. Esa es la cifra que figura en la autorización. Un millón.",
+   "clips": [
+    "buscar:swarm of satellites earth animation",
+    "buscar:counting numbers digital screen @un millón"
+   ],
+   "texto": "HASTA UN MILLÓN",
+   "numero": "1000000",
+   "arriba": "MÓDULOS DE CÓMPUTO AUTORIZADOS",
+   "fuente": "FCC"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Nadie había autorizado algo así antes. Según la propia FCC, es el primer permiso de este tipo para centros de datos espaciales.",
+   "clips": [
+    "buscar:old stamp approved document close up",
+    "buscar:space station orbit earth @centros de datos espaciales"
+   ],
+   "texto": "EL PRIMER PERMISO DE ESTE TIPO",
+   "resalta": "PRIMER"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Pero ojo: es una autorización con calendario. Hay fechas, hitos y obligaciones. Y las fechas son tan lejanas que casi dan vértigo.",
+   "clips": [
+    "buscar:calendar pages flipping close up",
+    "buscar:clock ticking close up @fechas",
+    "buscar:hourglass sand falling dark @vértigo"
+   ],
+   "titulo": "UN PERMISO CON CALENDARIO",
+   "items": [
+    "HAY FECHAS",
+    "HITOS Y OBLIGACIONES",
+    "CASI DAN VÉRTIGO"
+   ],
+   "musica": "tension"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Entonces, ¿de verdad habrá un millón de satélites sobre nuestras cabezas? Guarda esa pregunta, porque la respuesta es más rara de lo que parece.",
+   "clips": [
+    "buscar:night sky looking up stars satellites",
+    "buscar:person looking up at sky silhouette @sobre nuestras cabezas"
+   ],
+   "texto": "¿UN MILLÓN SOBRE NUESTRAS CABEZAS?",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Primera fecha: noviembre de dos mil treinta y tres. Para entonces, SpaceX debe tener al menos una de esas estaciones funcionando. Solo una.",
+   "clips": [
+    "buscar:single satellite deploying space",
+    "buscar:calendar year page tear close up @noviembre de dos mil treinta y tres"
+   ],
+   "texto": "AL MENOS UNA",
+   "resalta": "UNA",
+   "fuente": "FCC"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Segunda fecha: noviembre de dos mil treinta y cinco. Aquí ya tendrían que ser cien mil satélites, el diez por ciento del total.",
+   "clips": [
+    "buscar:rocket launch smoke closeup",
+    "buscar:swarm satellites orbit earth @cien mil satélites"
+   ],
+   "texto": "CIEN MIL SATÉLITES",
+   "numero": "100000",
+   "arriba": "LA META DE 2035"
+  },
+  {
+   "tipo": "grafico",
+   "voz": "Tercera: dos mil treinta y ocho, la mitad. Y la meta final, todos en su órbita, el veinticinco de noviembre de dos mil cuarenta.",
+   "clips": [
+    "buscar:earth orbit constellation lines animation",
+    "buscar:planet earth rotating space @la meta final"
+   ],
+   "titulo": "SATÉLITES EXIGIDOS POR LA FCC",
+   "valor": "1.000.000",
+   "unidad": "EN 2040",
+   "barras": [
+    {
+     "l": "2033",
+     "v": 1
+    },
+    {
+     "l": "2035",
+     "v": 100000
+    },
+    {
+     "l": "2038",
+     "v": 500000
+    },
+    {
+     "l": "2040",
+     "v": 1000000
+    }
+   ],
+   "fuente": "FCC"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Quince años de plazo. Por eso mucha gente se pregunta si esto es un plan real o una apuesta gigante para quedarse con el cielo.",
+   "clips": [
+    "buscar:chess game pieces dark close up",
+    "buscar:night sky milky way timelapse @quedarse con el cielo"
+   ],
+   "texto": "UN PLAN REAL O UNA APUESTA",
+   "resalta": "APUESTA"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Y aquí la historia da un giro. Porque no todo el mundo aplaudió. Amazon y la empresa Viasat pidieron que se rechazara el plan.",
+   "clips": [
+    "buscar:warehouse boxes delivery trucks",
+    "buscar:protest paper stack documents desk @pidieron que se rechazara"
+   ],
+   "texto": "PIDIERON QUE SE RECHAZARA",
+   "etiqueta": "OPOSICIÓN",
+   "efecto": "temblor",
+   "musica": "tension",
+   "fuente": "CNBC"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Amazon, que también construye su propia red de satélites, llamó a Starmind una gran ambición, más que un plan real.",
+   "clips": [
+    "buscar:businessman skeptical looking at tablet",
+    "buscar:rival companies handshake tense @su propia red de satélites"
+   ],
+   "texto": "MÁS QUE UN PLAN REAL",
+   "resalta": "REAL",
+   "fuente": "Amazon · CNBC"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Pero la crítica más dura vino de los científicos. Hubo palabras como fantasía, desaliento y consternación. Y no lo decían por quedar bien.",
+   "clips": [
+    "buscar:scientist telescope observatory night",
+    "buscar:astronomer looking at screen stars @los científicos",
+    "buscar:concerned face close up dark @consternación"
+   ],
+   "titulo": "LAS PALABRAS DE LOS CIENTÍFICOS",
+   "items": [
+    "FANTASÍA",
+    "DESALIENTO",
+    "CONSTERNACIÓN"
+   ],
+   "efecto": "suave"
+  },
+  {
+   "tipo": "frase",
+   "voz": "El astrofísico Adam Becker dijo que la idea es, textualmente, una fantasía. Y recuerda que el cielo nocturno de todos podría salir perdiendo.",
+   "clips": [
+    "buscar:telescope dome stars timelapse",
+    "buscar:night sky stars lights fading @el cielo nocturno"
+   ],
+   "texto": "UNA FANTASÍA",
+   "resalta": "FANTASÍA",
+   "fuente": "NPR"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Qué le preocupa tanto a la Sociedad Astronómica Americana? Dijo estar desalentada y consternada con la decisión de la FCC.",
+   "clips": [
+    "buscar:astronomy conference scientists room",
+    "buscar:observatory telescope night sky @la Sociedad Astronómica"
+   ],
+   "texto": "¿QUÉ LE PREOCUPA TANTO?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Su miedo tiene nombre: la basura espacial. Si dos satélites chocan, los restos pueden golpear a otros y provocar una reacción en cadena.",
+   "clips": [
+    "buscar:space debris earth orbit animation",
+    "buscar:car collision slow motion dark @chocan",
+    "buscar:domino chain reaction falling @una reacción en cadena"
+   ],
+   "texto": "UNA REACCIÓN EN CADENA",
+   "resalta": "CADENA",
+   "efecto": "temblor",
+   "musica": "epica"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Sobre eso, la FCC dijo que el plan de desechos cumple sus reglas para satélites por debajo de seiscientos kilómetros. Pero con una excepción importante.",
+   "clips": [
+    "buscar:earth atmosphere layer orbit altitude",
+    "buscar:regulator stamping approval close up @sus reglas"
+   ],
+   "titulo": "LA BASURA ESPACIAL",
+   "items": [
+    "POR DEBAJO DE 600 KM",
+    "CUMPLE SUS REGLAS",
+    "PERO CON UNA EXCEPCIÓN"
+   ],
+   "fuente": "FCC"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Por encima de seiscientos kilómetros, no. La FCC rechazó eximir a SpaceX de las normas para bajar los satélites al acabar su vida útil.",
+   "clips": [
+    "buscar:satellite burning atmosphere reentry",
+    "buscar:red denied stamp paper close up @rechazó"
+   ],
+   "texto": "POR ENCIMA, NO",
+   "resalta": "NO"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Y SpaceX tendrá que presentar un nuevo plan de desechos antes de poner satélites a esa altura. Así que el permiso llega con letra pequeña.",
+   "clips": [
+    "buscar:fine print contract magnifying glass",
+    "buscar:rocket engine ignition close up @un nuevo plan"
+   ],
+   "texto": "EL PERMISO TIENE LETRA PEQUEÑA",
+   "etiqueta": "LETRA PEQUEÑA",
+   "efecto": "suave",
+   "fuente": "CNBC"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Y el medio ambiente? Los abogados de Earthjustice se quejaron de que se aprobó sin revisión ambiental y en plena semana festiva.",
+   "clips": [
+    "buscar:thanksgiving week empty office",
+    "buscar:environment forest earth from above @el medio ambiente"
+   ],
+   "texto": "¿Y EL MEDIO AMBIENTE?",
+   "fuente": "Earthjustice · CNBC",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Guarda este dato, porque cambia la lectura: según Al Jazeera, a veces las empresas piden permiso para muchos más satélites de los que piensan lanzar.",
+   "clips": [
+    "buscar:businessman bargaining table papers",
+    "buscar:stack of documents permit close up @piden permiso"
+   ],
+   "texto": "MUCHOS MÁS DE LOS QUE PIENSAN LANZAR",
+   "resalta": "MÁS",
+   "fuente": "Al Jazeera"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Es decir, piden de más para tener margen de diseño. Un millón podría ser el techo máximo, no la cantidad que de verdad veremos.",
+   "clips": [
+    "buscar:blueprint engineer drawing close up",
+    "buscar:ceiling sky clouds looking up @el techo máximo"
+   ],
+   "titulo": "DOS LECTURAS POSIBLES",
+   "items": [
+    "EL TECHO MÁXIMO",
+    "PEDIR DE MÁS",
+    "MARGEN DE DISEÑO"
+   ],
+   "musica": "reflexion"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Y todavía hay un problema técnico. Los procesadores tienen que soportar los altos niveles de radiación del espacio, sin fallar durante años.",
+   "clips": [
+    "buscar:computer chip close up circuit",
+    "buscar:solar flare sun radiation space @radiación del espacio"
+   ],
+   "texto": "LA RADIACIÓN DEL ESPACIO",
+   "resalta": "RADIACIÓN"
+  },
+  {
+   "tipo": "numero",
+   "voz": "¿Cuándo empezaría todo? En su salida a bolsa, SpaceX dijo que espera empezar a desplegar sus satélites de cómputo ya en dos mil veintiocho, según CBS.",
+   "clips": [
+    "buscar:stock exchange trading floor closeup",
+    "buscar:rocket on launch pad dawn @desplegar sus satélites"
+   ],
+   "texto": "YA EN DOS MIL VEINTIOCHO",
+   "numero": "2028",
+   "arriba": "INICIO DEL DESPLIEGUE, SEGÚN SPACEX",
+   "fuente": "CBS News"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Reuters, citado por Xataka, habla de primeras pruebas de computación orbital a finales de dos mil veintisiete. Las fechas no coinciden del todo entre fuentes.",
+   "clips": [
+    "buscar:space laboratory prototype testing",
+    "buscar:calendar pages flipping fast @a finales de dos mil veintisiete"
+   ],
+   "texto": "LAS FECHAS NO COINCIDEN",
+   "resalta": "NO",
+   "fuente": "Reuters · Xataka"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Y la autorización no demuestra algo clave: que sean viables, técnica o económicamente. Nadie sabe si saldrán rentables, ni si llegarán a lanzarse.",
+   "clips": [
+    "buscar:question mark neon dark",
+    "buscar:engineer calculator budget close up @económicamente"
+   ],
+   "titulo": "LO QUE NO SE SABE",
+   "items": [
+    "QUE SEAN VIABLES",
+    "SI SALDRÁN RENTABLES",
+    "SI LLEGARÁN A LANZARSE"
+   ],
+   "fuente": "NPR",
+   "musica": "misterio"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Entonces, ¿quién tiene razón? ¿Los que ven el futuro de la inteligencia artificial, o los que ven una fantasía en el cielo?",
+   "clips": [
+    "buscar:futuristic city skyline night",
+    "buscar:person thinking silhouette window @quién tiene razón"
+   ],
+   "texto": "¿QUIÉN TIENE RAZÓN?",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Los defensores dicen que sacar los centros de datos de la Tierra aliviaría la presión sobre la red eléctrica. Y eso, con la inteligencia artificial, importa muchísimo.",
+   "clips": [
+    "buscar:wind turbines power grid sunset",
+    "buscar:solar farm aerial @la red eléctrica"
+   ],
+   "texto": "ALIVIAR LA RED ELÉCTRICA",
+   "resalta": "RED",
+   "musica": "reflexion"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Lo que sí sabemos con seguridad: el permiso existe, el plan tiene plazos y las críticas son reales. Todo lo demás todavía está por demostrar.",
+   "clips": [
+    "buscar:detective board red strings close up",
+    "buscar:sunrise over earth from orbit @el permiso existe"
+   ],
+   "titulo": "LO QUE SÍ SABEMOS",
+   "items": [
+    "EL PERMISO EXISTE",
+    "EL PLAN TIENE PLAZOS",
+    "LAS CRÍTICAS SON REALES"
+   ],
+   "efecto": "suave"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Piénsalo: puede que dentro de unos años mires al cielo de noche y haya un millón de ordenadores sobrevolando tu casa. O puede que nunca pase.",
+   "clips": [
+    "buscar:person looking up night sky lonely",
+    "buscar:city skyline stars night @tu casa"
+   ],
+   "texto": "UN MILLÓN DE ORDENADORES",
+   "resalta": "MILLÓN",
+   "efecto": "flash"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Estaríamos ante el inicio de una nueva era, o ante el mayor castillo en el aire de la historia? Dímelo en los comentarios.",
+   "clips": [
+    "buscar:castle clouds sky dramatic",
+    "buscar:comments typing keyboard close up @en los comentarios"
+   ],
+   "texto": "¿UNA NUEVA ERA?",
+   "musica": "reflexion"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Si te ha enganchado, suscríbete para enterarte antes que nadie. Porque esta historia, de momento, solo acaba de empezar.",
+   "clips": [
+    "buscar:earth rotating space dark slow",
+    "buscar:subscribe button click screen @suscríbete"
+   ],
+   "texto": "SUSCRÍBETE",
+   "resalta": "SUSCRÍBETE",
+   "chapa": "ENTÉRATE ANTES QUE NADIE",
+   "efecto": "suave"
+  }
+ ]
+}
