@@ -1,0 +1,81 @@
+{
+ "id": "2026-11-27-chapo-isidro-captura",
+ "formato": "short",
+ "cinta": "The Sentinel Global · Última hora · Chapo Isidro",
+ "titulo": "Cayó el Chapo Isidro… y esta no era su primera captura 🚨",
+ "descripcion": "Detenido en Guasave el 20 de noviembre de 2026. México dice que lo juzgará primero; EE. UU. pide extradición. Historia completa en el vídeo largo del canal.\n\n#ChapoIsidro #Sinaloa #noticias #shorts",
+ "etiquetas": [
+  "Chapo Isidro",
+  "Sinaloa",
+  "FBI",
+  "noticias",
+  "shorts"
+ ],
+ "musica": "tension",
+ "tono": "sobrio",
+ "escenas": [
+  {
+   "tipo": "frase",
+   "voz": "Cayó uno de los diez más buscados por el FBI. Y esta no era su primera detención.",
+   "clips": [
+    "buscar:police lights night street slow motion",
+    "buscar:handcuffs close up @primera detención"
+   ],
+   "texto": "CAYÓ UNO DE LOS DIEZ MÁS BUSCADOS",
+   "resalta": "DIEZ",
+   "efecto": "flash"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Cinco millones de dólares ofrecía Estados Unidos por información sobre él.",
+   "clips": [
+    "buscar:stack of dollar bills close up",
+    "buscar:wanted poster wall @Estados Unidos"
+   ],
+   "texto": "CINCO MILLONES",
+   "numero": "5",
+   "arriba": "MILLONES DE DÓLARES DE RECOMPENSA",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Lo detuvieron una noche en Guasave, Sinaloa. Y la ciudad se paralizó.",
+   "clips": [
+    "buscar:military trucks night road",
+    "buscar:burning car street night @la ciudad se paralizó"
+   ],
+   "texto": "LA CIUDAD SE PARALIZÓ",
+   "resalta": "PARALIZÓ"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Antes lo habían atrapado cuatro veces. ¿Por qué salió libre en todas?",
+   "clips": [
+    "buscar:empty prison corridor",
+    "buscar:open prison door slow @salió libre"
+   ],
+   "texto": "¿POR QUÉ SALIÓ LIBRE?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Ahora, México dice que lo juzgará primero. Pero Estados Unidos pide su extradición.",
+   "clips": [
+    "buscar:court gavel close up",
+    "buscar:us mexico border fence @Estados Unidos"
+   ],
+   "texto": "¿AQUÍ O ALLÁ?",
+   "resalta": "AQUÍ"
+  },
+  {
+   "tipo": "frase",
+   "voz": "¿Cómo cayó y qué viene ahora? Mira el vídeo completo en el canal.",
+   "clips": [
+    "buscar:man looking window night",
+    "buscar:subscribe button click @en el canal"
+   ],
+   "texto": "MIRA EL VÍDEO COMPLETO",
+   "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL",
+   "resalta": "COMPLETO"
+  }
+ ]
+}

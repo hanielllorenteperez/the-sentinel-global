@@ -1,0 +1,484 @@
+{
+ "id": "2026-11-27-chapo-isidro-captura",
+ "cinta": "The Sentinel Global · Última hora · Chapo Isidro · Sinaloa",
+ "titulo": "Cayó el Chapo Isidro: ¿lo juzgarán aquí o lo entregan a EE. UU.? 🚨",
+ "descripcion": "El 20 de noviembre de 2026 fue detenido en Guasave, Sinaloa, Fausto Isidro Meza Flores, alias «Chapo Isidro», uno de los diez fugitivos más buscados por el FBI. Te contamos cómo cayó, qué pasó en las calles esa noche, por qué México dice que lo juzgará primero y qué sigue sin aclararse. Cifras de muertos y detenidos varían según el medio; aquí solo usamos lo contrastado y lo atribuido.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#ChapoIsidro #Sinaloa #noticias #ultimahora #narcotrafico",
+ "etiquetas": [
+  "Chapo Isidro",
+  "Fausto Isidro Meza Flores",
+  "Guasave",
+  "Sinaloa",
+  "FBI",
+  "extradición",
+  "Altiplano",
+  "FGR",
+  "Ernestina Godoy",
+  "noticias de hoy",
+  "última hora"
+ ],
+ "fuentes": [
+  "https://www.infobae.com/mexico/2026/11/21/reportan-la-detencion-de-el-chapo-isidro-tras-operativo-armado-en-guasave-sinaloa/",
+  "https://www.elfinanciero.com.mx/estados/2026/11/21/detienen-al-fausto-isidro-meza-el-chapo-isidro-en-guasave-sinaloa-eu-ayudo-con-inteligencia/",
+  "https://www.dallasnews.com/espanol/al-dia/mexico/article/chapo-isidro-biografia-narco-captura-guasave-22545641.php",
+  "https://www.excelsior.com.mx/nacional/cronologia-chapo-isidro-2026-excelsior",
+  "https://jornada.com.mx/noticia/2026/11/25/opinion/la-quinta-captura-de-el-chapo-isidro",
+  "https://lasillarota.com/estados/2026/11/26/tras-captura-de-chapo-isidro-asignan-escoltas-a-alcaldesa-539080.html",
+  "https://www.swissinfo.ch/spa/m%C3%A9xico-juzgar%C3%A1-al-narco-%22chapo-isidro%22-antes-de-tratar-un-pedido-de-extradici%C3%B3n-a-eeuu/92437549",
+  "https://www.milenio.com/policia/el-chapo-isidro-enfrentara-justicia-mexico-ernestina-godoy",
+  "https://cnnespanol.cnn.com/2026/11/23/mexico/como-fue-operativo-antes-y-despues-detencion-chapo-isidro-orix"
+ ],
+ "musica": "tension",
+ "tono": "sobrio",
+ "rotulos": [
+  "EN DIRECTO",
+  "CAYÓ EL CHAPO ISIDRO",
+  "NOTICIA EN DESARROLLO",
+  "LO QUE NO TE CUENTAN",
+  "INVESTIGACIÓN"
+ ],
+ "miniatura": {
+  "texto": "CAYÓ EL CHAPO ISIDRO",
+  "rojo": "5 VECES",
+  "escena": 12
+ },
+ "escenas": [
+  {
+   "tipo": "titular",
+   "voz": "Última hora. Uno de los diez fugitivos más buscados por el FBI cayó en su propio pueblo. Y lo que pasó después paralizó una ciudad entera. Estás viendo la historia completa, con lo que se sabe y lo que no.",
+   "clips": [
+    "buscar:police lights night street slow motion",
+    "buscar:military trucks night road @una ciudad entera"
+   ],
+   "texto": "UNO DE LOS DIEZ MÁS BUSCADOS",
+   "etiqueta": "ÚLTIMA HORA",
+   "efecto": "flash",
+   "musica": "tension",
+   "fuente": "Infobae"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Quédate hasta el final. Porque este hombre ya había sido detenido antes. Cuatro veces. Y las cuatro veces salió libre. Te cuento qué cambió esta vez.",
+   "clips": [
+    "buscar:prison cell bars close up",
+    "buscar:handcuffs close up @detenido"
+   ],
+   "texto": "CUATRO VECES. LIBRE.",
+   "resalta": "CUATRO",
+   "lugar": "GUASAVE, SINALOA · 20 NOV 2026"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Cinco millones de dólares. Eso ofrecía Estados Unidos por información que llevara hasta él. Una cifra que muestra lo importante que era para sus autoridades.",
+   "clips": [
+    "buscar:stack of dollar bills close up",
+    "buscar:wanted poster wall @Estados Unidos"
+   ],
+   "texto": "CINCO MILLONES DE DÓLARES",
+   "numero": "5",
+   "arriba": "MILLONES DE DÓLARES DE RECOMPENSA",
+   "fuente": "El Financiero"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Se llama Fausto Isidro Meza Flores. Pero en el mundo del narco lo conocen como el Chapo Isidro.",
+   "clips": [
+    "buscar:man silhouette dark portrait",
+    "buscar:map of mexico sinaloa @Chapo Isidro"
+   ],
+   "texto": "EL CHAPO ISIDRO",
+   "resalta": "ISIDRO"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Cómo escapa tantas veces un hombre al que busca medio mundo? Guarda esa pregunta, porque la respuesta es incómoda.",
+   "clips": [
+    "buscar:question mark neon dark",
+    "buscar:detective board photos strings @medio mundo"
+   ],
+   "texto": "¿CÓMO ESCAPA TANTAS VECES?",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Nació en 1982 en Guasave, Sinaloa. Según la prensa mexicana, lidera el Cártel de Guasave. Y desde febrero de 2025 figuraba entre los diez fugitivos más buscados del FBI.",
+   "clips": [
+    "buscar:small town mexico street aerial",
+    "buscar:fbi badge close up @del FBI"
+   ],
+   "lista": [
+    "NACIÓ EN 1982 EN GUASAVE",
+    "LÍDER DEL CÁRTEL DE GUASAVE",
+    "DIEZ MÁS BUSCADOS DEL FBI"
+   ],
+   "musica": "misterio",
+   "fuente": "Dallas Morning News"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Estados Unidos lo acusa de traficar fentanilo, metanfetamina, cocaína, heroína y marihuana.",
+   "clips": [
+    "buscar:white powder pills close up",
+    "buscar:cargo containers port aerial @marihuana"
+   ],
+   "texto": "FENTANILO, METANFETAMINA, COCAÍNA",
+   "resalta": "FENTANILO"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Según medios mexicanos, el Ejército llevaba años siguiéndole la pista, desde 2022, con apoyo de inteligencia estadounidense.",
+   "clips": [
+    "buscar:soldiers walking field dawn",
+    "buscar:drone flying over fields @inteligencia estadounidense"
+   ],
+   "texto": "DESDE 2022 LE SEGUÍAN",
+   "resalta": "2022",
+   "efecto": "suave",
+   "fuente": "El Financiero"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Entonces, si lo vigilaban desde 2022, ¿por qué hizo falta tanto tiempo?",
+   "clips": [
+    "buscar:calendar pages flipping close up",
+    "buscar:clock ticking close up @tanto tiempo"
+   ],
+   "texto": "¿POR QUÉ TANTO TIEMPO?"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Viernes 20 de noviembre. De noche. Fuerzas especiales del Ejército y la Guardia Nacional llegan a Guasave.",
+   "clips": [
+    "buscar:night street armored vehicle lights",
+    "buscar:soldiers tactical gear night @fuerzas especiales"
+   ],
+   "texto": "OPERATIVO NOCTURNO EN GUASAVE",
+   "etiqueta": "20 DE NOVIEMBRE",
+   "efecto": "flash",
+   "musica": "tension",
+   "lugar": "GUASAVE, SINALOA · 20 NOV 2026",
+   "fuente": "Infobae"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Según la Secretaría de la Defensa, lo detienen junto a otros integrantes de su grupo, entre ellos un presunto operador financiero.",
+   "clips": [
+    "buscar:soldiers arresting suspect night",
+    "buscar:person with documents money counting @operador financiero"
+   ],
+   "texto": "JUNTO A SU GRUPO",
+   "resalta": "GRUPO"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Cuatro detenciones anteriores. En 2011, 2014 y 2015 lo habían atrapado. Y en todas salió libre.",
+   "clips": [
+    "buscar:empty prison corridor",
+    "buscar:open prison door slow @salió libre"
+   ],
+   "texto": "SALIÓ LIBRE",
+   "numero": "4",
+   "arriba": "DETENCIONES ANTERIORES",
+   "efecto": "temblor",
+   "fuente": "La Jornada"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Por eso un columnista de La Jornada tituló esta captura como la quinta. La quinta vez que lo atrapan.",
+   "clips": [
+    "buscar:newspaper headlines close up",
+    "buscar:number five on wall @la quinta"
+   ],
+   "texto": "LA QUINTA CAPTURA",
+   "resalta": "QUINTA"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Pero lo que pasó en las calles de Guasave esa misma noche, ¿fue una reacción o un mensaje?",
+   "clips": [
+    "buscar:burning car street night",
+    "buscar:smoke city skyline night @en las calles"
+   ],
+   "texto": "¿REACCIÓN O MENSAJE?",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Hubo tiroteos, vehículos incendiados, gasolineras en llamas y bloqueos en varios municipios de Sinaloa. Todo en las horas siguientes a la detención.",
+   "clips": [
+    "buscar:burning vehicle road night",
+    "buscar:road blockade trucks @bloqueos",
+    "buscar:gas station fire night @gasolineras en llamas"
+   ],
+   "texto": "BLOQUEOS Y FUEGO",
+   "resalta": "FUEGO",
+   "efecto": "temblor",
+   "musica": "drama"
+  },
+  {
+   "tipo": "lista",
+   "voz": "La vida se detuvo. Sin clases normales, comercios cerrados, calles vacías. El miedo se volvió rutina en cuestión de horas.",
+   "clips": [
+    "buscar:empty street town night",
+    "buscar:closed shop shutters @comercios cerrados"
+   ],
+   "lista": [
+    "CALLES VACÍAS",
+    "COMERCIOS CERRADOS",
+    "BLOQUEOS EN VARIOS MUNICIPIOS"
+   ],
+   "efecto": "suave"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Es importante decirlo con claridad: las cifras de muertos y detenidos varían de un medio a otro. Y todavía no hay un balance oficial único. Por eso aquí no vamos a inventar ninguno.",
+   "clips": [
+    "buscar:official press conference microphones",
+    "buscar:person reading report papers @balance oficial"
+   ],
+   "texto": "NO HAY BALANCE ÚNICO",
+   "resalta": "ÚNICO",
+   "efecto": "suave",
+   "fuente": "Varios medios"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Y qué tiene que ver todo esto con su captura? Para entenderlo, hay que mirar a quién enfrentaba.",
+   "clips": [
+    "buscar:chess pieces close up dark",
+    "buscar:two men facing silhouette @a quién enfrentaba"
+   ],
+   "texto": "¿A QUIÉN ENFRENTABA?",
+   "musica": "misterio"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Según El Financiero, mantenía una disputa con la facción de los hijos del Chapo Guzmán y tenía alianzas con otro grupo del Cártel de Sinaloa.",
+   "clips": [
+    "buscar:map mexico cartel territories",
+    "buscar:handshake dark @alianzas"
+   ],
+   "texto": "UNA GUERRA ENTRE FACCIONES",
+   "resalta": "GUERRA",
+   "fuente": "El Financiero"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Veinte de noviembre. Veintitrés de noviembre. Tres días. Eso tardó en llegar a la cárcel de máxima seguridad del Altiplano.",
+   "clips": [
+    "buscar:high security prison aerial",
+    "buscar:helicopter flying over prison @máxima seguridad"
+   ],
+   "texto": "TRES DÍAS",
+   "numero": "3",
+   "arriba": "DÍAS HASTA EL ALTIPLANO",
+   "efecto": "flash",
+   "fuente": "FGR"
+  },
+  {
+   "tipo": "frase",
+   "voz": "La Fiscalía General confirma que está recluido en el penal del Altiplano, en el Estado de México.",
+   "clips": [
+    "buscar:prison gate close up",
+    "buscar:watchtower fence barbed wire @el penal"
+   ],
+   "texto": "RECLUIDO EN EL ALTIPLANO",
+   "resalta": "ALTIPLANO",
+   "lugar": "ESTADO DE MÉXICO · 23 NOV 2026"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Aquí empieza la parte que casi nadie está contando. ¿Se lo llevarán a Estados Unidos?",
+   "clips": [
+    "buscar:airplane tarmac night",
+    "buscar:us mexico border fence @Estados Unidos"
+   ],
+   "texto": "¿LO ENVIARÁN A EE. UU.?",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Una corte federal de Washington pide su extradición. Estados Unidos mantiene la solicitud, y no la ha retirado. Eso complica el panorama.",
+   "clips": [
+    "buscar:us capitol building dusk",
+    "buscar:court gavel close up @su extradición"
+   ],
+   "texto": "PIDEN SU EXTRADICIÓN",
+   "resalta": "EXTRADICIÓN",
+   "fuente": "FGR",
+   "musica": "tension"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Pero la fiscal general de México, Ernestina Godoy, dijo: «Vamos a respetar el debido proceso y lo vamos a juzgar aquí en el país».",
+   "clips": [
+    "buscar:woman speaking podium press",
+    "buscar:scales of justice close up @debido proceso"
+   ],
+   "texto": "LO VAMOS A JUZGAR AQUÍ",
+   "etiqueta": "FISCAL GENERAL",
+   "resalta": "AQUÍ",
+   "fuente": "Milenio",
+   "efecto": "flash"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Será procesado por lavado de dinero y delincuencia organizada. Y solo después se tratará la petición de Estados Unidos. Las fuentes no dan plazos.",
+   "clips": [
+    "buscar:judge courtroom empty",
+    "buscar:money laundering cash bank @lavado de dinero"
+   ],
+   "texto": "PRIMERO, JUSTICIA MEXICANA",
+   "resalta": "PRIMERO"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Por qué importa tanto esa diferencia? Porque hay un antecedente que lo cambia todo.",
+   "clips": [
+    "buscar:fork in the road sign",
+    "buscar:documents stamp approved @esa diferencia"
+   ],
+   "texto": "¿POR QUÉ IMPORTA?",
+   "musica": "epica"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Noventa y dos. Según un medio, desde febrero de 2025 México ha entregado a Estados Unidos a noventa y dos criminales de alto perfil sin proceso de extradición.",
+   "clips": [
+    "buscar:airplane takeoff military",
+    "buscar:handcuffed man walking airport @alto perfil"
+   ],
+   "texto": "NOVENTA Y DOS ENTREGADOS",
+   "numero": "92",
+   "arriba": "ENTREGADOS SIN EXTRADICIÓN",
+   "efecto": "temblor",
+   "fuente": "Prensa mexicana"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Ese es el dato de un solo medio, y no hemos podido contrastarlo en más fuentes. Por eso lo ponemos como lo que es: un reporte.",
+   "clips": [
+    "buscar:magnifying glass document close up",
+    "buscar:person reading newspaper serious @un solo medio"
+   ],
+   "texto": "UN REPORTE, NO UN HECHO",
+   "resalta": "REPORTE",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Lo que sí está confirmado es la decisión oficial. En este caso, México quiere juzgarlo primero. Y un juicio por delincuencia organizada puede tardar años, como en otros casos similares.",
+   "clips": [
+    "buscar:calendar years pages",
+    "buscar:courtroom doors closing @puede tardar años"
+   ],
+   "texto": "PUEDE TARDAR AÑOS",
+   "resalta": "AÑOS"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Y mientras tanto, ¿qué pasa con el territorio que dejó vacío?",
+   "clips": [
+    "buscar:aerial farmland mexico",
+    "buscar:empty chair dark room @el territorio"
+   ],
+   "texto": "¿QUIÉN OCUPA SU LUGAR?",
+   "efecto": "temblor",
+   "musica": "misterio"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Las autoridades asignaron escoltas a la alcaldesa de Guasave, su bastión histórico. Eso dice mucho de cómo se vive la tensión ahí.",
+   "clips": [
+    "buscar:bodyguards walking street",
+    "buscar:city hall building mexico @la alcaldesa"
+   ],
+   "texto": "ESCOLTAS PARA LA ALCALDESA",
+   "resalta": "ESCOLTAS",
+   "lugar": "GUASAVE, SINALOA · 26 NOV 2026",
+   "fuente": "La Silla Rota"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Otros capos han caído antes. Y después de cada caída, el mapa criminal cambió. Rara vez para mejor, rara vez para peor de inmediato. Cambió.",
+   "clips": [
+    "buscar:chessboard pieces fall slow",
+    "buscar:storm clouds over city @cambió"
+   ],
+   "texto": "EL MAPA CAMBIA",
+   "etiqueta": "ANÁLISIS",
+   "resalta": "CAMBIA",
+   "efecto": "suave",
+   "musica": "reflexion"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Sinaloa ya conoce ese guion. Una captura, bloqueos, miedo y, después, una nueva lucha por el poder. Nadie puede asegurar si esta vez será distinto.",
+   "clips": [
+    "buscar:rain dark street lonely",
+    "buscar:old script paper typing @ese guion"
+   ],
+   "texto": "LA SECUENCIA",
+   "lista": [
+    "UNA CAPTURA",
+    "BLOQUEOS Y MIEDO",
+    "UNA NUEVA LUCHA POR EL PODER"
+   ]
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Entonces, ¿esta captura es el final de algo o apenas el comienzo?",
+   "clips": [
+    "buscar:door opening light fog",
+    "buscar:crossroads sunset road @el comienzo"
+   ],
+   "texto": "¿FINAL O COMIENZO?",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Hay cosas que ya sabemos. Fue detenido el viernes 20 de noviembre de 2026 en Guasave, y hoy está bajo custodia en el Altiplano.",
+   "clips": [
+    "buscar:calendar november date close up",
+    "buscar:prison cell door heavy @bajo custodia"
+   ],
+   "texto": "BAJO CUSTODIA",
+   "etiqueta": "LO CONFIRMADO",
+   "resalta": "CUSTODIA",
+   "musica": "drama"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Y hay cosas que no se saben todavía. Cuánto durará el proceso, si será entregado a Estados Unidos y qué pasará con su organización.",
+   "clips": [
+    "buscar:foggy empty road",
+    "buscar:question marks floating dark @qué pasará"
+   ],
+   "texto": "LO QUE NO SABEMOS",
+   "resalta": "NO",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Cuando una historia de este tamaño avanza, nadie sabe cómo termina. Y por eso sigue importando. Seguiremos contándolo cuando haya datos nuevos.",
+   "clips": [
+    "buscar:city night timelapse lights",
+    "buscar:man looking window night @nadie sabe"
+   ],
+   "texto": "¿CÓMO TERMINA?",
+   "efecto": "suave",
+   "musica": "reflexion"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Si te sirvió esta historia, suscríbete para enterarte antes que nadie. Y cuéntame en los comentarios: ¿crees que lo juzgarán aquí o allá?",
+   "clips": [
+    "buscar:subscribe button click",
+    "buscar:person typing comment phone @en los comentarios"
+   ],
+   "texto": "SUSCRÍBETE",
+   "chapa": "SUSCRÍBETE 🔔",
+   "resalta": "SUSCRÍBETE",
+   "musica": "reflexion"
+  }
+ ]
+}
