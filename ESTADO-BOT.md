@@ -76,3 +76,4 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-27 00:39 UTC · 2026-11-27-chapo-isidro-captura · ✅ subido a YouTube · run 45914568116
 - 2026-11-27 08:53 UTC · 2026-11-27-jensen-huang-nvidia-vuelve · ✅ subido a YouTube · run 45963045913
 - 2026-11-27 16:43 UTC · 2026-11-27-spacex-millon-satelites-fcc · ✅ subido a YouTube · run 46030507313
+- 2026-11-28 00:44 UTC · 2026-11-28-black-friday-tiendas-falsas · ✅ subido a YouTube · run 46086036753
