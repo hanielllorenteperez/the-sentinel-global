@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-28-black-friday-tiendas-falsas",
+  "formato": "short",
+  "cinta": "The Sentinel Global · Última hora · Black Friday",
+  "titulo": "Hoy miles de tiendas FALSAS te esperan… 🛒",
+  "descripcion": "Es Black Friday 2026 y las tiendas online falsas se multiplican: Gen (Norton) bloqueó 526.000 dominios en el último trimestre de 2025. La señal que casi nadie mira, en el vídeo completo del canal.\n\n#BlackFriday #estafas #ciberseguridad #noticias #shorts",
+  "etiquetas": [
+    "Black Friday",
+    "tiendas falsas",
+    "estafas",
+    "ciberseguridad",
+    "noticias",
+    "shorts"
+  ],
+  "musica": "tension",
+  "escenas": [
+    {
+      "tipo": "frase",
+      "voz": "Hoy es Black Friday y miles de tiendas falsas te están esperando.",
+      "clips": [
+        "buscar:woman shopping online laptop night",
+        "buscar:credit card close up hands typing @te están esperando"
+      ],
+      "texto": "TIENDAS FALSAS",
+      "resalta": "FALSAS",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "numero",
+      "voz": "En un año se pasó de doscientas sesenta mil a quinientas veintiséis mil tiendas falsas bloqueadas, según la empresa de Norton.",
+      "clips": [
+        "buscar:cybersecurity code screen green",
+        "buscar:shield lock digital blue @bloqueadas"
+      ],
+      "texto": "QUINIENTAS VEINTISÉIS MIL",
+      "numero": "526000",
+      "arriba": "DOMINIOS FALSOS BLOQUEADOS",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Copian una marca, cambian una letra de la dirección, y te llega un anuncio. Un clic, y ya estás dentro.",
+      "clips": [
+        "buscar:keyboard close up typing letters @cambian una letra",
+        "buscar:finger tapping smartphone screen close up @un clic"
+      ],
+      "texto": "CAMBIAN UNA LETRA",
+      "resalta": "LETRA"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Y cuál es la señal que casi nadie mira antes de pagar?",
+      "clips": [
+        "buscar:question mark neon dark",
+        "buscar:hourglass sand falling close up @antes de pagar"
+      ],
+      "texto": "LA SEÑAL QUE CASI NADIE MIRA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Te lo cuento entero en el vídeo completo, en el canal. Y recuerda: hoy, miles de tiendas falsas te esperan.",
+      "clips": [
+        "buscar:detective magnifying glass close up",
+        "buscar:subscribe button click screen @en el canal"
+      ],
+      "texto": "EL VÍDEO COMPLETO",
+      "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL",
+      "resalta": "COMPLETO"
+    }
+  ]
+}

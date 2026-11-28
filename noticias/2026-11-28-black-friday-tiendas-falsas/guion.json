@@ -1,0 +1,493 @@
+{
+  "id": "2026-11-28-black-friday-tiendas-falsas",
+  "cinta": "The Sentinel Global · Última hora · Black Friday · Estafas",
+  "titulo": "Black Friday: miles de tiendas FALSAS te esperan… y la señal que nadie mira 🛒",
+  "descripcion": "Hoy es Black Friday 2026 y las tiendas online falsas crecen: Gen (Norton) bloqueó 526.000 dominios en el último trimestre de 2025, Check Point contó más de 4.000 dominios nuevos de compras en pocas semanas, e INCIBE colaboró en el cierre de 4.600 dominios fraudulentos. Te contamos cómo copian las marcas, dónde te encuentran, qué cifras son sólidas y cuáles no, y la señal que casi nadie mira antes de pagar. Las cifras vienen de empresas de seguridad y organismos distintos: no se pueden sumar y cuentan registros, no víctimas.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#BlackFriday #estafas #ciberseguridad #tiendasfalsas #noticias #ultimahora",
+  "etiquetas": [
+    "Black Friday",
+    "tiendas falsas",
+    "estafas online",
+    "ciberseguridad",
+    "INCIBE",
+    "Norton",
+    "Check Point",
+    "phishing",
+    "SMS falsos",
+    "compras seguras",
+    "noticias de hoy",
+    "última hora"
+  ],
+  "fuentes": [
+    "https://www.que.es/2026/11/27/tiendas-online-falsas-black-friday/",
+    "https://androidayuda.com/noticias/general/incibe-colabora-en-el-cierre-de-4-600-dominios-fraudulentos-y-alerta-de-estafas-por-el-black-friday/",
+    "https://www.techradar.com/pro/security/scammers-are-already-setting-up-black-friday-scam-sites-heres-what-to-look-out-for",
+    "https://blog.checkpoint.com/research/the-black-friday-cyber-crime-economy-surge-in-fraudulent-domains-and-ecommerce-scams/",
+    "https://www.itsitio.com/mx/?p=197745",
+    "https://www.oficinadanet.com.br/noticias/74050-brasileiros-vitimas-golpes-compras-online-norton",
+    "https://elcomercio.pe/tecnologia/ciberseguridad/las-tiendas-falsas-en-black-friday-ponen-en-jaque-las-ventas-por-internet-y-la-reputacion-de-las-marcas-inteligencia-artificial-fraude-estafa-noticia/",
+    "https://www.xatakamovil.com/movil-y-sociedad/estos-consejos-guardia-civil-que-sigo-para-no-caer-estafa-black-friday",
+    "https://www.interior.gob.es/opencms/es/detalle/articulo/La-Policia-Nacional-bloquea-paginas-web-que-clonaban-los-portales-de-marcas-de-ropa-de-reconocido-prestigio/",
+    "https://www.redeszone.net/noticias/seguridad/estafas-black-friday-2026-protegerse/"
+  ],
+  "musica": "tension",
+  "rotulos": [
+    "EN DIRECTO",
+    "BLACK FRIDAY",
+    "NOTICIA EN DESARROLLO",
+    "LO QUE NO TE CUENTAN",
+    "ALERTA ESTAFAS"
+  ],
+  "miniatura": {
+    "texto": "TIENDAS FALSAS",
+    "rojo": "526.000",
+    "escena": 1
+  },
+  "escenas": [
+    {
+      "tipo": "titular",
+      "voz": "Última hora. Hoy es Black Friday, y mientras tú buscas una oferta, miles de tiendas falsas ya te están esperando para vaciarte la tarjeta.",
+      "clips": [
+        "buscar:woman shopping online laptop night",
+        "buscar:credit card close up hands typing @la tarjeta"
+      ],
+      "texto": "TIENDAS FALSAS",
+      "etiqueta": "ÚLTIMA HORA",
+      "efecto": "flash",
+      "musica": "tension"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Quédate hasta el final, porque te voy a enseñar cómo funciona la trampa, cuántas hay, y la señal que casi nadie mira antes de pagar.",
+      "clips": [
+        "buscar:dark room computer screen glow",
+        "buscar:mouse trap close up @la trampa"
+      ],
+      "texto": "LA TRAMPA",
+      "resalta": "TRAMPA",
+      "lugar": "ESPAÑA Y LATINOAMÉRICA · 27 NOV 2026"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Empecemos por una cifra. Según Gen, la empresa matriz de Norton, en el último trimestre de 2025 se bloquearon quinientos veintiséis mil dominios de tiendas falsas.",
+      "clips": [
+        "buscar:cybersecurity code screen green",
+        "buscar:shield lock digital blue @se bloquearon"
+      ],
+      "texto": "QUINIENTOS VEINTISÉIS MIL",
+      "numero": "526000",
+      "arriba": "DOMINIOS FALSOS BLOQUEADOS",
+      "fuente": "Gen Digital (Norton)"
+    },
+    {
+      "tipo": "grafico",
+      "voz": "Un año antes, en el mismo periodo, eran doscientos sesenta mil. Casi el doble. Las tiendas falsas no crecen: se multiplican.",
+      "clips": [
+        "buscar:graph rising red arrow dark",
+        "buscar:crowd of people walking city @se multiplican"
+      ],
+      "titulo": "TIENDAS FALSAS BLOQUEADAS (MILES)",
+      "valor": "526",
+      "unidad": "MIL · ÚLTIMO TRIMESTRE 2025",
+      "barras": [
+        {
+          "l": "T4 2024",
+          "v": 260
+        },
+        {
+          "l": "T4 2025",
+          "v": 526
+        }
+      ]
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Cómo es posible que haya tantas? La respuesta tiene que ver con algo que lleva años de moda: la inteligencia artificial.",
+      "clips": [
+        "buscar:question mark neon dark",
+        "buscar:artificial intelligence robot hand @la inteligencia artificial"
+      ],
+      "texto": "¿CÓMO ES POSIBLE?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Antes, copiar una tienda entera exigía mucho trabajo. Hoy, según Europa Press, los algoritmos de inteligencia artificial les facilitan suplantar webs y marcas.",
+      "clips": [
+        "buscar:programmer typing code dark room",
+        "buscar:website design wireframe screen @suplantar webs",
+        "buscar:shop window mannequins night @marcas"
+      ],
+      "texto": "SUPLANTAR WEBS Y MARCAS",
+      "resalta": "SUPLANTAR",
+      "fuente": "Europa Press"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Y funciona así. Copian el diseño y el logotipo de una marca conocida. Después registran un dominio casi idéntico: cambian una letra o añaden un guion.",
+      "clips": [
+        "buscar:designer drawing layout tablet",
+        "buscar:keyboard close up typing letters @cambian una letra",
+        "buscar:hyphen dash typography close up @un guion"
+      ],
+      "titulo": "ASÍ FUNCIONA LA COPIA",
+      "items": [
+        "COPIAN EL DISEÑO",
+        "CAMBIAN UNA LETRA",
+        "AÑADEN UN GUION"
+      ],
+      "efecto": "suave"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Tú miras la dirección con prisa, ves el nombre de siempre, y no notas nada raro. Esa prisa es exactamente lo que buscan.",
+      "clips": [
+        "buscar:man looking at phone stressed hurry",
+        "buscar:clock ticking close up @con prisa",
+        "buscar:browser address bar typing @la dirección"
+      ],
+      "texto": "ESA PRISA",
+      "resalta": "PRISA"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Check Point Research contó más de cuatro mil dominios nuevos con temática de compras, registrados entre el uno de octubre y el ocho de noviembre de este año.",
+      "clips": [
+        "buscar:calendar pages flipping",
+        "buscar:server room blinking lights @dominios nuevos"
+      ],
+      "texto": "MÁS DE CUATRO MIL",
+      "numero": "4000",
+      "arriba": "DOMINIOS NUEVOS DE COMPRAS",
+      "fuente": "Check Point Research"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y casi uno de cada cinco ya estaba marcado como peligroso. Uno de cada cinco.",
+      "clips": [
+        "buscar:red warning sign flashing dark",
+        "buscar:five people crowd silhouette @uno de cada cinco"
+      ],
+      "texto": "UNO DE CADA CINCO",
+      "resalta": "CINCO",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Pero aquí la historia da un giro. ¿Dónde te encuentran estas tiendas? No hace falta que las busques: ellas te encuentran a ti.",
+      "clips": [
+        "buscar:person scrolling social media phone dark",
+        "buscar:magnifying glass search close up @que las busques"
+      ],
+      "texto": "¿DÓNDE TE ENCUENTRAN?",
+      "efecto": "temblor",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "frase",
+      "voz": "La Policía Nacional de España explicó en un caso anterior cómo funcionaba: páginas que clonaban marcas de ropa y se promocionaban con anuncios en Facebook e Instagram.",
+      "clips": [
+        "buscar:clothes rack boutique shop",
+        "buscar:phone social media feed scrolling advertising @anuncios en Facebook e Instagram"
+      ],
+      "texto": "ANUNCIOS EN FACEBOOK E INSTAGRAM",
+      "resalta": "ANUNCIOS",
+      "lugar": "ESPAÑA · POLICÍA NACIONAL",
+      "fuente": "Policía Nacional"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Un solo clic en el anuncio, y ya estás dentro de la web fraudulenta. Sin buscar nada. Sin tiempo para dudar.",
+      "clips": [
+        "buscar:finger tapping smartphone screen close up @un solo clic",
+        "buscar:hacker hood laptop dark @fraudulenta"
+      ],
+      "texto": "UN SOLO CLIC",
+      "etiqueta": "ALERTA"
+    },
+    {
+      "tipo": "numero",
+      "voz": "En España, el organismo de ciberseguridad INCIBE colaboró, según varios medios, en el cierre de cuatro mil seiscientos dominios fraudulentos, y avisa de alto riesgo.",
+      "clips": [
+        "buscar:madrid city skyline aerial",
+        "buscar:padlock digital security screen @ciberseguridad"
+      ],
+      "texto": "CUATRO MIL SEISCIENTOS",
+      "numero": "4600",
+      "arriba": "DOMINIOS FRAUDULENTOS CERRADOS",
+      "fuente": "INCIBE",
+      "lugar": "MADRID · ESPAÑA",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Que quede claro: son cifras de empresas de seguridad y de organismos públicos. Cada una mide algo distinto, así que no se pueden sumar.",
+      "clips": [
+        "buscar:calculator numbers desk close up",
+        "buscar:documents stack papers desk @cifras"
+      ],
+      "texto": "NO SE PUEDEN SUMAR",
+      "resalta": "SUMAR",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "numero",
+      "voz": "En Brasil, Norton contó más de cuarenta y cuatro mil dominios bloqueados en 2025, un noventa y seis por ciento más que el año anterior.",
+      "clips": [
+        "buscar:rio de janeiro aerial city",
+        "buscar:digital map data points world @dominios bloqueados"
+      ],
+      "texto": "CUARENTA Y CUATRO MIL",
+      "numero": "44000",
+      "arriba": "DOMINIOS BLOQUEADOS EN BRASIL · 2025",
+      "fuente": "Norton",
+      "lugar": "BRASIL · 2025"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y ojo: no todo son tiendas. También llegan mensajes de paquetería falsos. Un SMS que dice que tu paquete está retenido, con un enlace para pagar.",
+      "clips": [
+        "buscar:delivery boxes conveyor warehouse",
+        "buscar:text message notification phone close up @un SMS",
+        "buscar:cardboard package doorstep @tu paquete"
+      ],
+      "texto": "TU PAQUETE ESTÁ RETENIDO",
+      "resalta": "RETENIDO"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Las marcas más imitadas son las de siempre: Amazon, AliExpress, Walmart, Temu, y empresas de mensajería como DHL o FedEx, según los informes revisados.",
+      "clips": [
+        "buscar:online shopping cart icon screen",
+        "buscar:shipping trucks highway @mensajería",
+        "buscar:shopping mall escalator @las marcas"
+      ],
+      "titulo": "LAS MÁS IMITADAS",
+      "items": [
+        "AMAZON",
+        "ALIEXPRESS",
+        "TEMU"
+      ],
+      "efecto": "suave"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Se puede detectar una tienda falsa? Sí. Y hay señales que se repiten una y otra vez.",
+      "clips": [
+        "buscar:detective magnifying glass close up",
+        "buscar:checklist pen tick @señales"
+      ],
+      "texto": "¿SE PUEDE DETECTAR?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Primera señal: el precio. La Guardia Civil lo resume así: desconfía de los chollos imposibles. Si parece demasiado bueno, probablemente lo sea.",
+      "clips": [
+        "buscar:price tag sale red close up",
+        "buscar:discount percent sign shop window @los chollos imposibles"
+      ],
+      "texto": "CHOLLOS IMPOSIBLES",
+      "resalta": "IMPOSIBLES",
+      "fuente": "Guardia Civil"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Segunda: revisa la dirección letra por letra. Tercera: busca opiniones fuera de la web. Y cuarta: mira cómo te piden pagar.",
+      "clips": [
+        "buscar:reading text magnifier close up",
+        "buscar:customer reviews stars phone @opiniones",
+        "buscar:paying card terminal shop @pagar"
+      ],
+      "titulo": "ANTES DE PAGAR",
+      "items": [
+        "REVISA LA DIRECCIÓN",
+        "OPINIONES FUERA DE LA WEB",
+        "CÓMO TE PIDEN PAGAR"
+      ]
+    },
+    {
+      "tipo": "titular",
+      "voz": "Y esta es la señal más clara. Si te piden pagar con transferencia o con tarjetas regalo, para. Una tienda legítima no te lo pide.",
+      "clips": [
+        "buscar:gift card close up hand",
+        "buscar:bank transfer laptop banking @transferencia"
+      ],
+      "texto": "TARJETAS REGALO",
+      "etiqueta": "CUIDADO",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Los expertos recomiendan pagar con tarjeta de crédito, que suele ofrecer más protección, y evitar las transferencias.",
+      "clips": [
+        "buscar:credit card payment contactless close up",
+        "buscar:calm person smiling phone @más protección"
+      ],
+      "texto": "PAGAR CON TARJETA",
+      "resalta": "TARJETA",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Algunos analistas advierten de que las tiendas falsas podrían aparecer también dentro de los asistentes de compra con inteligencia artificial. Es una advertencia, todavía no una cifra confirmada.",
+      "clips": [
+        "buscar:chatbot conversation screen",
+        "buscar:futuristic digital interface blue @asistentes de compra"
+      ],
+      "texto": "TODAVÍA NO UNA CIFRA CONFIRMADA",
+      "etiqueta": "ADVERTENCIA",
+      "musica": "tension"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Y aquí viene lo que casi nadie cuenta. Muchas de estas cifras vienen de empresas que venden seguridad. Eso no las hace falsas, pero cuentan registros, no víctimas.",
+      "clips": [
+        "buscar:businessman suit office window dark",
+        "buscar:data charts monitor numbers @cuentan registros"
+      ],
+      "texto": "REGISTROS, NO VÍCTIMAS",
+      "resalta": "VÍCTIMAS",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "numero",
+      "voz": "De los más de cuatro mil dominios de Check Point, su motor de inteligencia artificial clasificó como peligrosos unos ochocientos.",
+      "clips": [
+        "buscar:radar scanning screen green",
+        "buscar:warning triangle red screen @peligrosos"
+      ],
+      "texto": "UNOS OCHOCIENTOS",
+      "numero": "800",
+      "arriba": "DOMINIOS CLASIFICADOS COMO PELIGROSOS",
+      "fuente": "Check Point Research"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Y cuánta gente cae de verdad? No hay un dato fiable para todo el mundo. Pero en Brasil hay una pista.",
+      "clips": [
+        "buscar:crowd busy street people walking",
+        "buscar:phone scam alert hand @cae de verdad"
+      ],
+      "texto": "¿CUÁNTA GENTE CAE?"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Según Norton, el veinticuatro por ciento de los consumidores brasileños ya fue víctima de una estafa en compras online.",
+      "clips": [
+        "buscar:shopper phone street brazil",
+        "buscar:sad man phone looking @víctima"
+      ],
+      "texto": "EL VEINTICUATRO POR CIENTO",
+      "numero": "24",
+      "arriba": "CONSUMIDORES BRASILEÑOS ESTAFADOS (%)",
+      "fuente": "Norton",
+      "lugar": "BRASIL"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Cuando alguien cae, no pierde solo el dinero. Entrega su nombre, su dirección, su teléfono y los datos de tu tarjeta a desconocidos.",
+      "clips": [
+        "buscar:hacker typing dark screen code",
+        "buscar:id card personal data close up @su nombre",
+        "buscar:credit card numbers close up @los datos de tu tarjeta"
+      ],
+      "texto": "LOS DATOS DE TU TARJETA",
+      "resalta": "TARJETA",
+      "efecto": "suave",
+      "musica": "triste"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Si ya pagaste y sospechas, actúa rápido: llama a tu banco, bloquea la tarjeta, guarda capturas de la web y denuncia.",
+      "clips": [
+        "buscar:phone call bank customer service",
+        "buscar:screenshot phone screen close up @capturas de la web",
+        "buscar:police station sign night @denuncia"
+      ],
+      "titulo": "SI YA PAGASTE",
+      "items": [
+        "LLAMA A TU BANCO",
+        "BLOQUEA LA TARJETA",
+        "GUARDA CAPTURAS"
+      ],
+      "musica": "reflexion"
+    },
+    {
+      "tipo": "numero",
+      "voz": "En Estados Unidos, los expertos recomiendan reenviar los SMS falsos al siete siete dos seis y reportar el fraude a la FTC.",
+      "clips": [
+        "buscar:washington dc capitol aerial",
+        "buscar:smartphone forwarding message close up @reenviar los SMS"
+      ],
+      "texto": "SIETE SIETE DOS SEIS",
+      "numero": "7726",
+      "arriba": "REENVÍA LOS SMS FALSOS (EE. UU.)",
+      "lugar": "ESTADOS UNIDOS",
+      "fuente": "Informes de seguridad"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Las tiendas falsas también dañan a las marcas reales. Según El Comercio, ponen en jaque su reputación. ¿Quién responde cuando todo parece oficial?",
+      "clips": [
+        "buscar:store front closed night rain",
+        "buscar:question mark neon dark @quién responde"
+      ],
+      "texto": "¿QUIÉN RESPONDE?",
+      "efecto": "temblor",
+      "musica": "tension"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Hoy no hay una respuesta única. Organismos como INCIBE colaboran en cerrar dominios, pero los delincuentes pueden registrar otros nuevos.",
+      "clips": [
+        "buscar:chain link breaking close up",
+        "buscar:domain name website browser @otros nuevos"
+      ],
+      "texto": "REGISTRAR OTROS NUEVOS",
+      "resalta": "NUEVOS",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Te prometí la señal que casi nadie mira. Es esta: la señal eres tú. Si sientes prisa, cuenta atrás, o últimas unidades, para.",
+      "clips": [
+        "buscar:countdown timer red close up @cuenta atrás",
+        "buscar:person pausing hand stop gesture @para"
+      ],
+      "texto": "LA SEÑAL ERES TÚ",
+      "resalta": "TÚ",
+      "efecto": "flash",
+      "musica": "epica"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Cuánto vale un minuto? Según INCIBE, los delincuentes aprovechan la prisa por conseguir descuentos. Un minuto de pausa puede valer toda tu tarjeta.",
+      "clips": [
+        "buscar:hourglass sand falling close up",
+        "buscar:wallet money hand @tu tarjeta"
+      ],
+      "texto": "¿CUÁNTO VALE UN MINUTO?",
+      "fuente": "INCIBE"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Hoy es Black Friday. Las ofertas son reales, y las trampas también. La diferencia, muchas veces, es un minuto de calma.",
+      "clips": [
+        "buscar:sunset calm city walking",
+        "buscar:shopping bags street sale @las ofertas"
+      ],
+      "texto": "UN MINUTO DE CALMA",
+      "resalta": "CALMA",
+      "efecto": "suave",
+      "musica": "reflexion"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Compártelo con alguien que compre mucho por internet. Y suscríbete para enterarte antes que nadie.",
+      "clips": [
+        "buscar:friends looking at phone together",
+        "buscar:subscribe button click screen @suscríbete"
+      ],
+      "texto": "SUSCRÍBETE",
+      "etiqueta": "THE SENTINEL GLOBAL"
+    }
+  ]
+}
