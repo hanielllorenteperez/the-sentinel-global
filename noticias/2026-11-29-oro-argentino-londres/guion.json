@@ -1,0 +1,491 @@
+{
+  "id": "2026-11-29-oro-argentino-londres",
+  "cinta": "The Sentinel Global · Última hora · Argentina · El oro",
+  "titulo": "El ORO de Argentina cruzó el océano… y nadie encuentra los papeles 🥇",
+  "descripcion": "Una auditoría de la AGN confirmó esta semana que 1.000 barras de oro del Banco Central argentino están en Londres, a nombre del BIS, y señaló que faltan contratos y el seguro del traslado. El Banco Central defiende sus operaciones y habla de motivos políticos. Te contamos qué dice cada parte, qué es el 'oro no asignado', qué riesgo advierte la auditoría y qué todavía no se sabe. Nadie ha embargado el oro: es un riesgo señalado, no un hecho. Cada versión está atribuida a su fuente.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#Argentina #oro #BancoCentral #noticias #ultimahora #economia",
+  "etiquetas": [
+    "Argentina",
+    "oro",
+    "Banco Central",
+    "BCRA",
+    "AGN",
+    "auditoría",
+    "Londres",
+    "Bausili",
+    "reservas",
+    "BIS",
+    "noticias de hoy",
+    "última hora"
+  ],
+  "fuentes": [
+    "https://www.perfil.com/politica/el-oro-argentino-esta-en-londres-y-el-pais-ya-no-tiene-custodia-fisica-de-los-lingotes-segun-auditoria-de-la-agn-aZBqT8U8aLA8",
+    "https://www.lapoliticaonline.com/economia/la-agn-confirmo-que-el-oro-esta-en-londres-y-bausili-no-pudo-acreditar-el-seguro-de-traslado/",
+    "https://www.rionegro.com.ar/politica/oro-del-banco-central-el-juez-lijo-pidio-informes-a-la-agn-y-economia-4816986/",
+    "https://www.laarena.com.ar/el-pais/admiten-que-el-oro-esta-en-londres-202611280140",
+    "https://elargentinodiario.com.ar/politica/27/11/2026/oro-en-londres-faltan-papeles-para-saber-si-el-central-lo-dejo-en-garantia/",
+    "https://buenosairesherald.com/economics/argentinas-central-bank-and-auditors-clash-over-gold-reserves",
+    "https://www.forbesargentina.com/money/el-banco-central-rechazo-criticas-agn-oro-informo-ganancias-us-2505-millones-milei-respaldo-n99817",
+    "https://eleconomista.com.ar/economia/el-banco-central-contraataca-desmiente-una-perdida-millonaria-oro-lanza-una-dura-acusacion-n98734/amp",
+    "https://www.kitco.com/news/article/2024-09-05/central-bank-argentina-confirms-overseas-gold-transfer-possibly-collateral"
+  ],
+  "musica": "misterio",
+  "rotulos": [
+    "EN DIRECTO",
+    "EL ORO DE ARGENTINA",
+    "NOTICIA EN DESARROLLO",
+    "LO QUE NO TE CUENTAN",
+    "SIN PAPELES"
+  ],
+  "aviso_financiero": true,
+  "miniatura": {
+    "texto": "EL ORO ESTÁ EN LONDRES",
+    "rojo": "1.000 BARRAS",
+    "escena": 1
+  },
+  "escenas": [
+    {
+      "tipo": "titular",
+      "voz": "Última hora. Mil barras de oro del Banco Central de Argentina salieron del país en dos mil veinticuatro. Esta semana una auditoría reveló dónde están… y por qué preocupa.",
+      "clips": [
+        "buscar:gold bars stacked vault dark",
+        "buscar:bank vault door opening slow @del Banco Central"
+      ],
+      "texto": "MIL BARRAS DE ORO",
+      "etiqueta": "ÚLTIMA HORA",
+      "efecto": "flash",
+      "musica": "misterio"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Quédate hasta el final, porque te voy a contar quién dice qué, qué papeles faltan, y la palabra técnica que lo cambia todo.",
+      "clips": [
+        "buscar:dark archive room documents",
+        "buscar:stack of papers close up @qué papeles faltan"
+      ],
+      "texto": "QUÉ PAPELES FALTAN",
+      "resalta": "FALTAN",
+      "lugar": "BUENOS AIRES · LONDRES · 27 NOV 2026"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Empecemos por la cifra. Mil lingotes de oro, según la Auditoría General de la Nación, salieron de las bóvedas del Banco Central entre junio y agosto de dos mil veinticuatro.",
+      "clips": [
+        "buscar:gold bars close up shine",
+        "buscar:cargo airplane loading night @salieron de las bóvedas"
+      ],
+      "texto": "MIL LINGOTES DE ORO",
+      "numero": "1000",
+      "arriba": "BARRAS DE ORO",
+      "fuente": "AGN"
+    },
+    {
+      "tipo": "frase",
+      "voz": "El oro de un país no es un adorno. Es parte de sus reservas: un colchón que respalda la confianza en su moneda cuando todo va mal.",
+      "clips": [
+        "buscar:gold coins pouring slow motion",
+        "buscar:soft pillow bed close up @un colchón",
+        "buscar:handshake business trust close up @la confianza"
+      ],
+      "texto": "UN COLCHÓN",
+      "resalta": "COLCHÓN"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Y si es tan importante… ¿dónde está ese oro hoy?",
+      "clips": [
+        "buscar:question mark neon dark",
+        "buscar:world map globe spinning dark @ese oro"
+      ],
+      "texto": "¿DÓNDE ESTÁ ESE ORO?"
+    },
+    {
+      "tipo": "lista",
+      "voz": "Durante meses hubo versiones distintas. En Suiza. En Londres. Y en un lugar que nadie terminaba de nombrar.",
+      "clips": [
+        "buscar:swiss alps village aerial @En Suiza",
+        "buscar:london city skyline night @En Londres",
+        "buscar:empty dark corridor mystery"
+      ],
+      "titulo": "¿DÓNDE ESTABA?",
+      "items": [
+        "EN SUIZA",
+        "EN LONDRES",
+        "NADIE TERMINABA"
+      ],
+      "efecto": "suave"
+    },
+    {
+      "tipo": "frase",
+      "voz": "En septiembre de dos mil veinticuatro, el Banco Central dijo que había completado transferencias de parte de sus reservas entre sus distintas cuentas. Nada más.",
+      "clips": [
+        "buscar:news reporter desk microphone",
+        "buscar:bank building exterior columns @el Banco Central",
+        "buscar:ledger accounts pen writing @sus distintas cuentas"
+      ],
+      "texto": "ENTRE SUS DISTINTAS CUENTAS",
+      "resalta": "CUENTAS"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Además, según la auditoría, ciento quince de esas barras fueron refundidas en el extranjero: fundidas otra vez, como si empezaran de cero.",
+      "clips": [
+        "buscar:molten gold pouring foundry",
+        "buscar:blacksmith furnace fire glow @fundidas otra vez"
+      ],
+      "texto": "CIENTO QUINCE BARRAS",
+      "numero": "115",
+      "arriba": "BARRAS REFUNDIDAS",
+      "fuente": "AGN",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Pero aquí la historia da un giro. Porque lo que descubrió la auditoría es más raro que el viaje.",
+      "clips": [
+        "buscar:dark tunnel light end slow",
+        "buscar:spotlight dark stage @un giro"
+      ],
+      "texto": "UN GIRO",
+      "resalta": "GIRO",
+      "efecto": "temblor",
+      "musica": "tension"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Según el informe, aprobado por mayoría el veintiséis de noviembre, las barras terminaron en el Banco de Inglaterra, en Londres.",
+      "clips": [
+        "buscar:london bridge big ben dusk",
+        "buscar:bank of england style stone building columns @el Banco de Inglaterra",
+        "buscar:city of london financial district aerial"
+      ],
+      "texto": "EN LONDRES",
+      "resalta": "LONDRES",
+      "lugar": "LONDRES · BANCO DE INGLATERRA",
+      "fuente": "Perfil · AGN"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Y no están a nombre del Banco Central argentino. Están a nombre del Banco de Pagos Internacionales, el BIS, con sede en Basilea, en Suiza.",
+      "clips": [
+        "buscar:swiss bank building exterior basel",
+        "buscar:passport stamp document close up @a nombre"
+      ],
+      "texto": "A NOMBRE DEL BIS",
+      "etiqueta": "SEGÚN LA AGN",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Entonces, ¿quién mentía? Quizá nadie. El BIS es suizo, pero su custodio, según la auditoría, es el Banco de Inglaterra.",
+      "clips": [
+        "buscar:two paths fork road mist",
+        "buscar:security guard vault corridor @su custodio"
+      ],
+      "texto": "¿QUIÉN MENTÍA?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Aquí viene lo que cambia todo. El informe dice que el Banco Central dejó de tener lingotes físicos en su Tesoro.",
+      "clips": [
+        "buscar:empty shelf dark room",
+        "buscar:empty metal safe open close up @lingotes físicos"
+      ],
+      "texto": "LINGOTES FÍSICOS",
+      "resalta": "FÍSICOS",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "En su lugar tiene un derecho de crédito sobre cuentas de lo que se llama oro no asignado. Es decir, oro que no tiene barras con nombre y número.",
+      "clips": [
+        "buscar:bar code numbers close up serial",
+        "buscar:gold bars blurred background @oro no asignado"
+      ],
+      "texto": "ORO NO ASIGNADO",
+      "resalta": "NO ASIGNADO",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Qué significa eso? Que ya no son barras concretas con un número. Es un derecho a reclamar oro.",
+      "clips": [
+        "buscar:person thinking puzzled close up",
+        "buscar:signing contract pen close up @un derecho"
+      ],
+      "texto": "UN DERECHO A RECLAMAR"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Y hay más. La auditoría encontró tres colocaciones que suman noventa y seis mil onzas troy sin respaldo documental.",
+      "clips": [
+        "buscar:auditor checking documents desk",
+        "buscar:calculator numbers close up @noventa y seis mil"
+      ],
+      "texto": "NOVENTA Y SEIS MIL ONZAS",
+      "numero": "96000",
+      "arriba": "ONZAS TROY SIN PAPELES",
+      "fuente": "AGN"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Tampoco pudieron comprobar el seguro del traslado. Mil barras cruzando el océano, y los auditores no encontraron la póliza.",
+      "clips": [
+        "buscar:cargo ship ocean aerial",
+        "buscar:insurance policy paper close up @la póliza"
+      ],
+      "texto": "EL SEGURO DEL TRASLADO",
+      "resalta": "SEGURO",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Ahora, la otra versión. El presidente del Banco Central, Santiago Bausili, dijo ante el Senado que el oro se trasladó y se depositó en el BIS, en Suiza.",
+      "clips": [
+        "buscar:senate chamber speaker podium",
+        "buscar:man in suit testifying microphone @ante el Senado",
+        "buscar:swiss flag waving @en Suiza"
+      ],
+      "texto": "EL BIS, EN SUIZA",
+      "resalta": "SUIZA",
+      "lugar": "BUENOS AIRES · SENADO",
+      "fuente": "Buenos Aires Herald"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Y aseguró que todos los movimientos del oro están documentados. ¿Lo están?",
+      "clips": [
+        "buscar:documents folder filing cabinet",
+        "buscar:magnifying glass paper close up @documentados"
+      ],
+      "texto": "¿ESTÁN DOCUMENTADOS?"
+    },
+    {
+      "tipo": "lista",
+      "voz": "La auditoría marca tres problemas: faltan contratos de colocación, falta el seguro, y el Banco Central negó movimientos en dos mil veinticuatro en su cuenta de oro en el exterior.",
+      "clips": [
+        "buscar:red flag warning close up",
+        "buscar:contract pen signature missing @faltan contratos",
+        "buscar:insurance document stamp @falta el seguro",
+        "buscar:bank teller counting @negó movimientos"
+      ],
+      "titulo": "LO QUE MARCA LA AGN",
+      "items": [
+        "FALTAN CONTRATOS",
+        "FALTA EL SEGURO",
+        "NEGÓ MOVIMIENTOS"
+      ],
+      "efecto": "suave",
+      "musica": "tension"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Se puede embargar el oro de un país?",
+      "clips": [
+        "buscar:courthouse gavel close up",
+        "buscar:judge hammer slow motion @embargar"
+      ],
+      "texto": "¿SE PUEDE EMBARGAR?",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Normalmente, las reservas de un banco central tienen inmunidad. Pero la auditoría advierte que una prórroga de jurisdicción puede abrir una puerta.",
+      "clips": [
+        "buscar:door slightly open light dark",
+        "buscar:legal books law library @una prórroga",
+        "buscar:signing document close up hand"
+      ],
+      "texto": "PRÓRROGA DE JURISDICCIÓN",
+      "resalta": "PRÓRROGA"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Esa prórroga está en los acuerdos de refundición y de depósito, y el informe dice que el Banco Central no evaluó ese riesgo.",
+      "clips": [
+        "buscar:lawyer reading contract desk lamp",
+        "buscar:stamp rejected paper @no evaluó"
+      ],
+      "texto": "NO EVALUÓ ESE RIESGO",
+      "resalta": "RIESGO"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Guarda este dato, porque importa: la AGN no dice que el oro se haya perdido. Dice que ya no es físico, y que faltan papeles.",
+      "clips": [
+        "buscar:magnifying glass gold bar close up",
+        "buscar:empty paper trail footprints @faltan papeles"
+      ],
+      "texto": "SE HAYA PERDIDO",
+      "etiqueta": "OJO CON ESTO"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Por eso aparece el caso YPF: un juicio que se litiga en Nueva York y cuya ejecución también se discute en tribunales de Londres.",
+      "clips": [
+        "buscar:new york skyline court aerial",
+        "buscar:gavel law books court @un juicio",
+        "buscar:london court building @de Londres"
+      ],
+      "texto": "CASO YPF",
+      "etiqueta": "EL FANTASMA",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Atención: nadie ha embargado ese oro. La auditoría habla de un riesgo, no de un hecho.",
+      "clips": [
+        "buscar:warning sign caution close up",
+        "buscar:calm sea horizon @un riesgo"
+      ],
+      "texto": "UN RIESGO, NO UN HECHO",
+      "resalta": "RIESGO",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Y se usó el oro como garantía? Aquí está el hueco: el Banco Central no entregó la documentación necesaria para saberlo.",
+      "clips": [
+        "buscar:empty folder desk dark",
+        "buscar:locked drawer key close up @no entregó"
+      ],
+      "texto": "¿COMO GARANTÍA?"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Mientras tanto, el juez federal Ariel Lijo pidió documentación de respaldo a la AGN y al Banco Central, en la causa penal por el traslado de las reservas.",
+      "clips": [
+        "buscar:courthouse columns steps",
+        "buscar:judge desk papers gavel @el juez federal",
+        "buscar:police investigation documents board"
+      ],
+      "texto": "EL JUEZ LIJO",
+      "etiqueta": "CAUSA PENAL",
+      "fuente": "Diario Río Negro"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Hay otro frente. En octubre, la AGN calculó que las operaciones con derivados ligadas al oro dejaron en dos mil veinticinco pérdidas por mil veintitrés millones de dólares.",
+      "clips": [
+        "buscar:stock market chart falling red",
+        "buscar:money dollars bills falling @mil veintitrés millones",
+        "buscar:financial analyst screen charts"
+      ],
+      "texto": "MIL VEINTITRÉS MILLONES",
+      "numero": "1023",
+      "arriba": "MILLONES DE DÓLARES · SEGÚN LA AGN",
+      "fuente": "AGN",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "El Banco Central lo rechaza. Dice que la AGN interpretó mal las operaciones de cobertura, que las usa desde dos mil siete.",
+      "clips": [
+        "buscar:bank executive press conference",
+        "buscar:hedge risk umbrella rain @de cobertura"
+      ],
+      "texto": "LO RECHAZA",
+      "resalta": "RECHAZA"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Y afirma que su posición en oro dio en dos mil veinticinco un resultado neto positivo de dos mil quinientos cinco millones de dólares.",
+      "clips": [
+        "buscar:gold price chart rising green",
+        "buscar:calculator profit green numbers @resultado neto positivo"
+      ],
+      "texto": "DOS MIL QUINIENTOS CINCO MILLONES",
+      "numero": "2505",
+      "arriba": "RESULTADO POSITIVO SEGÚN EL BCRA",
+      "fuente": "Banco Central",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Además, acusó a la AGN de querer desprestigiar a su conducción con fines políticos. El presidente Javier Milei respaldó al Banco Central.",
+      "clips": [
+        "buscar:political rally crowd flags dark",
+        "buscar:microphones press podium @el presidente"
+      ],
+      "texto": "FINES POLÍTICOS",
+      "resalta": "POLÍTICOS",
+      "fuente": "Forbes Argentina"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Un diputado presentó una denuncia penal contra el ministro Luis Caputo y contra Bausili. Una denuncia no prueba nada: eso lo decidirá la Justicia.",
+      "clips": [
+        "buscar:law book scales justice close up",
+        "buscar:document stamp legal complaint @una denuncia penal"
+      ],
+      "texto": "UNA DENUNCIA NO PRUEBA NADA",
+      "resalta": "NO PRUEBA"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Entonces, ¿quién tiene razón? La respuesta honesta es que todavía no se sabe todo.",
+      "clips": [
+        "buscar:fog road uncertain",
+        "buscar:two silhouettes arguing dark @quién tiene razón"
+      ],
+      "texto": "¿QUIÉN TIENE RAZÓN?",
+      "efecto": "temblor",
+      "musica": "drama"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Lo que sí está sobre la mesa: la auditoría confirmó dónde están las barras y recomendó repatriarlas.",
+      "clips": [
+        "buscar:gold bars airplane cargo ramp",
+        "buscar:airport runway sunrise plane landing @repatriarlas"
+      ],
+      "texto": "RECOMENDÓ REPATRIARLAS",
+      "resalta": "REPATRIARLAS",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "titular",
+      "voz": "Lo que sigue sin aclararse es si ese oro llegó a servir de garantía, y qué pasó exactamente con los papeles que faltan.",
+      "clips": [
+        "buscar:dark room lamp papers shadows",
+        "buscar:torn paper pieces close up @los papeles"
+      ],
+      "texto": "SIGUE SIN ACLARARSE",
+      "etiqueta": "SIN RESPUESTA",
+      "efecto": "suave",
+      "musica": "reflexion"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Esa es la diferencia que mantiene el caso abierto: una cosa es decir dónde está el oro y otra poder demostrar quién lo controla.",
+      "clips": [
+        "buscar:gold bars locked cage vault",
+        "buscar:hand turning key lock close up @quién lo controla"
+      ],
+      "texto": "QUIÉN LO CONTROLA",
+      "resalta": "CONTROLA"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "Si fuera tu dinero, ¿te bastaría con que te dijeran que está en algún lugar seguro?",
+      "clips": [
+        "buscar:woman looking at wallet thinking",
+        "buscar:piggy bank coins close up @tu dinero"
+      ],
+      "texto": "¿TE BASTARÍA?",
+      "efecto": "suave"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Una historia de oro, papeles y una palabra: custodia. Suscríbete para enterarte antes que nadie de cómo termina.",
+      "clips": [
+        "buscar:gold bar glow dark slow",
+        "buscar:subscribe button click screen @Suscríbete"
+      ],
+      "texto": "ENTERARTE ANTES QUE NADIE",
+      "resalta": "NADIE",
+      "chapa": "SUSCRÍBETE",
+      "efecto": "suave",
+      "musica": "reflexion"
+    }
+  ]
+}

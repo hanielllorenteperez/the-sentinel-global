@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-29-oro-argentino-londres",
+  "formato": "short",
+  "cinta": "The Sentinel Global · Última hora · El oro de Argentina",
+  "titulo": "El oro de Argentina cruzó el océano… sin papeles 🥇",
+  "descripcion": "Una auditoría confirmó que 1.000 barras de oro del Banco Central argentino están en Londres y que faltan documentos. El Banco Central lo rechaza. Nadie ha embargado el oro: es un riesgo señalado. Historia completa en el vídeo del canal.\n\n#Argentina #oro #BancoCentral #noticias #shorts",
+  "etiquetas": [
+    "Argentina",
+    "oro",
+    "Banco Central",
+    "auditoría",
+    "Londres",
+    "noticias",
+    "shorts"
+  ],
+  "musica": "misterio",
+  "escenas": [
+    {
+      "tipo": "frase",
+      "voz": "Mil barras de oro de un país cruzaron el océano. Y nadie encuentra los papeles.",
+      "clips": [
+        "buscar:gold bars stacked vault dark",
+        "buscar:cargo airplane loading night @cruzaron el océano"
+      ],
+      "texto": "NADIE ENCUENTRA LOS PAPELES",
+      "resalta": "PAPELES",
+      "efecto": "flash"
+    },
+    {
+      "tipo": "numero",
+      "voz": "Según una auditoría, mil lingotes del Banco Central de Argentina salieron entre junio y agosto de dos mil veinticuatro.",
+      "clips": [
+        "buscar:gold bars close up shine",
+        "buscar:bank vault door opening @Banco Central"
+      ],
+      "texto": "MIL LINGOTES",
+      "numero": "1000",
+      "arriba": "BARRAS DE ORO",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Hoy ya no están en sus bóvedas. Están en Londres, a nombre de otro banco.",
+      "clips": [
+        "buscar:empty metal safe open close up",
+        "buscar:london skyline dusk @en Londres"
+      ],
+      "texto": "ESTÁN EN LONDRES",
+      "resalta": "LONDRES"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Faltan contratos. Falta el seguro del traslado. Y el Banco Central lo rechaza, dice que todo está documentado.",
+      "clips": [
+        "buscar:documents folder filing cabinet dark",
+        "buscar:insurance document stamp @el seguro"
+      ],
+      "texto": "FALTA EL SEGURO",
+      "resalta": "SEGURO",
+      "efecto": "temblor"
+    },
+    {
+      "tipo": "pregunta",
+      "voz": "¿Y si ese oro pudiera ser embargado? La auditoría habla de un riesgo. Nadie lo ha embargado.",
+      "clips": [
+        "buscar:courthouse gavel close up",
+        "buscar:door slightly open light dark @un riesgo"
+      ],
+      "texto": "¿PODRÍA SER EMBARGADO?"
+    },
+    {
+      "tipo": "frase",
+      "voz": "Te cuento todo en el vídeo completo, en el canal. Mil barras de oro, y una palabra: custodia.",
+      "clips": [
+        "buscar:gold bar glow dark slow",
+        "buscar:subscribe button click screen @en el canal"
+      ],
+      "texto": "EL VÍDEO COMPLETO",
+      "resalta": "COMPLETO",
+      "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL"
+    }
+  ]
+}

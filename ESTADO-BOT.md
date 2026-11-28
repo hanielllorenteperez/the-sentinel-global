@@ -36,6 +36,7 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-27 · Jensen Huang renuncia a Nvidia (12 nov) y vuelve (23 nov): acción +31 % en un día · [tecnología/dinero]
 - 2026-11-27 · FCC autoriza a SpaceX hasta un millón de satélites (Starmind, centros de datos en órbita), críticas de Amazon/astrónomos/Earthjustice · [espacio/tecnología]
 - 2026-11-28 · Black Friday: tiendas falsas con IA (Gen/Norton 526.000 dominios, Check Point, INCIBE 4.600) y la señal de la prisa · [estafas/crimen]
+- 2026-11-29 · Oro del Banco Central de Argentina en Londres (informe AGN, 1.000 barras, BIS, riesgo de embargo, pérdida 1.023 M$ vs +2.505 M$ del BCRA) · [dinero/política económica]
 
 ## Diario del guionista
 <!-- 1–3 líneas por ejecución: fecha · noticia · lección nueva (si la hay) -->
@@ -57,6 +58,8 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-27 · Jensen Huang / Nvidia · Buscar «<nombre> renuncia CEO» tras ver un snippet suelto confirmó la noticia con 8+ medios; las fechas difieren (12 vs 13 nov; Forbes pone 8 nov la investigación) → se usa 12 nov y «a principios de noviembre». Temas de vida personal: solo atribuidos al New York Times y dichos como no confirmados; presión de Trump/Casa Blanca y Wachtell, de una sola fuente → omitido o marcado «no confirmado».
 - 2026-11-27 · SpaceX Starmind (FCC, 1 millón de satélites) · Buscar «último momento noticia viral hoy <fecha>» dio un resumen de Telemundo con el tema; luego «<tema> autoriza» en español e inglés dio 10+ medios. Plazos 2033/2035/2038/2040 son de la FCC; inicio del despliegue (2028 CBS vs finales de 2027 Reuters/Xataka) difiere → atribuido. Datos de una sola fuente (Q3 2027 Starship, Altman) omitidos. Sin wiki:.
 - 2026-11-28 · Black Friday y tiendas falsas · Buscar «noticias más vistas hoy <fecha>» dio portadas flojas (tragedias, política); «inteligencia artificial polémica <fecha>» y luego el tema con «<tema> 2026 dominios» dio 4+ fuentes. Cifras de vendedores de seguridad miden registros, no víctimas → se dice en el guion; INCIBE 45.000 fraudes/18.000 anuncios, NordVPN 10.000 y «74 % con IA» son de una sola fuente → omitidos. Sin wiki:, sin logos de marcas.
+
+- 2026-11-29 · Oro argentino en Londres · «noticias más vistas hoy <fecha>» da portadas (Perfil/Infobae); el titular de Perfil dio el tema y luego «<tema> AGN Bausili» confirmó con 8+ medios. Tema con fricción política: todo atribuido (AGN vs BCRA), «nadie ha embargado», denuncia ≠ prueba. Ubicación (Suiza/BIS vs Londres) difiere por medio → se explica como BIS titular + Banco de Inglaterra custodio, según AGN. WebFetch sigue sin resolver dominios.
 
 ## Diario de la fábrica
 <!-- lo escribe GitHub Actions solo -->
