@@ -1,0 +1,71 @@
+{
+ "id": "2026-11-28-nvidia-blackwell-shanghai",
+ "formato": "short",
+ "cinta": "The Sentinel Global · Última hora · Nvidia",
+ "titulo": "El chip PROHIBIDO que apareció en Shanghái 🚨",
+ "descripcion": "Equipos de Nvidia prohibidos para China aparecen en un centro de datos de Shanghái, según Bloomberg (27 nov 2026). Historia completa en el vídeo largo del canal.\n\n#Nvidia #China #noticias #shorts",
+ "etiquetas": [
+  "Nvidia",
+  "Blackwell",
+  "China",
+  "Shanghái",
+  "noticias",
+  "shorts"
+ ],
+ "musica": "misterio",
+ "escenas": [
+  {
+   "tipo": "frase",
+   "voz": "Decían que era demasiado grande para contrabandearlo. Pero un rack prohibido para China apareció en Shanghái.",
+   "clips": [
+    "buscar:data center server racks blue lights",
+    "buscar:shanghai skyline night aerial @apareció en Shanghái"
+   ],
+   "texto": "APARECIÓ EN SHANGHÁI",
+   "resalta": "SHANGHÁI",
+   "efecto": "flash"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Setenta y dos chips de inteligencia artificial en un solo rack. Estados Unidos prohíbe venderlos a China.",
+   "clips": [
+    "buscar:microchip glowing circuit board close up",
+    "buscar:red stop sign close up @prohíbe venderlos"
+   ],
+   "texto": "SETENTA Y DOS CHIPS",
+   "numero": "72",
+   "arriba": "CHIPS EN UN SOLO RACK",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Alguien lo dejó como garantía para pedir un préstamo de unos catorce millones de dólares.",
+   "clips": [
+    "buscar:chinese yuan banknotes close up",
+    "buscar:bank building exterior glass @un préstamo"
+   ],
+   "texto": "UN PRÉSTAMO DE CATORCE MILLONES",
+   "resalta": "PRÉSTAMO"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Quién lo envió a China, y cómo cruzó la frontera? Nadie lo ha explicado.",
+   "clips": [
+    "buscar:cargo container ship ocean night",
+    "buscar:border fence night searchlight @cruzó la frontera"
+   ],
+   "texto": "¿QUIÉN LO ENVIÓ?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "La historia completa, y lo que Bloomberg no pudo probar, en el vídeo del canal.",
+   "clips": [
+    "buscar:magnifying glass documents desk",
+    "buscar:subscribe button click screen @en el vídeo del canal"
+   ],
+   "texto": "MIRA EL VÍDEO COMPLETO",
+   "chapa": "VÍDEO COMPLETO 👇 EN EL CANAL",
+   "resalta": "COMPLETO"
+  }
+ ]
+}

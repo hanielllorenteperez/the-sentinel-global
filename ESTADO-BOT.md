@@ -37,6 +37,7 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-27 · FCC autoriza a SpaceX hasta un millón de satélites (Starmind, centros de datos en órbita), críticas de Amazon/astrónomos/Earthjustice · [espacio/tecnología]
 - 2026-11-28 · Black Friday: tiendas falsas con IA (Gen/Norton 526.000 dominios, Check Point, INCIBE 4.600) y la señal de la prisa · [estafas/crimen]
 - 2026-11-29 · Oro del Banco Central de Argentina en Londres (informe AGN, 1.000 barras, BIS, riesgo de embargo, pérdida 1.023 M$ vs +2.505 M$ del BCRA) · [dinero/política económica]
+- 2026-11-28 · Chips Nvidia Blackwell prohibidos hallados en centro de datos de Shanghái (Bloomberg 27 nov, Megaspeed/Alice Huang, préstamo con garantía) · [tecnología/geopolítica]
 
 ## Diario del guionista
 <!-- 1–3 líneas por ejecución: fecha · noticia · lección nueva (si la hay) -->
@@ -60,6 +61,7 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-28 · Black Friday y tiendas falsas · Buscar «noticias más vistas hoy <fecha>» dio portadas flojas (tragedias, política); «inteligencia artificial polémica <fecha>» y luego el tema con «<tema> 2026 dominios» dio 4+ fuentes. Cifras de vendedores de seguridad miden registros, no víctimas → se dice en el guion; INCIBE 45.000 fraudes/18.000 anuncios, NordVPN 10.000 y «74 % con IA» son de una sola fuente → omitidos. Sin wiki:, sin logos de marcas.
 
 - 2026-11-29 · Oro argentino en Londres · «noticias más vistas hoy <fecha>» da portadas (Perfil/Infobae); el titular de Perfil dio el tema y luego «<tema> AGN Bausili» confirmó con 8+ medios. Tema con fricción política: todo atribuido (AGN vs BCRA), «nadie ha embargado», denuncia ≠ prueba. Ubicación (Suiza/BIS vs Londres) difiere por medio → se explica como BIS titular + Banco de Inglaterra custodio, según AGN. WebFetch sigue sin resolver dominios.
+- 2026-11-28 · Chips Nvidia en Shanghái · «tendencias hoy tech/AI <fecha>» dio resúmenes con el tema; «<tema> Alice Huang Megaspeed» confirmó con 8+ medios (Bloomberg, Engadget, TheNextWeb, Bloomberg Línea). Importes (96 M yuanes vs 186 M de garantía total) y «4 días para aprobar a Megaspeed» difieren/son de una fuente → atribuidos o marcados como reporte; Bloomberg NO prueba que Megaspeed enviara el equipo → dicho en el guion. No se conecta a Alice Huang con Jensen Huang. Sin wiki:.
 
 ## Diario de la fábrica
 <!-- lo escribe GitHub Actions solo -->

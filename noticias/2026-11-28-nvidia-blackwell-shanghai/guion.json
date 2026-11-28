@@ -1,0 +1,519 @@
+{
+ "id": "2026-11-28-nvidia-blackwell-shanghai",
+ "cinta": "The Sentinel Global · Última hora · Nvidia · Shanghái",
+ "titulo": "Era «demasiado grande» para contrabandearlo… y apareció en Shanghái 🚨",
+ "descripcion": "El 27 de noviembre de 2026, Bloomberg publicó que equipos de Nvidia con chips Blackwell, prohibidos para China, aparecen en documentos de un centro de datos de Shanghái, uno de ellos usado como garantía de un préstamo. Te contamos qué dice la investigación, qué niegan las empresas y qué sigue sin saberse: cómo llegó el equipo y quién lo envió. Que un sitio esté vinculado a una persona no prueba que ella enviara el hardware.\n\nSuscríbete para enterarte de las noticias virales antes que nadie.\n\n#Nvidia #Blackwell #China #inteligenciaartificial #noticias #ultimahora",
+ "etiquetas": [
+  "Nvidia",
+  "Blackwell",
+  "Shanghái",
+  "contrabando de chips",
+  "Alice Huang",
+  "Megaspeed",
+  "Bloomberg",
+  "inteligencia artificial",
+  "controles de exportación",
+  "China",
+  "noticias de hoy",
+  "última hora"
+ ],
+ "fuentes": [
+  "https://www.bloomberglinea.com/tecnologia/chips-blackwell-de-nvidia-aparecen-en-un-centro-de-datos-chino-vinculado-a-alice-huang/",
+  "https://thenextweb.com/news/nvidia-blackwell-chips-alice-huang-shanghai-data-centre-bloomberg",
+  "https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/",
+  "https://www.aa.com.tr/en/science-technology/nvidia-blackwell-chips-found-at-china-data-center-linked-to-alice-huang-report/4140762",
+  "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+  "https://www.tomshardware.com/tech-industry/artificial-intelligence/banned-nvidia-blackwell-ai-racks-surface-in-china-data-center-tied-to-usd14m-loan-and-alleged-spy-alice-huang",
+  "https://dailycaller.com/2026/11/27/nvidia-chips-us-exports-megaspeed-alice-huang-shanghai-data-center/",
+  "https://en.sedaily.com/world/2026/11/28/nvidias-blackwell-chips-spotted-at-shanghai-data-center",
+  "https://www.koreajoongangdaily.com/business/nvidias-blackwell-chips-found-at-china-data-center-linked-to-alice-huang/12995289",
+  "https://www.emol.com/noticias/Economia/2026/11/13/1216985/chips-nvidia-eeuu-china.html",
+  "https://www.diariobitcoin.com/regulacion/chips-nvidia-prohibidos-aparecen-en-centro-de-dato-en-china-vinculado-a-megaspeed/"
+ ],
+ "musica": "misterio",
+ "rotulos": [
+  "EN DIRECTO",
+  "CHIPS PROHIBIDOS",
+  "NOTICIA EN DESARROLLO",
+  "LO QUE NO TE CUENTAN",
+  "INVESTIGACIÓN"
+ ],
+ "miniatura": {
+  "texto": "CHIPS PROHIBIDOS",
+  "rojo": "EN SHANGHÁI",
+  "escena": 3
+ },
+ "escenas": [
+  {
+   "tipo": "titular",
+   "voz": "Última hora. Un servidor de Nvidia prohibido para China apareció en Shanghái. Y alguien lo usó como garantía para pedir un préstamo.",
+   "clips": [
+    "buscar:data center server racks blue lights",
+    "buscar:night city skyline shanghai aerial @apareció en Shanghái"
+   ],
+   "texto": "APARECIÓ EN SHANGHÁI",
+   "etiqueta": "ÚLTIMA HORA",
+   "efecto": "flash",
+   "musica": "misterio",
+   "fuente": "Bloomberg"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Quédate hasta el final. Te cuento cómo lo encontraron, quién está detrás del sitio y la pregunta que nadie ha respondido.",
+   "clips": [
+    "buscar:dark corridor server room mystery",
+    "buscar:question mark neon dark @nadie ha respondido"
+   ],
+   "texto": "NADIE HA RESPONDIDO",
+   "resalta": "NADIE",
+   "lugar": "SHANGHÁI, CHINA · NOV 2026"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Setenta y dos. Ese es el número de chips gráficos que lleva un solo rack GB trescientos de Nvidia. Setenta y dos chips Blackwell Ultra.",
+   "clips": [
+    "buscar:microchip glowing circuit board close up",
+    "buscar:graphics card close up @chips Blackwell Ultra"
+   ],
+   "texto": "SETENTA Y DOS CHIPS",
+   "numero": "72",
+   "arriba": "CHIPS EN UN SOLO RACK",
+   "fuente": "Bloomberg"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Un rack es una torre de servidores. Grande como un armario. Cargada con chips de última generación para inteligencia artificial.",
+   "clips": [
+    "buscar:data center rack cabinet tall close up",
+    "buscar:server cables blinking lights close up @torre de servidores",
+    "buscar:artificial intelligence glowing brain digital @inteligencia artificial"
+   ],
+   "titulo": "¿QUÉ ES UN RACK?",
+   "items": [
+    "UNA TORRE DE SERVIDORES",
+    "GRANDE COMO UN ARMARIO",
+    "CHIPS DE ÚLTIMA GENERACIÓN"
+   ],
+   "efecto": "suave"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Cómo llegó hasta China algo que Washington prohíbe vender allí? Esa es la pregunta. Y todavía no tiene respuesta.",
+   "clips": [
+    "buscar:cargo container ship ocean night",
+    "buscar:shipping port cranes dusk @Washington prohíbe"
+   ],
+   "texto": "¿CÓMO LLEGÓ A CHINA?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Estados Unidos prohíbe vender a China sus chips más avanzados. La idea es frenar su avance en inteligencia artificial.",
+   "clips": [
+    "buscar:world map red lines china usa",
+    "buscar:white house exterior flag @Estados Unidos",
+    "buscar:stop sign red close up @prohíbe vender"
+   ],
+   "texto": "PROHÍBE VENDER A CHINA",
+   "resalta": "PROHÍBE",
+   "lugar": "WASHINGTON · CONTROLES DE EXPORTACIÓN"
+  },
+  {
+   "tipo": "titular",
+   "voz": "El veintisiete de noviembre, Bloomberg publicó una investigación. Revisó documentos presentados por empresas chinas ante reguladores del país.",
+   "clips": [
+    "buscar:newspaper printing press close up",
+    "buscar:documents stack stamp desk @documentos presentados"
+   ],
+   "texto": "LA INVESTIGACIÓN DE BLOOMBERG",
+   "etiqueta": "INVESTIGACIÓN",
+   "fuente": "Bloomberg",
+   "musica": "tension"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Dos empresas aparecen en esos papeles. Shanghai Shuoyao y Shanghai Kezhan. Las dos instalaron equipos de Nvidia en el mismo proyecto.",
+   "clips": [
+    "buscar:office building glass china dusk",
+    "buscar:businessman signing document close up @Shanghai Kezhan",
+    "buscar:server room walking corridor @en el mismo proyecto"
+   ],
+   "titulo": "LAS DOS EMPRESAS",
+   "items": [
+    "SHANGHAI SHUOYAO",
+    "SHANGHAI KEZHAN",
+    "EL MISMO PROYECTO"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "voz": "El lugar se conoce como Proyecto del Delta del Yangtsé. Un centro de datos en Shanghái. Y ahí, según los documentos, estaban los equipos.",
+   "clips": [
+    "buscar:river delta aerial city lights night",
+    "buscar:data center building exterior night @centro de datos"
+   ],
+   "texto": "PROYECTO DEL DELTA DEL YANGTSÉ",
+   "resalta": "YANGTSÉ",
+   "lugar": "SHANGHÁI · DELTA DEL YANGTSÉ"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Noventa y seis millones de yuanes. Unos catorce millones de dólares. Es el préstamo que Shuoyao consiguió de un banco de Shanghái, dejando el rack como garantía.",
+   "clips": [
+    "buscar:chinese yuan banknotes close up",
+    "buscar:bank building exterior glass @un banco de Shanghái"
+   ],
+   "texto": "NOVENTA Y SEIS MILLONES",
+   "numero": "96",
+   "arriba": "MILLONES DE YUANES DE PRÉSTAMO",
+   "fuente": "Bloomberg Línea",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Piénsalo. Un rack que Estados Unidos no deja vender a China, usado como aval ante un banco, como si fuera una casa o un coche.",
+   "clips": [
+    "buscar:house keys on contract close up",
+    "buscar:car keys handed over table @un coche"
+   ],
+   "texto": "COMO SI FUERA UNA CASA",
+   "resalta": "CASA"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Treinta y dos. Son los servidores con chips H200, de la generación anterior, que Kezhan también declaró en el mismo sitio. Su envío a China exige permiso de Washington.",
+   "clips": [
+    "buscar:server blades hardware close up",
+    "buscar:official permit document stamp @exige permiso"
+   ],
+   "texto": "TREINTA Y DOS SERVIDORES",
+   "numero": "32",
+   "arriba": "SERVIDORES H200 EN EL MISMO SITIO",
+   "fuente": "Bloomberg Línea"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Aquí la historia da un giro. ¿Qué dice el número de serie del rack? Bloomberg siguió ese rastro.",
+   "clips": [
+    "buscar:serial number label close up metal",
+    "buscar:detective magnifying glass documents @siguió ese rastro"
+   ],
+   "texto": "¿QUÉ DICE EL NÚMERO DE SERIE?",
+   "efecto": "temblor",
+   "musica": "tension"
+  },
+  {
+   "tipo": "frase",
+   "voz": "El rastro llevó hasta Gigabyte, uno de los fabricantes que montan servidores con chips de Nvidia. Eso no dice quién lo envió a China.",
+   "clips": [
+    "buscar:factory assembly line electronics workers",
+    "buscar:circuit board soldering close up @montan servidores"
+   ],
+   "texto": "EL RASTRO LLEVÓ HASTA GIGABYTE",
+   "resalta": "GIGABYTE",
+   "fuente": "TheNextWeb"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Es decir, sabemos de dónde salió la máquina. Pero no sabemos cómo llegó. Ni quién la vendió. Ni por qué rutas.",
+   "clips": [
+    "buscar:foggy road night headlights",
+    "buscar:cargo plane tarmac night @cómo llegó",
+    "buscar:map route dotted line close up @por qué rutas"
+   ],
+   "titulo": "LO QUE NO SE SABE",
+   "items": [
+    "CÓMO LLEGÓ",
+    "QUIÉN LA VENDIÓ",
+    "POR QUÉ RUTAS"
+   ],
+   "musica": "misterio"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Y ahora, un nombre. Alice Huang. Fundó una empresa llamada Megaspeed en dos mil veintitrés.",
+   "clips": [
+    "buscar:woman silhouette dark office window",
+    "buscar:company startup office laptop night @fundó una empresa"
+   ],
+   "texto": "ALICE HUANG",
+   "resalta": "HUANG",
+   "efecto": "flash",
+   "fuente": "Bloomberg"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Este mes, el Departamento de Comercio de Estados Unidos incluyó a Megaspeed en su lista negra comercial. Es la llamada Lista de Entidades.",
+   "clips": [
+    "buscar:government building columns washington",
+    "buscar:black list document red stamp close up @lista negra comercial"
+   ],
+   "texto": "LISTA NEGRA COMERCIAL",
+   "etiqueta": "DEPARTAMENTO DE COMERCIO",
+   "fuente": "Bloomberg Línea"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Seis. Seis entidades afiliadas, en Malasia, Singapur y Tailandia, entraron con ella en la misma lista.",
+   "clips": [
+    "buscar:southeast asia city aerial skyline",
+    "buscar:world map pins highlighted asia @Malasia, Singapur y Tailandia"
+   ],
+   "texto": "SEIS ENTIDADES AFILIADAS",
+   "numero": "6",
+   "arriba": "ENTIDADES AFILIADAS EN LA LISTA",
+   "fuente": "Bloomberg Línea"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Megaspeed lo niega todo. Dice que no hizo nada irregular. Y asegura que Alice Huang dejó la empresa en agosto de dos mil veinticinco.",
+   "clips": [
+    "buscar:businessman shaking head denial close up",
+    "buscar:empty office chair spotlight @dejó la empresa"
+   ],
+   "titulo": "LA VERSIÓN DE MEGASPEED",
+   "items": [
+    "LO NIEGA TODO",
+    "NADA IRREGULAR",
+    "DEJÓ LA EMPRESA"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "voz": "Y aquí viene el matiz clave. Bloomberg dice que no tiene pruebas de que Megaspeed enviara el equipo a ese centro de datos.",
+   "clips": [
+    "buscar:scales of justice close up",
+    "buscar:blank paper evidence table dark @no tiene pruebas"
+   ],
+   "texto": "NO TIENE PRUEBAS",
+   "resalta": "NO",
+   "fuente": "Bloomberg",
+   "efecto": "temblor"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Entonces, ¿qué relación hay? Los reportes vinculan el sitio con Alice Huang. Pero vincular no es probar.",
+   "clips": [
+    "buscar:red string connections evidence board",
+    "buscar:person thinking dark room close up @vincular no es probar"
+   ],
+   "texto": "¿QUÉ RELACIÓN HAY?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Según medios, Jensen Huang, el jefe de Nvidia, había dicho que estos racks eran demasiado grandes para contrabandearlos. Que no cabían en un bolsillo ni en una mochila.",
+   "clips": [
+    "buscar:man leather jacket silhouette stage",
+    "buscar:backpack on table close up @una mochila"
+   ],
+   "texto": "NI EN UNA MOCHILA",
+   "resalta": "MOCHILA",
+   "efecto": "flash",
+   "fuente": "Yahoo Finance"
+  },
+  {
+   "tipo": "titular",
+   "voz": "Nvidia no explicó el caso concreto. Un portavoz dijo que la empresa hace todos sus negocios cumpliendo las leyes y normas aplicables.",
+   "clips": [
+    "buscar:corporate building glass facade dusk",
+    "buscar:spokesperson microphones press conference @un portavoz"
+   ],
+   "texto": "CUMPLIENDO LAS LEYES",
+   "etiqueta": "LA RESPUESTA DE NVIDIA",
+   "fuente": "Bloomberg"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Diecisiete. Según los departamentos de Justicia y Comercio, ese es el número de acusados por contrabando de chips en seis investigaciones de la actual administración.",
+   "clips": [
+    "buscar:handcuffs close up dark table",
+    "buscar:courthouse steps exterior @de acusados"
+   ],
+   "texto": "DIECISIETE ACUSADOS",
+   "numero": "17",
+   "arriba": "ACUSADOS POR CONTRABANDO DE CHIPS",
+   "fuente": "Reportes de prensa"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Antes de este reportaje, Nvidia ya había dicho que no veía pruebas de desvíos de chips. Que algo así le parecía poco plausible.",
+   "clips": [
+    "buscar:businessman reading report skeptical",
+    "buscar:microchip tray factory close up @desvíos de chips"
+   ],
+   "titulo": "LO QUE DECÍA NVIDIA",
+   "items": [
+    "NO VEÍA PRUEBAS",
+    "ANTES DE ESTE REPORTAJE",
+    "POCO PLAUSIBLE"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "voz": "Dos semanas antes, otro reportaje de Bloomberg ya había rastreado servidores de Nvidia hasta un centro de datos de Shanghái. Eran de generaciones anteriores.",
+   "clips": [
+    "buscar:calendar pages flipping close up",
+    "buscar:server racks aisle dark blue @servidores de Nvidia"
+   ],
+   "texto": "OTRO CENTRO DE DATOS",
+   "resalta": "OTRO",
+   "lugar": "SHANGHÁI · 13 NOV 2026",
+   "fuente": "Emol",
+   "musica": "tension"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Ciento noventa y tres. Según Emol, ese fue el número de servidores que una empresa ofreció como garantía en aquel caso.",
+   "clips": [
+    "buscar:rows of servers data center perspective",
+    "buscar:loan contract signing pen close up @como garantía"
+   ],
+   "texto": "CIENTO NOVENTA Y TRES",
+   "numero": "193",
+   "arriba": "SERVIDORES OFRECIDOS COMO GARANTÍA",
+   "fuente": "Emol",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Fíjate en la ironía. Los papeles que se hicieron para pedir dinero son los que dejaron el rastro.",
+   "clips": [
+    "buscar:paper trail documents scattered desk",
+    "buscar:footprints in sand close up @dejaron el rastro"
+   ],
+   "texto": "LOS PAPELES DEJARON EL RASTRO",
+   "resalta": "RASTRO"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "¿Y si esto es solo lo que se ve? ¿Cuántos racks más hay que nadie ha rastreado?",
+   "clips": [
+    "buscar:iceberg underwater aerial",
+    "buscar:dark warehouse shelves empty @que nadie ha rastreado"
+   ],
+   "texto": "¿CUÁNTOS MÁS HAY?",
+   "musica": "misterio"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Nadie lo sabe. Ni Bloomberg, ni las autoridades que han hablado. Es una pregunta abierta, y por eso importa.",
+   "clips": [
+    "buscar:shadow figure corridor dark",
+    "buscar:blank paper question marks @pregunta abierta"
+   ],
+   "texto": "ES UNA PREGUNTA ABIERTA",
+   "resalta": "ABIERTA"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Un medio señala una audiencia en el Senado sobre controles de exportación, prevista para el tres de diciembre. Sin confirmar en otras fuentes.",
+   "clips": [
+    "buscar:us capitol building aerial",
+    "buscar:senate hearing room empty chairs @audiencia en el Senado"
+   ],
+   "titulo": "LO QUE VIENE",
+   "items": [
+    "AUDIENCIA EN EL SENADO",
+    "CONTROLES DE EXPORTACIÓN",
+    "TRES DE DICIEMBRE"
+   ],
+   "lugar": "WASHINGTON · 3 DIC 2026",
+   "fuente": "IBTimes",
+   "musica": "drama"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Los reportes hablan de más escrutinio en el Congreso sobre cómo vigila Nvidia a sus clientes en el extranjero. Es lo que más se comenta.",
+   "clips": [
+    "buscar:congress hearing microphones close up",
+    "buscar:world map shipping routes digital @en el extranjero"
+   ],
+   "texto": "MÁS ESCRUTINIO EN EL CONGRESO",
+   "resalta": "ESCRUTINIO"
+  },
+  {
+   "tipo": "numero",
+   "voz": "Cuatro. Fueron los días que, según un reporte, tardó Nvidia en aprobar a Megaspeed como socio. Es un dato que aún se discute.",
+   "clips": [
+    "buscar:stopwatch ticking close up",
+    "buscar:handshake business contract @aprobar a Megaspeed"
+   ],
+   "texto": "CUATRO DÍAS",
+   "numero": "4",
+   "arriba": "DÍAS PARA APROBAR A MEGASPEED",
+   "fuente": "Reporte sin confirmar",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Pero cuidado. Ese dato no aparece en más de una fuente. Lo dejamos como lo que es: un reporte, no un hecho confirmado.",
+   "clips": [
+    "buscar:magnifying glass fine print close up",
+    "buscar:caution tape yellow @un reporte"
+   ],
+   "texto": "UN REPORTE, NO UN HECHO",
+   "resalta": "REPORTE"
+  },
+  {
+   "tipo": "lista",
+   "voz": "Esto es lo que sí está confirmado en los documentos. Un rack Blackwell con setenta y dos chips. Un préstamo. Y un centro de datos en Shanghái.",
+   "clips": [
+    "buscar:data center rack close up lights",
+    "buscar:yuan banknotes counting @un préstamo",
+    "buscar:shanghai skyline night @centro de datos en Shanghái"
+   ],
+   "titulo": "LO QUE SÍ CONSTA",
+   "items": [
+    "UN RACK BLACKWELL",
+    "UN PRÉSTAMO",
+    "UN CENTRO DE DATOS EN SHANGHÁI"
+   ],
+   "musica": "epica"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Y esto es lo que no consta. Quién lo vendió. Cómo cruzó la frontera. Y quién sabía que estaba ahí.",
+   "clips": [
+    "buscar:border fence night searchlight",
+    "buscar:empty chair interrogation room dark @quién sabía"
+   ],
+   "texto": "QUIÉN SABÍA QUE ESTABA AHÍ",
+   "resalta": "SABÍA",
+   "efecto": "flash",
+   "musica": "drama"
+  },
+  {
+   "tipo": "pregunta",
+   "voz": "Entonces, ¿se acabó la historia? No. Apenas empieza. ¿Qué encontrarán ahora los investigadores?",
+   "clips": [
+    "buscar:investigator reviewing documents night",
+    "buscar:door light opening dark room @los investigadores"
+   ],
+   "texto": "¿SE ACABÓ LA HISTORIA?"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Por ahora, los hechos son pocos y firmes. Un rack prohibido, un préstamo, un nombre, y una enorme duda.",
+   "clips": [
+    "buscar:chess pieces dark table close up",
+    "buscar:notebook pen writing close up @un nombre"
+   ],
+   "texto": "UNA ENORME DUDA",
+   "resalta": "DUDA",
+   "musica": "reflexion",
+   "efecto": "suave"
+  },
+  {
+   "tipo": "frase",
+   "voz": "Si quieres enterarte antes que nadie de lo que descubran, suscríbete. Porque esta historia todavía no tiene final.",
+   "clips": [
+    "buscar:subscribe button click screen",
+    "buscar:sunrise over city skyline silhouette @todavía no tiene final"
+   ],
+   "texto": "TODAVÍA NO TIENE FINAL",
+   "chapa": "SUSCRÍBETE",
+   "resalta": "FINAL",
+   "musica": "reflexion",
+   "efecto": "suave"
+  }
+ ]
+}
