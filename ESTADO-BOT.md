@@ -83,3 +83,4 @@ Este archivo es la memoria de The Sentinel Global entre una ejecución y otra.
 - 2026-11-27 16:43 UTC · 2026-11-27-spacex-millon-satelites-fcc · ✅ subido a YouTube · run 46030507313
 - 2026-11-28 00:44 UTC · 2026-11-28-black-friday-tiendas-falsas · ✅ subido a YouTube · run 46086036753
 - 2026-11-28 08:48 UTC · 2026-11-29-oro-argentino-londres · ✅ subido a YouTube · run 46124155706
+- 2026-11-28 16:46 UTC · 2026-11-28-nvidia-blackwell-shanghai · ✅ subido a YouTube · run 46163300097
