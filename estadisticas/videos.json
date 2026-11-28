@@ -1,11 +1,11 @@
 {
- "leido": "2026-11-28T01:28:27Z",
+ "leido": "2026-11-28T11:51:51Z",
  "canal": {
   "nombre": "The Sentinel Global",
   "suscriptores": 11,
   "suscriptores_ocultos": false,
-  "vistas": 5753,
-  "videos": 41
+  "vistas": 5831,
+  "videos": 45
  },
  "videos": {
   "UHxUkpv53qo": {
@@ -203,7 +203,7 @@
   "qCcR9E5zjtc": {
    "titulo": "La FIFA fue HACKEADA: 12 GB… y todo empezó con un engaño 🔓",
    "visible": "public",
-   "vistas": 8,
+   "vistas": 9,
    "likes": 0,
    "comentarios": 0,
    "ultimos": []
@@ -235,7 +235,7 @@
   "eEojriBAJSk": {
    "titulo": "Cayó el Chapo Isidro: ¿lo juzgarán aquí o lo entregan a EE. UU.? 🚨",
    "visible": "public",
-   "vistas": 1,
+   "vistas": 2,
    "likes": 0,
    "comentarios": 0,
    "ultimos": []
@@ -243,7 +243,7 @@
   "jgn9vE9OUXo": {
    "titulo": "Cayó el Chapo Isidro… y esta no era su primera captura 🚨 #shorts",
    "visible": "public",
-   "vistas": 670,
+   "vistas": 692,
    "likes": 5,
    "comentarios": 0,
    "ultimos": []
@@ -282,16 +282,32 @@
   },
   "nA-vWw_jcSk": {
    "titulo": "Black Friday: miles de tiendas FALSAS te esperan… y la señal que nadie mira 🛒",
-   "visible": "private",
-   "vistas": 0,
+   "visible": "public",
+   "vistas": 1,
    "likes": 0,
    "comentarios": 0,
    "ultimos": []
   },
   "Yhv3-fPFqYo": {
    "titulo": "Hoy miles de tiendas FALSAS te esperan… 🛒 #shorts",
-   "visible": "private",
+   "visible": "public",
+   "vistas": 19,
+   "likes": 0,
+   "comentarios": 0,
+   "ultimos": []
+  },
+  "XI0MjJl35D4": {
+   "titulo": "El ORO de Argentina cruzó el océano… y nadie encuentra los papeles 🥇",
+   "visible": "public",
    "vistas": 0,
+   "likes": 0,
+   "comentarios": 0,
+   "ultimos": []
+  },
+  "YgEbGVZrUyc": {
+   "titulo": "El oro de Argentina cruzó el océano… sin papeles 🥇 #shorts",
+   "visible": "public",
+   "vistas": 4,
    "likes": 0,
    "comentarios": 0,
    "ultimos": []
